@@ -1,0 +1,171 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+  [Headline]="['intent-based-change-reliability.hero-head-line']"
+  HeadlineClass="text-white"
+
+  [subHeadline]="['intent-based-change-reliability.hero-sub-head-line']"
+  subHeadlineClass="text-white"
+  [imgUrl]="'assets/images/network-image/hero2.jpg'"
+
+  BannerText="intent-based-change-reliability.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="intent-based-change-reliability.problems-head-line"
+  subHeadline=""
+  [imgUrl]="'/assets/images/other/intentbases2.svg'"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['intent-based-change-reliability.solution-key-feature.headLine',
+    '']"
+  [subHeadLine]="['intent-based-change-reliability.solution-key-feature.subHeadLine',
+    ' ']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <div class="bg-[#FBFBFB] relative">
+    <app-poly-image
+    
+     title="intent-based-change-reliability.poly-image1.title"
+     [textBeforeList]="[
+         'intent-based-change-reliability.poly-image1.textBeforeList1',
+         '',
+     ]"
+     [list]="[
+       'intent-based-change-reliability.poly-image1.list1',
+       'intent-based-change-reliability.poly-image1.list2',
+       'intent-based-change-reliability.poly-image1.list3',
+       'intent-based-change-reliability.poly-image1.list4'
+     ]"
+     [textAfterList]="[
+       'Which was typically difficult to achieve.'
+     ]"
+    imageUrl="assets/images/other/intentbases4.svg"
+    bgClass="h-100"
+
+     [btnVisible]="false">
+   </app-poly-image>
+
+    <app-poly-image
+    bgClass="bg-orange-100"
+    
+    bgClass="#008aff"
+     [title]="'intent-based-change-reliability.poly-image2.title'"
+     [textBeforeList]="[
+         'intent-based-change-reliability.poly-image2.textBeforeList1',
+         ' ','intent-based-change-reliability.poly-image2.textBeforeList2'
+     ]"
+              imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+              [reverse]="true"
+
+     [btnVisible]="false"
+   >
+   </app-poly-image>
+    <app-poly-image
+    im
+     [title]="'intent-based-change-reliability.poly-image3.title'"
+     [textBeforeList]="[
+         'intent-based-change-reliability.poly-image3.textBeforeList1',
+         ' ',
+         'intent-based-change-reliability.poly-image3.textBeforeList2'
+     ]"
+         imageUrl="assets/images/other/intent4.jpg"
+         imageClass=""
+
+     [btnVisible]="true"
+     btnText="Get Started Free"
+   >
+   </app-poly-image>
+ </div>
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "intent-based-change-reliability.app-card-headline" | translate }}
+    </h1>
+
+  
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        image="" 
+        [title] ="['intent-based-change-reliability.cards.card1.title']"
+        [textBeforeList] ="['intent-based-change-reliability.cards.card1.textBeforeList']"
+
+        data-tour-center
+        content="intent-based-change-reliability.card-content1"
+        btnText="Button.readMoreAcceleration"
+        imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [enableBtn]="true"
+      >
+      </app-card>
+
+      <app-card
+        image=""
+        content="intent-based-change-reliability.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [title] ="['intent-based-change-reliability.cards.card2.title']"
+        [textBeforeList] ="['intent-based-change-reliability.cards.card2.textBeforeList']"
+        imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+        [enableBtn]="true"
+
+
+      >
+      </app-card>
+
+      <app-card
+        image=""
+        [title] ="['intent-based-change-reliability.cards.card3.title']"
+        [textBeforeList] ="['intent-based-change-reliability.cards.card3.textBeforeList']"
+
+
+        content="intent-based-change-reliability.card-content3"
+        btnText="Button.readMoreAcceleration"
+        imageUrl="assets/images/network-image/data processing.jpg"
+        [enableBtn]="true"
+
+
+
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'intent-based-change-reliability.last-banner-headline',
+  ]"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  textLeft="intent-based-change-reliability.last-banner-left-text"
+  textRight="intent-based-change-reliability.last-banner-right-text"
+  image="assets/images/network-image/data processing.jpg"
+  
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

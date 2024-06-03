@@ -1,0 +1,55 @@
+import { Component } from '@angular/core';
+import {
+  ISolutionCardData
+} from "../../../../../shared/layout/platform/network-solution-key-feature/network-solution-key-feature.component";
+
+
+@Component({
+  selector: 'app-cognitive-customer-experience',
+  templateUrl: './cognitive-customer-experience.component.html',
+  styleUrl: './cognitive-customer-experience.component.css'
+})
+export class CognitiveCustomerExperienceComponent {
+  public ProblemsItems = [
+    {
+      title: 'quality-sls-sla-design.problems-item-title1',
+      description: 'quality-sls-sla-design.problems-item-description1',
+    },
+    {
+      title: 'quality-sls-sla-design.problems-item-title3',
+      description: 'quality-sls-sla-design.problems-item-description3',
+    },
+    {
+      title: 'quality-sls-sla-design.problems-item-title2',
+      description: 'quality-sls-sla-design.problems-item-description2',
+    },
+    {
+      title: 'quality-sls-sla-design.problems-item-title4',
+      description: 'quality-sls-sla-design.problems-item-description4',
+    }
+  ];
+  public Cards: ISolutionCardData[] = [
+    {
+      title: 'cognitive-customer-experience.solution-key-feature.Cards.title1',
+      text: "cognitive-customer-experience.solution-key-feature.Cards.text1",
+      image: "assets/images/network-image/engeemimageblue.webp"
+    },
+    {
+      title: "cognitive-customer-experience.solution-key-feature.Cards.title2",
+      text: "cognitive-customer-experience.solution-key-feature.Cards.text2",
+      image: "assets/images/network-image/engeemIArobot.webp"
+    },
+    {
+      title: "cognitive-customer-experience.solution-key-feature.Cards.title3",
+      text: "cognitive-customer-experience.solution-key-feature.Cards.text3",
+      image: "assets/images/network-image/engemtonnerre.webp"
+    },
+    {
+      title: "cognitive-customer-experience.solution-key-feature.Cards.title4",
+      text: "cognitive-customer-experience.solution-key-feature.Cards.text4",
+      image: "assets/images/network-image/engeemnetworktension.webp"
+    }
+  ];
+ 
+
+}

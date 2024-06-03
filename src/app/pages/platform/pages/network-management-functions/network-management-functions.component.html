@@ -1,0 +1,211 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+imgUrl="assets/images/network-image/programmable hero.png"
+HeadlineClass="text-start text-white"
+  [Headline]="['network-management-functions.network-hero-platform.Headline']"
+  [subHeadline]="['network-management-functions.network-hero-platform.subHeadline1']"
+  heroClass=""
+  subHeadlineClass="text-white"
+  BannerText="network-management-functions.network-hero-platform.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="network-management-functions.network-problems-grid.headline"
+  subHeadline=""
+  imgUrl="assets/images/other/Autonomous Network Services F2.png"
+>
+</app-network-problems-grid>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[
+    'network-management-functions.network-grid-images1.headBlockTitle1',
+    'network-management-functions.network-grid-images1.headBlockTitle2'
+  ]"
+  [headBlockContent]="['network-management-functions.network-grid-images1.headBlockContent']"
+  [subHeadBlock]="[
+    'network-management-functions.network-grid-images1.subHeadBlock1',
+    'network-management-functions.network-grid-images1.subHeadBlock2'
+  ]"
+  [leftBlockTitle]="['network-management-functions.network-grid-images1.leftBlockTitle']"
+  [leftBlockContent]="['network-management-functions.network-grid-images1.leftBlockContent1']"
+  [leftBlockContent]="['network-management-functions.network-grid-images1.leftBlockContent2']"
+  [leftBlockImgClass]=" 'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  leftBlockImgUrl="assets/images/network-image/engeemhommedevantdashboard.webp"
+
+
+
+  [rightBlockTitle]="['network-management-functions.network-grid-images1.rightBlockTitle']"
+  [rightBlockContent]="[
+    'network-management-functions.network-grid-images1.rightBlockContent1',]"
+  [rightBlockTextVisible]="true"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible2]="true"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['network-management-functions.network-grid-images1.rightBlockTitle2']"
+  [rightBlockContent2]="['network-management-functions.network-grid-images1.rightBlockContent2']"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkhero2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemhommewithordinateur1.webp"
+  
+
+  [rightBlockImgVisible3]="false"
+  [rightBlockImgClass3]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible3]="false"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+<div class="flex justify-center bg-[#FBFBFB]">
+  <button class="btn-rounded btn-turquoise font-bold text-2xl">
+    {{"autonomous-network-services.common.autonomous-service-catalog"|translate}}
+  </button>
+</div>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+<app-network-grid-images
+  [illustration]="'circles2'"
+  
+  [headBlockTitle]="[]"
+  [headBlockContent]="[]"
+  [subHeadBlock]="[
+    'network-management-functions.network-grid-images2.subHeadBlock1',
+    'network-management-functions.network-grid-images2.subHeadBlock2'
+  ]"
+  [subHeadBlockClass]="'text-3xl font-bold mt-12 font-light'"
+
+
+  [reverse]="true"
+  [enableButton]="false"
+
+  [leftBlockTitle]="['network-management-functions.network-grid-images2.leftBlockTitle']"
+  [leftBlockContent]="['network-management-functions.network-grid-images2.leftBlockContent']"
+  leftBlockImgUrl="assets/images/network-image/engeemnetworkhommedevantordi.webp"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemheronetwork1.webp"
+
+
+  [rightBlockTextVisible]="true"
+  [rightBlockTitle]="['network-management-functions.network-grid-images2.rightBlockTitle']"
+  [rightBlockContent]="[
+    'network-management-functions.network-grid-images2.rightBlockContent']"
+  [rightBlockPlacement]="'md:flex-row-reverse'"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+
+  [rightBlockImgVisible2]="true"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['network-management-functions.network-grid-images2.rightBlockTitle2']"
+  [rightBlockContent2]="[
+    'network-management-functions.network-grid-images2.rightBlockContent2']"
+  [rightBlockPlacement2]="'md:flex-row-reverse'"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible3]="false"
+  [rightBlockTextVisible3]="false"
+></app-network-grid-images>
+
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[
+    'network-management-functions.network-grid-images3.headBlockTitle1',
+    'network-management-functions.network-grid-images3.headBlockTitle2'
+  ]"
+  [headBlockContent]="['']"
+  [subHeadBlock]="[
+  ]"
+  [leftBlockContent]="['network-management-functions.network-grid-images3.leftBlockContent1']"
+  [leftBlockImgClass]=" 'w-full rounded-2xl max-h-80  lg:max-h-full h-full'"
+  leftBlockImgUrl="assets/images/network-image/engeemIArobot.webp"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemheronetwork1.webp"
+  rightBlockImgUrl3="assets/images/network-image/engeemserver2.webp"
+
+
+  [rightBlockTitle]="['network-management-functions.network-grid-images3.rightBlockTitle']"
+  [rightBlockContent]="[
+    'network-management-functions.network-grid-images3.rightBlockContent1']"
+  [rightBlockTextVisible]="true"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible2]="true"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['network-management-functions.network-grid-images3.rightBlockTitle2']"
+  [rightBlockContent2]="['network-management-functions.network-grid-images3.rightBlockContent2']"
+  [rightBlockTitle3]="['network-management-functions.network-grid-images3.rightBlockTitle3']"
+  [rightBlockContent3]="['network-management-functions.network-grid-images3.rightBlockContent3']"
+
+
+  [rightBlockImgVisible3]="true"
+  [rightBlockImgClass3]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible3]="true"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+<!--
+      COLORED IMAGE GRID SECTION
+  -->
+<app-network-colored-image-grid
+  [headLine]="[
+    'network-management-functions.network-colored-image-grid.headLine1',
+    'network-management-functions.network-colored-image-grid.headLine2'
+  ]"
+  [headLineClass]="'lg:text-4xl font-bold text-brand-old-blue text-center mb-4'"
+  pinkSectionImgUrl="assets/images/network-image/engeemFemmedevantordi.webp"
+
+  [pinkSectionTitle]="['network-management-functions.network-colored-image-grid.pinkSectionTitle']"
+  [pinkSectionContent]="[
+    'network-management-functions.network-colored-image-grid.pinkSectionContent1',
+    '',''
+  ]"
+  [pinkSectionListContent]="[
+    'network-management-functions.network-colored-image-grid.pinkSectionListContent1',
+    'network-management-functions.network-colored-image-grid.pinkSectionListContent2'
+    ,'network-management-functions.network-colored-image-grid.pinkSectionListContent3',
+    'network-management-functions.network-colored-image-grid.pinkSectionListContent4'
+  ]"
+
+  [yellowSectionTitle]="['network-management-functions.network-colored-image-grid.yellowSectionTitle']"
+  [yellowSectionContent]="[
+    'network-management-functions.network-colored-image-grid.yellowSectionContent1',
+    '','network-management-functions.network-colored-image-grid.yellowSectionContent2'
+  ]"
+  yellowSectionImgUrl="assets/images/network-image/engemtonnerre.webp"
+  
+  [yellowSectionBtnText]="'autonomous-network-services.common.explore-autonomous-services'"
+
+  [turquoiseSectionTitle]="['network-management-functions.network-colored-image-grid.turquoiseSectionTitle']"
+  [turquoiseSectionContent]="[
+    'network-management-functions.network-colored-image-grid.turquoiseSectionContent1',
+    '','network-management-functions.network-colored-image-grid.turquoiseSectionContent2',
+  ]"
+  turquoiseSectionImgUrl="assets/images/network-image/engeemhommeavecverrenetwork.webp"
+   
+  [turquoiseSectionBtnText]="'autonomous-network-services.common.explore-catalog'">
+</app-network-colored-image-grid>
+
+<app-network-striped-banner
+  [headLine]="[
+    'network-management-functions.network-striped-banner.headLine1',
+  ]"
+  textLeft="network-management-functions.network-striped-banner.textLeft"
+  textRight="network-management-functions.network-striped-banner.textRight"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

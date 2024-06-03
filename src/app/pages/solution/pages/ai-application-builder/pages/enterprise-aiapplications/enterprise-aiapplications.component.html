@@ -1,0 +1,240 @@
+<!--
+    HERO SECTION
+-->
+<app-hero-interne
+  [Headline]="['enterprise-ai-applications.heroheadline']"
+  [subHeadline]="['enterprise-ai-applications.herosubheadline']"
+></app-hero-interne>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="enterprise-ai-applications.problemheadline"
+  subheadline="enterprise-ai-applications.problemsubheadline"
+  [imgUrl]="'assets/images/architectures/Ai_application_platform.png'"
+></app-problems-grid>
+
+<!--
+      SOLUTIONS SECTION
+    -->
+
+<app-solutions-grid
+  [Solutions]="SolutionsItems"
+  Headline="enterprise-ai-applications.solutionheadline"
+  SubHeadline="enterprise-ai-applications.solutionsubheadline"
+></app-solutions-grid>
+
+<!--
+  FEATURES SECTION
+-->
+
+<!-- <app-poly-image
+  title="enterprise-ai-applications.polyimagetitle"
+  content="enterprise-ai-applications.polyimagecontent"
+  btnText="Button.start"
+  imageUrl="assets/images/tinified/connexion.webp"
+>
+</app-poly-image> -->
+
+<app-polyimagereverse
+  title="enterprise-ai-applications.polyimagereversetitle"
+  textBeforeList="enterprise-ai-applications.polyimagereversetextbeforelist"
+  btnText="Button.start"
+  [content]="[
+    'enterprise-ai-applications.polyimagereversecontentlist1',
+    'enterprise-ai-applications.polyimagereversecontentlist2',
+    'enterprise-ai-applications.polyimagereversecontentlist3'
+  ]"
+  imageUrl="assets/images/other/data-world.jpeg"
+></app-polyimagereverse>
+
+<!-- <app-poly-image
+  title="enterprise-ai-applications.polyimagetitle2"
+  textBeforeList="enterprise-ai-applications.polyimagetextbeforelist"
+  [content]="[
+    'enterprise-ai-applications.polyimagecontentlist1',
+    'enterprise-ai-applications.polyimagecontentlist2',
+    'enterprise-ai-applications.polyimagecontentlist3'
+  ]"
+  btnText="Button.start"
+  imageUrl="assets/images/tinified/manstanding.webp"
+>
+</app-poly-image> -->
+
+<!--
+      BENEFITS SECTION
+    -->
+
+<div class="bg-[#CCDEE1] text-[#0D4977] text-3xl text-center p-8 font-bold">
+  {{ "Common.Whatcanweachieve" | translate }}
+</div>
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "enterprise-ai-applications.benefitsheadline" | translate }}
+    </h1>
+
+    <h2 class="text-center max-w-3xl mx-auto leading-normal py-1">
+      {{ "enterprise-ai-applications.benefitssubheadline" | translate }}
+    </h2>
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/tinified/speed.jpeg"
+        content="enterprise-ai-applications.benefitcardcontent1"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="assets/images/tinified/coding.webp"
+        content="enterprise-ai-applications.benefitcardcontent2"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="assets/images/other/bots.webp"
+
+        content="enterprise-ai-applications.benefitcardcontent3"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+<!-- MORE INFO SECTION -->
+
+<div class="relative">
+  <img
+    class="inset-0 absolute object-cover h-full w-full brightness-50"
+    src="assets/images/tinified/vortex.webp"
+    alt=""
+  />
+  <section class="max-w-7xl px-2 md:px-4 mx-auto py-8 relative z-10 text-white">
+    <h1 class="text-2xl lg:text-4xl text-white py-8 text-center font-bold">
+      {{ "enterprise-ai-applications.moreheadline" | translate }}
+    </h1>
+    <div
+      class="grid lg:grid-cols-2 text-2xl text-center px-6 py-4 gap-12 lg:gap-0 lg:px-12 lg:py-5"
+    >
+      <div>
+        {{ "enterprise-ai-applications.moregrid1" | translate }}
+      </div>
+      <div>
+        {{ "enterprise-ai-applications.moregrid2" | translate }}
+      </div>
+    </div>
+
+    <div class="flex justify-center py-4 lg:py-6">
+      <a        [routerLink]="'/catalog'"
+        class="px-12 py-2 rounded-full text-2xl uppercase btn-turquoise text-white"
+      >
+        {{ "Button.start" | translate }}
+      </a>
+    </div>
+  </section>
+</div>
+
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-8">
+    <h1 class="text-center py-4">
+      {{ "enterprise-ai-applications.exploreheading" | translate }}
+    </h1>
+    <div class="grid grid-cols-4 gap-8 py-4">
+      <!-- Solution 1: Anomaly and Fraud Detection -->
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist1" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist1" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist2" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist2" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist3" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist3" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist4" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist4" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist5" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist5" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist6" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist6" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist7" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist7" | translate }}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/assets/images/engeembot.svg" alt="" class="text-center"/>
+        <p class="text-lg text-center py-2 font-bold">
+          {{ "enterprise-ai-applications.exploretitlelist8" | translate }}
+        </p>
+        <p class="py-2 text-justify">
+          {{ "enterprise-ai-applications.exploredescriptionlist8" | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div class="text-center py-2">
+      <button class="btn-turquoise px-6 text-xl py-2 rounded-full uppercase">
+        {{ "Button.explore" | translate }}
+      </button>
+    </div>
+  </div>
+</div>
+<!-- INSIGHTS AND RESOURCES -->
+
+<app-insights-resources></app-insights-resources>

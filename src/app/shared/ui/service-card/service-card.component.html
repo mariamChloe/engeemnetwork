@@ -1,0 +1,134 @@
+<div class="rounded-2xl bg-white relative flex flex-col h-full pb-4">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="absolute scale-0 lg:scale-100 bottom-0 right-0"
+    width="177.355"
+    height="177.354"
+    viewBox="0 0 177.355 177.354"
+  >
+    <g id="NGM-Circle2" transform="translate(0 0)" opacity="0.28">
+      <path
+        id="Tracé_4"
+        data-name="Tracé 4"
+        d="M185.231,95.321a32.833,32.833,0,1,0,3.817-24.835A32.607,32.607,0,0,0,185.231,95.321Zm13.206-19.136A21.836,21.836,0,1,1,195.9,92.711,21.668,21.668,0,0,1,198.437,76.185Zm11.4,23.329a14.039,14.039,0,1,0-4.726-19.286A13.933,13.933,0,0,0,209.84,99.513Zm-2.2-17.754a11.083,11.083,0,1,1,3.729,15.228A11.1,11.1,0,0,1,207.641,81.759Z"
+        transform="translate(-111.029 -5.43)"
+        fill="#008aff"
+        opacity="0.37"
+      />
+      <path
+        id="Tracé_5"
+        data-name="Tracé 5"
+        d="M116.486,117.17a88.672,88.672,0,1,0,132.1-96.927,88.671,88.671,0,0,0-132.1,96.927Zm35.666-51.7a59.006,59.006,0,1,1-6.858,44.642A58.57,58.57,0,0,1,152.152,65.468Zm30.792,63.019a37.922,37.922,0,1,0-12.759-52.082A37.649,37.649,0,0,0,182.945,128.488Zm-5.933-47.945a29.938,29.938,0,1,1,10.071,41.12A29.976,29.976,0,0,1,177.012,80.543Z"
+        transform="translate(-113.903 -7.362)"
+        fill="rgba(10,148,181,0.96)"
+        opacity="0.38"
+      />
+    </g>
+  </svg>
+
+  <img
+    src="{{ imageUrl }}"
+    alt=""
+    class="w-full rounded-t-2xl h-64 object-cover"
+  />
+  <p class="text-2xl text-center font-bold text-brand-turquoise py-4 px-2">
+    {{ title | translate }}
+  </p>
+
+  <p class="text-center py-4 text-md px-2 font-normal">
+    {{ firstReadMore | translate }}
+  </p>
+
+  <div class="text-center w-full px-4 py-4 mt-auto block">
+    <button
+      data-hs-overlay="#hs-service-modal"
+      class="py-2 text-lg px-6 rounded-full btn-old-blue w-full relative z-10 block my-0"
+    >
+      {{ btnText | translate }}
+    </button>
+  </div>
+</div>
+
+<div
+  id="hs-service-modal"
+  class="hs-overlay hidden w-full h-full fixed top-0 start-0 z-[60] overflow-x-hidden px-52 overflow-y-auto pointer-events-none flex items-center justify-center"
+>
+  <div
+    class="hs-overlay-open:opacity-100 hs-overlay-open:duration-500 opacity-0 transition-all rounded-lg bg-white m-auto p-7 pointer-events-auto"
+  >
+    <div class="flex justify-between items-center border-b">
+      <h3
+        class="text-center text-xl font-bold lg:text-2xl max-w-4xl lg:text-left"
+      >
+        NGM Stream Accelerator pour Maîtrisez vos Flux Analytiques et Programmer
+        vos Modèles de Données
+      </h3>
+      <button
+        type="button"
+        class="w-12 h-12"
+        data-hs-overlay="#hs-service-modal"
+      >
+        <span class="sr-only">Close</span>
+        <svg
+          class="flex-shrink-0 w-8 h-8"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+    <div class="flex gap-8 pointer-events-auto pt-8">
+      <img src="{{ imageUrl }}" alt="" class="w-full h-64 object-cover" />
+      <div class="flex flex-col gap-8">
+        <p class="text-left text-lg">
+          {{ title | translate }}
+          <br class="hidden md:block" />
+          <span class="inline-flex gap-2 py-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-8 w-8 flex-shrink-0 rounded-full bg-brand-turquoise stroke-white p-1.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12.75l6 6 9-13.5"
+              />
+            </svg>
+            {{ title | translate }}
+          </span>
+          <br class="hidden md:block" />
+          <span class="inline-flex gap-2 py-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-8 w-8 flex-shrink-0 rounded-full bg-brand-turquoise stroke-white p-1.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12.75l6 6 9-13.5"
+              />
+            </svg>
+            {{ secondReadMore | translate }}
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

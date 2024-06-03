@@ -1,0 +1,1335 @@
+[
+  {
+    "id": "cat-1",
+    "name": "Data Centralization",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Data Lake",
+        "products": [
+          {
+            "id": "SWL-NGM-DTLAKE-01",
+            "shortName": "NGM-Lake",
+            "name": "ENGEEM Data Lake Analytics",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Centralized data repository that consolidates enterprise structured, semi-structured, or unstructured data from many sources, and delivering analysis services suite for data ingestion, metrics computing, data queries, transformation and processing, all in one pipeline for flexible business applications.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DTLAKEHOUSE-01",
+            "shortName": "NGM Datakun",
+            "name": "ENGEEM Datakun",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "ENGEEM Data Lakehouse, DATAKUN, is a centralized managed service for enterprise modern data warehouse combined with data lake flexibility building for high-speed computing and high-volume storage operation for enterprise data.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-UNIFY-DATA-01",
+            "shortName": "NGM-UNIFIED DATA",
+            "name": "NGM-UNIFIED DATA",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Build an end-to-end data streaming platform to converge all your databases, data warehouses, and data marts. Run Data Lake use cases with enterprise-grade performance, security, and compliance requirements. Discover, harvest, and manage metadata from all the applications, databases, data lakes, enterprise data warehouses, APIs, social media, and streaming sources you use across the enterprise",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DATALAKE-01",
+            "shortName": "NGM-Data Lake",
+            "name": "ENGEEM Data Lake",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Simply unify your data in a one place for secure, reliable, and easy use for your applications. Breaks down silos with a high-performance data lake supporting a variety of data types, storage patterns, and data workloads",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Data Store",
+        "products": [
+          {
+            "id": "SWL-NGM-DOTS-01",
+            "shortName": "NGM DOTS",
+            "name": "Securable Data-Object Management & Store",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmDOTS",
+            "description": "Clustered data management and storage architecture for saving data and simplifying analytical processes, ranging from Streaming Event ingestion to Transactional Data Query in a single line of application.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-WAREHOUSE-01",
+            "shortName": "NGM-Warehouse",
+            "name": "ENGEEM Data Warehouse",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Centralize application data management across enterprise domains and databases to accelerate analytics-driven application and improve business decision systems over an intelligent managed data architecture",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-2",
+    "name": "Analytics",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Operational Analytics",
+        "products": [
+          {
+            "id": "SWL-NGM-KASE-01",
+            "shortName": "NGM-KASE",
+            "name": "ENGEEM Kase - Knowledge-based Operational Analytics",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmKASE",
+            "description": "ENGEEM Kase - Knowledge-based Operational Analytics makes Analytics more business-decision capable, use data processing pipeline blueprints for business purpose and customer-facing operations (customer service, logistics, sales, support). Get Pre-built Operational Analytics models for fast use case integration.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 7534.93636050911,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7534.93636050911,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7534.93636050911,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7534.93636050911,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7534.93636050911,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AUNA-01",
+            "shortName": "NGM-Auna",
+            "name": "NGM-Automated Operational Analytics",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "NGM-AUNA provides a set of Business-Logic Specific Blueprints for solving operational issue in domain specific, including Marketing, Customer Care, Operation & Maintenance, Revenue Assurance, and Customer Experience. It  get you to develop concrete Business Operation Automation and Actionable capabilities for achieving specific goal of keeping service to run at the best without lengthy, costly, and ineffective techniques.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Data Streaming",
+        "products": [
+          {
+            "id": "SWL-NGM-DTLAKE-01",
+            "shortName": "NGM YIALI",
+            "name": "Data Stream-Acceleration Service",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmYIALI",
+            "description": "Connect and angmYAAM-SBIccelerate streams of events from multiple data sources to data application pipeline at the highest datarate and higher performance in any environments, Cloud, On-Premises, or Hybrid",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-STREAMHUB-01",
+            "shortName": "NGM-Data Streaming Hub",
+            "name": "NGM-Data Streaming Hub",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Data Streaming Framework to rapidly Bring Data to Downstream Applications with the Flexibility of ENGEEM DATA PLATFORM and keeping the Performance, Scalability, and Reliability of Data Workloads. Plug-and-Play Data Integration to Connect Business and Data Application to a Robust Data System and rapidly develop applications. ",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-YAAM-N01",
+            "shortName": "ngmYAAM-NBI",
+            "name": "YAAM Data Exposure Automation",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmYAAM-NBI",
+            "description": "Secure and manage Data Exposure to multiple Consumer through Application Data flows, in the Cloud and on-Premises environments through ENGEEM Service ochestration and Data Operation lifecycle management using NGM YAAM Integration and Automation Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-YAAM-S01",
+            "shortName": "ngmYAAM-SBI",
+            "name": "YAAM Data Ingestion Automation",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmYAAM-SBI",
+            "description": "Secure and manage Data Integration from multiple domains, silos, and Applications flows across multiple cloud and on-premises environments through service ochestration and operation lifecycle management using NGM YAAM Integration and Automation Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DATASEED-01",
+            "shortName": "NGM-DATA-SEED",
+            "name": "NGM-Data Seed",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmDATA-SEED",
+            "description": "Scalable Structured and Unstructured Data Agent for collecting, pre-processing, and streaming massive amount of data from a variety of sources for saving and analytics processing.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Data Processing",
+        "products": [
+          {
+            "id": "SWL-NGM-SOAN-01",
+            "shortName": "NGM SOAN",
+            "name": "Data Analytics Orchestration & Automation Service",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmSOAN",
+            "description": "Your data is getting scattered ? Inconsistent, Ungoverned, Inaccessible, and difficult to use ? NGM SOAN is a framework for gathering siloed data pipelines originated from multiple sources across your company to organizing them into a consistent schema-based data model and pipeline for driving integrated operational analytics applications for business efficiency.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AI-WORKFLOW-01",
+            "shortName": "NGM-AI-Workflow",
+            "name": "AI/ML Analytics Workflows",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "ENGEEM AI-Apps-as-a-Data Service routine for quickly building and securing data pipelines with AI workflows to run all the LLMs/ML operational tasks. Accelerate your AI/ML applications with fast and scalable data workflows for ML-powered insights creation",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-WORKFLOW-01",
+            "shortName": "NGM-Workflow",
+            "name": "Data as an Analytical Workflow",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Use ENGEEM Analytical Workflow Blueprints to Easily Develop data-intensive transformations steps for multiple business logic applications without operational IT and architectural burden : Generates the tasks, jobs, and triggers that ingest and transform your data before saving data lake or sending to applications.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGMDEEPER-01",
+            "shortName": "NGM-Deeper",
+            "name": "Data Analytics Acceleration Engine",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmDEEPER",
+            "description": "Fast and Powerful data engine for real-time analytics query engine with fully integrated correlation connectors, indexation system, and declarative transformation models you can easily adapt to your business requirements.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-ANLT-PIPE-01",
+            "shortName": "NGM-Analytical Pipeline",
+            "name": "NGM-Analytical Pipeline",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "A modern data processing model Blueprint to help you build quickly transactional business application queries and real-time analytical workloads at a billions/seconds rate with better data experiences across multiple systems",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-4",
+        "name": "Data Exploration",
+        "products": [
+          {
+            "id": "SWL-NGM-KDLE-EXPL-01",
+            "shortName": "NGM Kandle Explorer",
+            "name": "Kandle Explorer",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngm-kandle",
+            "description": "ngmKandleExplorer provides you with tools and techniques for relaxing Enterprise Data Mining, Exploration, and Visualization processes required to develop business analytics, intelligence, and domain knowledge statistical development.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-KANDLE-01",
+            "shortName": "NGM-Kandle",
+            "name": "NGM-Data-Kandle",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngm-kandle",
+            "description": "Create Modern Real-Time Decision System with Insights production at Billions of Data rows. Fuel Dashboards, Applications, and Microservices with a single pipeline that extract, store, compute, and deploy AI Models with Higher Performance than traditional Business Intelligence systems.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-3",
+    "name": "Integration Service",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Workflow and Automation",
+        "products": [
+          {
+            "id": "SWL-AUTM-BLD-01",
+            "shortName": "NGM-Automation Builder",
+            "name": "ENGEEM Automation Orchestrator",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "ngmAutomationBuilder provides a No/Low-Code interface for Business Data Workloads design, BPM transformation in Data Pipeline, and Data Application deployment for real-time analysis.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-BPM-AUTO-01",
+            "shortName": "NGM BPM Automation",
+            "name": "NGM-Enterprise Automation",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Transform Business Process in Data Analytical Workflow for fast application development and enterprise digitization. Use NGM-Automation Process for automating repetitive processes, modernizing complex legacy environments, and interconnecting business application underlying technologies, users and workspaces through APIs and consolidated ENGEEM Data Automation Platform.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "AI/ML Models",
+        "products": [
+          {
+            "id": "SWL-NGM-AIOS-MODEL-01",
+            "shortName": "AIOS Model Catalog",
+            "name": "Machine Learning and AI Model Builds",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "ngmAIOS",
+            "description": "AIOS Builds provides a centralized catalog of models you can use through a set of APIs to collabolratively build and manage the full lifecycle of ML/AI models for intelligent application developement, from Versioning and Dataset training, to Modeling and Performance Tracking till Automated Deployment to production.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-4",
+    "name": "AI and Machine Learning",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "AI Apps",
+        "products": [
+          {
+            "id": "SWL-NGM-AIOS-01",
+            "shortName": "NGM AIOS",
+            "name": "AIOps-Orchestrator",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Embrassing the use of high-performance data processing combined with AI and Machine Learning models implementation to automate IT/Network operations processes more widely from project design and model development to deployment and continuous lifecycle management for intelligent enterprise.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SLW-NGM-AIOS-01",
+            "shortName": "NGM-AIOS",
+            "name": "NGM Intelligent Enterprise Apps",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Create Intelligent Enterprise Application using ENGEEM AIOS with AI/ML pre-built models to design, deploy, and operate AI software all in one automated data pipeline to help streamling the global business process.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "AI/ML Models",
+        "products": [
+          {
+            "id": "SWL-NGM-COGNIT-01",
+            "shortName": "NGM-COGNITIVE",
+            "name": "NGM Cognitive Analytics",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Get created Cognitive System prebuilt models and algorithms to tailor customer-based (End-users of products or services) intelligent analysis for behavior comprehension, change trends, social influence design, product personalization, user experience management and transformation for innovative marketing and business opportunities creation through ENGEEM Cognitive services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-IMAAS-01",
+            "shortName": "ENGEEM iMAAS",
+            "name": "ENGEEM Anomaly Analysis Services",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Safely Increase autonomous operations, reduce human involvement in cyber threat management, improve reliance of the data your systems are built with, treat anomalies and get comprehension of the malicious causes of such anomalies as well as the appropriate detection algorithms using ENGEEM Anomaly Analysis Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Automation",
+        "products": [
+          {
+            "id": "SWL-NGM-CUST-EXP-01",
+            "shortName": "NGM-Customer Experience",
+            "name": "Customer-Experience Analytics",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Predict concrete User Experience score in the use or consumption of any service and product, and achieve the goal of keeping service to run at the best, and not only maintaining relationship with lengthy, costly, and ineffective techniques",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-ANOM-DET-01",
+            "shortName": "NGM-Anomaly Detection",
+            "name": "NGM-Anomaly Detection",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Spot your most affecting problems and get them automated: Service Interruption, Affecting QoS Performance, and User Experience defects comprehension. ENGEEM will deliver you 7 insider hints to automate your manual problem management using a custom automation model you will personalize",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AUT-PRBM-01",
+            "shortName": "NGM-Automated Problem",
+            "name": "NGM-Automated Problem Management",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Automate business problem management and reduce monitoring practices that don’t work, get a free 6-weeks monitoring audit from our management specialists with over 25 years’ experience. We will provide you with digital traps and strategy to get you focus onto problem management automation, rather than manual and costly traditional techniques in identifying problems.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-EXP-SAT-01",
+            "shortName": "NGM-Customer Satisfaction",
+            "name": "NGM-Customer Satisfaction",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "Detect the real Satisfaction Sentiment of the customer in the use of products and services, and match the changing expectation that affect the product and service marketing performance. Get the requirements and the expectation of your customers.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-5",
+    "name": "Management and Governance",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Data Service",
+        "products": [
+          {
+            "id": "SWL-NGM-EDSM-01",
+            "shortName": "NGM-EDS Management",
+            "name": "NGM Enterprise Data Service Management",
+            "isNew": false,
+            "banner": "assets/images/tinified/abstract-tech.webp",
+            "logo": "",
+            "description": "ENGEEM Enterprise Data Management for Data Analytics Services and Unified Governance management. Streamline Data Governance and Project Onboarding with Enterprise Data Service Management with Integrated Enterprise-grade security, Data Governance, and Advanced Data Service Catalog.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 0,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 0,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 0,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 0,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+

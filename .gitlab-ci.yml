@@ -1,0 +1,94 @@
+stages:
+  # - build
+  - publish
+  - deploy 
+
+# Variables definition
+variables:
+  TAG_LATEST: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:latest
+  TAG_COMMIT: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+  # DOCKER_TLS_CERTDIR : "/certs"
+  # DOCKER_HOST : "tcp://docker:2375"
+
+  # DOCKER_HOST: tcp://docker:2375  
+
+
+# # Stage of test
+# test:
+before_script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+
+publish:
+  # image: docker:latest
+  # stage: publish
+  # services:
+  #   - docker:dind
+  stage: publish
+
+  image:
+    # An alpine-based image with the `docker` CLI installed.
+    name: docker:stable
+
+  # This will run a Docker daemon in a container (Docker-In-Docker), which will
+  # be available at thedockerhost:2375. If you make e.g. port 5000 public in Docker
+  # (`docker run -p 5000:5000 yourimage`) it will be exposed at th
+  services:
+   - name: docker:dind
+     alias: thedockerhost
+  variables:
+    DOCKER_HOST: tcp://thedockerhost:2375/
+    # Use the overlayfs driver for improved performance:
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    # - sudo apt-get install docker.io
+    - docker build -t $TAG_COMMIT .
+    - docker build -t $TAG_LATEST .
+    - docker push $TAG_COMMIT
+    - docker push $TAG_LATEST
+
+# Stage of build
+# build:
+#   # Use the official docker image.
+#   image: docker:latest
+#   stage: build
+#   services:
+#     - docker:stable-dind
+#   before_script:
+#     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+#   script:
+#     - sudo docker build --pull -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA" .
+#     - sudo docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"
+
+#   # Run this job where a Dockerfile exists
+#   rules:
+#     - if: $CI_COMMIT_BRANCH
+#       exists:
+#         - Dockerfile
+
+# Stage of deployment
+deploy:
+  image: docker:stable # I used Caddy image
+  services:
+   - name: docker:dind
+     alias: thedockerhost
+  variables:
+    DOCKER_HOST: tcp://thedockerhost:2375/
+    # Use the overlayfs driver for improved performance:
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  stage: deploy
+  tags:
+    - deployment
+  script:
+    - chmod og= $ID_RSA
+    - apk update && apk add openssh-client
+    - ssh -p 2230 -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY"
+    - ssh -p 2230 -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "docker pull $TAG_COMMIT"
+    - ssh -p 2230 -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "docker container rm -f my-app || true"
+    - ssh -p 2230 -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "docker run -d -p 8300:80 --name my-app $TAG_COMMIT"
+  # environment:
+  #   name: production
+  #   url: http://57.128.124.50
+  only:
+    - main

@@ -1,0 +1,247 @@
+<ng-container *ngIf="!getOneLoading && !getListLoading; else loader">
+  <ng-container *ngIf="viewer | async; else optInPage">
+    <div class="bg-white p-5">
+      <div class="p-10 w-full max-w-6xl m-auto">
+        <!--         <h4 class="text-xl lg:max-w-[75%] truncate">
+          <a
+            routerLink="/home"
+            class="text-brand-old-blue hover:text-brand-turquoise"
+            >Home</a
+          >
+          >
+          <a
+            routerLink="/article"
+            class="text-brand-old-blue hover:text-brand-turquoise"
+            >Blog</a
+          >
+          >
+          <span class="text-gray-500"> {{ article?.title }}</span>
+        </h4>
+        <hr class="mb-12" />
+ -->
+        <h1
+          class="text-3xl text-center lg:text-left lg:text-5xl mb-5 font-black"
+        >
+          {{ article?.title }}
+        </h1>
+        <div
+          class="w-full flex flex-col lg:flex-row lg:justify-between gap-8 items-center lg:items-start mb-7"
+        >
+          <h4 class="text-xl lg:text-2xl">
+            {{ article?.createdDate | date : "EEEE dd MMMM yyyy" : "fr-FR" }} -
+            <span class="text-gray-400">{{ article?.category }}</span>
+          </h4>
+
+          <div class="">
+            <button
+              (click)="downloadFile()"
+              class="text-center text-lg py-2 px-8 btn-turquoise rounded-md flex justify-between items-center"
+            >
+              <svg
+                height="21"
+                viewBox="0 0 21 21"
+                width="21"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  transform="translate(4 2)"
+                >
+                  <path
+                    d="m4.5 1.5h-2.00245461c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8.00000001c1.1043778-.000491 1.9997288-.8956223 2.0004909-2l.0019637-8-4-4"
+                  />
+                  <path d="m9.5 8.586-3 2.914-3-2.914" />
+                  <path d="m6.5.5v11" />
+                </g>
+              </svg>
+              Télécharger cet article
+            </button>
+          </div>
+        </div>
+
+        <img
+          [src]="article?.bannerImage ?? 'assets/images/no-image.svg'"
+          alt="banner"
+          class="banner-img mb-9"
+        />
+
+        <div
+          [innerHtml]="article?.content"
+          class="max-w-5xl mx-auto text-lg prose lg:prose-2xl w-full prose-slate"
+        ></div>
+
+        <div class="max-w-5xl mx-auto justify-center items-center flex">
+          <button
+            class="text-center text-2xl py-2 px-8 btn-turquoise rounded-md"
+            routerLink="/akwaba"
+          >
+            Réclamez votre demo gratuite
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="p-10 w-full max-w-7xl m-auto border-t">
+      <h1 class="text-2xl lg:text-4xl mb-5 font-bold text-center">
+        These articles might interest you...
+      </h1>
+      <div class="w-full grid md:grid-cols-2 lg:grid-cols-4">
+        <ng-container *ngFor="let art of articles">
+          <div
+            (click)="goToArticle(art)"
+            class="card p-5 hover:shadow-lg cursor-pointer"
+          >
+            <img
+              [alt]="'banner of ' + art.slug"
+              [src]="
+                art.bannerImage ? art.bannerImage : 'assets/images/no-image.svg'
+              "
+            />
+            <h2 class="mt-3">
+              <p class="text-xl font-bold line-clamp-2">{{ art.title }}</p>
+              <span class="text-sm">{{
+                art.lastModified | date : "EEEE dd MMMM yyyy" : "fr-FR"
+              }}</span>
+            </h2>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #optInPage>
+    <div class="bg-white p-5 flex justify-center items-center">
+      <div class="p-1 md:p-5 lg:p-10 pb-5 mx-auto">
+        <h1 class="text-5xl max-w-5xl mb-5 font-black mx-auto">
+          {{ article?.title }}
+        </h1>
+        <h4 class="text-2xl mb-7 max-w-5xl mx-auto">
+          {{ article?.createdDate | date : "EEEE dd MMMM yyyy" : "fr-FR" }} -
+          <span class="text-gray-400">{{ article?.category }}</span>
+        </h4>
+
+        <img
+          [src]="article?.bannerImage ?? 'assets/images/no-image.svg'"
+          alt="banner"
+          class="object-cover w-full h-[400px] mb-9 border max-w-5xl mx-auto"
+        />
+
+        <div class="justify-center flex flex-col">
+          <div
+            [innerHtml]="article?.resume"
+            class="max-w-5xl mx-auto text-lg prose lg:prose-2xl w-full prose-slate fade"
+          ></div>
+
+          <div class="rounded-xl shadow-2xl relative">
+            <!--             <div
+              class="absolute h-80 w-full -top-24 bg-teal-50 blur-[80px]"
+            ></div> -->
+            <div
+              class="relative z-10 bg-gradient-to-br p-2 from-white to-teal-100 rounded-xl lg:p-10 overflow-clip"
+            >
+              <h1 class="text-4xl text-gray-700">{{ article?.title }}</h1>
+              <hr class="my-5" />
+              <div class="grid lg:grid-cols-2 gap-8 py-6">
+                <div class="flex flex-col gap-3 lg:gap-12 relative z-10">
+                  <h3
+                    class="text-brand-turquoise text-xl lg:text-2xl lg:max-w-xl font-bold text-center lg:text-left"
+                  >
+                    Connectez vous dès aujourd'hui pour continuer la lecture et
+                    ne rien manquer des prochains articles ENGEEM.
+                  </h3>
+                  <p
+                    class="text-center lg:text-left text-xl lg:text-2xl text-gray-700 font-bold"
+                  >
+                    Dans cette section, vous découvrirez :
+                  </p>
+                  <ul class="text-xl flex flex-col gap-4">
+                    <ng-container *ngFor="let sum of summary">
+                      <li class="flex items-center justify-center gap-6">
+                        <svg
+                          class="h-5 w-5 fill-gray-700 stroke-gray-700 shrink-0"
+                          fill="none"
+                          viewBox="0 0 71 81"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M70.3272 40.28L0.38916 0L15.3067 40.28L0.38916 80.56L70.3272 40.28Z"
+                            fill="black"
+                          />
+                        </svg>
+                        {{ sum }}
+                      </li>
+                    </ng-container>
+
+                    <!--<li class="flex items-center justify-center gap-6">
+                      <svg
+                        class="h-5 w-5 fill-gray-700 stroke-gray-700 shrink-0"
+                        viewBox="0 0 71 81"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M70.3272 40.28L0.38916 0L15.3067 40.28L0.38916 80.56L70.3272 40.28Z"
+                          fill="black"
+                        />
+                      </svg>
+                      Les défis financiers et opérationnels liés à la complexité
+                      d'exploitation de plusieurs bases de données ou Data
+                      Warehouse
+                    </li>
+                    <li class="flex items-center justify-center gap-6">
+                      <svg
+                        class="h-5 w-5 fill-gray-700 stroke-gray-700 shrink-0"
+                        viewBox="0 0 71 81"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M70.3272 40.28L0.38916 0L15.3067 40.28L0.38916 80.56L70.3272 40.28Z"
+                          fill="black"
+                        />
+                      </svg>
+                      Trois grandes approches à évités absolument lors du
+                      développement d'une stratégie BIG DATA
+                    </li>
+                    <li class="flex items-center justify-center gap-6">
+                      <svg
+                        class="h-5 w-5 fill-gray-700 stroke-gray-700 shrink-0"
+                        viewBox="0 0 71 81"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M70.3272 40.28L0.38916 0L15.3067 40.28L0.38916 80.56L70.3272 40.28Z"
+                          fill="black"
+                        />
+                      </svg>
+                      Comment mettre en place une stratégie ou un projet Big
+                      Data efficace et adapter à votre entreprise
+                    </li>-->
+                  </ul>
+                </div>
+                <app-viewer-form (result)="onVerifyStatus()"></app-viewer-form>
+                <div
+                  class="bg-gradient-to-r from-brand-green-turquoise via-orange-50 to-brand-green-turquoise h-[1300px] w-[1300px] -bottom-[63rem] -left-[30rem] rounded-full absolute"
+                ></div>
+                <div
+                  class="bg-brand-green-turquoise h-[1200px] w-[1200px] -bottom-[63rem] -right-[40rem] rounded-full absolute"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</ng-container>
+
+<ng-template #loader>
+  <div class="flex justify-center items-center h-[89vh] bg-white">
+    <div
+      class="w-28 h-28 rounded-full border-[10px] border-brand-turquoise border-t-teal-900 animate-spin"
+    ></div>
+  </div>
+</ng-template>

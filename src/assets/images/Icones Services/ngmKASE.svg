@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="76.152" viewBox="0 0 80 76.152">
+  <g id="Groupe_251" data-name="Groupe 251" transform="translate(-16020 1694)">
+    <path id="Icon_simple-googleanalytics" data-name="Icon simple-googleanalytics" d="M44.953,47.946H3.859A3.834,3.834,0,0,1,0,44.158V35.33a3.834,3.834,0,0,1,3.859-3.788H15.436V18.927a3.831,3.831,0,0,1,3.857-3.784H32.186V3.846A3.9,3.9,0,0,1,36.1,0h8.85a3.905,3.905,0,0,1,3.92,3.848V44.1A3.906,3.906,0,0,1,44.953,47.946Z" transform="translate(16050.175 -1665.793)" fill="#1ac2c2"/>
+    <g id="Groupe_250" data-name="Groupe 250" transform="translate(16020 -1694)">
+      <circle id="Ellipse_34" data-name="Ellipse 34" cx="6" cy="6" r="6" transform="translate(68)" fill="#a9d1d8"/>
+      <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(38 28)" fill="#a9d1d8"/>
+      <circle id="Ellipse_36" data-name="Ellipse 36" cx="6" cy="6" r="6" transform="translate(22 18)" fill="#a9d1d8"/>
+      <circle id="Ellipse_37" data-name="Ellipse 37" cx="6" cy="6" r="6" transform="translate(0 39)" fill="#a9d1d8"/>
+      <rect id="Rectangle_151" data-name="Rectangle 151" width="5.248" height="11.807" transform="matrix(0.545, -0.839, 0.839, 0.545, 30.175, 29.648)" fill="#a9d1d8"/>
+      <rect id="Rectangle_152" data-name="Rectangle 152" width="5.248" height="36.93" transform="translate(46.68 35.435) rotate(-132)" fill="#a9d1d8"/>
+      <rect id="Rectangle_153" data-name="Rectangle 153" width="5.248" height="29.058" transform="translate(9.236 45.911) rotate(-132)" fill="#a9d1d8"/>
+    </g>
+  </g>
+</svg>

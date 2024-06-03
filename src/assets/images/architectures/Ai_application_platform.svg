@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1420" height="594" viewBox="0 0 1420 594">
+  <defs>
+    <filter id="Container" x="232" y="446" width="1188" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-2" x="232" y="282" width="1188" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-3" x="232" y="118" width="1188" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-4" x="541" y="0" width="267" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-5" x="845" y="0" width="267" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-5"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-6" x="1153" y="0" width="267" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-6"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Container-7" x="232" y="0" width="267" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-7"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_2" x="0" y="120" width="205" height="474" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-8"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_782" data-name="Groupe 782" transform="translate(-252 -247)">
+    <g id="Container-8" data-name="Container" transform="translate(484 693)">
+      <g transform="matrix(1, 0, 0, 1, -232, -446)" filter="url(#Container)">
+        <g id="Container-9" data-name="Container" transform="translate(232 446)" fill="#fff">
+          <path d="M 1166 139 L 16 139 C 11.99338436126709 139 8.226614952087402 137.439697265625 5.393384456634521 134.6066131591797 C 2.560307741165161 131.7735443115234 1 128.0066223144531 1 124 L 1 16 C 1 11.99338436126709 2.560307741165161 8.226461410522461 5.393384456634521 5.393384456634521 C 8.226614952087402 2.560307741165161 11.99338436126709 1 16 1 L 1166 1 C 1170.006591796875 1 1173.773559570312 2.560307741165161 1176.606567382812 5.393384456634521 C 1179.439697265625 8.226461410522461 1181 11.99338436126709 1181 16 L 1181 124 C 1181 128.0066223144531 1179.439697265625 131.7735443115234 1176.606567382812 134.6066131591797 C 1173.773559570312 137.439697265625 1170.006591796875 139 1166 139 Z" stroke="none"/>
+          <path d="M 16 2 C 12.260498046875 2 8.7447509765625 3.456314086914062 6.1004638671875 6.1004638671875 C 3.456298828125 8.744766235351562 2 12.26045989990234 2 16 L 2 124 C 2 127.7395401000977 3.456298828125 131.2552337646484 6.1004638671875 133.8995361328125 C 8.7447509765625 136.5436859130859 12.260498046875 138 16 138 L 1166 138 C 1169.739501953125 138 1173.255249023438 136.5436859130859 1175.899536132812 133.8995361328125 C 1178.543701171875 131.2552337646484 1180 127.7395401000977 1180 124 L 1180 16 C 1180 12.26045989990234 1178.543701171875 8.744766235351562 1175.899536132812 6.1004638671875 C 1173.255249023438 3.456314086914062 1169.739501953125 2 1166 2 L 16 2 M 16 0 L 1166 0 C 1174.83642578125 0 1182 7.16339111328125 1182 16 L 1182 124 C 1182 132.8366088867188 1174.83642578125 140 1166 140 L 16 140 C 7.163330078125 140 0 132.8366088867188 0 124 L 0 16 C 0 7.16339111328125 7.163330078125 0 16 0 Z" stroke="none" fill="#324b63"/>
+        </g>
+      </g>
+    </g>
+    <text id="ENGEEM_Data_Management_Framework" data-name="ENGEEM Data Management Framework" transform="translate(656 732)" fill="#324b63" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-157.443" y="0">ENGEEM Data Management Framework</tspan></text>
+    <g id="Groupe_36" data-name="Groupe 36" transform="translate(-875 478)">
+      <g id="Container-10" data-name="Container" transform="translate(1390 281)">
+        <g id="Container-11" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="263" height="51" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="261" height="49" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="ENGEEM_DATA_LAKEHOUSE" data-name="ENGEEM DATA LAKEHOUSE" transform="translate(1510 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-97.336" y="0">ENGEEM DATA LAKEHOUSE</tspan></text>
+    </g>
+    <g id="Groupe_38" data-name="Groupe 38" transform="translate(-581.85 478)">
+      <g id="Container-12" data-name="Container" transform="translate(1374.85 281)">
+        <g id="Container-13" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="229" height="51" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="227" height="49" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="ML_IA_MODEL_STORE_" data-name="ML/IA MODEL STORE " transform="translate(1490.85 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-77.5" y="0">ML/IA MODEL STORE </tspan></text>
+    </g>
+    <g id="Groupe_39" data-name="Groupe 39" transform="translate(43 478)">
+      <g id="Container-14" data-name="Container" transform="translate(1250 281)">
+        <g id="Container-15" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="328" height="51" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="326" height="49" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="BATCH_AND_STREAMING_DESIGN" data-name="BATCH AND STREAMING DESIGN" transform="translate(1415 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-117.68" y="0">BATCH AND STREAMING DESIGN</tspan></text>
+    </g>
+    <g id="Groupe_43" data-name="Groupe 43" transform="translate(15 -119)">
+      <g id="Groupe_42" data-name="Groupe 42">
+        <g id="Container-16" data-name="Container" transform="translate(469 648)">
+          <g transform="matrix(1, 0, 0, 1, -232, -282)" filter="url(#Container-2)">
+            <g id="Container-17" data-name="Container" transform="translate(232 282)" fill="#fff" stroke="#324b63" stroke-width="2">
+              <rect width="1182" height="140" rx="16" stroke="none"/>
+              <rect x="1" y="1" width="1180" height="138" rx="15" fill="none"/>
+            </g>
+          </g>
+        </g>
+        <text id="ML_IA_Workflow_Management" data-name="ML/IA Workflow Management" transform="translate(606 687)" fill="#324b63" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-119.602" y="0">ML/IA Workflow Management</tspan></text>
+        <g id="Groupe_36-2" data-name="Groupe 36" transform="translate(-891 432)">
+          <g id="Container-18" data-name="Container" transform="translate(1390 281)">
+            <g id="Container-19" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="259" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="257" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Data_Ingestion_and_Processing" data-name="Data Ingestion and Processing" transform="translate(1507 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-106.945" y="0">Data Ingestion and Processing</tspan></text>
+        </g>
+        <g id="Groupe_38-2" data-name="Groupe 38" transform="translate(-298 432)">
+          <g id="Container-20" data-name="Container" transform="translate(1324 281)">
+            <g id="Container-21" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="313" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="311" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Model_Training_-_Refinement_-_Development" data-name="Model Training - Refinement - Development" transform="translate(1478 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-155.695" y="0">Model Training - Refinement - Development</tspan></text>
+        </g>
+        <g id="Groupe_39-2" data-name="Groupe 39" transform="translate(34 432)">
+          <g id="Container-22" data-name="Container" transform="translate(1320 281)">
+            <g id="Container-23" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="263" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="261" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Model_and_Application_Deployment" data-name="Model and Application Deployment" transform="translate(1452 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-125.961" y="0">Model and Application Deployment</tspan></text>
+        </g>
+        <g id="Groupe_776" data-name="Groupe 776" transform="translate(-580 432)">
+          <g id="Container-24" data-name="Container" transform="translate(1353 281)">
+            <g id="Container-25" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="238" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="236" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Pre-Built_Models_Selection" data-name="Pre-Built Models Selection" transform="translate(1469 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-92.938" y="0">Pre-Built Models Selection</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_41" data-name="Groupe 41" transform="translate(21 -119)">
+      <g id="Container-26" data-name="Container" transform="translate(463 484)">
+        <g transform="matrix(1, 0, 0, 1, -232, -118)" filter="url(#Container-3)">
+          <g id="Container-27" data-name="Container" transform="translate(232 118)" fill="#fff" stroke="#324b63" stroke-width="2">
+            <rect width="1182" height="140" rx="16" stroke="none"/>
+            <rect x="1" y="1" width="1180" height="138" rx="15" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_40" data-name="Groupe 40">
+        <text id="Project_Management_and_CI_CD_Automation" data-name="Project Management and CI/CD Automation" transform="translate(649 524)" fill="#324b63" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-175.816" y="0">Project Management and CI/CD Automation</tspan></text>
+        <g id="Groupe_36-3" data-name="Groupe 36" transform="translate(-871 268)">
+          <g id="Container-28" data-name="Container" transform="translate(1362 281)">
+            <g id="Container-29" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="328" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="326" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Model_and_Workflow_Performance_Monitoring" data-name="Model and Workflow Performance Monitoring" transform="translate(1526 313)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-162.473" y="0">Model and Workflow Performance Monitoring</tspan></text>
+        </g>
+        <g id="Groupe_38-3" data-name="Groupe 38" transform="translate(-541 268)">
+          <g id="Container-30" data-name="Container" transform="translate(1375 281)">
+            <g id="Container-31" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="380" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="378" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Workflows_and_Pipeline_Management" data-name="Workflows and Pipeline Management" transform="translate(1565 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-131.742" y="0">Workflows and Pipeline Management</tspan></text>
+        </g>
+        <g id="Groupe_39-3" data-name="Groupe 39" transform="translate(37.274 268)">
+          <g id="Container-32" data-name="Container" transform="translate(1409.726 281)">
+            <g id="Container-33" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="167" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="165" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="API_Management" data-name="API Management" transform="translate(1494.726 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-61.02" y="0">API Management</tspan></text>
+        </g>
+        <g id="Groupe_777" data-name="Groupe 777" transform="translate(-180.726 268)">
+          <g id="Container-34" data-name="Container" transform="translate(1409.726 281)">
+            <g id="Container-35" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+              <rect width="203" height="51" rx="10" stroke="none"/>
+              <rect x="1" y="1" width="201" height="49" rx="9" fill="none"/>
+            </g>
+          </g>
+          <text id="Data_Exposure" data-name="Data Exposure" transform="translate(1513.726 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-50.648" y="0">Data Exposure</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_34" data-name="Groupe 34" transform="translate(17 6)">
+      <g id="Container-36" data-name="Container" transform="translate(776 241)">
+        <g transform="matrix(1, 0, 0, 1, -541, 0)" filter="url(#Container-4)">
+          <g id="Container-37" data-name="Container" transform="translate(541)" fill="#fff" stroke="#324b63" stroke-width="2">
+            <rect width="261" height="91" rx="16" stroke="none"/>
+            <rect x="1" y="1" width="259" height="89" rx="15" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <path id="Rectangle_38" data-name="Rectangle 38" d="M16,0H40a0,0,0,0,1,0,0V89a0,0,0,0,1,0,0H16A16,16,0,0,1,0,73V16A16,16,0,0,1,16,0Z" transform="translate(776 242)" fill="#2c9bb2" opacity="0.877"/>
+      <text id="Predictive_Business_Analysis" data-name="Predictive 
+Business Analysis" transform="translate(824 283)" fill="#324b63" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Predictive </tspan><tspan x="0" y="25">Business Analysis</tspan></text>
+    </g>
+    <g id="Groupe_32" data-name="Groupe 32" transform="translate(14 6)">
+      <g id="Container-38" data-name="Container" transform="translate(1083 241)">
+        <g transform="matrix(1, 0, 0, 1, -845, 0)" filter="url(#Container-5)">
+          <g id="Container-39" data-name="Container" transform="translate(845)" fill="#fff" stroke="#324b63" stroke-width="2">
+            <rect width="261" height="91" rx="16" stroke="none"/>
+            <rect x="1" y="1" width="259" height="89" rx="15" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <text id="Enterprise_Automation_and_Self-Service" data-name="Enterprise Automation 
+and Self-Service" transform="translate(1134 247)" fill="#324b63" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="24">Enterprise </tspan><tspan x="0" y="49">Automation </tspan><tspan x="0" y="74">and Self-Service</tspan></text>
+      <g id="Groupe_31" data-name="Groupe 31">
+        <path id="Rectangle_39" data-name="Rectangle 39" d="M16,0H34a0,0,0,0,1,0,0V89a0,0,0,0,1,0,0H16A16,16,0,0,1,0,73V16A16,16,0,0,1,16,0Z" transform="translate(1083 242)" fill="#697c8e" opacity="0.877"/>
+      </g>
+    </g>
+    <g id="Groupe_33" data-name="Groupe 33" transform="translate(15 6)">
+      <g id="Container-40" data-name="Container" transform="translate(1390 241)">
+        <g transform="matrix(1, 0, 0, 1, -1153, 0)" filter="url(#Container-6)">
+          <g id="Container-41" data-name="Container" transform="translate(1153)" fill="#fff" stroke="#324b63" stroke-width="2">
+            <rect width="261" height="91" rx="16" stroke="none"/>
+            <rect x="1" y="1" width="259" height="89" rx="15" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <path id="Rectangle_38-2" data-name="Rectangle 38" d="M16,0H37a0,0,0,0,1,0,0V89a0,0,0,0,1,0,0H16A16,16,0,0,1,0,73V16A16,16,0,0,1,16,0Z" transform="translate(1390 242)" fill="#0b5cba" opacity="0.877"/>
+      <text id="Prescriptive_Operational_Analytics" data-name="Prescriptive 
+Operational Analytics" transform="translate(1444 247)" fill="#324b63" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="24">Prescriptive </tspan><tspan x="0" y="49">Operational </tspan><tspan x="0" y="74">Analytics</tspan></text>
+    </g>
+    <g id="Groupe_30" data-name="Groupe 30" transform="translate(15 6)">
+      <g id="Container-42" data-name="Container" transform="translate(469 241)">
+        <g transform="matrix(1, 0, 0, 1, -232, 0)" filter="url(#Container-7)">
+          <g id="Container-43" data-name="Container" transform="translate(232)" fill="#fff" stroke="#324b63" stroke-width="2">
+            <rect width="261" height="91" rx="16" stroke="none"/>
+            <rect x="1" y="1" width="259" height="89" rx="15" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_29" data-name="Groupe 29" transform="translate(-1 1)">
+        <path id="Rectangle_38-3" data-name="Rectangle 38" d="M16,0H47a0,0,0,0,1,0,0V89a0,0,0,0,1,0,0H16A16,16,0,0,1,0,73V16A16,16,0,0,1,16,0Z" transform="translate(470 241)" fill="#cd156a" opacity="0.877"/>
+      </g>
+      <text id="Enterprise_AI_Applications" data-name="Enterprise AI 
+Applications" transform="translate(526 259)" fill="#324b63" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="24">Enterprise AI </tspan><tspan x="0" y="49">Applications</tspan></text>
+    </g>
+    <g id="Rectangle_155" data-name="Rectangle 155" transform="translate(647 694) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_156" data-name="Rectangle 156" transform="translate(1083 694) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_157" data-name="Rectangle 157" transform="translate(1522 694) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_158" data-name="Rectangle 158" transform="translate(647 530) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_159" data-name="Rectangle 159" transform="translate(1083 530) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_160" data-name="Rectangle 160" transform="translate(1522 530) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_161" data-name="Rectangle 161" transform="translate(897 367) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_162" data-name="Rectangle 162" transform="translate(1234 367) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_163" data-name="Rectangle 163" transform="translate(1548 367) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_164" data-name="Rectangle 164" transform="translate(613 367) rotate(-90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="27" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26" height="8" fill="none"/>
+    </g>
+    <g id="Groupe_285" data-name="Groupe 285" transform="translate(-3 2)">
+      <g id="Groupe_284" data-name="Groupe 284">
+        <g transform="matrix(1, 0, 0, 1, 255, 245)" filter="url(#Tracé_2)">
+          <g id="Tracé_2-2" data-name="Tracé 2" transform="translate(0 120)" fill="#fff">
+            <path d="M 183 467 L 16 467 C 11.99335289001465 467 8.226529121398926 465.439697265625 5.393411636352539 462.6065979003906 C 2.560294151306152 459.7734680175781 1 456.0066528320312 1 452 L 1 16 C 1 11.99335289001465 2.560294151306152 8.226529121398926 5.393411636352539 5.393411636352539 C 8.226529121398926 2.560294151306152 11.99335289001465 1 16 1 L 183 1 C 187.0066528320312 1 190.7734680175781 2.560294151306152 193.6065826416016 5.393411636352539 C 196.4397125244141 8.226529121398926 198 11.99335289001465 198 16 L 198 452 C 198 456.0066528320312 196.4397125244141 459.7734680175781 193.6065826416016 462.6065979003906 C 190.7734680175781 465.439697265625 187.0066528320312 467 183 467 Z" stroke="none"/>
+            <path d="M 16 2 C 12.26046752929688 2 8.744766235351562 3.45623779296875 6.1004638671875 6.10052490234375 C 3.45623779296875 8.7447509765625 2 12.26046752929688 2 16 L 2 452 C 2 455.7395324707031 3.45623779296875 459.2552490234375 6.1004638671875 461.8994750976562 C 8.744766235351562 464.5437622070312 12.26046752929688 466 16 466 L 183 466 C 186.7395324707031 466 190.2552337646484 464.5437622070312 192.8995361328125 461.8994750976562 C 195.5437622070312 459.2552490234375 197 455.7395324707031 197 452 L 197 16 C 197 12.26046752929688 195.5437622070312 8.7447509765625 192.8995361328125 6.10052490234375 C 190.2552337646484 3.45623779296875 186.7395324707031 2 183 2 L 16 2 M 16 0 L 183 0 C 191.8365936279297 0 199 7.163482666015625 199 16 L 199 452 C 199 460.8365173339844 191.8365936279297 468 183 468 L 16 468 C 7.163406372070312 468 0 460.8365173339844 0 452 L 0 16 C 0 7.163482666015625 7.163406372070312 0 16 0 Z" stroke="none" fill="#324b63"/>
+          </g>
+        </g>
+        <g id="Groupe_28" data-name="Groupe 28" transform="translate(269.66 504.343)">
+          <g id="BSS" transform="translate(62.195)">
+            <g id="Calque_2" data-name="Calque 2">
+              <g id="PRINT_1" data-name="PRINT 1">
+                <path id="Tracé_1" data-name="Tracé 1" d="M59.157,0h.569a4.332,4.332,0,0,0,.456.156Q64.537,1.2,68.892,2.233c1.126.269,1.4.622,1.432,1.775q.156,4.821.339,9.643a1.81,1.81,0,0,0,.989,1.617c.677.376,1.358.745,2.022,1.149a1.966,1.966,0,0,0,2.177.022c2.8-1.577,5.621-3.126,8.433-4.686a1.394,1.394,0,0,1,1.994.3q3.255,3.313,6.506,6.628a1.387,1.387,0,0,1,.25,2c-1.627,2.743-3.243,5.492-4.888,8.223a1.979,1.979,0,0,0-.033,2.215c.4.678.768,1.375,1.129,2.073a1.991,1.991,0,0,0,1.8,1.117c3.292.2,6.585.42,9.876.638a1.328,1.328,0,0,1,1.325,1.154c.448,2.054.886,4.111,1.336,6.163.235,1.072.488,2.14.733,3.208v.49a1.977,1.977,0,0,1-1.115,1.107c-2.835,1.4-5.656,2.827-8.487,4.237a1.771,1.771,0,0,0-1.058,1.575c-.061.921-.081,1.846-.185,2.762a2.333,2.333,0,0,0,1.106,2.347c2.594,1.866,5.146,3.775,7.714,5.669a1.346,1.346,0,0,1,.588,1.663q-1.6,4.4-3.218,8.79a1.283,1.283,0,0,1-1.392.827c-3.254-.35-6.507-.692-9.759-1.05a1.756,1.756,0,0,0-1.728.754c-.737,1.008-1.468,2.022-2.219,3.019a1.98,1.98,0,0,0-.269,2.062c1.184,3.062,2.345,6.134,3.51,9.2a1.355,1.355,0,0,1-.5,1.756L80.419,95.9a1.362,1.362,0,0,1-2.037-.042q-3.714-2.991-7.423-5.982a1.762,1.762,0,0,0-1.866-.311q-2.132.812-4.263,1.617a1.817,1.817,0,0,0-1.2,1.421c-.264,1.289-.541,2.577-.813,3.865q-.611,2.929-1.233,5.856a1.342,1.342,0,0,1-1.156,1.157,71.709,71.709,0,0,1-8.563.658,1.466,1.466,0,0,1-1.678-1.212q-1.5-4.51-3.006-9.036a1.854,1.854,0,0,0-1.487-1.336q-2.35-.5-4.688-1.045a1.929,1.929,0,0,0-1.957.586q-3.378,3.448-6.779,6.876a1.358,1.358,0,0,1-1.9.271L23.2,95.2a1.372,1.372,0,0,1-.762-1.826l2.4-9.386a1.787,1.787,0,0,0-.467-1.8q-1.75-1.821-3.5-3.641a1.768,1.768,0,0,0-1.781-.519Q14.368,79.1,9.638,80.155A1.356,1.356,0,0,1,7.9,79.347L4.1,71.974a1.363,1.363,0,0,1,.339-1.922c2.364-2.2,4.73-4.412,7.1-6.6a2,2,0,0,0,.644-2.022c-.278-1.411-.544-2.824-.778-4.244A1.984,1.984,0,0,0,9.979,55.5C6.787,54.35,3.6,53.163.419,52.012a.549.549,0,0,1-.425-.647,85.36,85.36,0,0,1,.97-9.353,1.348,1.348,0,0,1,1.216-1.274c3.244-.593,6.487-1.188,9.734-1.761a1.983,1.983,0,0,0,1.617-1.31q.7-1.757,1.462-3.492a1.9,1.9,0,0,0-.266-2.087C12.8,29.567,10.881,27.032,8.96,24.5a1.325,1.325,0,0,1,.031-1.907l5.551-6.885a1.4,1.4,0,0,1,1.927-.5q4.532,1.88,9.062,3.765a1.945,1.945,0,0,0,2.036-.207c.852-.607,1.711-1.2,2.58-1.784a1.866,1.866,0,0,0,.891-1.831c-.261-3.221-.507-6.443-.764-9.664a1.311,1.311,0,0,1,.994-1.515q4.341-1.47,8.678-2.93a1.433,1.433,0,0,1,1.985.645q2.779,4,5.551,8a1.946,1.946,0,0,0,1.866.916c.977-.062,1.953-.106,2.93-.114a1.171,1.171,0,0,0,1-.515,4.685,4.685,0,0,0,.339-.555c1.479-2.748,2.963-5.493,4.428-8.243A2.264,2.264,0,0,1,59.157,0ZM21.685,51.983A30.522,30.522,0,1,0,52.263,21.5,30.535,30.535,0,0,0,21.685,51.983Z" transform="translate(0.007)" fill="#1391ab"/>
+              </g>
+            </g>
+            <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="35.5" cy="36" rx="35.5" ry="36" transform="translate(17.34 16.657)" fill="#1391ab"/>
+          </g>
+          <g id="OSS" transform="translate(0 82.316)">
+            <g id="Calque_2-2" data-name="Calque 2">
+              <g id="PRINT_1-2" data-name="PRINT 1">
+                <path id="Tracé_1-2" data-name="Tracé 1" d="M59.157,0h.569a4.332,4.332,0,0,0,.456.156Q64.537,1.2,68.892,2.233c1.126.269,1.4.622,1.432,1.775q.156,4.821.339,9.643a1.81,1.81,0,0,0,.989,1.617c.677.376,1.358.745,2.022,1.149a1.966,1.966,0,0,0,2.177.022c2.8-1.577,5.621-3.126,8.433-4.686a1.394,1.394,0,0,1,1.994.3q3.255,3.313,6.506,6.628a1.387,1.387,0,0,1,.25,2c-1.627,2.743-3.243,5.492-4.888,8.223a1.979,1.979,0,0,0-.033,2.215c.4.678.768,1.375,1.129,2.073a1.991,1.991,0,0,0,1.8,1.117c3.292.2,6.585.42,9.876.638a1.328,1.328,0,0,1,1.325,1.154c.448,2.054.886,4.111,1.336,6.163.235,1.072.488,2.14.733,3.208v.49a1.977,1.977,0,0,1-1.115,1.107c-2.835,1.4-5.656,2.827-8.487,4.237a1.771,1.771,0,0,0-1.058,1.575c-.061.921-.081,1.846-.185,2.762a2.333,2.333,0,0,0,1.106,2.347c2.594,1.866,5.146,3.775,7.714,5.669a1.346,1.346,0,0,1,.588,1.663q-1.6,4.4-3.218,8.79a1.283,1.283,0,0,1-1.392.827c-3.254-.35-6.507-.692-9.759-1.05a1.756,1.756,0,0,0-1.728.754c-.737,1.008-1.468,2.022-2.219,3.019a1.98,1.98,0,0,0-.269,2.062c1.184,3.062,2.345,6.134,3.51,9.2a1.355,1.355,0,0,1-.5,1.756L80.419,95.9a1.362,1.362,0,0,1-2.037-.042q-3.714-2.991-7.423-5.982a1.762,1.762,0,0,0-1.866-.311q-2.132.812-4.263,1.617a1.817,1.817,0,0,0-1.2,1.421c-.264,1.289-.541,2.577-.813,3.865q-.611,2.929-1.233,5.856a1.342,1.342,0,0,1-1.156,1.157,71.709,71.709,0,0,1-8.563.658,1.466,1.466,0,0,1-1.678-1.212q-1.5-4.51-3.006-9.036a1.854,1.854,0,0,0-1.487-1.336q-2.35-.5-4.688-1.045a1.929,1.929,0,0,0-1.957.586q-3.378,3.448-6.779,6.876a1.358,1.358,0,0,1-1.9.271L23.2,95.2a1.372,1.372,0,0,1-.762-1.826l2.4-9.386a1.787,1.787,0,0,0-.467-1.8q-1.75-1.821-3.5-3.641a1.768,1.768,0,0,0-1.781-.519Q14.368,79.1,9.638,80.155A1.356,1.356,0,0,1,7.9,79.347L4.1,71.974a1.363,1.363,0,0,1,.339-1.922c2.364-2.2,4.73-4.412,7.1-6.6a2,2,0,0,0,.644-2.022c-.278-1.411-.544-2.824-.778-4.244A1.984,1.984,0,0,0,9.979,55.5C6.787,54.35,3.6,53.163.419,52.012a.549.549,0,0,1-.425-.647,85.36,85.36,0,0,1,.97-9.353,1.348,1.348,0,0,1,1.216-1.274c3.244-.593,6.487-1.188,9.734-1.761a1.983,1.983,0,0,0,1.617-1.31q.7-1.757,1.462-3.492a1.9,1.9,0,0,0-.266-2.087C12.8,29.567,10.881,27.032,8.96,24.5a1.325,1.325,0,0,1,.031-1.907l5.551-6.885a1.4,1.4,0,0,1,1.927-.5q4.532,1.88,9.062,3.765a1.945,1.945,0,0,0,2.036-.207c.852-.607,1.711-1.2,2.58-1.784a1.866,1.866,0,0,0,.891-1.831c-.261-3.221-.507-6.443-.764-9.664a1.311,1.311,0,0,1,.994-1.515q4.341-1.47,8.678-2.93a1.433,1.433,0,0,1,1.985.645q2.779,4,5.551,8a1.946,1.946,0,0,0,1.866.916c.977-.062,1.953-.106,2.93-.114a1.171,1.171,0,0,0,1-.515,4.685,4.685,0,0,0,.339-.555c1.479-2.748,2.963-5.493,4.428-8.243A2.264,2.264,0,0,1,59.157,0ZM21.685,51.983A30.522,30.522,0,1,0,52.263,21.5,30.535,30.535,0,0,0,21.685,51.983Z" transform="translate(0.007)" fill="#324b63"/>
+              </g>
+            </g>
+            <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="36" cy="35.5" rx="36" ry="35.5" transform="translate(16.146 17.34)" fill="#324b63"/>
+          </g>
+          <text id="Schema" transform="translate(81.34 59.657)" fill="#fff" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Schema</tspan></text>
+          <text id="Data_Model" data-name="Data 
+Model" transform="translate(26.34 103.657)" fill="#fff" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="-19.547" y="21">Data </tspan><tspan x="-26.96" y="44">Model</tspan></text>
+        </g>
+        <text id="Business_Logic_and_Data_Model_Definition" data-name="Business Logic 
+and 
+Data Model Definition" transform="translate(285 393)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-50.934" y="17">Business Logic </tspan><tspan x="-13.309" y="36">and </tspan><tspan x="-41.355" y="55">Data Model </tspan><tspan x="-34.563" y="74">Definition</tspan></text>
+      </g>
+      <g id="Rectangle_154" data-name="Rectangle 154" transform="translate(455 595)" fill="#324b63" stroke="#324b63" stroke-width="1">
+        <rect width="29" height="9" stroke="none"/>
+        <rect x="0.5" y="0.5" width="28" height="8" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_778" data-name="Groupe 778" transform="translate(-337.85 478)">
+      <g id="Container-44" data-name="Container" transform="translate(1374.85 281)">
+        <g id="Container-45" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="239" height="51" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="237" height="49" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="DATA_STREAM_SERVICE" data-name="DATA STREAM SERVICE" transform="translate(1496.85 311)" fill="#324b63" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-81.984" y="0">DATA STREAM SERVICE</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,496 @@
+<nav class="w-full bg-[#fff] border-brand-turquoise-transparent border-b-2">
+  <div
+    class="flex items-center justify-between max-w-7xl md:px-4 mx-auto py-4 px-2"
+  >
+    <a [routerLink]="routes.Home.route">
+      <img
+        src="/assets/images/NGM LOGO SOURCE-01.svg"
+        alt="logo engeem"
+        class="w-32 lg:w-40"
+      />
+    </a>
+
+    <div class="flex items-center">
+      <ul
+        class="relative items-center justify-center font-semibold hidden lg:flex"
+      >
+        <ng-container *ngFor="let menuItem of menu">
+          <li class="group px-3 py-0" (mouseenter)="updateCategories(menuItem)">
+            <ng-container *ngIf="menuItem.children; else MainLink">
+              <div class="cursor-pointer">
+                <a
+                  class="text-ellipsis hover:underline group text-2xl font-medium text-brand-old-blue inline-flex gap-0.5 items-center justify-center"
+                >
+                  {{ menuItem.name | translate }}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3.5"
+                    stroke="currentColor"
+                    class="w-4 font-bold h-4 stroke-2 stroke-brand-old-blue group-hover:rotate-180 transition-transform"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div
+                class="absolute top-1 left-1/2 -translate-x-1/2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible ease-in-out group-hover:transform z-50 min-w-[56rem] transform"
+              >
+                <div
+                  class="relative top-6 mt-2 p-6 bg-white rounded-xl shadow-xl w-full"
+                >
+                  <div class="relative z-10">
+                    <div
+                      class="mt-6 flex gap-6 divide-x-2 divide-brand-turquoise w-full"
+                    >
+                      <div class="w-1/2">
+                        <ul>
+                          <li
+                            *ngFor="let menuCategory of menuItem.children"
+                            (mouseover)="updateSubcategories(menuCategory)"
+                            [ngClass]="
+                              menuCategory.name === category.name
+                                ? 'bg-brand-turquoise text-white '
+                                : ' text-brand-old-blue'
+                            "
+                            class="px-6 py-2 rounded-md my-4 hover:text-white hover:bg-brand-turquoise transition-colors text-2xl uppercase"
+                          >
+                            {{ menuCategory.name | translate }}
+                          </li>
+                        </ul>
+                      </div>
+
+                      <!-- Right side: Subcategories -->
+                      <div class="px-8 w-1/2">
+                        <ul class="flex flex-col gap-6">
+                          <li class="text-2xl text-brand-old-blue uppercase">
+                            {{ category.name | translate }}
+                          </li>
+                          <li *ngFor="let subcategory of subCategories">
+                            <a
+                              [routerLink]="subcategory.url"
+                              class="font-normal text-brand-old-blue hover:underline hover:text-brand-turquoise transition-colors text-2xl"
+                            >
+                              {{ subcategory.name | translate }}
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+            <ng-template #MainLink>
+              <div class="relative group py-0">
+                <a
+                  [routerLink]="menuItem.url"
+                  *ngIf="!menuItem.isUrl"
+                  class="hover:underline text-2xl font-medium text-brand-old-blue"
+                >
+                  {{ menuItem.name | translate }}
+                </a>
+                <a
+                  [href]="menuItem.url"
+                  *ngIf="menuItem.isUrl"
+                  class="hover:underline text-2xl font-medium text-brand-old-blue"
+                >
+                  {{ menuItem.name | translate }}
+                </a>
+              </div>
+            </ng-template>
+          </li>
+        </ng-container>
+      </ul>
+      <ul
+        class="relative items-center justify-center font-semibold hidden lg:flex"
+      >
+        <li class="group px-3 py-0">
+          <ng-container>
+            <div class="cursor-pointer">
+              <a
+                class="text-ellipsis hover:underline group text-2xl font-medium text-brand-old-blue inline-flex gap-0.5 items-center justify-center"
+              >
+                {{ "Menu.Companyheader" | translate }}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="currentColor"
+                  class="w-4 font-bold h-4 stroke-2 stroke-brand-old-blue group-hover:rotate-180 transition-transform"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="absolute top-1 left-1/2 -translate-x-1/2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible ease-in-out group-hover:transform z-50 min-w-[26rem] transform"
+            >
+              <div class="relative top-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="relative z-10">
+                  <ul
+                    class="font-normal space-y-4 p-6 text-brand-old-blue [&_a:hover]:underline [&_a:hover]:text-brand-turquoise [&_a]:transition-colors text-2xl"
+                  >
+                    <li>
+                      <a routerLink="/why-engeem">
+                        {{ "Menu.Company.why-engeem" | translate }}
+                      </a>
+                    </li>
+                    <li>
+                      <a routerLink="/technology-and-expertise">
+                        {{
+                          "Menu.Company.technology-and-expertise" | translate
+                        }}
+                      </a>
+                    </li>
+                    <li>
+                      <a routerLink="/we-are-unique">
+                        {{ "Menu.Company.we-are-unique" | translate }}
+                      </a>
+                    </li>
+                    <!-- <li> -->
+                    <!--   <a routerLink="/we-are-unique"> -->
+                    <!--     {{ "Menu.Company.life-at-engeem" | translate }} -->
+                    <!--   </a> -->
+                    <!-- </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+        </li>
+      </ul>
+    </div>
+    <div class="gap-2 items-center hidden lg:flex">
+      <a
+        href="https://www.engeem.com/careers"
+        class="btn btn-turquoise"
+        style="padding: 8px 12px"
+        ><!--font-semibold bg-brand-turquoise px-3 py-2 rounded-md text-white hover:bg-brand-turquoise/80-->
+        {{ "Menu.Career" | translate }}
+      </a>
+      <a
+        routerLink="inscription"
+        class="btn btn-turquoise px-3"
+        style="padding: 8px 12px"
+      >
+        {{ "Menu.Login" | translate }}
+      </a>
+
+      <div
+        class="relative"
+        [class.open]="isDropdownOpen"
+        (click)="toggleDropdown()"
+        #myDiv
+      >
+        <!---->
+        <button
+          class="p-2 border-brand-turquoise border-2 rounded-lg flex items-center py-1.5 gap-0.5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-brand-turquoise"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M20.893 13.393l-1.135-1.135a2.252 2.252 0 01-.421-.585l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 01-1.383-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.411-2.353a2.25 2.25 0 00.286-.76m11.928 9.869A9 9 0 008.965 3.525m11.928 9.868A9 9 0 118.965 3.525"
+            />
+          </svg>
+
+          <span class="text-brand-turquoise">
+            {{
+              selectedLang === "en"
+                ? "EN"
+                : selectedLang === "fr"
+                  ? "FR"
+                  : selectedLang
+            }}
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-brand-turquoise"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+            />
+          </svg>
+        </button>
+        <ul
+          class="absolute z-10 mt-2 py-1 bg-white border rounded-md shadow-lg"
+          [class.hidden]="!isDropdownOpen"
+        >
+          <li
+            *ngFor="let lang of TransLang"
+            class="cursor-pointer"
+            (click)="selectLanguage(lang)"
+          >
+            <span class="block px-4 py-2 hover:bg-gray-100">
+              {{
+                lang === "en" ? "English" : lang === "fr" ? "Français" : lang
+              }}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="lg:hidden flex">
+      <div
+        class="relative"
+        [class.open]="isDropdownOpen"
+        (click)="toggleDropdown()"
+        #myDiv1
+      >
+        <!---->
+        <button
+          class="p-2 border-brand-turquoise border-2 rounded-lg flex items-center py-1.5 gap-0.5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-brand-turquoise"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M20.893 13.393l-1.135-1.135a2.252 2.252 0 01-.421-.585l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 01-1.383-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.411-2.353a2.25 2.25 0 00.286-.76m11.928 9.869A9 9 0 008.965 3.525m11.928 9.868A9 9 0 118.965 3.525"
+            />
+          </svg>
+
+          <span class="text-brand-turquoise">
+            {{
+              selectedLang === "en"
+                ? "EN"
+                : selectedLang === "fr"
+                  ? "FR"
+                  : selectedLang
+            }}
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 text-brand-turquoise"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+            />
+          </svg>
+        </button>
+        <ul
+          class="absolute z-10 mt-2 py-1 bg-white border rounded-md shadow-lg"
+          [class.hidden]="!isDropdownOpen"
+        >
+          <li
+            *ngFor="let lang of TransLang"
+            class="cursor-pointer"
+            (click)="selectLanguage(lang)"
+          >
+            <span class="block px-4 py-2 hover:bg-gray-100">
+              {{
+                lang === "en" ? "English" : lang === "fr" ? "Français" : lang
+              }}
+            </span>
+          </li>
+        </ul>
+      </div>
+      <button class="px-4 cursor-pointer" (click)="toggle()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 text-brand-turquoise"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div
+    class="lg:hidden bg-[#ffffff] w-full h-[calc(100vh-110px)] p-3 overflow-y-auto"
+    [@openClose]="isOpen ? 'open' : 'closed'"
+  >
+    <ul class="font-semibold flex flex-col">
+      <ng-container *ngFor="let menuItem of menu">
+        <li class="relative group px-3 py-2">
+          <ng-container *ngIf="menuItem.children; else MainLinkMobile">
+            <a
+              class="text-xl hover:underline inline-flex gap-0.5 items-center justify-center group text-brand-old-blue"
+              [routerLink]="menuItem.url"
+            >
+              {{ menuItem.name | translate }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                class="w-4 font-bold h-4 stroke-2 stroke-old-blue group-hover:rotate-180 transition-transform"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </a>
+            <ul class="ml-3 border-l-2 font-semibold flex flex-col">
+              <li
+                *ngFor="let menuCategory of menuItem.children"
+                class="relative group pl-3 py-2 text-brand-turquoise cursor-pointer text-sm"
+              >
+                <a
+                  class="inline-flex gap-0.5 items-center justify-center group"
+                >
+                  {{ menuCategory.name | translate }}
+                </a>
+                <ul class="ml-3 border-l-2 font-semibold flex flex-col">
+                  <li
+                    *ngFor="let subcategory of menuCategory.children"
+                    class="relative group pl-3 py-2 text-brand-old-blue"
+                  >
+                    <a
+                      class="inline-flex gap-0.5 items-center justify-center group hover:underline"
+                      [routerLink]="subcategory.url"
+                      (click)="toggle()"
+                    >
+                      {{ subcategory.name | translate }}
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </ng-container>
+          <ng-template #MainLinkMobile>
+            <li class="relative group">
+              <a
+                [routerLink]="menuItem.url"
+                (click)="toggle()"
+                class="hover:underline text-brand-old-blue text-xl"
+              >
+                {{ menuItem.name | translate }}
+              </a>
+            </li>
+          </ng-template>
+        </li>
+      </ng-container>
+      <li class="flex gap-2 px-3 py-2">
+        <a
+          href="https://www.engeem.com/careers"
+          class="btn btn-turquoise text-xs"
+          style="padding: 8px 12px"
+          ><!--font-semibold bg-brand-turquoise px-3 py-2 rounded-md text-white hover:bg-brand-turquoise/80-->
+          {{ "Menu.Career" | translate }}
+        </a>
+        <button
+          class="btn btn-turquoise px-3 text-xs"
+          style="padding: 8px 12px"
+        >
+          {{ "Menu.Login" | translate }}
+        </button>
+      </li>
+      <!--<li class="relative group px-3 py-2">
+        <div>
+          <a
+            class="hover:underline inline-flex gap-0.5 items-center justify-center group"
+            href="/"
+          >Solutions
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-4 font-bold h-4 stroke-2 stroke-old-blue group-hover:rotate-180 transition-transform"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+        <ul class="ml-3 border-l-2 font-semibold flex flex-col">
+          <li class="relative group pl-3 py-2 text-brand-turquoise">
+            <a
+              class="hover:underline inline-flex gap-0.5 items-center justify-center group"
+              href="/platform"
+            >
+              {{ "Menu.Platform" | translate }}
+            </a>
+          </li>
+          <li class="relative group pl-3 py-2 text-brand-turquoise">
+            <a
+              class="hover:underline inline-flex gap-0.5 items-center justify-center group"
+              href="/platform"
+            >
+              {{ "Menu.Platform" | translate }}
+            </a>
+          </li>
+          <li class="relative group pl-3 py-2 text-brand-turquoise">
+            <a
+              class="hover:underline inline-flex gap-0.5 items-center justify-center group"
+              href="/platform"
+            >
+              {{ "Menu.Platform" | translate }}
+            </a>
+          </li>
+          <li class="relative group pl-3 py-2 text-brand-turquoise">
+            <a
+              class="hover:underline inline-flex gap-0.5 items-center justify-center group"
+              href="/platform"
+            >
+              {{ "Menu.Platform" | translate }}
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="relative group px-3 py-2">
+        <a class="hover:underline" href="#">
+          {{ "Menu.Catalog" | translate }}
+        </a>
+      </li>
+      <li class="relative px-3 py-2">
+        <a href="/" class="hover:underline">
+          {{ "Menu.Insights" | translate }}
+        </a>
+      </li>-->
+    </ul>
+  </div>
+</nav>

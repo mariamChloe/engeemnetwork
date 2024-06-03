@@ -1,0 +1,70 @@
+<div class="grid lg:grid-cols-2 w-full h-full" [ngClass]="reverse?'':''">
+  <div [class]="'px-12 lg:px-0 flex flex-col w-full ' +imageClass" [ngClass]="reverse?'order-last':''">
+    <img [ngClass]="reverse?'lg:rotate-180':''"
+      src="{{ imageUrl }}"
+      [class]="'object-contain flex flex-col polygon-clip h-full'"
+      
+      alt=""
+      srcset=""
+    />
+  </div>
+  <div class=" text-left max-w-4xl flex-col gap-8 px-12 relative justify-center items-center flex ">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="absolute bottom-0 right-0 scale-0 lg:scale-100"
+      width="188.21"
+      height="188.209"
+      viewBox="0 0 188.21 188.209"
+    >
+      <g id="NGM-Circle2" transform="translate(-113.903 -7.362)" opacity="0.2">
+        <path
+          id="Tracé_4"
+          data-name="Tracé 4"
+          d="M185.289,97.809a34.842,34.842,0,1,0,4.05-26.355A34.6,34.6,0,0,0,185.289,97.809ZM199.3,77.5a23.172,23.172,0,1,1-2.7,17.538A22.994,22.994,0,0,1,199.3,77.5Zm12.1,24.756a14.9,14.9,0,1,0-5.016-20.466A14.785,14.785,0,0,0,211.405,102.258Zm-2.334-18.84a11.761,11.761,0,1,1,3.958,16.16A11.774,11.774,0,0,1,209.071,83.418Z"
+          transform="translate(7.357 4.946)"
+          fill="#008aff"
+        />
+        <path
+          id="Tracé_5"
+          data-name="Tracé 5"
+          d="M116.644,123.89A94.1,94.1,0,1,0,256.826,21.031,94.1,94.1,0,0,0,116.644,123.89Zm37.849-54.865a62.618,62.618,0,1,1-7.278,47.374A62.154,62.154,0,0,1,154.493,69.025ZM187.17,135.9a40.243,40.243,0,1,0-13.54-55.27A39.953,39.953,0,0,0,187.17,135.9Zm-6.3-50.879a31.77,31.77,0,1,1,10.688,43.636A31.811,31.811,0,0,1,180.874,85.022Z"
+          transform="translate(0 0)"
+          fill="rgba(10,148,181,0.96)"
+        />
+      </g>
+    </svg>
+
+    <p class="text-2xl lg:text-5xl lg:leading-[55px]  font-semibold text-gray-900 relative pt-12">
+      {{ title | translate }}
+    </p>
+    <p [class]="'text-xl lg:text-2xl text-gray-700  text-left leading-12 mx-auto' + textClass " *ngIf="textBeforeList.length>0">
+      <ng-container *ngFor="let item of textBeforeList; let i = index;">
+        
+        {{ item|translate }}
+        <ng-container *ngIf="i <= textBeforeList.length"><br class="hidden md:block"/></ng-container>
+      </ng-container>
+    </p>
+    <ul
+      *ngIf="list.length>0"
+      class="list-disc marker:text-brand-old-blue text-xl lg:text-2xl space-y-4 text-gray-700 px-6 leading-normal mx-auto">
+      <li *ngFor="let listItem of list">
+        {{ listItem | translate }}
+      </li>
+    </ul>
+    <p class="text-xl lg:text-2xl text-gray-700 leading-normal text-left" *ngIf="textAfterList.length>0">
+      <ng-container *ngFor="let item of textAfterList; let i = index;">
+        {{ item|translate }}
+        <ng-container *ngIf="i <= textAfterList.length"><br class="hidden md:block"/></ng-container>
+      </ng-container>
+    </p>
+    <div [class]="'text-left w-full ' +BtnClass" >
+      <a
+        [href]="btnLink"
+        class="py-2 px-2 btn-outline-old-blue  text-xl lg:text-2xl rounded-full relative mt-8"
+        *ngIf="btnVisible"
+      >
+        {{ btnText | translate }}
+      </a>
+    </div>
+  </div>
+</div>

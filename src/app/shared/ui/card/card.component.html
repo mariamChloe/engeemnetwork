@@ -1,0 +1,98 @@
+<div class="rounded-2xl bg-white relative flex flex-col h-full pb-4">
+  <svg class="absolute scale-0 lg:scale-100 bottom-20 right-0"
+    xmlns="http://www.w3.org/2000/svg"
+    width="177.355"
+    height="177.354"
+    viewBox="0 0 177.355 177.354"
+  >
+    <g id="NGM-Circle2" transform="translate(0 0)" opacity="0.28">
+      <path
+        id="Tracé_4"
+        data-name="Tracé 4"
+        d="M185.231,95.321a32.833,32.833,0,1,0,3.817-24.835A32.607,32.607,0,0,0,185.231,95.321Zm13.206-19.136A21.836,21.836,0,1,1,195.9,92.711,21.668,21.668,0,0,1,198.437,76.185Zm11.4,23.329a14.039,14.039,0,1,0-4.726-19.286A13.933,13.933,0,0,0,209.84,99.513Zm-2.2-17.754a11.083,11.083,0,1,1,3.729,15.228A11.1,11.1,0,0,1,207.641,81.759Z"
+        transform="translate(-111.029 -5.43)"
+        fill="#008aff"
+        opacity="0.37"
+      />
+      <path
+        id="Tracé_5"
+        data-name="Tracé 5"
+        d="M116.486,117.17a88.672,88.672,0,1,0,132.1-96.927,88.671,88.671,0,0,0-132.1,96.927Zm35.666-51.7a59.006,59.006,0,1,1-6.858,44.642A58.57,58.57,0,0,1,152.152,65.468Zm30.792,63.019a37.922,37.922,0,1,0-12.759-52.082A37.649,37.649,0,0,0,182.945,128.488Zm-5.933-47.945a29.938,29.938,0,1,1,10.071,41.12A29.976,29.976,0,0,1,177.012,80.543Z"
+        transform="translate(-113.903 -7.362)"
+        fill="rgba(10,148,181,0.96)"
+        opacity="0.38"
+      />
+    </g>
+  </svg>
+  <svg class="absolute scale-0 lg:scale-100 bottom-0 left-0"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132.17" height="95.018" viewBox="0 0 132.17 95.018">
+    <defs>
+      <clipPath id="clip-path">
+        <rect id="Rectangle_16" data-name="Rectangle 16" width="132.17" height="95.018" fill="none"/>
+      </clipPath>
+      <clipPath id="clip-path-2">
+        <rect id="Rectangle_15" data-name="Rectangle 15" width="98.376" height="78.117" fill="none"/>
+      </clipPath>
+    </defs>
+    <g id="Groupe_140" data-name="Groupe 140" opacity="0.14">
+      <g id="Groupe_139" data-name="Groupe 139">
+        <g id="Groupe_138" data-name="Groupe 138" clip-path="url(#clip-path)">
+          <path id="Tracé_407" data-name="Tracé 407" d="M107.935,40.71a48.944,48.944,0,0,0-83.7,50.754q1.12,1.845,2.376,3.554H6.652a66.1,66.1,0,1,1,118.843,0H105.556a49.024,49.024,0,0,0,2.379-54.308" transform="translate(0 0)" fill="#00c85b"/>
+          <g id="Groupe_137" data-name="Groupe 137" transform="translate(16.896 16.901)" opacity="0.59">
+            <g id="Groupe_136" data-name="Groupe 136">
+              <g id="Groupe_135" data-name="Groupe 135" clip-path="url(#clip-path-2)">
+                <path id="Tracé_408" data-name="Tracé 408" d="M81.365,74.4a29.482,29.482,0,1,0-20.941,3.72H26.314q-1.2-1.654-2.283-3.432a49.181,49.181,0,1,1,81.838,3.432H71.789a29.426,29.426,0,0,0,9.576-3.72" transform="translate(-16.896 0)" fill="#00c85b"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+
+  <div class="relative w-full rounded-t-2xl h-64 overflow-hidden">
+    <img
+      src="{{ imageUrl }}"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <div class="absolute inset-0  "></div>
+  </div>
+  
+  <p class="text-2xl text-center font-bold text-brand-old-blue py-4 px-2" *ngIf="title.length>0">
+    <ng-container *ngFor="let item of title; let i = index;">
+      {{item|translate}}<ng-container *ngIf="i <= title.length"><br class="hidden md:block"/></ng-container>
+    </ng-container>
+  </p>
+
+  <p class="text-center py-2 text-md px-2 font-normal" *ngIf="textBeforeList.length>0">
+    <ng-container *ngFor="let item of textBeforeList; let i = index;">
+      {{item|translate}}<ng-container *ngIf="i <= textBeforeList.length"><br class="hidden md:block"/></ng-container>
+    </ng-container>
+  </p>
+  <ul *ngIf="list.length>0" class="list-disc marker:text-brand-old-blue text-left py-2 px-10 text-md mx-auto font-normal">
+    <li *ngFor="let listItem of list">
+      {{ listItem | translate }}
+    </li>
+  </ul>
+  <p class="text-center py-2 text-md px-2 font-normal" *ngIf="textAfterList.length>0">
+    <ng-container *ngFor="let item of textAfterList; let i = index;">
+      {{item|translate}}<ng-container *ngIf="i <= textAfterList.length"><br class="hidden md:block"/></ng-container>
+    </ng-container>
+  </p>
+
+  <!-- This will push the button to the bottom -->
+
+  <div class="text-center w-full px-4 py-4 mt-auto block d-flex " *ngIf="enableBtn">
+    <a class="py-2 text-lg px-6 rounded-full btn-old-blue w-full relative z-10 block my-0"
+      [routerLink]="Routes.Catalog.url" fragment="marketplace" *ngIf="catalogLink"
+    ><!--[href]="btnLink"-->
+      {{ btnText | translate }}
+    </a>
+    <a class="py-2 text-lg px-6 rounded-full btn-old-blue w-full relative z-10 block my-0"
+      [routerLink]="btnLink" *ngIf="!catalogLink"
+    ><!--[href]="btnLink"-->
+      {{ btnText | translate }}
+    </a>
+  </div>
+</div>

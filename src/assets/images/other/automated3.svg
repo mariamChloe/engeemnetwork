@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1232" height="1180" viewBox="0 0 1232 1180">
+  <defs>
+    <filter id="Rectangle_2807" x="0" y="0" width="908" height="417" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_fa-solid-brain" x="673" y="59" width="127.5" height="127.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2793" x="0" y="262" width="1232" height="885" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-3"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3237" x="919" y="272" width="283" height="825" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3236" data-name="Rectangle 3236" width="647" height="245" rx="20" transform="translate(1215 1714)" fill="none" opacity="0.293"/>
+    </clipPath>
+    <filter id="Rectangle_2808" x="402" y="874.182" width="814" height="413" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-5"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3873" data-name="Groupe 3873" transform="translate(84 -1478)">
+    <g transform="matrix(1, 0, 0, 1, -84, 1478)" filter="url(#Rectangle_2807)">
+      <rect id="Rectangle_2807-2" data-name="Rectangle 2807" width="740" height="249" rx="20" transform="translate(84 61)" fill="#232c4b"/>
+    </g>
+    <g id="Groupe_3865" data-name="Groupe 3865" transform="translate(-53 1499)">
+      <text id="Automated_Problem_Detection_" data-name="Automated Problem Detection " transform="translate(77 113)" fill="#e4e4e4" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Automated Problem Detection </tspan></text>
+      <text id="Using_AI_and_Analytics_to_Simplify_traditional_Network_Problem_Identification_Analyzing_network_signals_and_troubleshooting_across_protocols_to_determine_what_the_problem_is_and_its_potential_influence_on_end-user_experience_is_outmoded._" data-name="Using AI and Analytics to Simplify traditional Network Problem Identification 
+Analyzing network signals and troubleshooting across protocols to determine what the problem is and its potential influence on end-user experience is outmoded. " transform="translate(77 154)" fill="#e4e4e4" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="18">Using AI and Analytics to Simplify traditional Network Problem Identification </tspan><tspan x="0" y="46">Analyzing network signals and troubleshooting across protocols to </tspan><tspan x="0" y="74">determine what the problem is and its potential influence on end-user </tspan><tspan x="0" y="102">experience is outmoded. </tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -31, -21)" filter="url(#Icon_fa-solid-brain)">
+        <path id="Icon_fa-solid-brain-2" data-name="Icon fa-solid-brain" d="M17.789,0A5.418,5.418,0,0,1,23.2,5.414V44.086a5.415,5.415,0,0,1-10.8.57,6.072,6.072,0,0,1-1.576.2,6.191,6.191,0,0,1-5.839-8.237A7.734,7.734,0,0,1,4.428,22.4a6.124,6.124,0,0,1-1.334-3.838A6.2,6.2,0,0,1,7.966,12.51a6.043,6.043,0,0,1-.232-1.682,6.2,6.2,0,0,1,4.67-6A5.417,5.417,0,0,1,17.789,0ZM31.711,0A5.424,5.424,0,0,1,37.1,4.824a6.184,6.184,0,0,1,4.67,6,6.043,6.043,0,0,1-.232,1.682,6.192,6.192,0,0,1,4.873,6.052A6.124,6.124,0,0,1,45.072,22.4a7.734,7.734,0,0,1-.561,14.222,6.191,6.191,0,0,1-5.839,8.237,6.072,6.072,0,0,1-1.576-.2,5.415,5.415,0,0,1-10.8-.57V5.414A5.418,5.418,0,0,1,31.711,0Z" transform="translate(712 95)" fill="#ebc700"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, 1478)" filter="url(#Rectangle_2793)">
+      <rect id="Rectangle_2793-2" data-name="Rectangle 2793" width="1064" height="717" rx="20" transform="translate(84 323)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, 1478)" filter="url(#Rectangle_3237)">
+      <path id="Rectangle_3237-2" data-name="Rectangle 3237" d="M0,0H155a20,20,0,0,1,20,20V697a20,20,0,0,1-20,20H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(973 323)" fill="#11e3b3"/>
+    </g>
+    <g id="Groupe_de_masques_3" data-name="Groupe de masques 3" transform="translate(-814 699)" clip-path="url(#clip-path)">
+      <g id="Groupe_4771" data-name="Groupe 4771" transform="translate(27 968.182)">
+        <g transform="matrix(1, 0, 0, 1, 703, -189.18)" filter="url(#Rectangle_2808)">
+          <rect id="Rectangle_2808-2" data-name="Rectangle 2808" width="646" height="245" rx="20" transform="translate(486 935.18)" fill="#232c4b"/>
+        </g>
+        <text id="ADVANCED_WORKFLOW_FOR_AUTONOMOUS_ANALYSIS" data-name="ADVANCED WORKFLOW FOR AUTONOMOUS ANALYSIS" transform="translate(1224 798)" fill="#ffd800" font-size="23" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ADVANCED WORKFLOW FOR AUTONOMOUS ANALYSIS</tspan></text>
+        <text id="Unique_Operational_Data_Pipeline_Powered_over_multiple_Applications_and_Data_Bases._Create_action_from_pre-built_processes_to_run_a_workflow_and_autonomously_perform_common_troubleshooting_operations." data-name="Unique Operational Data Pipeline Powered over multiple Applications and Data Bases.
+Create action from pre-built processes to run a workflow and autonomously perform common troubleshooting operations." transform="translate(1224 818)" fill="#fff" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="24">Unique Operational Data Pipeline Powered over </tspan><tspan x="0" y="52">multiple Applications and Data Bases.</tspan><tspan x="0" y="80"></tspan><tspan x="0" y="108">Create action from pre-built processes to run a </tspan><tspan x="0" y="136">workflow and autonomously perform common </tspan></text>
+        <path id="Icon_metro-flow-cascade" data-name="Icon metro-flow-cascade" d="M40.554,54.592a9.348,9.348,0,0,0-8.485,5.459H19.107A5.851,5.851,0,0,1,13.258,54.2V39.189a13.506,13.506,0,0,0,5.849,1.365H32.069a9.359,9.359,0,1,0,0-7.8H19.107a5.851,5.851,0,0,1-5.849-5.849V17.844a9.359,9.359,0,1,0-7.8,0V54.2A13.648,13.648,0,0,0,19.107,67.85H32.069a9.35,9.35,0,1,0,8.485-13.258Zm0-23.338a5.4,5.4,0,1,1-5.4,5.4A5.4,5.4,0,0,1,40.554,31.254Zm-31.2-27.3a5.4,5.4,0,1,1-5.4,5.4A5.4,5.4,0,0,1,9.359,3.958Zm31.2,65.393a5.4,5.4,0,1,1,5.4-5.4,5.4,5.4,0,0,1-5.4,5.4Z" transform="translate(1797.724 765.544) rotate(90)" fill="#ffd800"/>
+      </g>
+    </g>
+    <g id="Groupe_3866" data-name="Groupe 3866" transform="translate(-201 1649)">
+      <g id="Groupe_1932" data-name="Groupe 1932" transform="translate(232 183)">
+        <g id="Groupe_3886" data-name="Groupe 3886">
+          <rect id="Rectangle_1991" data-name="Rectangle 1991" width="309" height="54" rx="10" fill="#dbdfe0"/>
+          <g id="Groupe_3887" data-name="Groupe 3887" transform="translate(7)">
+            <g id="Groupe_3885" data-name="Groupe 3885" transform="translate(0 1)">
+              <rect id="Rectangle_1990" data-name="Rectangle 1990" width="132" height="36" rx="8" transform="translate(9 8)" fill="#fff"/>
+              <text id="Flow_Editor" data-name="Flow Editor" transform="translate(31 33)" fill="#232638" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Flow Editor</tspan></text>
+            </g>
+            <text id="Flow_Executions" data-name="Flow Executions" transform="translate(155.381 34)" fill="#232638" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Flow Executions</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Workspace" transform="translate(254.884 782.322)">
+        <g id="Controls" transform="translate(0 0)">
+          <g id="Add" transform="translate(0 0)">
+            <g id="Rectangle_1989" data-name="Rectangle 1989" transform="translate(0.116 -0.322)" fill="none" stroke="#1391ab" stroke-width="1">
+              <rect width="56" height="57" rx="10" stroke="none"/>
+              <rect x="0.5" y="0.5" width="55" height="56" rx="9.5" fill="none"/>
+            </g>
+            <path id="Icon_material-fullscreen" data-name="Icon material-fullscreen" d="M12.116,28.272H7.5v11.54H19.04V35.2H12.116ZM7.5,19.04h4.616V12.116H19.04V7.5H7.5ZM35.2,35.2H28.272v4.616h11.54V28.272H35.2ZM28.272,7.5v4.616H35.2V19.04h4.616V7.5Z" transform="translate(4.926 5.975)" fill="#1391ab"/>
+          </g>
+          <g id="Add-2" data-name="Add" transform="translate(71.745 0)">
+            <g id="Rectangle_1989-2" data-name="Rectangle 1989" transform="translate(0.37 -0.322)" fill="none" stroke="#1391ab" stroke-width="1">
+              <rect width="57" height="57" rx="10" stroke="none"/>
+              <rect x="0.5" y="0.5" width="56" height="56" rx="9.5" fill="none"/>
+            </g>
+            <g id="Icon_feather-zoom-in" data-name="Icon feather-zoom-in" transform="translate(14.174 13.406)">
+              <path id="Tracé_7990" data-name="Tracé 7990" d="M34.575,19.537A15.037,15.037,0,1,1,19.537,4.5,15.037,15.037,0,0,1,34.575,19.537Z" transform="translate(-4.5 -4.5)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Tracé_7991" data-name="Tracé 7991" d="M33.152,33.152l-8.177-8.177" transform="translate(0.682 0.682)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Tracé_7992" data-name="Tracé 7992" d="M16.5,12V23.278" transform="translate(-1.463 -2.602)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Tracé_7993" data-name="Tracé 7993" d="M12,16.5H23.278" transform="translate(-2.602 -1.463)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            </g>
+          </g>
+          <g id="Add-3" data-name="Add" transform="translate(144.109 0)">
+            <g id="Rectangle_1989-3" data-name="Rectangle 1989" transform="translate(0.006 -0.322)" fill="none" stroke="#1391ab" stroke-width="1">
+              <rect width="57" height="57" rx="10" stroke="none"/>
+              <rect x="0.5" y="0.5" width="56" height="56" rx="9.5" fill="none"/>
+            </g>
+            <g id="Icon_feather-zoom-out" data-name="Icon feather-zoom-out" transform="translate(12.52 13.406)">
+              <path id="Tracé_7987" data-name="Tracé 7987" d="M34.575,19.537A15.037,15.037,0,1,1,19.537,4.5,15.037,15.037,0,0,1,34.575,19.537Z" transform="translate(-4.5 -4.5)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Tracé_7988" data-name="Tracé 7988" d="M33.152,33.152l-8.177-8.177" transform="translate(0.682 0.682)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Tracé_7989" data-name="Tracé 7989" d="M12,16.5H23.278" transform="translate(-2.602 -1.463)" fill="none" stroke="#1391ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            </g>
+          </g>
+          <g id="Add-4" data-name="Add" transform="translate(216.473 0)">
+            <g id="Rectangle_1989-4" data-name="Rectangle 1989" transform="translate(-0.358 -0.322)" fill="none" stroke="#1391ab" stroke-width="1">
+              <rect width="57" height="57" rx="10" stroke="none"/>
+              <rect x="0.5" y="0.5" width="56" height="56" rx="9.5" fill="none"/>
+            </g>
+            <path id="Icon_ionic-md-refresh" data-name="Icon ionic-md-refresh" d="M23.111,36.226a13.115,13.115,0,1,0,0-26.23,12.705,12.705,0,0,0-9.181,3.935l7,6.994H5.625V5.625l5.136,5.137A17.464,17.464,0,1,1,6.281,27.881h4.625A13.023,13.023,0,0,0,23.111,36.226Z" transform="translate(5.243 6.731)" fill="#1391ab"/>
+          </g>
+        </g>
+      </g>
+      <g id="Realtime-Workflows" transform="translate(232 274.537)">
+        <g id="Processing-Namespace" transform="translate(289.456 0.618)">
+          <rect id="Rectangle_1956" data-name="Rectangle 1956" width="490" height="400" transform="translate(-0.456 -0.156)" fill="#f1f3f3"/>
+          <g id="Groupe_762" data-name="Groupe 762" transform="translate(31.384 16.296)">
+            <path id="Icon_ionic-md-list-box" data-name="Icon ionic-md-list-box" d="M21.293,4.5H6.453A1.953,1.953,0,0,0,4.5,6.453v14.84a1.953,1.953,0,0,0,1.953,1.953h14.84a1.953,1.953,0,0,0,1.953-1.953V6.453A1.953,1.953,0,0,0,21.293,4.5ZM16.216,19.34H8.405V17h7.811Zm3.124-4.3H8.405V12.7H19.34Zm0-4.3H8.405V8.405H19.34Z" transform="translate(-4.5 -4.5)" fill="#266e7d"/>
+            <text id="ENGEEM_ALARM_CHECKOUT_NAMESPACE" data-name="ENGEEM ALARM CHECKOUT NAMESPACE" transform="translate(24.496 14.004)" fill="#04333f" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ENGEEM ALARM CHECKOUT NAMESPACE</tspan></text>
+          </g>
+          <g id="Alarm-Event" transform="translate(64.821 87.826)">
+            <g id="Groupe_462" data-name="Groupe 462" transform="translate(3.832 0)">
+              <g id="Rectangle_1623" data-name="Rectangle 1623" transform="translate(-0.109 0.018)" fill="#fff" stroke="#1391ab" stroke-width="1">
+                <rect width="169" height="93" rx="6" stroke="none"/>
+                <rect x="0.5" y="0.5" width="168" height="92" rx="5.5" fill="none"/>
+              </g>
+              <rect id="Rectangle_1624" data-name="Rectangle 1624" width="169" height="40" rx="2" transform="translate(-0.109 53.018)" fill="rgba(214,242,248,0.44)"/>
+              <g id="Rectangle_1625" data-name="Rectangle 1625" transform="translate(-0.109 29.018)" fill="rgba(19,145,171,0.18)" stroke="rgba(19,145,171,0.51)" stroke-width="1">
+                <rect width="169" height="24" rx="2" stroke="none"/>
+                <rect x="0.5" y="0.5" width="168" height="23" rx="1.5" fill="none"/>
+              </g>
+            </g>
+            <text id="Alarm_Checkout_RBS_Alarm_Check_" data-name="Alarm Checkout RBS Alarm Check
+" transform="translate(17.723 42.018)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm Checkout </tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">RBS Alarm Check</tspan><tspan font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="3"></tspan></tspan></text>
+            <text id="BBU_Alarm_Checkout" data-name="BBU Alarm Checkout" transform="translate(17.723 67.018)" fill="#494949" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">BBU Alarm Checkout</tspan></text>
+            <text id="Nov_23_2:30_PM" data-name="Nov 23, 2:30 PM" transform="translate(112.723 66.018)" fill="#1391ab" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Nov 23, 2:30 PM</tspan></text>
+            <g id="Groupe_806" data-name="Groupe 806" transform="translate(10.119 5.196)">
+              <g id="Groupe_242" data-name="Groupe 242" transform="translate(24.96 2.023)">
+                <text id="Alarm_KPI_Compare" data-name="Alarm KPI Compare" transform="translate(0 9)" fill="#324b63" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm KPI Compare</tspan></text>
+                <text id="TM" transform="translate(42.89 4.221)" fill="#324b63" font-size="1" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">TM</tspan></text>
+              </g>
+              <g id="Icon_ionic-ios-switch" data-name="Icon ionic-ios-switch" transform="translate(0 0)">
+                <path id="Tracé_7996" data-name="Tracé 7996" d="M10.8,24.738a1.817,1.817,0,1,1-1.817-1.816A1.817,1.817,0,0,1,10.8,24.738Z" transform="translate(-4.836 -10.898)" fill="#c12222"/>
+                <path id="Tracé_7997" data-name="Tracé 7997" d="M17.193,19.125H7.549a4.152,4.152,0,1,0,0,8.3h9.645a4.152,4.152,0,1,0,0-8.3Zm-9.666,6.92A2.768,2.768,0,1,1,10.3,23.277,2.771,2.771,0,0,1,7.527,26.045Z" transform="translate(-3.375 -9.437)" fill="#c12222"/>
+                <path id="Tracé_7998" data-name="Tracé 7998" d="M26.555,8.988a1.816,1.816,0,1,1-1.816-1.817A1.816,1.816,0,0,1,26.555,8.988Z" transform="translate(-10.898 -4.836)" fill="#c12222"/>
+                <path id="Tracé_7999" data-name="Tracé 7999" d="M7.549,11.679h9.645a4.152,4.152,0,1,0,0-8.3H7.549a4.152,4.152,0,1,0,0,8.3Zm9.666-6.92a2.768,2.768,0,1,1-2.768,2.768A2.771,2.771,0,0,1,17.215,4.759Z" transform="translate(-3.375 -3.375)" fill="#c12222"/>
+              </g>
+            </g>
+            <rect id="Rectangle_1977" data-name="Rectangle 1977" width="18.404" height="8.233" transform="translate(8.233 32.581) rotate(90)" fill="#1391ab"/>
+            <ellipse id="Ellipse_49" data-name="Ellipse 49" cx="6.5" cy="6" rx="6.5" ry="6" transform="translate(165.723 36.018)" fill="#1391ab"/>
+          </g>
+          <g id="ngmYIALI" transform="translate(263.479 369.104)">
+            <g id="Groupe_462-2" data-name="Groupe 462" transform="translate(0 4.468)">
+              <g id="Rectangle_1623-2" data-name="Rectangle 1623" transform="translate(0.065 0.273)" fill="#fff" stroke="#1391ab" stroke-width="1">
+                <rect width="169" height="91" rx="45.5" stroke="none"/>
+                <rect x="0.5" y="0.5" width="168" height="90" rx="45" fill="none"/>
+              </g>
+              <path id="Tracé_7994" data-name="Tracé 7994" d="M168.949,1.747c-7.375,36.544-43.242,38.261-43.777,38.261H46.552C46.017,40.008,9.232,39,2.3,1.747,2.3,1.747,168.949,1.212,168.949,1.747Z" transform="translate(-1.033 51.713)" fill="#232638"/>
+              <g id="Tracé_7995" data-name="Tracé 7995" transform="translate(0.154 30.212)" fill="rgba(19,145,171,0.18)">
+                <path d="M11.866,0H156.676a11.866,11.866,0,0,1,11.866,11.866,55.982,55.982,0,0,1-1.206,11.866H1.257A66.505,66.505,0,0,1,0,11.866,11.866,11.866,0,0,1,11.866,0Z" stroke="none"/>
+                <path d="M 11.86573791503906 1.000009536743164 C 8.963394165039062 1.000009536743164 6.234771728515625 2.1302490234375 4.182510375976562 4.182510375976562 C 2.1302490234375 6.234771728515625 1 8.963401794433594 1 11.86574935913086 C 1 16.67742538452148 1.767242431640625 20.97901344299316 2.099761962890625 22.73148918151855 L 166.5227508544922 22.73148918151855 C 167.1815795898438 19.40739822387695 167.5420074462891 15.5792875289917 167.5420074462891 11.86574935913086 C 167.5420074462891 8.963401794433594 166.4117584228516 6.234771728515625 164.3594970703125 4.182510375976562 C 162.3072357177734 2.1302490234375 159.57861328125 1.000009536743164 156.67626953125 1.000009536743164 L 11.86573791503906 1.000009536743164 M 11.86573791503906 9.5367431640625e-06 L 156.67626953125 9.5367431640625e-06 C 163.2295227050781 9.5367431640625e-06 168.5420074462891 5.312467575073242 168.5420074462891 11.86574935913086 C 168.5420074462891 18.41901016235352 167.4783020019531 23.05744552612305 167.3364868164062 23.73148918151855 L 1.2667236328125 23.73148918151855 C 1.250778198242188 23.43563842773438 0 18.06302833557129 0 11.86574935913086 C 0 5.312467575073242 5.312454223632812 9.5367431640625e-06 11.86573791503906 9.5367431640625e-06 Z M 1.256759643554688 23.73148918151855 L 1.2667236328125 23.73148918151855 C 1.267623901367188 23.7484016418457 1.264511108398438 23.74888610839844 1.256759643554688 23.73148918151855 Z" stroke="none" fill="rgba(19,145,171,0.51)"/>
+              </g>
+            </g>
+            <text id="ngmYIALI-2" data-name="ngmYIALI" transform="translate(83.065 20.741)" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ngmYIALI</tspan></text>
+            <text id="Data_Streaming_and_Broking" data-name="Data Streaming and Broking" transform="translate(27.065 46.741)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Data Streaming and Broking</tspan></text>
+            <text id="Materialized" transform="translate(23.065 74.741)" fill="#fbfbfb" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Materialized</tspan></text>
+            <text id="Jul_03_5:22_PM" data-name="Jul 03, 5:22 PM" transform="translate(98.065 73.741)" fill="#84dcee" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Jul 03, 5:22 PM</tspan></text>
+            <g id="Groupe_810" data-name="Groupe 810" transform="translate(48.06 7.567)">
+              <path id="Tracé_5946" data-name="Tracé 5946" d="M379.635,62.1s-1,0-.506,1.469a7.9,7.9,0,0,0,1.711,3.088c.374.223.319.422,1.281,0s3.408-1.686,4.634-1.519a45.3,45.3,0,0,1,5.631,1.265,5.475,5.475,0,0,0,4.218-.335c1.094-.608,3.92-1.872,4.426-2.077a5,5,0,0,0,2.805-2.393,23.281,23.281,0,0,1,1.468-1.854c.471-.471.242-1.531-.907-1.234,0,0-.374-.725-1.655.167a39.124,39.124,0,0,1-3.789,2.629s1.579,1.432-1.247,2.275a3.3,3.3,0,0,1-1.51-.05c-1.115-.2-3.352-.558-3.865-.558a5.273,5.273,0,0,0-1.773.236c-.36.149-.374,0-.395-.217s1-.521,2.39-.428,3.262.446,3.712.515,1.96.372,2.563-.744-2.805-1.333-3.144-1.4a26.265,26.265,0,0,1-5.2-1.531,7.285,7.285,0,0,0-5.707-.019,11.152,11.152,0,0,0-2.016,1.265,24.128,24.128,0,0,1-3.144,1.451Z" transform="translate(-378.993 -44.754)" fill="#1391ab"/>
+              <path id="Tracé_5947" data-name="Tracé 5947" d="M404.557,48.84v.012h-.849a.217.217,0,0,1-.149-.062l-.564-.564a.217.217,0,0,1-.062-.149V47.6a.589.589,0,1,0-.372,0v.477a.587.587,0,0,0,.174.415l.564.564a.587.587,0,0,0,.415.174h.825a3.608,3.608,0,0,1-.124.626h-1.271a.393.393,0,0,0-.391.391v1.73a3.352,3.352,0,0,1-.626.285V49.8a.589.589,0,1,0-.372,0v2.567a3.541,3.541,0,0,1-.626.087V50.409a.587.587,0,0,0-.174-.415l-.564-.564a.216.216,0,0,1-.062-.149V48.6a.589.589,0,1,0-.372,0v.676a.587.587,0,0,0,.174.415l.564.564a.216.216,0,0,1,.062.149v2.046a4.228,4.228,0,0,1-.626-.087V50.812a.587.587,0,0,0-.174-.415l-1.166-1.166a.587.587,0,0,0-.415-.174h-1.042V49.02a3.544,3.544,0,0,1,.087-.992h.955a.587.587,0,0,0,.415-.174l.967-.967a.216.216,0,0,1,.149-.062h.676a.589.589,0,1,0,.558-.775.588.588,0,0,0-.558.4h-.676a.587.587,0,0,0-.415.174l-.967.967a.217.217,0,0,1-.149.062h-.849l-.391-.012a3.726,3.726,0,0,0-.186,1.2v.2a2.781,2.781,0,0,0,.043.4c.136,0,.279,0,.422-.012h.961a.217.217,0,0,1,.149.062l1.166,1.166a.216.216,0,0,1,.062.149v1.451h-.012a2.827,2.827,0,0,1,0,.4,4.166,4.166,0,0,0,1,.18h.2a3.961,3.961,0,0,0,2.5-.887.181.181,0,0,0,.025-.26.188.188,0,0,0-.267-.025,1.056,1.056,0,0,1-.087.068V50.254a.012.012,0,0,1,.012-.012h1.141a3.682,3.682,0,0,1-.527.887.189.189,0,1,0,.291.242,3.978,3.978,0,0,0,.887-2.511h-.372Zm-1.817-1.587a.211.211,0,1,1,.211-.211A.209.209,0,0,1,402.741,47.253Zm-2.6,1a.211.211,0,1,1,.211-.211A.209.209,0,0,1,400.137,48.251Zm1-1.829a.211.211,0,1,1-.211.211A.209.209,0,0,1,401.135,46.422Zm.8,3.032a.211.211,0,1,1,.211-.211A.209.209,0,0,1,401.935,49.454Z" transform="translate(-383.855 -41.806)" fill="#1391ab"/>
+              <path id="Tracé_5948" data-name="Tracé 5948" d="M400.218,52.981a.489.489,0,0,0,.434-.484v-.6a5.406,5.406,0,0,0,1.693-.7l.428.428a.492.492,0,0,0,.651.037,5.438,5.438,0,0,0,.564-.5,6.262,6.262,0,0,0,.5-.564.492.492,0,0,0-.037-.651l-.428-.428a5.4,5.4,0,0,0,.7-1.693h.6a.484.484,0,0,0,.484-.434,6.123,6.123,0,0,0,.043-.756,6.187,6.187,0,0,0-.043-.756.489.489,0,0,0-.484-.434h-.6a5.4,5.4,0,0,0-.7-1.693l.428-.428a.492.492,0,0,0,.037-.651,5.434,5.434,0,0,0-.5-.564,6.265,6.265,0,0,0-.564-.5.492.492,0,0,0-.651.037l-.428.428a5.407,5.407,0,0,0-1.693-.7v-.6a.484.484,0,0,0-.434-.484,6.119,6.119,0,0,0-.756-.043,6.189,6.189,0,0,0-.756.043.489.489,0,0,0-.434.484v.6a5.406,5.406,0,0,0-1.693.7l-.428-.428a.492.492,0,0,0-.651-.037,5.434,5.434,0,0,0-.564.5,6.263,6.263,0,0,0-.5.564.492.492,0,0,0,.037.651l.428.428a5.405,5.405,0,0,0-.7,1.693h-.6a.484.484,0,0,0-.484.434,6.123,6.123,0,0,0-.043.756,6.187,6.187,0,0,0,.043.756.489.489,0,0,0,.484.434h.6a5.405,5.405,0,0,0,.7,1.693l-.428.428a.492.492,0,0,0-.037.651,5.437,5.437,0,0,0,.5.564,7.244,7.244,0,0,0,.564.5.492.492,0,0,0,.651-.037l.428-.428a5.406,5.406,0,0,0,1.693.7v.6a.484.484,0,0,0,.434.484,6.119,6.119,0,0,0,.756.043A6.19,6.19,0,0,0,400.218,52.981Zm-1.463-.372a.114.114,0,0,1-.105-.112v-.756a.192.192,0,0,0-.149-.186,4.98,4.98,0,0,1-1.835-.763.18.18,0,0,0-.236.025l-.533.533a.114.114,0,0,1-.155.006,5.773,5.773,0,0,1-1-1,.114.114,0,0,1,.006-.155l.533-.533a.188.188,0,0,0,.025-.236,4.937,4.937,0,0,1-.763-1.835.187.187,0,0,0-.186-.149H393.6a.114.114,0,0,1-.112-.105,5.781,5.781,0,0,1,0-1.414.114.114,0,0,1,.112-.105h.756a.192.192,0,0,0,.186-.149,4.979,4.979,0,0,1,.763-1.835.209.209,0,0,0,.031-.105.169.169,0,0,0-.056-.13l-.533-.533a.114.114,0,0,1-.006-.155,5.773,5.773,0,0,1,1-1,.114.114,0,0,1,.155.006l.533.533a.188.188,0,0,0,.236.025,4.937,4.937,0,0,1,1.835-.763.187.187,0,0,0,.149-.186v-.756a.114.114,0,0,1,.105-.112,5.778,5.778,0,0,1,1.414,0,.114.114,0,0,1,.105.112v.756a.192.192,0,0,0,.149.186,4.979,4.979,0,0,1,1.835.763.18.18,0,0,0,.236-.025l.533-.533a.114.114,0,0,1,.155-.006,5.778,5.778,0,0,1,1,1,.114.114,0,0,1-.006.155l-.533.533a.188.188,0,0,0-.025.236,4.937,4.937,0,0,1,.763,1.835.187.187,0,0,0,.186.149h.756a.114.114,0,0,1,.112.105,5.773,5.773,0,0,1,0,1.414.114.114,0,0,1-.112.105h-.756a.192.192,0,0,0-.186.149,4.979,4.979,0,0,1-.763,1.835.18.18,0,0,0,.025.236l.533.533a.114.114,0,0,1,.006.155,5.778,5.778,0,0,1-1,1,.114.114,0,0,1-.155-.006l-.533-.533a.188.188,0,0,0-.236-.025,4.937,4.937,0,0,1-1.835.763.187.187,0,0,0-.149.186V52.5a.114.114,0,0,1-.105.112,5.778,5.778,0,0,1-1.414,0Z" transform="translate(-381.559 -40.24)" fill="#1391ab"/>
+            </g>
+            <rect id="Rectangle_1992" data-name="Rectangle 1992" width="18.404" height="8.233" transform="translate(76.192 0)" fill="#1391ab"/>
+            <ellipse id="Ellipse_61" data-name="Ellipse 61" cx="6" cy="6.5" rx="6" ry="6.5" transform="translate(80.065 88.741)" fill="#1391ab"/>
+          </g>
+          <g id="Alarm-Event-2" data-name="Alarm-Event" transform="translate(289.06 87.826)">
+            <g id="Groupe_462-3" data-name="Groupe 462" transform="translate(4.107 0)">
+              <g id="Rectangle_1623-3" data-name="Rectangle 1623" transform="translate(0.377 0.018)" fill="#fff" stroke="#1391ab" stroke-width="1">
+                <rect width="168" height="93" rx="6" stroke="none"/>
+                <rect x="0.5" y="0.5" width="167" height="92" rx="5.5" fill="none"/>
+              </g>
+              <rect id="Rectangle_1624-2" data-name="Rectangle 1624" width="168" height="40" rx="2" transform="translate(0.377 53.018)" fill="rgba(214,242,248,0.44)"/>
+              <g id="Rectangle_1625-2" data-name="Rectangle 1625" transform="translate(0.377 29.018)" fill="rgba(19,145,171,0.18)" stroke="rgba(19,145,171,0.51)" stroke-width="1">
+                <rect width="168" height="24" rx="2" stroke="none"/>
+                <rect x="0.5" y="0.5" width="167" height="23" rx="1.5" fill="none"/>
+              </g>
+            </g>
+            <text id="Alarm_Checkout_TU_Hardware_Fault_" data-name="Alarm Checkout TU Hardware Fault
+" transform="translate(14.484 42.018)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm Checkout </tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">TU Hardware Fault</tspan><tspan y="0"></tspan><tspan font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="3"></tspan></tspan></text>
+            <text id="BBU_Alarm_Checkout-2" data-name="BBU Alarm Checkout" transform="translate(18.484 67.018)" fill="#494949" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">BBU Alarm Checkout</tspan></text>
+            <text id="Nov_23_2:30_PM-2" data-name="Nov 23, 2:30 PM" transform="translate(112.484 66.018)" fill="#1391ab" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Nov 23, 2:30 PM</tspan></text>
+            <g id="Groupe_806-2" data-name="Groupe 806" transform="translate(10.119 5.196)">
+              <g id="Groupe_242-2" data-name="Groupe 242" transform="translate(24.96 2.023)">
+                <text id="Alarm_KPI_Compare-2" data-name="Alarm KPI Compare" transform="translate(0 9)" fill="#324b63" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm KPI Compare</tspan></text>
+                <text id="TM-2" data-name="TM" transform="translate(42.89 4.221)" fill="#324b63" font-size="1" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">TM</tspan></text>
+              </g>
+              <g id="Icon_ionic-ios-switch-2" data-name="Icon ionic-ios-switch" transform="translate(0 0)">
+                <path id="Tracé_7996-2" data-name="Tracé 7996" d="M10.8,24.738a1.817,1.817,0,1,1-1.817-1.816A1.817,1.817,0,0,1,10.8,24.738Z" transform="translate(-4.836 -10.898)" fill="#c12222"/>
+                <path id="Tracé_7997-2" data-name="Tracé 7997" d="M17.193,19.125H7.549a4.152,4.152,0,1,0,0,8.3h9.645a4.152,4.152,0,1,0,0-8.3Zm-9.666,6.92A2.768,2.768,0,1,1,10.3,23.277,2.771,2.771,0,0,1,7.527,26.045Z" transform="translate(-3.375 -9.437)" fill="#c12222"/>
+                <path id="Tracé_7998-2" data-name="Tracé 7998" d="M26.555,8.988a1.816,1.816,0,1,1-1.816-1.817A1.816,1.816,0,0,1,26.555,8.988Z" transform="translate(-10.898 -4.836)" fill="#c12222"/>
+                <path id="Tracé_7999-2" data-name="Tracé 7999" d="M7.549,11.679h9.645a4.152,4.152,0,1,0,0-8.3H7.549a4.152,4.152,0,1,0,0,8.3Zm9.666-6.92a2.768,2.768,0,1,1-2.768,2.768A2.771,2.771,0,0,1,17.215,4.759Z" transform="translate(-3.375 -3.375)" fill="#c12222"/>
+              </g>
+            </g>
+            <rect id="Rectangle_1977-2" data-name="Rectangle 1977" width="18.404" height="8.233" transform="translate(8.233 32.581) rotate(90)" fill="#1391ab"/>
+            <ellipse id="Ellipse_49-2" data-name="Ellipse 49" cx="5.5" cy="6" rx="5.5" ry="6" transform="translate(166.484 36.018)" fill="#1391ab"/>
+          </g>
+          <g id="BatchSystem" transform="translate(301.826 228.168)">
+            <g id="Groupe_462-4" data-name="Groupe 462" transform="translate(0 4.387)">
+              <g id="Ellipse_59" data-name="Ellipse 59" transform="translate(-0.282 0.29)" fill="#fff" stroke="#1391ab" stroke-width="1">
+                <ellipse cx="46" cy="45.5" rx="46" ry="45.5" stroke="none"/>
+                <ellipse cx="46" cy="45.5" rx="45.5" ry="45" fill="none"/>
+              </g>
+              <g id="Tracé_8000" data-name="Tracé 8000" transform="translate(0.068 -48.764)" fill="#14799d">
+                <path d="M 45.86783599853516 139.5815887451172 L 45.76838684082031 139.5815124511719 C 40.46892547607422 139.5742034912109 35.53100204467773 138.9639739990234 31.09176254272461 137.7678070068359 C 27.04728698730469 136.6780090332031 23.32327461242676 135.0767364501953 20.02316284179688 133.0085144042969 C 14.41587543487549 129.4943695068359 9.894575119018555 124.5679168701172 6.584837913513184 118.3660202026367 C 1.513748049736023 108.8636703491211 0.6448923349380493 99.01383972167969 0.518971860408783 94.87807464599609 C 0.92191481590271 94.89915466308594 1.545111060142517 94.9144287109375 2.530487775802612 94.92825317382812 C 3.977350234985352 94.94857025146484 6.088687896728516 94.95886993408203 8.805862426757812 94.95886993408203 C 8.806258201599121 94.95886993408203 8.807563781738281 94.95886993408203 8.80795955657959 94.95886993408203 C 15.28952026367188 94.95886993408203 24.38764572143555 94.90091705322266 31.69893836975098 94.85433197021484 C 37.03242492675781 94.82035827636719 41.63858795166016 94.79100799560547 44.02108764648438 94.79100799560547 C 45.21472549438477 94.79100799560547 45.57178115844727 94.79852294921875 45.67330551147461 94.80400848388672 C 45.74296569824219 94.81909942626953 45.80454635620117 94.82155609130859 45.84138870239258 94.82302093505859 C 45.90707397460938 94.82563018798828 45.99983596801758 94.82770538330078 46.125 94.82935333251953 C 46.35993957519531 94.83245849609375 46.69879913330078 94.83396911621094 47.16094970703125 94.83396911621094 C 49.25210189819336 94.83396911621094 53.57226181030273 94.80174255371094 58.57460021972656 94.76442718505859 C 66.08837890625 94.70838165283203 75.43952178955078 94.63863372802734 82.25358581542969 94.63863372802734 C 88.17746734619141 94.63863372802734 90.31246185302734 94.69375610351562 91.04544830322266 94.74205017089844 C 91.05807495117188 97.46065521240234 90.62154388427734 114.4512710571289 79.32741546630859 126.7453536987305 C 71.50321197509766 135.2622985839844 60.24577331542969 139.5810394287109 45.86783599853516 139.5815887451172 Z M -0.3108587563037872 94.70165252685547 C -0.4119274020195007 94.62128448486328 -0.4814465641975403 94.50316619873047 -0.4946123063564301 94.36941528320312 L 0.3227877020835876 93.93609619140625 C 0.4249171614646912 94.02106475830078 0.4865548312664032 94.14370727539062 0.4977186918258667 94.27301025390625 L -0.3108587563037872 94.70165252685547 Z" stroke="none"/>
+                <path d="M 82.25358581542969 95.13862609863281 C 75.44178771972656 95.13864135742188 66.09218597412109 95.2083740234375 58.57965087890625 95.26441955566406 C 53.57571411132812 95.30172729492188 49.254150390625 95.33396911621094 47.16094970703125 95.33396911621094 C 46.69661331176758 95.33396911621094 46.35558700561523 95.33244323730469 46.11838912963867 95.32929992675781 C 45.98877334594727 95.32759094238281 45.89167404174805 95.32540893554688 45.82153701782227 95.32261657714844 C 45.75180816650391 95.31983947753906 45.68672561645508 95.31291198730469 45.6259651184082 95.30244445800781 C 45.51860046386719 95.29804992675781 45.16742706298828 95.29100036621094 44.0208740234375 95.29100036621094 C 41.6400260925293 95.29100036621094 37.03477478027344 95.32034301757812 31.70233917236328 95.35432434082031 C 24.38973999023438 95.40089416503906 15.28897857666016 95.4588623046875 8.805610656738281 95.4588623046875 C 6.086196899414062 95.4588623046875 3.9725341796875 95.44856262207031 2.523338317871094 95.42820739746094 C 1.9052734375 95.41952514648438 1.420944213867188 95.41053771972656 1.038185119628906 95.39906311035156 C 1.22161865234375 99.76602172851562 2.211326599121094 109.1089096069336 7.026016235351562 118.130744934082 C 10.29415130615234 124.2546157836914 14.75637817382812 129.1176910400391 20.28874969482422 132.5848999023438 C 23.54685211181641 134.6267700195312 27.22530364990234 136.2081451416016 31.22190093994141 137.2850341796875 C 35.61893844604492 138.4698333740234 40.51332473754883 139.0742492675781 45.76914978027344 139.0815124511719 L 45.86786270141602 139.0816040039062 C 59.97756195068359 139.0816040039062 71.04478454589844 134.88916015625 78.76211547851562 126.6207427978516 C 81.51619720458984 123.6699829101562 83.8477783203125 120.183464050293 85.69203948974609 116.258056640625 C 87.18366241455078 113.0832214355469 88.36274719238281 109.6137313842773 89.19656372070312 105.9459533691406 C 90.3001708984375 101.0913391113281 90.52993774414062 96.968017578125 90.55084991455078 95.21737670898438 C 89.54238128662109 95.17756652832031 87.27285003662109 95.13861083984375 82.25358581542969 95.13862609863281 M 82.25358581542969 94.13862609863281 C 87.68778991699219 94.13861083984375 91.51363372802734 94.18289184570312 91.53557586669922 94.31364440917969 C 91.61163330078125 94.76701354980469 92.63706970214844 140.0815887451172 45.86785888671875 140.0815887451172 C 45.83358001708984 140.0815887451172 45.80203247070312 140.0815734863281 45.7677001953125 140.0815124511719 C -0.5251693725585938 140.017578125 0.07605743408203125 95.06306457519531 0.0029754638671875 94.32044982910156 C 0.39691162109375 94.64822387695312 35.6893310546875 94.29103088378906 44.0208740234375 94.29100036621094 C 45.15876770019531 94.29100036621094 45.79317855834961 94.29766845703125 45.7677001953125 94.31364440917969 C 45.61586761474609 94.4088134765625 68.83263397216797 94.13865661621094 82.25358581542969 94.13862609863281 Z M 0.0009918212890625 94.31123352050781 C 0.00171661376953125 94.311279296875 0.00237274169921875 94.31430053710938 0.0029754638671875 94.32044982910156 C 0.00028228759765625 94.31820678710938 -0.000762939453125 94.31594848632812 -0.00017547607421875 94.31364440917969 C 0.000244140625 94.31201171875 0.00061798095703125 94.31121826171875 0.0009918212890625 94.31123352050781 Z" stroke="none" fill="#1391ab"/>
+              </g>
+            </g>
+            <text id="BatchSystem-2" data-name="BatchSystem" transform="translate(22.718 44.677)" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">BatchSystem</tspan></text>
+            <text id="Batch_Execution_Client" data-name="Batch Execution Client" transform="translate(4.718 57.677)" fill="#fff" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="20.737" y="21">Batch </tspan></text>
+            <g id="Groupe_810-2" data-name="Groupe 810" transform="translate(33.501 8.729)">
+              <g id="Groupe_833" data-name="Groupe 833" transform="translate(0 0)">
+                <path id="Tracé_5947-2" data-name="Tracé 5947" d="M412.1,51.608v.025h-1.692a.431.431,0,0,1-.3-.124l-1.124-1.124a.431.431,0,0,1-.124-.3v-.951a1.173,1.173,0,1,0-.741,0v.951a1.169,1.169,0,0,0,.346.827L409.6,52.04a1.169,1.169,0,0,0,.828.346h1.643a7.19,7.19,0,0,1-.247,1.247h-2.532a.783.783,0,0,0-.778.778v3.446a6.678,6.678,0,0,1-1.247.568v-4.9a1.173,1.173,0,1,0-.741,0v5.113a7.054,7.054,0,0,1-1.247.173V54.733a1.169,1.169,0,0,0-.346-.828L403.8,52.781a.431.431,0,0,1-.124-.3V51.138a1.173,1.173,0,1,0-.741,0v1.346a1.169,1.169,0,0,0,.346.828l1.124,1.124a.431.431,0,0,1,.123.3v4.076a8.423,8.423,0,0,1-1.247-.173v-3.1a1.169,1.169,0,0,0-.346-.828l-2.322-2.322a1.169,1.169,0,0,0-.827-.346h-2.075v-.074a7.064,7.064,0,0,1,.173-1.976h1.9a1.169,1.169,0,0,0,.828-.346l1.927-1.927a.431.431,0,0,1,.3-.124h1.346A1.173,1.173,0,1,0,405.3,46.05a1.172,1.172,0,0,0-1.112.8h-1.346a1.169,1.169,0,0,0-.828.346l-1.927,1.927a.432.432,0,0,1-.3.123H398.1l-.778-.025a7.422,7.422,0,0,0-.37,2.4v.4a5.541,5.541,0,0,0,.086.79c.272,0,.556,0,.84-.025h1.914a.432.432,0,0,1,.3.124l2.322,2.322a.431.431,0,0,1,.123.3v2.89h-.025a5.641,5.641,0,0,1,0,.79,8.3,8.3,0,0,0,1.988.358h.4a7.891,7.891,0,0,0,4.99-1.766.361.361,0,0,0,.049-.519.375.375,0,0,0-.531-.049,2.1,2.1,0,0,1-.173.136V54.424a.024.024,0,0,1,.025-.025h2.273a7.334,7.334,0,0,1-1.05,1.766.377.377,0,1,0,.581.482,7.925,7.925,0,0,0,1.766-5h-.741Zm-3.619-3.162a.42.42,0,1,1,.42-.42A.416.416,0,0,1,408.486,48.446ZM403.3,50.435a.42.42,0,1,1,.42-.42A.416.416,0,0,1,403.3,50.435Zm1.988-3.643a.42.42,0,1,1-.42.42A.416.416,0,0,1,405.287,46.791Zm1.593,6.04a.42.42,0,1,1,.42-.42A.416.416,0,0,1,406.88,52.831Z" transform="translate(-393.793 -37.597)" fill="#f76b2f" stroke="#f76b2f" stroke-width="1"/>
+                <path id="Tracé_5948-2" data-name="Tracé 5948" d="M407.31,65.621a.974.974,0,0,0,.865-.963v-1.2a10.77,10.77,0,0,0,3.372-1.4l.852.852a.98.98,0,0,0,1.3.074,10.818,10.818,0,0,0,1.124-1,12.472,12.472,0,0,0,1-1.124.98.98,0,0,0-.074-1.3l-.852-.852a10.768,10.768,0,0,0,1.4-3.372h1.2a.965.965,0,0,0,.963-.865,12.185,12.185,0,0,0,.086-1.507,12.313,12.313,0,0,0-.086-1.507.974.974,0,0,0-.963-.865h-1.2a10.768,10.768,0,0,0-1.4-3.372l.852-.852a.98.98,0,0,0,.074-1.3,10.823,10.823,0,0,0-1-1.124,12.46,12.46,0,0,0-1.124-1,.98.98,0,0,0-1.3.074l-.852.852a10.77,10.77,0,0,0-3.372-1.4v-1.2a.965.965,0,0,0-.865-.963,12.189,12.189,0,0,0-1.507-.086,12.329,12.329,0,0,0-1.507.086.974.974,0,0,0-.865.963v1.2a10.768,10.768,0,0,0-3.372,1.4l-.852-.852a.98.98,0,0,0-1.3-.074,10.829,10.829,0,0,0-1.124,1,12.468,12.468,0,0,0-1,1.124.98.98,0,0,0,.074,1.3l.852.852a10.769,10.769,0,0,0-1.4,3.372h-1.2a.965.965,0,0,0-.963.865,12.185,12.185,0,0,0-.086,1.507,12.313,12.313,0,0,0,.086,1.507.974.974,0,0,0,.963.865h1.2a10.769,10.769,0,0,0,1.4,3.372l-.852.852a.98.98,0,0,0-.074,1.3,10.826,10.826,0,0,0,1,1.124,14.448,14.448,0,0,0,1.124,1,.98.98,0,0,0,1.3-.074l.852-.852a10.768,10.768,0,0,0,3.372,1.4v1.2a.965.965,0,0,0,.865.963,12.186,12.186,0,0,0,1.507.086A12.328,12.328,0,0,0,407.31,65.621ZM404.4,64.88a.227.227,0,0,1-.21-.222V63.151a.383.383,0,0,0-.3-.371,9.919,9.919,0,0,1-3.656-1.519.359.359,0,0,0-.469.049L398.7,62.373a.228.228,0,0,1-.309.012,11.5,11.5,0,0,1-2-2,.228.228,0,0,1,.012-.309l1.062-1.062a.374.374,0,0,0,.049-.469A9.834,9.834,0,0,1,396,54.888a.372.372,0,0,0-.371-.3H394.12a.227.227,0,0,1-.222-.21,11.516,11.516,0,0,1,0-2.816.227.227,0,0,1,.222-.21h1.507a.383.383,0,0,0,.371-.3,9.919,9.919,0,0,1,1.519-3.656.416.416,0,0,0,.062-.21.336.336,0,0,0-.111-.259L396.4,45.872a.228.228,0,0,1-.012-.309,11.5,11.5,0,0,1,2-2,.228.228,0,0,1,.309.012l1.062,1.062a.374.374,0,0,0,.469.049,9.834,9.834,0,0,1,3.656-1.519.372.372,0,0,0,.3-.371V41.29a.227.227,0,0,1,.21-.222,11.509,11.509,0,0,1,2.816,0,.227.227,0,0,1,.21.222V42.8a.383.383,0,0,0,.3.371,9.919,9.919,0,0,1,3.656,1.519.359.359,0,0,0,.469-.049l1.062-1.062a.228.228,0,0,1,.309-.012,11.511,11.511,0,0,1,2,2,.228.228,0,0,1-.012.309l-1.062,1.062a.374.374,0,0,0-.049.469,9.835,9.835,0,0,1,1.519,3.656.372.372,0,0,0,.37.3h1.507a.227.227,0,0,1,.222.21,11.5,11.5,0,0,1,0,2.816.227.227,0,0,1-.222.21h-1.507a.382.382,0,0,0-.37.3,9.919,9.919,0,0,1-1.519,3.656.359.359,0,0,0,.049.469l1.062,1.062a.228.228,0,0,1,.012.309,11.51,11.51,0,0,1-2,2,.228.228,0,0,1-.309-.012l-1.062-1.062a.374.374,0,0,0-.469-.049,9.834,9.834,0,0,1-3.656,1.519.372.372,0,0,0-.3.371v1.507a.227.227,0,0,1-.21.222,11.511,11.511,0,0,1-2.816,0Z" transform="translate(-393.07 -40.24)" fill="#f76b2f" stroke="#f76b2f" stroke-width="1"/>
+              </g>
+            </g>
+            <circle id="Ellipse_60" data-name="Ellipse 60" cx="6" cy="6" r="6" transform="translate(41.718 89.677)" fill="#1391ab"/>
+            <rect id="Rectangle_1993" data-name="Rectangle 1993" width="18.404" height="8.233" transform="translate(37.845 0)" fill="#1391ab"/>
+          </g>
+        </g>
+        <g id="Data-Ingestion" transform="translate(0 0)">
+          <rect id="Rectangle_1954" data-name="Rectangle 1954" width="262" height="400" transform="translate(0 0.463)" fill="#f1f3f3"/>
+          <g id="Groupe_759" data-name="Groupe 759" transform="translate(15.222 17.317)">
+            <path id="Icon_ionic-md-list-box-2" data-name="Icon ionic-md-list-box" d="M21.293,4.5H6.453A1.953,1.953,0,0,0,4.5,6.453v14.84a1.953,1.953,0,0,0,1.953,1.953h14.84a1.953,1.953,0,0,0,1.953-1.953V6.453A1.953,1.953,0,0,0,21.293,4.5ZM16.216,19.34H8.405V17h7.811Zm3.124-4.3H8.405V12.7H19.34Zm0-4.3H8.405V8.405H19.34Z" transform="translate(-4.5 -4.5)" fill="#266e7d"/>
+            <text id="ALARM_EVENT_TRIGGER_NAMESPACE" data-name="ALARM EVENT TRIGGER NAMESPACE" transform="translate(23.778 13.145)" fill="#04333f" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ALARM EVENT TRIGGER NAMESPACE</tspan></text>
+          </g>
+          <g id="Alarm-Event-3" data-name="Alarm-Event" transform="translate(46.387 88.445)">
+            <g id="Groupe_462-5" data-name="Groupe 462" transform="translate(0 0)">
+              <g id="Rectangle_1623-4" data-name="Rectangle 1623" transform="translate(-0.387 0.018)" fill="#fff" stroke="#1391ab" stroke-width="1">
+                <rect width="169" height="93" rx="6" stroke="none"/>
+                <rect x="0.5" y="0.5" width="168" height="92" rx="5.5" fill="none"/>
+              </g>
+              <rect id="Rectangle_1624-3" data-name="Rectangle 1624" width="169" height="40" rx="2" transform="translate(-0.387 53.018)" fill="rgba(214,242,248,0.44)"/>
+              <g id="Rectangle_1625-3" data-name="Rectangle 1625" transform="translate(-0.387 29.018)" fill="rgba(19,145,171,0.18)" stroke="rgba(19,145,171,0.51)" stroke-width="1">
+                <rect width="169" height="24" rx="2" stroke="none"/>
+                <rect x="0.5" y="0.5" width="168" height="23" rx="1.5" fill="none"/>
+              </g>
+            </g>
+            <text id="Alarm_Loss_of_System_Clock_" data-name="Alarm &quot; Loss of System Clock &quot;
+" transform="translate(13.613 42.018)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm &quot; </tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">Loss of System Clock</tspan><tspan y="0"> &quot;</tspan><tspan font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="3"></tspan></tspan></text>
+            <text id="NOC_Supervision" data-name="NOC Supervision" transform="translate(14.613 67.018)" fill="#494949" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">NOC Supervision</tspan></text>
+            <text id="Nov_23_2:30_PM-3" data-name="Nov 23, 2:30 PM" transform="translate(108.613 66.018)" fill="#1391ab" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Nov 23, 2:30 PM</tspan></text>
+            <g id="Groupe_806-3" data-name="Groupe 806" transform="translate(7.718 5.231)">
+              <g id="Groupe_242-3" data-name="Groupe 242" transform="translate(23.836 1.019)">
+                <text id="Alarm_Event" data-name="Alarm Event" transform="translate(0 9)" fill="#324b63" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm Event</tspan></text>
+                <text id="TM-3" data-name="TM" transform="translate(42.89 4.221)" fill="#324b63" font-size="1" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">TM</tspan></text>
+              </g>
+              <path id="Icon_material-event-note" data-name="Icon material-event-note" d="M16.4,9.151H7.9v1.7h8.5ZM18.1,3.2h-.85V1.5h-1.7V3.2H8.75V1.5H7.05V3.2H6.2A1.692,1.692,0,0,0,4.509,4.9L4.5,16.8a1.7,1.7,0,0,0,1.7,1.7H18.1a1.705,1.705,0,0,0,1.7-1.7V4.9A1.705,1.705,0,0,0,18.1,3.2Zm0,13.6H6.2V7.451H18.1Zm-4.25-4.25H7.9v1.7h5.951Z" transform="translate(-4.5 -1.5)" fill="#ab17d1"/>
+            </g>
+            <circle id="Ellipse_49-3" data-name="Ellipse 49" cx="6" cy="6" r="6" transform="translate(161.613 36.018)" fill="#1391ab"/>
+          </g>
+          <g id="MouseHover" transform="translate(333.988 186.786)">
+            <rect id="Rectangle_1974" data-name="Rectangle 1974" width="199" height="82" transform="translate(0.012 -0.323)" fill="#e7e7e7"/>
+            <g id="Groupe_807" data-name="Groupe 807" transform="translate(14.844 8.659)">
+              <text id="Alarm_KPI_Compare-3" data-name="Alarm KPI Compare" transform="translate(0.168 9.018)" fill="#494949" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alarm KPI Compare</tspan></text>
+              <text id="Triggered_Procedure_to_check_Alarm_KPI_by_Name_:_Get_True_or_False_if_the_Alarm_exist_or_not" data-name="Triggered Procedure to check Alarm KPI by Name : Get True or False if the Alarm exist or not" transform="translate(0.168 18.018)" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="24">Triggered </tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Flow" transform="translate(216.076 37.419)">
+          <g id="Groupe_826" data-name="Groupe 826" transform="translate(590.682 107.364) rotate(120)">
+            <path id="Icon_material-play-arrow" data-name="Icon material-play-arrow" d="M0,0V10.358L11.576,5.179Z" transform="translate(142.124 100.997) rotate(-30)" fill="#1a94ad"/>
+            <path id="Tracé_8011" data-name="Tracé 8011" d="M11.151,52.832,0,36.3,53.816,0l72.429,107.38,20.33-13.713" transform="matrix(0.998, 0.07, -0.07, 0.998, 7.49, 0)" fill="none" stroke="#1391ab" stroke-width="2"/>
+            <path id="Icon_material-play-arrow-2" data-name="Icon material-play-arrow" d="M0,0V10.358L11.576,5.179Z" transform="translate(146.967 109.386) rotate(-30)" fill="#1a94ad"/>
+          </g>
+          <g id="Groupe_834" data-name="Groupe 834" transform="translate(0 87.923)">
+            <path id="Tracé_7984" data-name="Tracé 7984" d="M-372.734,441.935h131.8" transform="translate(372.734 -437.339)" fill="none" stroke="#1391ab" stroke-width="2"/>
+            <path id="Icon_material-play-arrow-3" data-name="Icon material-play-arrow" d="M12,7.5v8.881l12.8-4.441Z" transform="translate(113.648 -7.5)" fill="#1a94ad"/>
+          </g>
+          <g id="Groupe_835" data-name="Groupe 835" transform="translate(309.448 87.923)">
+            <path id="Tracé_7984-2" data-name="Tracé 7984" d="M-372.734,441.935h49.014" transform="translate(372.734 -437.339)" fill="none" stroke="#1391ab" stroke-width="2"/>
+            <path id="Icon_material-play-arrow-4" data-name="Icon material-play-arrow" d="M12,7.5v8.881l12.8-4.441Z" transform="translate(30.859 -7.5)" fill="#1a94ad"/>
+          </g>
+          <g id="Groupe_836" data-name="Groupe 836" transform="translate(535.515 88.891)">
+            <path id="Tracé_7984-3" data-name="Tracé 7984" d="M-372.734,441.935h78.182" transform="translate(372.734 -437.339)" fill="none" stroke="#1391ab" stroke-width="2"/>
+            <path id="Icon_material-play-arrow-5" data-name="Icon material-play-arrow" d="M12,7.5v8.881l12.8-4.441Z" transform="translate(60.027 -7.5)" fill="#1a94ad"/>
+          </g>
+          <g id="Groupe_838" data-name="Groupe 838" transform="translate(364.09 62.263) rotate(60)">
+            <path id="Tracé_8011-2" data-name="Tracé 8011" d="M0,52.89,7.066,42.415,58,76.771,109.783,0l22.659,15.284" transform="matrix(0.998, -0.07, 0.07, 0.998, 0, 9.239)" fill="none" stroke="#1391ab" stroke-width="2"/>
+          </g>
+          <g id="Groupe_839" data-name="Groupe 839" transform="translate(427.389 288.126) rotate(90)">
+            <path id="Tracé_7984-4" data-name="Tracé 7984" d="M0,0H38.574" transform="translate(0 4.597)" fill="none" stroke="#1391ab" stroke-width="2"/>
+            <path id="Icon_material-play-arrow-6" data-name="Icon material-play-arrow" d="M0,0V8.881L12.8,4.441Z" transform="translate(32.42 0)" fill="#1a94ad"/>
+          </g>
+          <g id="Groupe_840" data-name="Groupe 840" transform="translate(642.118 260.682) rotate(120)">
+            <path id="Icon_material-play-arrow-7" data-name="Icon material-play-arrow" d="M0,0V10.358L11.576,5.179Z" transform="translate(48.155 203.772) rotate(59)" fill="#1a94ad"/>
+            <path id="Tracé_8011-3" data-name="Tracé 8011" d="M246.717,89.123l13.3-8.97L205.952,0,0,138.916l45.365,67.256" transform="matrix(0.998, 0.07, -0.07, 0.998, 14.382, 0)" fill="none" stroke="#1391ab" stroke-width="2"/>
+          </g>
+          <g id="Groupe_841" data-name="Groupe 841" transform="translate(361.518 81.628) rotate(60)">
+            <path id="Icon_material-play-arrow-8" data-name="Icon material-play-arrow" d="M0,10.358V0L11.576,5.179Z" transform="translate(6.395 13.197) rotate(-59)" fill="#1a94ad"/>
+            <path id="Tracé_8011-4" data-name="Tracé 8011" d="M205.489,51.454l-48.927,72.537L0,18.389,12.4,0" transform="matrix(0.998, -0.07, 0.07, 0.998, 0, 14.334)" fill="none" stroke="#1391ab" stroke-width="2"/>
+          </g>
+          <g id="Groupe_842" data-name="Groupe 842" transform="translate(257.473 0) rotate(60)">
+            <path id="Icon_material-play-arrow-9" data-name="Icon material-play-arrow" d="M0,10.358V0L11.576,5.179Z" transform="translate(16.021 159.779) rotate(-59)" fill="#1a94ad"/>
+            <path id="Tracé_8011-5" data-name="Tracé 8011" d="M333.28,0,156.562,261.995,0,156.392,12.4,138" transform="matrix(0.998, -0.07, 0.07, 0.998, 0, 23.248)" fill="none" stroke="#1391ab" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

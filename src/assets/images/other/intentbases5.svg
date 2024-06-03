@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="645" height="663" viewBox="0 0 645 663">
+  <defs>
+    <filter id="Rectangle_6" x="0" y="0" width="645" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6-2" x="0" y="266" width="645" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-2"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3989" data-name="Groupe 3989" transform="translate(-5299 -1537)">
+    <g id="Groupe_3" data-name="Groupe 3" transform="translate(4717 1235)">
+      <g transform="matrix(1, 0, 0, 1, 582, 302)" filter="url(#Rectangle_6)">
+        <rect id="Rectangle_6-3" data-name="Rectangle 6" width="477" height="229" rx="20" transform="translate(84 61)" fill="#fff"/>
+      </g>
+      <g id="Groupe_2" data-name="Groupe 2" transform="translate(0 -1)">
+        <text id="GET_FOCUSED_ON_PROBLEMS_TO_SOLVE_No_more_using_complex_technologies_or_pricey_human_expertise_to_understand_anomalies_and_core_causes" data-name="GET FOCUSED ON PROBLEMS TO SOLVE  
+
+No more using complex technologies or pricey human expertise to understand anomalies and core causes" transform="translate(689 447)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18" xml:space="preserve">GET FOCUSED ON PROBLEMS TO SOLVE  </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="43"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="68">No more using complex technologies or pricey </tspan><tspan x="0" y="93">human expertise to understand anomalies and </tspan><tspan x="0" y="118">core causes</tspan></tspan></text>
+        <path id="Icon_corebrands-mathworks" data-name="Icon corebrands-mathworks" d="M7.991,28.888C5.783,27.241,3.033,25.307,0,23.105l10.741-4.129,4.412,3.306a43.223,43.223,0,0,1-7.162,6.613ZM37.467,17.322c-.83-2.2-1.379-4.409-2.208-6.613A23.968,23.968,0,0,0,32.233,4.1C31.679,3.274,30.581,1.34,29.2,1.34c-.276,0-.549.273-.83.273-.825.283-1.928,1.928-2.2,3.033A55.847,55.847,0,0,1,22.589,9.6a6.167,6.167,0,0,1-1.1,1.381,24.007,24.007,0,0,1-2.75,1.928c-.283,0-.556.273-.83.273a4.125,4.125,0,0,0-1.928.822c-.825.832-1.654,1.928-2.477,2.76,0,.273-.283.548-.556.83l4.136,3.023c3.033-3.58,6.613-7.162,9.088-14.048,0,0-.822,7.442-7.435,15.428a73.689,73.689,0,0,1-7.993,7.716,3.511,3.511,0,0,1,2.2.276c2.208.822,3.306,3.855,4.136,6.056.549,1.654,1.371,3.033,1.928,4.685a9.743,9.743,0,0,0,4.961-2.757c1.371-1.371,2.75-3.026,4.129-4.4,2.484-3.031,5.51-6.886,9.364-4.958a8.384,8.384,0,0,1,1.652,1.1,13.467,13.467,0,0,1,2.208,1.928c1.374,1.1,1.928,1.928,3.026,2.477A180.751,180.751,0,0,1,37.46,17.317Z" transform="translate(689 384.66)" fill="#676767"/>
+        <g id="Groupe_1" data-name="Groupe 1" transform="translate(-370 861)">
+          <rect id="Rectangle_7" data-name="Rectangle 7" width="64" height="41" rx="20.5" transform="translate(1426 -476)" fill="#dbdbdb"/>
+          <text id="AI" transform="translate(1446 -448)" fill="#575454" font-size="21" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">AI</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_1974" data-name="Groupe 1974" transform="translate(4717 1501)">
+      <g transform="matrix(1, 0, 0, 1, 582, 36)" filter="url(#Rectangle_6-2)">
+        <rect id="Rectangle_6-4" data-name="Rectangle 6" width="477" height="229" rx="20" transform="translate(84 327)" fill="#fff"/>
+      </g>
+      <g id="Groupe_2-2" data-name="Groupe 2" transform="translate(0 -1)">
+        <text id="GET_FOCUSED_ON_PROBLEMS_TO_SOLVE_No_more_using_complex_technologies_or_pricey_human_expertise_to_understand_anomalies_and_core_causes-2" data-name="GET FOCUSED ON PROBLEMS TO SOLVE  
+
+No more using complex technologies or pricey human expertise to understand anomalies and core causes" transform="translate(689 447)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18" xml:space="preserve">GET FOCUSED ON PROBLEMS TO SOLVE  </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="43"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="68">No more using complex technologies or pricey </tspan><tspan x="0" y="93">human expertise to understand anomalies and </tspan><tspan x="0" y="118">core causes</tspan></tspan></text>
+        <path id="Icon_corebrands-mathworks-2" data-name="Icon corebrands-mathworks" d="M7.991,28.888C5.783,27.241,3.033,25.307,0,23.105l10.741-4.129,4.412,3.306a43.223,43.223,0,0,1-7.162,6.613ZM37.467,17.322c-.83-2.2-1.379-4.409-2.208-6.613A23.968,23.968,0,0,0,32.233,4.1C31.679,3.274,30.581,1.34,29.2,1.34c-.276,0-.549.273-.83.273-.825.283-1.928,1.928-2.2,3.033A55.847,55.847,0,0,1,22.589,9.6a6.167,6.167,0,0,1-1.1,1.381,24.007,24.007,0,0,1-2.75,1.928c-.283,0-.556.273-.83.273a4.125,4.125,0,0,0-1.928.822c-.825.832-1.654,1.928-2.477,2.76,0,.273-.283.548-.556.83l4.136,3.023c3.033-3.58,6.613-7.162,9.088-14.048,0,0-.822,7.442-7.435,15.428a73.689,73.689,0,0,1-7.993,7.716,3.511,3.511,0,0,1,2.2.276c2.208.822,3.306,3.855,4.136,6.056.549,1.654,1.371,3.033,1.928,4.685a9.743,9.743,0,0,0,4.961-2.757c1.371-1.371,2.75-3.026,4.129-4.4,2.484-3.031,5.51-6.886,9.364-4.958a8.384,8.384,0,0,1,1.652,1.1,13.467,13.467,0,0,1,2.208,1.928c1.374,1.1,1.928,1.928,3.026,2.477A180.751,180.751,0,0,1,37.46,17.317Z" transform="translate(689 384.66)" fill="#676767"/>
+        <g id="Groupe_1-2" data-name="Groupe 1" transform="translate(-370 861)">
+          <rect id="Rectangle_7-2" data-name="Rectangle 7" width="64" height="41" rx="20.5" transform="translate(1426 -476)" fill="#dbdbdb"/>
+          <text id="AI-2" data-name="AI" transform="translate(1446 -448)" fill="#575454" font-size="21" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">AI</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2133" height="1616" viewBox="0 0 2133 1616">
+  <defs>
+    <filter id="Rectangle_1971" x="0" y="504" width="2133" height="1112" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-color="#c4cad0"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3926" data-name="Groupe 3926" transform="translate(-13436 1695)">
+    <g id="Groupe_3917" data-name="Groupe 3917" transform="translate(13397 -1826)">
+      <text id="Modern_Network_Performance" data-name="Modern Network Performance" transform="translate(123 131)" fill="#362953" font-size="82" font-family="ArialMT, Arial"><tspan x="0" y="74">Modern Network Performance</tspan></text>
+      <text id="Get_service-centric_network_measurements_and_analytics_apps_to_ensure_multidomain_performance_and_user_experience_Create_an_Intelligent_Simplified_Network_Analysis_Architecture_that_can_provide_insights_for_automation_features_like_self-configuration_sel" data-name="Get service-centric network measurements and analytics apps to ensure multidomain performance and user experience 
+Create an Intelligent Simplified Network Analysis Architecture that can provide insights for automation features like self-configuration, sel" transform="translate(123 253)" fill="#362953" font-size="31" font-family="ArialMT, Arial" opacity="0.875"><tspan x="0" y="28">Get Service-Centric Network Measurements And Analytics Apps To Ensure Multidomain Performance And User Experience </tspan><tspan x="0" y="64">Create An Intelligent Simplified Network Analysis Architecture That Can Provide Insights For Automation Features Like Self-</tspan><tspan x="0" y="100" xml:space="preserve">Configuration, Self-Healing, And Self-Optimization For Network Operation And Maintenance.  </tspan></text>
+    </g>
+    <g id="Groupe_3918" data-name="Groupe 3918" transform="translate(13345 -1591.931)">
+      <g id="UX-Group" transform="translate(191.736 190.931)">
+        <g id="Groupe_755" data-name="Groupe 755" transform="translate(0 0)">
+          <text id="Video_Quality_of_Experience" data-name="Video Quality of Experience" transform="translate(0.264 32)" fill="#362953" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Video Quality of Experience</tspan></text>
+          <line id="Line_62" data-name="Line 62" x1="1945.277" transform="translate(1.26 64.575)" fill="none" stroke="#c3e1e5" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Groupe_801" data-name="Groupe 801" transform="translate(205.32 275.159)">
+        <text id="Add_Metrics" data-name="Add Metrics" transform="translate(25.934 35.384)" fill="#362953" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Add Metrics</tspan></text>
+        <text id="Programmable_Analytics" data-name="Programmable Analytics" transform="translate(554.555 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Programmable Analytics</tspan></text>
+        <text id="Custom" transform="translate(331.991 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom</tspan></text>
+        <text id="Export_" data-name="Export " transform="translate(986.902 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Export </tspan></text>
+        <text id="Refresh" transform="translate(1196.997 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Refresh</tspan></text>
+        <g id="Column_Chart0" data-name="Column Chart0" transform="translate(497.274 13.259)">
+          <g id="Chart" transform="translate(0 0)">
+            <g id="m1" transform="translate(0 0)">
+              <rect id="Rectangle_1614" data-name="Rectangle 1614" width="3.91" height="9.306" transform="translate(0 17.293)" fill="#362953"/>
+              <rect id="Rectangle_1615" data-name="Rectangle 1615" width="3.91" height="18.612" transform="translate(7.819 7.987)" fill="#362953"/>
+              <rect id="Rectangle_1616" data-name="Rectangle 1616" width="3.91" height="26.599" transform="translate(15.639)" fill="#362953"/>
+              <rect id="Rectangle_1617" data-name="Rectangle 1617" width="3.91" height="18.612" transform="translate(23.458 7.987)" fill="#362953"/>
+            </g>
+          </g>
+        </g>
+        <g id="dashboard" transform="translate(294.058 7.396)">
+          <path id="Tracé_306" data-name="Tracé 306" d="M12.227,0H2.313A2.316,2.316,0,0,0,0,2.313V8.262a2.316,2.316,0,0,0,2.313,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313V2.313A2.316,2.316,0,0,0,12.227,0Zm0,0" transform="translate(0 0)" fill="#362953"/>
+          <path id="Tracé_307" data-name="Tracé 307" d="M12.227,213.332H2.313A2.316,2.316,0,0,0,0,215.645v13.88a2.316,2.316,0,0,0,2.313,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313v-13.88A2.316,2.316,0,0,0,12.227,213.332Zm0,0" transform="translate(0 -200.113)" fill="#362953"/>
+          <path id="Tracé_308" data-name="Tracé 308" d="M289.56,341.332h-9.914a2.316,2.316,0,0,0-2.314,2.314v5.948a2.316,2.316,0,0,0,2.314,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313v-5.948A2.316,2.316,0,0,0,289.56,341.332Zm0,0" transform="translate(-260.148 -320.182)" fill="#362953"/>
+          <path id="Tracé_309" data-name="Tracé 309" d="M289.56,0h-9.914a2.316,2.316,0,0,0-2.314,2.313v13.88a2.316,2.316,0,0,0,2.314,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313V2.313A2.316,2.316,0,0,0,289.56,0Zm0,0" transform="translate(-260.148 0)" fill="#362953"/>
+        </g>
+        <path id="Icon_awesome-file-export" data-name="Icon awesome-file-export" d="M24.736,7.852a1.541,1.541,0,0,0-.451-1.089L17.979.451A1.545,1.545,0,0,0,16.884,0h-.393V8.245h8.245ZM36.782,19.84l-6.165-6.21a1.033,1.033,0,0,0-1.765.728v4.194H24.73v4.123h4.123v4.2a1.033,1.033,0,0,0,1.765.728l6.165-6.216A1.1,1.1,0,0,0,36.782,19.84Zm-24.414,1.8V19.583A1.034,1.034,0,0,1,13.4,18.552H24.736V10.307H15.975a1.551,1.551,0,0,1-1.546-1.546V0H1.546A1.542,1.542,0,0,0,0,1.546V31.435a1.542,1.542,0,0,0,1.546,1.546H23.19a1.542,1.542,0,0,0,1.546-1.546V22.675H13.4A1.034,1.034,0,0,1,12.368,21.644Z" transform="translate(944.703 7.396)" fill="#362953"/>
+        <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M16.628,9.285H10.872V3.529A1.279,1.279,0,0,0,9.593,2.25H8.314A1.279,1.279,0,0,0,7.035,3.529V9.285H1.279A1.279,1.279,0,0,0,0,10.564v1.279a1.279,1.279,0,0,0,1.279,1.279H7.035v5.756a1.279,1.279,0,0,0,1.279,1.279H9.593a1.279,1.279,0,0,0,1.279-1.279V13.122h5.756a1.279,1.279,0,0,0,1.279-1.279V10.564A1.279,1.279,0,0,0,16.628,9.285Z" transform="translate(36.945 -2.25)" fill="#362953"/>
+        <path id="Icon_ionic-md-refresh-circle" data-name="Icon ionic-md-refresh-circle" d="M21.57,3.375a18.2,18.2,0,1,0,18.2,18.2A18.249,18.249,0,0,0,21.57,3.375Zm9.8,16.971H22.8l3.919-3.919a7.117,7.117,0,0,0-5.144-2.2,7.348,7.348,0,0,0,0,14.7,7.291,7.291,0,0,0,6.788-4.549h2.607a9.822,9.822,0,1,1-2.476-9.719l2.878-2.878Z" transform="translate(1147.595 4.021)" fill="#362953"/>
+        <path id="Icon_awesome-plus-2" data-name="Icon awesome-plus" d="M16.628,9.285H10.872V3.529A1.279,1.279,0,0,0,9.593,2.25H8.314A1.279,1.279,0,0,0,7.035,3.529V9.285H1.279A1.279,1.279,0,0,0,0,10.564v1.279a1.279,1.279,0,0,0,1.279,1.279H7.035v5.756a1.279,1.279,0,0,0,1.279,1.279H9.593a1.279,1.279,0,0,0,1.279-1.279V13.122h5.756a1.279,1.279,0,0,0,1.279-1.279V10.564A1.279,1.279,0,0,0,16.628,9.285Z" transform="translate(526.419 1.729)" fill="#362953"/>
+        <path id="Icon_awesome-tachometer-alt" data-name="Icon awesome-tachometer-alt" d="M19.183,2.25A19.182,19.182,0,0,0,2.6,31.078,2.108,2.108,0,0,0,4.429,32.09H33.937a2.108,2.108,0,0,0,1.828-1.012A19.182,19.182,0,0,0,19.183,2.25Zm0,4.263A2.1,2.1,0,0,1,21.2,8.088a3.59,3.59,0,0,0-.23.444l-.614,1.843a2.076,2.076,0,0,1-1.175.4,2.131,2.131,0,0,1,0-4.263ZM6.394,25.7a2.131,2.131,0,1,1,2.131-2.131A2.132,2.132,0,0,1,6.394,25.7Zm3.2-10.657a2.131,2.131,0,1,1,2.131-2.131A2.132,2.132,0,0,1,9.592,15.039Zm16.437-4.823L21.943,22.471a4.183,4.183,0,0,1,.911,5.356H15.512a4.219,4.219,0,0,1,3.4-6.367L23,9.2a1.6,1.6,0,0,1,3.033,1.012ZM27,14.026l1.034-3.1a2.1,2.1,0,0,1,.736-.149,2.131,2.131,0,1,1,0,4.263A2.1,2.1,0,0,1,27,14.026ZM31.972,25.7A2.131,2.131,0,1,1,34.1,23.564,2.132,2.132,0,0,1,31.972,25.7Z" transform="translate(-30 5.146)" fill="#362953"/>
+      </g>
+      <g id="Groupe_796" data-name="Groupe 796" transform="translate(175 392.486)">
+        <g transform="matrix(1, 0, 0, 1, -84, -495.55)" filter="url(#Rectangle_1971)">
+          <g id="Rectangle_1971-2" data-name="Rectangle 1971" transform="translate(84 562)" fill="#fff" stroke="#e2eeef" stroke-width="1">
+            <path d="M0,0H1965a0,0,0,0,1,0,0V924a20,20,0,0,1-20,20H20A20,20,0,0,1,0,924V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.5.5h1964a0,0,0,0,1,0,0V924a19.5,19.5,0,0,1-19.5,19.5H20A19.5,19.5,0,0,1,.5,924V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+          </g>
+        </g>
+        <g id="Rectangle_1974" data-name="Rectangle 1974" transform="translate(0 296.445)" fill="#e0e3e7" stroke="#70a0b8" stroke-linejoin="round" stroke-width="0.5" opacity="0.32">
+          <rect width="1965" height="120" stroke="none"/>
+          <rect x="0.25" y="0.25" width="1964.5" height="119.5" fill="none"/>
+        </g>
+        <text id="Adaptive_Video_Streaming_Quality_Downgrading_Rate_Cells_with_good_Video_HD_Streaming_Cells_with_Excellent_QoS_but_Bad_Video_QoE_Cells_with_worst_Video_Streaming_Quality_AppQoE-Video_Streaming_Buffering_State_AppQoE-Video_Streaming_Resolution_AppQoE-V" data-name="Adaptive Video Streaming Quality Downgrading Rate
+
+Cells with good Video HD Streaming
+
+Cells with Excellent QoS but Bad Video QoE
+
+Cells with worst Video Streaming Quality
+
+AppQoE-Video Streaming Buffering State
+
+AppQoE-Video Streaming Resolution
+
+AppQoE-V" transform="translate(65 140.445)" fill="#362953" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Adaptive Video Streaming Quality Downgrading Rate</tspan><tspan x="0" y="54"></tspan><tspan x="0" y="108">Cells with good Video HD Streaming</tspan><tspan x="0" y="162"></tspan><tspan x="0" y="216">Cells with Excellent QoS but Bad Video QoE</tspan><tspan x="0" y="270"></tspan><tspan x="0" y="324">Cells with worst Video Streaming Quality</tspan><tspan x="0" y="378"></tspan><tspan x="0" y="432">AppQoE-Video Streaming Buffering State</tspan><tspan x="0" y="486"></tspan><tspan x="0" y="540">AppQoE-Video Streaming Resolution</tspan><tspan x="0" y="594"></tspan><tspan x="0" y="648">AppQoE-Video Streaming Playing State</tspan><tspan x="0" y="702"></tspan><tspan x="0" y="756">AppQoE-Video Streaming Freeze Ratio</tspan></text>
+        <line id="Ligne_84" data-name="Ligne 84" x2="1939.177" transform="translate(11.392 194.22)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_85" data-name="Ligne 85" x2="1939.177" transform="translate(11.392 298.288)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_86" data-name="Ligne 86" x2="1939.177" transform="translate(11.392 416.167)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <g id="Rectangle_1973" data-name="Rectangle 1973" transform="translate(0 0.445)" fill="#e0e3e7" stroke="#70a0b8" stroke-linejoin="round" stroke-width="0.5" opacity="0.32">
+          <path d="M20,0H1945a20,20,0,0,1,20,20V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+          <path d="M20,.25H1945A19.75,19.75,0,0,1,1964.75,20V65.75a0,0,0,0,1,0,0H.25a0,0,0,0,1,0,0V20A19.75,19.75,0,0,1,20,.25Z" fill="none"/>
+        </g>
+        <g id="ProjectSummary" transform="translate(21.101 21.101)">
+          <text id="NAME" transform="translate(-0.102 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">NAME</tspan></text>
+          <text id="UNIT" transform="translate(1046.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UNIT</tspan></text>
+          <text id="STATUS" transform="translate(1208.898 21.344)" fill="#232638" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">STATUS</tspan></text>
+          <text id="DESCRIPTION" transform="translate(1434.898 21.344)" fill="#232638" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DESCRIPTION</tspan></text>
+          <text id="TYPE" transform="translate(874.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">TYPE</tspan></text>
+          <text id="DISPLAY_NAME" data-name="DISPLAY NAME" transform="translate(507.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DISPLAY NAME</tspan></text>
+        </g>
+        <g id="AllTopics" transform="translate(1230.431 122.97)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.475)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label" transform="translate(73.569 25.475)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-2" data-name="AllTopics" transform="translate(1230.431 226.295)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_2" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.15)" fill="#e0e4e8" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-2" data-name="Label" transform="translate(73.569 25.15)" fill="#b5b5b5" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-34.365" y="0">Disabled</tspan></text>
+        </g>
+        <g id="AllTopics-3" data-name="AllTopics" transform="translate(1230.431 336.168)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_3" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.278)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-3" data-name="Label" transform="translate(73.569 25.278)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="Groupe_803" data-name="Groupe 803" transform="translate(20.004 125.193)">
+          <path id="Icon_ionic-ios-checkbox" data-name="Icon ionic-ios-checkbox" d="M22.078,4.5H6.1A1.6,1.6,0,0,0,4.5,6.1v15.98a1.6,1.6,0,0,0,1.6,1.6h15.98a1.6,1.6,0,0,0,1.6-1.6V6.1A1.6,1.6,0,0,0,22.078,4.5Zm-2.622,6.717L12.78,17.923h0a.9.9,0,0,1-.579.275.874.874,0,0,1-.584-.285l-2.8-2.8a.2.2,0,0,1,0-.285l.889-.889a.193.193,0,0,1,.28,0L12.2,16.161l6.092-6.137a.2.2,0,0,1,.14-.06h0a.181.181,0,0,1,.14.06l.874.9A.2.2,0,0,1,19.457,11.217Z" transform="translate(-4.5 210.761)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 642.831)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-2" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 533.995)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-3" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 425.864)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-4" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 317.46)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-5" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 102.199)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-6" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 -4.5)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-7" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 751.255)" fill="#362953"/>
+        </g>
+        <g id="Groupe_800" data-name="Groupe 800" transform="translate(809.13 115.694)">
+          <text id="_..." data-name="..." transform="translate(13.869 -0.249) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-2" data-name="..." transform="translate(13.869 110.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-3" data-name="..." transform="translate(13.869 227.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-4" data-name="..." transform="translate(13.869 337.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-5" data-name="..." transform="translate(13.869 448.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-6" data-name="..." transform="translate(13.869 559.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-7" data-name="..." transform="translate(13.869 676.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-8" data-name="..." transform="translate(13.869 786.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+        </g>
+        <line id="Ligne_88" data-name="Ligne 88" x2="1939.177" transform="translate(11.392 530.768)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_89" data-name="Ligne 89" x2="1939.177" transform="translate(11.392 634.836)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_90" data-name="Ligne 90" x2="1939.177" transform="translate(11.392 752.715)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_91" data-name="Ligne 91" x2="1939.177" transform="translate(11.392 874.942)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <text id="Video_QoE-Down_Rate_Cells_Good_Video_HD_Good-QoS_Bad_VideoQoE_Cells_Worst_Video_Quality_Cells_Video_Buffering_Freq_Video_Stream-Resolution_Video_Playing_Freq_Video_Stream-Freeze_Freq" data-name="Video QoE-Down Rate
+
+Cells Good Video HD
+
+Good-QoS Bad VideoQoE Cells
+
+Worst Video Quality Cells 
+
+Video Buffering Freq
+
+Video Stream-Resolution
+
+Video Playing Freq
+
+Video Stream-Freeze Freq" transform="translate(531 140.445)" fill="#324b63" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Video QoE-Down Rate</tspan><tspan x="0" y="54"></tspan><tspan x="0" y="108">Cells Good Video HD</tspan><tspan x="0" y="162"></tspan><tspan x="0" y="216">Good-QoS Bad VideoQoE Cells</tspan><tspan x="0" y="270"></tspan><tspan x="0" y="324">Worst Video Quality Cells </tspan><tspan x="0" y="378"></tspan><tspan x="0" y="432">Video Buffering Freq</tspan><tspan x="0" y="486"></tspan><tspan x="0" y="540">Video Stream-Resolution</tspan><tspan x="0" y="594"></tspan><tspan x="0" y="648">Video Playing Freq</tspan><tspan x="0" y="702"></tspan><tspan x="0" y="756">Video Stream-Freeze Freq</tspan></text>
+        <g id="AllTopics-4" data-name="AllTopics" transform="translate(1230.431 464.231)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_4" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.214)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-4" data-name="Label" transform="translate(73.569 25.214)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-5" data-name="AllTopics" transform="translate(1230.431 567.555)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_5" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 -0.11)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-5" data-name="Label" transform="translate(73.569 24.89)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-6" data-name="AllTopics" transform="translate(1230.431 677.428)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_6" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.017)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-6" data-name="Label" transform="translate(73.569 25.017)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-7" data-name="AllTopics" transform="translate(1230.431 800.399)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_7" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.046)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-7" data-name="Label" transform="translate(73.569 25.046)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-8" data-name="AllTopics" transform="translate(1230.431 910.272)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_8" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.173)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-8" data-name="Label" transform="translate(73.569 25.173)" fill="#fcfcfc" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="-33.463" y="0">Enabled</tspan></text>
+        </g>
+        <text id="Rate_of_Downgrading_Video_Quality_at_360p_due_to_bad_network_QoE" data-name="Rate of Downgrading Video Quality at 360p due to bad network QoE" transform="translate(1461 103.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of Downgrading Video </tspan></text>
+        <text id="Rate_of_network_cells_with_good_Video_HD_Streaming_session_Without_Stalling_event_and_at_least_1080p_quality_" data-name="Rate of network cells with good Video HD Streaming session (Without Stalling event and at least 1080p quality)" transform="translate(1461 208.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of network cells with </tspan></text>
+        <text id="Rate_of_Excellent_QoS_network_cells_and_bad_Video_HD_Streaming_session_With_Stalling_event_and_at_least_1080p_quality_" data-name="Rate of Excellent QoS network cells and bad Video HD Streaming session (With Stalling event and at least 1080p quality)" transform="translate(1461 313.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of Excellent QoS network </tspan></text>
+        <text id="Rate_of_network_cells_with_the_worst_Video_Streaming_session_High_Stalling_rate_and_at_480p_360p_quality_" data-name="Rate of network cells with the worst Video Streaming session (High Stalling rate and at 480p/360p quality)" transform="translate(1461 442.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of network cells with the </tspan></text>
+        <text id="Video_Streaming_session_Buffering_state_:_Filling-Steady-Depleting-Stall" data-name="Video Streaming session Buffering state : Filling-Steady-Depleting-Stall" transform="translate(1461 545.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Video_Streaming_session_display_quality_:_2160p_1440p_1080p_720p_480p_360p" data-name="Video Streaming session display quality : 2160p, 1440p, 1080p, 720p, 480p, 360p" transform="translate(1461 658.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Video_streaming_session_Stall_or_playing_state_:_0_play_1_Stall" data-name="Video streaming session Stall or playing state : 0 = play ; 1= Stall" transform="translate(1461 777.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video streaming session Stall </tspan></text>
+        <text id="Video_Streaming_session_Playing_state_:_Playing-Freeze_ratio_calculated_over_the_whole_video_duration" data-name="Video Streaming session Playing state : Playing-Freeze ratio calculated over the whole video duration" transform="translate(1461 896.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Float_Float_Float_Float_Float_Integer_Float_Float" data-name="Float
+
+Float
+
+Float
+
+Float 
+
+Float
+
+Integer
+
+Float
+
+Float" transform="translate(901 141.445)" fill="#324b63" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Float</tspan><tspan x="0" y="56"></tspan><tspan x="0" y="112">Float</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="224">Float</tspan><tspan x="0" y="280"></tspan><tspan x="0" y="336">Float </tspan><tspan x="0" y="392"></tspan><tspan x="0" y="448">Float</tspan><tspan x="0" y="504"></tspan><tspan x="0" y="560">Integer</tspan><tspan x="0" y="616"></tspan><tspan x="0" y="672">Float</tspan><tspan x="0" y="728"></tspan><tspan x="0" y="784">Float</tspan></text>
+        <text id="Ratio_Ratio_Ratio_Ratio_Ratio_Text_Ratio_Ratio" data-name="Ratio
+
+Ratio
+
+Ratio
+
+Ratio
+
+Ratio
+
+Text
+
+Ratio
+
+Ratio" transform="translate(1071 141.445)" fill="#324b63" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ratio</tspan><tspan x="0" y="56"></tspan><tspan x="0" y="112">Ratio</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="224">Ratio</tspan><tspan x="0" y="280"></tspan><tspan x="0" y="336">Ratio</tspan><tspan x="0" y="392"></tspan><tspan x="0" y="448">Ratio</tspan><tspan x="0" y="504"></tspan><tspan x="0" y="560">Text</tspan><tspan x="0" y="616"></tspan><tspan x="0" y="672">Ratio</tspan><tspan x="0" y="728"></tspan><tspan x="0" y="784">Ratio</tspan></text>
+        <line id="Ligne_92" data-name="Ligne 92" x2="1939.177" transform="translate(11.392 994.326)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+      </g>
+      <g id="Search-Bar" transform="translate(1646.885 270.515)">
+        <rect id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_9" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" width="493" height="52" rx="2" transform="translate(0.115 0.415)" fill="#362953"/>
+        <text id="Search_Metrics_and_Analytics" data-name="Search Metrics and Analytics" transform="translate(114.115 34.415)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search Metrics and Analytics</tspan></text>
+        <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M30.837,27.033l-6.088-6.088a1.464,1.464,0,0,0-1.038-.427h-1a12.7,12.7,0,1,0-2.2,2.2v1a1.464,1.464,0,0,0,.427,1.038l6.088,6.088a1.459,1.459,0,0,0,2.07,0l1.728-1.728A1.472,1.472,0,0,0,30.837,27.033ZM12.7,20.517A7.816,7.816,0,1,1,20.517,12.7,7.812,7.812,0,0,1,12.7,20.517Z" transform="translate(31.748 11.288)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

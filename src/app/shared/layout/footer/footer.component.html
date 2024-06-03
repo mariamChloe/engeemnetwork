@@ -1,0 +1,282 @@
+<div class="bg-gradient-to-r from-[#222739] to-[#1F4256] text-white">
+  <footer class="max-w-7xl px-2 md:px-4 mx-auto py-12">
+    <div class="flex gap-12 flex-col">
+      <div class="grid lg:grid-cols-5 lg:gap-2 gap-12">
+        <ng-container *ngFor="let menuItem of menu">
+          <ng-container *ngIf="menuItem.children">
+            <div
+              [ngClass]="menuItem.name == 'Menu.solution' ? 'col-span-2' : ''"
+            >
+              <h2
+                class="mb-6 text-lg font-semibold text-white uppercase text-left"
+              >
+                {{ menuItem.name | translate }}
+              </h2>
+              <div
+                [ngClass]="
+                  menuItem.name == 'Menu.solution'
+                    ? 'flex flex-wrap w-full'
+                    : ''
+                "
+              >
+                <ng-container *ngFor="let menuCategory of menuItem.children">
+                  <div
+                    [ngClass]="menuItem.name == 'Menu.solution' ? 'w-1/2' : ''"
+                  >
+                    <small class="text-end">{{
+                      menuCategory.name | translate
+                    }}</small>
+                    <ul
+                      class="text-white mt-4 border-l pl-2 border-[#ffffff78]"
+                    >
+                      <li
+                        class="mb-4"
+                        *ngFor="let subcategory of menuCategory.children"
+                      >
+                        <a [href]="subcategory.url" class="hover:underline">
+                          {{ subcategory.name | translate }}</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+          </ng-container>
+        </ng-container>
+        <div>
+          <h2 class="mb-6 text-lg font-semibold text-white uppercase text-left">
+            <small class="text-left">{{ "More" | translate }}</small>
+          </h2>
+          <ul class="text-white mt-4 border-l pl-2 border-[#ffffff78]">
+            <ng-container *ngFor="let menuItem of menu">
+              <ng-container *ngIf="!menuItem.children">
+                <li>
+                  <h2
+                    class="mb-6 text-lg font-semibold text-white uppercase hover:underline"
+                  >
+                    <a [href]="menuItem.url" class="hover:underline">
+                      {{ menuItem.name | translate }}
+                    </a>
+                  </h2>
+                </li>
+              </ng-container>
+            </ng-container>
+          </ul>
+        </div>
+
+        <!--
+        <div>
+          <span class="mb-6 text-lg font-semibold text-white uppercase" >
+            {{ "Menu.Platform" | translate }}
+          </span>
+          <ul class="text-white mt-4">
+            <li class="mb-4">
+              <a [href]="routes.Platform.route" class="hover:underline">
+                {{ "Menu.Blueprints" | translate }}</a
+              >
+            </li>
+            <li>
+              <a href="https://tailwindcss.com/" class="hover:underline">
+                {{ "Menu.Product" | translate }}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a
+            href="/"
+            class="mb-6 text-lg font-semibold text-white uppercase hover:underline"
+          >
+            Solutions
+          </a>
+          <ul class="text-white mt-4">
+            <li class="mb-4">
+              <a
+                href="https://github.com/themesberg/engeem"
+                class="hover:underline"
+                >{{ "Menu.categories.subcategory11" | translate }}</a
+              >
+            </li>
+
+            <li class="mb-4">
+              <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">{{
+                "Menu.categories.subcategory12" | translate
+              }}</a>
+            </li>
+
+            <li class="mb-4">
+              <a
+                href="https://github.com/themesberg/engeem"
+                class="hover:underline"
+                >{{ "Menu.categories.subcategory21" | translate }}</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/themesberg/engeem"
+                class="hover:underline"
+              >
+                {{ "Menu.categories.subcategory22" | translate }}</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a
+            href="/"
+            class="mb-6 text-lg font-semibold text-white uppercase hover:underline"
+          >
+            {{ "Menu.Catalog" | translate }}
+          </a>
+        </div>
+
+        <div>
+          <a
+            href="/"
+            class="mb-6 text-lg font-semibold text-white uppercase hover:underline"
+          >
+            {{ "Menu.Insights" | translate }}
+          </a>
+        </div>
+
+        <div>
+          <a
+            href="/"
+            class="mb-6 text-lg font-semibold text-white uppercase hover:underline"
+          >
+            {{ "Menu.Pricing" | translate }}
+          </a>
+        </div>-->
+
+        <div class="flex flex-col gap-6">
+          <a
+            target="_blank"
+            href="https://www.engeem.com/contact"
+            class="text-center py-2 px-2 btn-turquoise rounded-md"
+          >
+            Contact
+          </a>
+
+          <div class="flex mt-4 space-x-2.5 sm:justify-center sm:mt-0">
+            <a
+              href="https://facebook.com/engeemofficial"
+              class="text-white hover:scale-105"
+            >
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+
+            <a
+              href="https://linkedin.com/company/engeem"
+              class="text-white hover:scale-105"
+            >
+              <svg
+                class="h-8 w-8"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="1.5"
+                  y="1.5"
+                  width="21"
+                  height="21"
+                  rx="10.5"
+                  fill="#1275B1"
+                />
+                <path
+                  d="M9.46392 7.26911C9.46392 7.97002 8.85639 8.53822 8.10696 8.53822C7.35753 8.53822 6.75 7.97002 6.75 7.26911C6.75 6.5682 7.35753 6 8.10696 6C8.85639 6 9.46392 6.5682 9.46392 7.26911Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.93557 9.47107H9.25515V16.5H6.93557V9.47107Z"
+                  fill="white"
+                />
+                <path
+                  d="M12.9897 9.47107H10.6701V16.5H12.9897C12.9897 16.5 12.9897 14.2872 12.9897 12.9036C12.9897 12.0732 13.2732 11.2392 14.4046 11.2392C15.6833 11.2392 15.6756 12.3259 15.6696 13.1678C15.6618 14.2683 15.6804 15.3914 15.6804 16.5H18V12.7903C17.9804 10.4215 17.3631 9.33006 15.3325 9.33006C14.1265 9.33006 13.379 9.87754 12.9897 10.3729V9.47107Z"
+                  fill="white"
+                />
+              </svg>
+
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-lg">
+        {{ "Footer.opensource" | translate }}
+
+        <div class="flex gap-2 py-8 md:gap-4 lg:gap-8">
+          <img
+            src="assets/images/footer-logo/footer-logo1.svg"
+            alt=""
+            class="w-16 lg:w-44"
+            srcset=""
+          />
+          <img
+            src="assets/images/footer-logo/footer-logo2.svg"
+            alt=""
+            class="w-16 lg:w-44"
+            srcset=""
+          />
+          <img
+            src="assets/images/footer-logo/footer-logo3.svg"
+            alt=""
+            class="w-16 lg:w-44"
+            srcset=""
+          />
+          <img
+            src="assets/images/footer-logo/footer-logo4.svg"
+            alt=""
+            class="w-16 lg:w-44"
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-white sm:text-center inline-flex gap-2 items-center">
+        <a href="">
+          <img
+            src="/assets/images/NGM LOGO SRC WHITE-01-01.svg"
+            alt=""
+            class="w-32 lg:w-52"
+          />
+        </a>
+        © 2024
+        <a href="https://engeem.com/" class="hover:underline uppercase"
+          >engeem™</a
+        >
+      </span>
+      <div>
+        <a
+          class="text-base text-white hover:underline capitalize"
+          href="https://www.engeem.com/privacy-policy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ "Footer.privacy" | translate }}
+        </a> <br>
+
+        <a id="open_preferences_center"
+           class="text-base text-white hover:underline capitalize cursor-pointer">Update cookies preferences</a>
+      </div>
+    </div>
+  </footer>
+</div>

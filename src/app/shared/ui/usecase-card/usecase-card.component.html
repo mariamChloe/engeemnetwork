@@ -1,0 +1,22 @@
+<div
+  [ngClass]="[
+    'flex flex-col items-center justify-center bg-white',
+    'rounded-xl',
+    'py-4',
+    'px-4 ',
+    variantClass
+  ]"
+>
+  <div class="rounded-xl lg:h-[20rem] bg-brand-turquoise-variance px-4 py-8">
+    <div
+      class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-brand-turquoise text-lg text-white"
+    >
+      {{ number }}
+    </div>
+    <h1 class="py-4 text-lg font-bold lg:text-xl">{{ title }}</h1>
+    <p class="lg:text-lg">{{ content }}</p>
+    <ng-container *ngIf="subtitle">
+      <p class="lg:text-lg">{{ subtitle }}</p>
+    </ng-container>
+  </div>
+</div>

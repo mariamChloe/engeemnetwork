@@ -1,0 +1,174 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+[imgUrl]="'assets/images/network-image/data processing.png'"
+
+  [Headline]="['digital-process-automation.hero-head-line']"
+  HeadlineClass="text-white"
+  [subHeadline]="['digital-process-automation.hero-sub-head-line']"
+  subHeadlineClass="text-white"
+  BannerText="digital-process-automation.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="digital-process-automation.problems-head-line"
+  subHeadline=""
+  imgUrl="assets/images/other/Digital Process Automation E3.png"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['digital-process-automation.solution-key-feature.headLine',
+    ' ']"
+  [subHeadLine]="['digital-process-automation.solution-key-feature.subHeadLine',
+    '']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <div class="bg-[#FBFBFB] relative">
+    <app-poly-image
+    imageUrl="assets/images/other/digitalpocess1.png"
+     title="digital-process-automation.poly-image1.title"
+     [textBeforeList]="[
+         'digital-process-automation.poly-image1.textBeforeList1',
+         'digital-process-automation.poly-image1.textBeforeList2',
+     ]"
+     
+    
+    
+     [btnVisible]="false">
+   </app-poly-image>
+    <app-poly-image
+    imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+     [title]="'digital-process-automation.poly-image2.title'"
+     [textBeforeList]="[
+         'digital-process-automation.poly-image2.textBeforeList1',
+         '',
+         'digital-process-automation.poly-image2.textBeforeList2'
+
+     ]"
+     
+    
+     
+     [btnVisible]="false"
+     [reverse]="true"
+   >
+   </app-poly-image>
+    <app-poly-image
+     imageUrl="assets/images/other/digitalprocess2.png"
+
+     [title]="'digital-process-automation.poly-image3.title'"
+     [textBeforeList]="[
+         'digital-process-automation.poly-image3.textBeforeList1',
+         '',
+
+     ]"
+     [list]="[
+     'digital-process-automation.poly-image3.list1',
+     'digital-process-automation.poly-image3.list2',
+     'digital-process-automation.poly-image3.list3',
+     'digital-process-automation.poly-image3.list4'
+
+   ]"
+      
+     [btnVisible]="true"
+     btnText="Get Started Free"
+     BtnClass="mb-8"
+
+
+   >
+   </app-poly-image>
+
+   
+ </div>
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "Automate the Use of Network Data to Efficiently build Management Applications" }}
+    </h1>
+
+  
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [title] ="['digital-process-automation.cards.card1.title']"
+        [textBeforeList] ="['digital-process-automation.cards.card1.textBeforeList',
+        '',
+        ]"
+
+        data-tour-center
+        content="digital-process-automation.card-content1"
+        [enableBtn]="true"
+
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        content="digital-process-automation.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+        [title] ="['digital-process-automation.cards.card2.title']"
+        [textBeforeList] ="['digital-process-automation.cards.card2.textBeforeList',
+        '',
+        '']"
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+        [title] ="['digital-process-automation.cards.card3.title']"
+        [textBeforeList] ="['digital-process-automation.cards.card3.textBeforeList',
+        '',
+        ]"
+
+
+        content="digital-process-automation.card-content3"
+        [enableBtn]="true"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'digital-process-automation.last-banner-headline',
+  ]"
+  textLeft="digital-process-automation.last-banner-left-text"
+  textRight="digital-process-automation.last-banner-right-text"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  image="assets/images/network-image/Background-01.png"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

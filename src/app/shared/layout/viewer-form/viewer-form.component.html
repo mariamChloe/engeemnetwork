@@ -1,0 +1,102 @@
+<!-- Card Section -->
+<div class="max-w-lg px-4 sm:px-6 lg:px-8 mx-auto relative z-10">
+  <!-- Card -->
+  <div class="bg-white rounded-xl shadow-xl p-4 sm:p-7 dark:bg-slate-900">
+    <div class="text-center mb-8">
+      <h2
+        [class]="titleClass">
+        {{title}}
+      </h2>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!-- Section -->
+      <div
+        class="first:pt-0 space-y-5 last:pb-0 border-t first:border-transparent border-gray-200 dark:border-gray-700 dark:first:border-transparent"
+      >
+        <input
+          id="firstname"
+          type="text"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="First Name"
+          formControlName="firstname"
+        />
+        <input
+          id="lastname"
+          type="text"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="Last Name"
+          formControlName="lastname"
+        />
+        <input
+          id="email"
+          type="email"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="Email Address"
+          formControlName="email"
+        />
+        <input
+          id="phone"
+          type="tel"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="Phone number"
+          formControlName="phone"
+        />
+        <input
+          id="company"
+          type="text"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="company"
+          formControlName="organization"
+        />
+        <input
+          id="role"
+          type="text"
+          class="py-2 px-3 pe-11 block w-full border-gray-200 shadow-sm text-sm rounded-lg focus:border-brand-turquoise focus:ring-brand-turquoise disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+          placeholder="job title"
+          formControlName="role"
+        />
+      </div>
+
+      <!-- checkbox for privacy policy -->
+      <div class="mt-4 flex">
+        <input
+          id="privacy-policy"
+          type="checkbox"
+          class="focus:ring-brand-turquoise text-brand-turquoise border-gray-300 rounded mt-2"
+          [formControl]="privacyPolicy"
+        />
+        <label
+          for="privacy-policy"
+          class="ml-3 block text-sm text-gray-700 dark:text-gray-200"
+        >
+          En cochant ce bouton vous acceptez nos <a target="_blank"
+            href="https://www.engeem.com/privacy-policy"
+            class="text-brand-turquoise hover:text-brand-turquoise/50"
+            >Termes & Conditions</a
+          >
+          d'Utilisation puis la réception de mails à des fins de communication
+          marketing
+        </label>
+      </div>
+      <!-- End Section -->
+      <div class="mt-5 text-center">
+        <!-- <button
+          type="reset"
+          class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+        >
+          Cancel
+        </button> -->
+
+        <button [disabled]="!privacyPolicy.value"
+          type="submit"
+          class="py-2 text-center w-full text-lg font-semibold rounded-lg border border-transparent bg-brand-turquoise text-white hover:bg-brand-turquoise/50 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+        >
+          {{ button }}
+        </button>
+      </div>
+    </form>
+  </div>
+  <!-- End Card -->
+</div>
+<!-- End Card Section -->

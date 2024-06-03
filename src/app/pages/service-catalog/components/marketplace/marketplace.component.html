@@ -1,0 +1,616 @@
+<ng-container *ngIf="!preload;">
+
+  <div class="flex items-center justify-center bg-[#fff] overflow-y-clip">
+    <div class="max-w-[1700px] w-full mx-auto px-2 md:px-6 py-6">
+      <div class="relative flex-col sm:flex-row flex px-2
+                  md:px-6 py-6 border-2">
+        <!--SideBar Start-->
+        <div class="w-auto sm:w-1/3 md:w-1/4 lg:w-1/5">
+
+          <!--SideBar header Start-->
+          <div class="mx-2 mb-6 mt-1 flex items-center flex-wrap overflow-hidden">
+            <button type="button" class="p-2 hover:shadow bg-white text-brand-turquoise border-2 border-brand-turquoise
+                           hover:bg-brand-turquoise hover:text-white rounded-full" [title]="'marketplace.SeeCart'|translate"
+                    (click)="toggleCartModal()">
+              <svg fill="none" class="w-4 h-4"
+                   stroke="currentColor" stroke-width="3.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+              </svg>
+            </button>
+            <p class="mx-2">
+              <span class="text-2xl font-black">{{getCartContent().length}}&nbsp;</span>
+              <span>
+                Service<ng-container *ngIf="getCartContent().length>1">s</ng-container>
+                {{"marketplace.InCart"|translate}}
+              </span>
+            </p>
+          </div>
+          <!--SideBar header End-->
+
+          <!--Categories list Start-->
+          <div class="mx-2 flex flex-col overflow-y-auto max-h-[calc(100vh-9rem)]">
+            <button type="button" *ngFor="let item of productsList"
+                    class="rounded bg-[#f5f5f5] py-2 px-4 md:px-6 mb-2 border-2 text-sm hover:shadow text-start"
+                    (click)="getCategory(item)"
+                    [ngClass]="item.id == currentCategory.id?'bg-white font-black':''">
+              {{ item.name | translate }}
+            </button>
+          </div>
+          <!--Categories list End-->
+
+        </div>
+        <!--SideBar End-->
+
+        <!--ProductList Container Start-->
+        <div class="w-auto sm:w-2/3 md:w-3/4 lg:w-4/5 relative">
+
+          <!--ProductList header Start-->
+          <div class="navigation-wrapper px-5 mb-3">
+            <div class="keen-slider keen-slider--vertical flex flex-row overflow-x-hidden" #sliderRef>
+              <div class="keen-slider__slide number-slide3 flex flex-col items-center justify-center px-4">
+                <button type="button" class="py-1 px-6 border-2 border-brand-turquoise hover:text-white text-sm w-full rounded-full
+                           hover:bg-brand-turquoise/80 hover:border-brand-turquoise/80 text-brand-turquoise"
+                        [ngClass]="this.allProducts.length>0?'bg-[#324B63] border-[#324B63] text-white font-bold ':''"
+                        (click)="getAll()">
+                  {{"marketplace.all"|translate}}
+                </button>
+              </div>
+              <div class="keen-slider__slide number-slide3 flex flex-col items-center justify-center px-4"
+                   *ngFor="let subCategory of currentCategory.subCategories">
+                <button type="button" class="py-1 px-6 border-2 border-brand-turquoise hover:text-white text-sm rounded-full
+                           hover:bg-brand-turquoise/80 hover:border-brand-turquoise/80 text-brand-turquoise w-full overflow-hidden group"
+                        [style]="'text-wrap: nowrap; text-overflow: ellipsis;'"
+                        [ngClass]="currentSubCategory.id == subCategory.id?'bg-[#324B63] border-[#324B63] text-white font-bold ':''"
+                        (click)="getSubCategory(subCategory)">
+                  {{ subCategory.name | translate }}
+                </button>
+                <div class="hidden lg:flex items-center justify-center">
+                  <span class="group-hover:scale-100 min-w-max rounded-md font-bold
+                        scale-0 lg:absolute text-sm w-auto p-2 m-2 bg-[#121214] text-white mb-8 left-14">
+                    Passer une commande
+                  </span>
+                </div>
+              </div>
+              <svg class="left-0"
+                   [ngClass]="'arrow arrow--left ' + (currentSlide === 0 ? 'arrow--disabled' : '')"
+                   (click)="slider.prev()"
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 24 24">
+                <path
+                  d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"
+                />
+              </svg>
+              <svg
+                *ngIf="slider" class="right-0"
+                [ngClass]=" 'arrow arrow--right ' + (slider.track.details.slides.length - this.perView === currentSlide ? 'arrow--disabled' : '')"
+                (click)="slider.next()"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
+              </svg>
+            </div>
+          </div>
+          <!--ProductList header End-->
+
+          <!--ProductList Start-->
+          <div class="products list w-full flex flex-wrap overflow-y-auto max-h-[calc(100vh-9rem)]">
+            <!--ProductListCar Start-->
+            <div class="w-full md:w-1/2 xl:w-1/3 2xl:w-1/4 p-3 justify-center items-stretch"
+                 *ngFor="let product of allProducts.length>0?allProducts:this.currentSubCategory.products">
+
+              <div class="hover:shadow-lg transition-shadow product w-full h-full border-2
+                          rounded-xl p-2 flex flex-col justify-between items-center">
+                <div class="product-header h-[64px] w-full flex justify-between items-center">
+                  <div class="flex items-center w-[calc(100%-35px)]">
+                    <img [src]="product.logo!=''?'assets/images/Icones Services/'+product.logo+'.svg':'assets/images/NGM LOGO SOURCE-02.svg'"
+                         class="max-w-[56px] max-h-[56px] mr-2 rounded" alt="">
+                    <div class="flex-1 w-[calc(100%-70px)]">
+                      <p class="text-xl text-brand-turquoise leading-none truncate-overflow">
+                        {{product.shortName}}
+                      </p>
+                      <span *ngIf="product.isNew" class="text-xs rounded px-2 text-white bg-red-500 leading-none"> {{"marketplace.new"|translate}} </span>
+                    </div>
+                  </div>
+                  <button type="button" class="border-2 border-brand-turquoise ml-1
+                                 text-2xl font-bold p-1.5 rounded-[100%]"
+                          (click)="toggleToCart(product)"
+                  [ngClass]="product.inCart?'bg-brand-turquoise text-white':'text-brand-turquoise bg-white'">
+                    <ng-container *ngIf="product.inCart">
+                      <svg fill="none" class="w-5 h-5"
+                           stroke="currentColor" stroke-width="3.5" viewBox="0 0 24 24"
+                           xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+                      </svg>
+                    </ng-container>
+                    <ng-container *ngIf="!product.inCart">
+                      <svg fill="none" class="w-5 h-5"
+                           stroke="currentColor" stroke-width="3.5" viewBox="0 0 24 24"
+                           xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M12 4.5v15m7.5-7.5h-15">
+                        </path>
+                      </svg>
+                    </ng-container>
+                  </button>
+                </div>
+                <div class="product-image my-2 w-[calc(100%+16px)] h-28 bg-cover bg-center bg-no-repeat"
+                            [style]="buildBanner(product.banner)">
+                </div>
+                <div class="">
+                  <h3 class="font-light text-gray-400 text-xs">
+                    {{"marketplace.included"|translate}}
+                  </h3>
+                  <p class="font-light truncate-overflow max-w-full">
+                    {{product.description}}
+                  </p>
+                  <hr class="my-2">
+                </div>
+                <div class="product-footer w-full flex  justify-around items-center">
+                  <button type="button" class="border-2 border-brand-turquoise my-2 text-brand-turquoise text-sm
+                                   font-bold bg-white py-1 px-4 rounded-full"
+                          (click)="getProduct(product)">
+                    {{"marketplace.viewDetails"|translate}}
+                  </button>
+                  <div class="pl-2">
+                    <p class="text-xs text-left">{{"marketplace.From"|translate}}</p>
+                    <p class="text-sm">{{product.devise}}&nbsp;{{formatNumb(product.selectedPlan.price)}}&nbsp;/{{product.selectedPlan.period}}&nbsp;year(s)</p>
+                    <p class="text-xs text-right">{{"marketplace.PerProject"|translate}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--ProductListCar End-->
+          </div>
+          <!--ProductList End-->
+
+        </div>
+        <!--ProductList Container End-->
+      </div>
+    </div>
+  </div>
+
+  <!--My Cart Section-->
+  <div [@fade]="showCart ? 'open' : 'closed'"
+       class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none
+              focus:outline-none justify-center items-center flex">
+    <div class="relative w-full mx-4 my-6 lg:mx-auto max-w-6xl"  id="fullscreenCartContainer">
+      <!--My Cart content start-->
+      <form [formGroup]="customOrderForm" (ngSubmit)="onSubmit()"
+            class="border-0 rounded-lg shadow-lg relative flex flex-col
+                   w-full bg-white outline-none focus:outline-none"
+            [ngClass]="fullscreenCart?'h-[100vh]':''">
+
+        <!--My Cart content header start-->
+        <div class="flex items-center justify-between p-2 pb-1 rounded-t border-b border-solid border-blueGray-200">
+          <h1 class="text-2xl ml-2">
+            {{"marketplace.MyCart"|translate}}
+          </h1>
+          <div>
+            <button type="button" class="ml-2 bg-transparent border-2 text-black float-right leading-none hover:shadow
+                         font-semibold outline-none focus:outline-none p-1 rounded-[100%] border-blueGray-200"
+                    (click)="toggleCartModal()">
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+            <!--<button type="button" class="ml-2 bg-transparent border-2 text-black float-right leading-none hover:shadow rounded
+                         font-semibold outline-none focus:outline-none p-1 border-blueGray-200"
+                    (click)="toggleCartModal()">
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"></path>
+              </svg>
+            </button>-->
+            <button type="button" class="ml-2 p-1 bg-transparent border-2 text-black float-right leading-none hover:shadow rounded
+                         font-semibold outline-none focus:outline-none border-blueGray-200"
+                    (click)="toggleFullscreen('fullscreenCartContainer')"><!--FullscreenCartContainer-->
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!--My Cart content header end-->
+
+        <!--My Cart content body start-->
+        <div class="product-body relative px-1 py-1 pt-3 flex-auto overflow-y-auto"
+             [ngClass]="fullscreenCart?'':'max-h-[75vh]'">
+          <div class="flex flex-wrap">
+
+            <!--My Cart Product List start-->
+            <div class="w-full md:w-1/2 px-5 pb-3 ">
+              <h2 class="text-center text-xl font-semibold text-gray-900">
+                {{"marketplace.cardHeadline"|translate}}
+              </h2>
+              <p class="text-center mt-1 text-sm text-gray-600 leading-none">
+                {{"marketplace.cardSubHeadline"|translate}}
+              </p>
+
+              <div class="w-full flex flex-col mt-6 mb-2 overflow-y-auto "
+                   [ngClass]="fullscreenCart?'h-[calc(100vh-200px)]':'max-h-[58vh]'">
+                <!--My Cart Product Item start-->
+                <ng-container *ngFor="let product of getCartContent()">
+                  <div class="my-1 bg-gray-50 border-2 rounded-xl p-2 w-full hover:shadow flex-col justify-between items-center">
+                    <div class="product-header w-full flex justify-between items-center mb-2 pb-1 border-b border-solid border-blueGray-200">
+                      <div class="flex items-center flex-1">
+                        <img [src]="product.logo!=''?'assets/images/Icones Services/'+product.logo+'.svg':'assets/images/NGM LOGO SOURCE-02.svg'" class="max-w-[56px] max-h-[56px] mr-2 rounded" alt="">
+                        <div class="">
+                          <p class="text-xl text-brand-turquoise leading-none truncate-overflow">
+                            {{product.name}}
+                          </p>
+                          <p class="text-brand-old-blue truncate-overflow">
+                            Plan: <span *ngIf="product.isNew" class="text-xs rounded px-2 text-white bg-red-500 leading-none">
+                              {{"marketplace.new"|translate}}
+                            </span>&nbsp;
+                            <span class="uppercase font-bold">{{product.selectedPlan.name}}</span>
+                          </p>
+                          <p class="text-brand-old-blue truncate-overflow">
+                            Support: <span class="font-bold">{{product.selectedSupport?product.selectedSupport.name:supports[0].name}}</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="pl-2">
+                          <p class="text-xs text-left">{{"marketplace.From"|translate}}</p>
+                          <p class="">{{product.devise}}&nbsp;{{formatNumb(product.selectedPlan.price)}}&nbsp;/&nbsp;{{product.selectedPlan.period}}&nbsp;Year(s)</p>
+                          <p class="text-xs text-right">{{"marketplace.PerProject"|translate}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-footer w-full flex justify-between items-center">
+                      <button type="button" class="border-2 border-red-300 text-red-300 text-sm
+                                   font-bold bg-white py-1 px-4 rounded-lg hover:border-red-400 hover:text-red-500"
+                              (click)="toggleToCart(product)">
+                        <svg fill="none" stroke="currentColor" class="w-5 h-5" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"></path>
+                        </svg>
+                      </button>
+                      <button type="button" class="border-2 border-brand-turquoise text-brand-turquoise text-sm
+                                   font-bold bg-white py-1 px-4 rounded-lg"
+                              (click)="getProduct(product)">
+                        {{"marketplace.viewDetails"|translate}}
+                      </button>
+                    </div>
+                  </div>
+                </ng-container>
+                <ng-container *ngIf="getCartContent().length<=0">
+                  <div class="flex flex-col justify-center items-center h-[40vh] w-full">
+                    <img src="assets/images/empty.svg" class="h-[150px]" alt="">
+                    <p class="text-xl mt-2 opacity-40">Your cart is empty!</p>
+                  </div>
+                </ng-container>
+                <!--My Cart Product Item end-->
+              </div>
+            </div>
+            <!--My Cart Product List end-->
+
+            <!--My Cart Order Form start-->
+            <div class="w-full md:w-1/2 px-5 pb-2">
+                <div class="space-y-12">
+                  <div class="">
+                    <h2 class="text-center text-xl font-semibold text-gray-900">
+                      {{"marketplace.customerFormHeadline"|translate}}
+                    </h2>
+                    <p class="text-center mt-1 text-sm text-gray-600 leading-none">
+                      {{"marketplace.customerFormSubHeadline"|translate}}
+                    </p>
+
+                    <div class="mt-6 mb-2 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6">
+                      <div class="sm:col-span-3">
+                        <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormFirstname"|translate}} *
+                        </label>
+                        <div class="mt-2">
+                          <input type="text" formControlName="Firstname" id="first-name" autocomplete="given-name" placeholder="John"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                          <small class="text-xs text-red-500 transition-all"
+                                 *ngIf="customOrderForm.get('Firstname')?.getError('required') && customOrderForm.get('Firstname')?.touched ">
+                            Ce champ est réquis
+                          </small>
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-3">
+                        <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormLastname"|translate}} *
+                        </label>
+                        <div class="mt-2">
+                          <input type="text" formControlName="Lastname" id="last-name" autocomplete="family-name" placeholder="Doe"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                          <small class="text-xs text-red-500 transition-all"
+                                 *ngIf="customOrderForm.get('Lastname')?.getError('required') && customOrderForm.get('Lastname')?.touched ">
+                            Ce champ est réquis
+                          </small>
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-6">
+                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormEmail"|translate}} *
+                        </label>
+                        <div class="mt-2">
+                          <input id="email" formControlName="Email" type="email" autocomplete="email" placeholder="john.doe@email.com"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                          <small class="text-xs text-red-500 transition-all"
+                                 *ngIf="customOrderForm.get('Email')?.getError('required') && customOrderForm.get('Email')?.touched ">
+                            Ce champ est réquis
+                          </small>
+                          <small class="text-xs text-red-500 transition-all"
+                                 *ngIf="customOrderForm.get('Email')?.getError('required') && customOrderForm.get('Email')?.touched ">
+                            veuillez entrer une adresse email valide
+                          </small>
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-full">
+                        <label for="company" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormCompany"|translate}}
+                        </label>
+                        <div class="mt-2">
+                          <input id="company" formControlName="Company" type="text" autocomplete="company" placeholder="Company name"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-3">
+                        <label for="country" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormCountry"|translate}} *
+                        </label>
+                        <div class="mt-2">
+                          <select id="country" formControlName="Country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:max-w-xs sm:text-sm sm:leading-6">
+                            <option>France</option>
+                            <option>United States</option>
+                            <option>Ivory Coast</option>
+                            <option>Canada</option>
+                            <option>United Kingdoms</option>
+                            <option>Germany</option>
+                          </select>
+                          <small class="text-xs text-red-500 transition-all"
+                                 *ngIf="customOrderForm.get('Country')?.getError('required') && customOrderForm.get('Country')?.touched ">
+                            Ce champ est réquis
+                          </small>
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-3">
+                        <label for="city" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormCity"|translate}}
+                        </label>
+                        <div class="mt-2">
+                          <input type="text" formControlName="City" id="city" autocomplete="address-level2" placeholder="City name"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-2">
+                        <label for="Indicatif" class="block text-sm font-medium leading-6 text-gray-900">
+                          {{"marketplace.customerFormIndicatif"|translate}}
+                        </label>
+                        <div class="mt-2">
+                          <input type="text" formControlName="Indicatif" id="Indicatif" autocomplete="Indicatif" placeholder="+33"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-4">
+                        <label for="tel" class="block text-sm font-medium leading-6 text-gray-900">Telephone</label>
+                        <div class="mt-2">
+                          <input type="tel" formControlName="Telephone" id="tel" autocomplete="tel" placeholder="123456789"
+                                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-turquoise sm:text-sm sm:leading-6">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+            </div>
+            <!--My Cart Order Form end-->
+
+          </div>
+        </div>
+        <!--My Cart content body end-->
+
+        <!--My Cart content footer start-->
+        <div class="flex items-center justify-between border-t border-solid border-blueGray-200 rounded-b">
+          <div class="px-6 text-xl text-cyan-800">
+            Total: <span class="font-black">{{currentProduct.devise}} {{getTotal()}} </span>
+          </div>
+          <button type="submit" class="active:bg-cyan-800 font-bold text-sm px-6 bg-brand-turquoise text-white
+                         py-3 rounded-br-lg shadow hover:shadow-lg outline-none focus:outline-none
+                         ease-linear transition-all duration-150 items-center inline-flex"
+                  [ngClass]="loading?'cursor-not-allowed':''" [disabled]="loading">
+            <svg *ngIf="loading" class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            {{"marketplace.customerFormValidate"|translate}}
+          </button><!--(click)="toggleCartModal(); toggleToCart(currentProduct);"-->
+        </div>
+        <!--My Cart content footer end-->
+
+      </form>
+      <!--My Cart content end-->
+    </div>
+  </div>
+  <div [@fade-bg]="showCart? 'open' : 'closed'"
+       class="opacity-25 fixed inset-0 z-40 bg-black">
+  </div>
+
+  <!--Product Detail Section-->
+  <div [@fade-bg]="showModal? 'open' : 'closed'" [ngClass]="showModal?'':'hidden'"
+       class="opacity-25 fixed inset-0 z-50 bg-black"></div>
+  <div [@fade]="showModal ? 'open' : 'closed'" [ngClass]="showModal?'':'hidden'"
+       class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+    <div class="relative w-full mx-4 my-6 lg:mx-auto max-w-5xl"  id="fullscreenProductContainer">
+      <!--content-->
+      <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none"
+           [ngClass]="fullscreenProduct?'h-[100vh]':''">
+        <!--header-->
+        <div class="flex items-start justify-end p-2 pb-1 rounded-t">
+          <div>
+            <button type="button" class="ml-2 bg-transparent border-2 text-black float-right leading-none hover:shadow
+                         font-semibold outline-none focus:outline-none p-1 rounded-[100%] border-blueGray-200"
+                    (click)="toggleModal()">
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+            <button type="button" class="ml-2 bg-transparent border-2 text-black float-right leading-none hover:shadow rounded
+                         font-semibold outline-none focus:outline-none p-1 border-blueGray-200"
+                    (click)="copyServiceLink(currentProduct)">
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"></path>
+              </svg>
+            </button>
+            <button type="button" class="ml-2 p-1 bg-transparent border-2 text-black float-right leading-none hover:shadow rounded
+                         font-semibold outline-none focus:outline-none border-blueGray-200"
+                    (click)="toggleFullscreen('fullscreenProductContainer')">
+              <svg fill="none" stroke="#88898c" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!--body-->
+        <div class="product-body relative px-1 py-1 overflow-y-auto flex-auto "
+            [ngClass]="fullscreenProduct?'':'max-h-[70vh]'">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 px-5 pb-3">
+              <div class="product-image w-full h-60 bg-cover bg-center bg-no-repeat"
+                   [style]="buildBanner(currentProduct.banner)">
+              </div>
+              <div>
+                <h3 class="text-gray-500 text-xl mt-3 mb-2 text-center">
+                  {{"marketplace.productAvailableDelivery"|translate}}
+                </h3>
+
+                <div class="grid grid-cols-4 gap-4 w-full justify-between items-stretch mb-2">
+                  <div class="p-3 m-1 shadow bg-[#f7f7f7] rounded-lg flex justify-center items-center border-2">
+                    <img src="assets/images/BigData.svg" alt="" class="">
+                  </div>
+                  <div class="p-3 m-1 shadow bg-[#f7f7f7] rounded-lg flex justify-center items-center border-2">
+                    <img src="assets/images/Delivery-MonitoringPlatform.svg" alt="">
+                  </div>
+                  <div class="p-3 m-1 shadow bg-[#f7f7f7] rounded-lg flex justify-center items-center border-2">
+                    <img src="assets/images/Delivery-OperatingSystem.svg" alt="">
+                  </div>
+                  <div class="p-3 m-1 shadow bg-[#07385d] rounded-lg flex justify-center items-center border-2">
+                    <img src="assets/images/NGM LOGO SRC WHITE.svg" alt="">
+                  </div>
+                </div>
+
+                <p class="text-sm">
+                  {{"marketplace.productAvailableDeliverySub"|translate}}
+                </p>
+
+
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-5 pb-2">
+              <div class="flex items-center w-full">
+                <img [src]="currentProduct.logo!=''?'assets/images/Icones Services/'+currentProduct.logo+'.svg':'assets/images/NGM LOGO SOURCE-02.svg'"
+                     class="max-w-[100px] max-h-[100px] mr-2 rounded" alt="">
+                <div class="flex-1">
+                  <h2 class="text-3xl text-brand-turquoise leading-none">
+                    {{currentProduct.name}}
+                  </h2>
+                  <h3 class="text-gray-400">
+                    {{"marketplace.included"|translate}}
+                  </h3>
+                </div>
+              </div>
+              <div class="w-full border-b-2 border-brand-turquoise p-2">
+                <p class="max-w-full">
+                  {{currentProduct.description}}
+                </p>
+              </div>
+              <div class="w-full flex justify-between items-end border-b-2 border-brand-turquoise p-2">
+                <p class="text-left">
+                  <span class="text-sm">{{"marketplace.From"|translate}}</span> <br>
+                  <span class="text-xl font-bold text-cyan-800">
+                    {{currentProduct.devise}} {{formatNumb(currentProduct.selectedPlan.price)}} /{{currentProduct.selectedPlan.period}} year(s)
+                  </span>
+                </p>
+                <p class="text-sm text-right">
+                  {{"marketplace.PerProject"|translate}}
+                </p>
+              </div>
+              <div class="w-full pt-2">
+                <fieldset class="w-full">
+                  <div class="flex items-center justify-between w-full pb-2">
+                    <!--<img src="assets/images/studioOne.png" class="max-w-[160px] max-h-[60px] mr-2 rounded" alt="">-->
+                    <h3 class="text-gray-500">
+                      {{"marketplace.productAvailablePlans"|translate}}
+                    </h3>
+                  </div>
+                  <div class="">
+                    <div class="flex justify-between items-center" *ngFor="let plan of currentProduct.facturationPlans; let i = index">
+                      <div class="mr-2">
+                        <input id="plan-{{plan.id}}" type="radio" (click)="currentProduct.selectedPlan = plan;actualizeCart();"
+                               class="input-radio" [checked]="plan.id == currentProduct.selectedPlan.id">
+                        <label for="plan-{{plan.id}}" class="text-sm font-light">
+                          {{plan.name}}
+                        </label>
+                      </div>
+                      <span class="text-right text-sm text-cyan-800 font-bold"> {{currentProduct.devise}}&nbsp;{{formatNumb(plan.price)}}/&nbsp;{{plan.period}}&nbsp;year(s) </span>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="w-full mt-2">
+                  <div class="flex items-center justify-between w-full pb-2">
+                    <!--<img src="assets/images/cloud.png" class="max-w-[160px] max-h-[60px] mr-2 rounded" alt="">-->
+                    <h3 class="text-gray-500">
+                      {{"marketplace.productAvailableSupport"|translate}}
+                    </h3>
+                  </div>
+                  <div class="flex justify-between items-center" *ngFor="let support of supports; let i = index">
+                    <div class="mr-2">
+                      <input id="support-{{support.id}}" type="radio" (click)="currentProduct.selectedSupport = support;actualizeCart();"
+                             class="input-radio" [checked]="support.id == currentProduct.selectedSupport?.id">
+                      <label for="support-{{support.id}}" class="text-sm font-light">
+                        {{support.name}}
+                      </label>
+                    </div>
+                    <span class="text-right text-sm text-cyan-800 font-bold"> Available {{support.availabilityTime}} </span>
+                  </div>
+                  <div>
+                    <p class="text-sm">
+                      {{"marketplace.productTechnicalSupport"|translate}}
+                    </p>
+                    <p class="font-bold text-l">
+                      {{"marketplace.productAvailability"|translate}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!--footer-->
+        <div class="flex items-center justify-end border-t border-solid border-blueGray-200 rounded-b">
+          <button type="button" class=" active:bg-cyan-800 font-bold text-sm px-6
+                         py-3 rounded-br-lg shadow hover:shadow-lg outline-none focus:outline-none
+                         ease-linear transition-all duration-150"
+                  [ngClass]="currentProduct.inCart?'bg-red-500 text-white':'bg-brand-turquoise text-white'"
+                  (click)="toggleModal(); toggleToCart(currentProduct);">
+            {{currentProduct.inCart?
+              ('marketplace.productBtnRemove'|translate):
+              ('marketplace.productBtnAdd'|translate)
+            }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ng-container>
+<ng-container *ngIf="preload">
+  <app-loader></app-loader>
+</ng-container>
+

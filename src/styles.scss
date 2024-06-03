@@ -1,0 +1,463 @@
+:root{
+  --brand-turquoise: #2BBED0;
+  --brand-old-blue: #324B63;
+  --brand-old-gray: #3D3D3D;
+  --brand-old-red: #C71D1D;
+
+  --brand-new-blue: #0D3B57;
+  --brand-new-gray: #737373;
+
+  --brand-green-turquoise: #1AC2C2;
+  --brand-turquoise-variance: #EDF9FC;
+  --brand-gray: #F3F3F3;
+}
+
+*{
+  min-width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[data-tooltip] {
+  @apply p-2 bg-blue-500 text-white;
+  /* Ajoutez d'autres classes Tailwind selon vos besoins */
+}
+
+@layer base {
+  h1 {
+    @apply leading-[40px] lg:leading-[60px] font-bold text-3xl lg:text-5xl text-brand-old-blue text-center lg:text-left ;
+  }
+
+  h2 {
+    @apply leading-[30px] lg:leading-[40px] text-brand-old-gray text-lg lg:text-2xl text-center lg:text-left ;
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+/* roboto-condensed-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/roboto-condensed-v27-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-100italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 100;
+  src: url("assets/fonts/roboto-condensed-v27-latin-100italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 200;
+  src: url("assets/fonts/roboto-condensed-v27-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-200italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 200;
+  src: url("assets/fonts/roboto-condensed-v27-latin-200italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  src: url("assets/fonts/roboto-condensed-v27-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 300;
+  src: url("assets/fonts/roboto-condensed-v27-latin-300italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/roboto-condensed-v27-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 400;
+  src: url("assets/fonts/roboto-condensed-v27-latin-italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/roboto-condensed-v27-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 500;
+  src: url("assets/fonts/roboto-condensed-v27-latin-500italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/roboto-condensed-v27-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 600;
+  src: url("assets/fonts/roboto-condensed-v27-latin-600italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/roboto-condensed-v27-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 700;
+  src: url("assets/fonts/roboto-condensed-v27-latin-700italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 800;
+  src: url("assets/fonts/roboto-condensed-v27-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 800;
+  src: url("assets/fonts/roboto-condensed-v27-latin-800italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 900;
+  src: url("assets/fonts/roboto-condensed-v27-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 900;
+  src: url("assets/fonts/roboto-condensed-v27-latin-900italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@tailwind utilities;
+
+@layer utilities {
+  .leadingproblems-clip {
+    clip-path: polygon(
+      61.227% 3.456%,
+      61.227% 3.456%,
+      60.602% 2.828%,
+      60.035% 2.266%,
+      59.518% 1.769%,
+      59.043% 1.336%,
+      58.602% 0.966%,
+      58.187% 0.659%,
+      57.791% 0.415%,
+      57.405% 0.232%,
+      57.021% 0.111%,
+      56.632% 0.05%,
+      56.632% 0.05%,
+      56.24% 0.05%,
+      55.847% 0.11%,
+      55.444% 0.231%,
+      55.025% 0.411%,
+      54.581% 0.651%,
+      54.105% 0.949%,
+      53.588% 1.304%,
+      53.022% 1.717%,
+      52.401% 2.186%,
+      51.715% 2.711%,
+      0.019% 42.365%,
+      6.611% 99.877%,
+      85.29% 99.877%,
+      99.869% 42.365%,
+      61.227% 3.456%
+    );
+  }
+
+  .polygon-clip {
+    clip-path: polygon(
+      60.333% 6.552%,
+      60.333% 6.552%,
+      59.424% 5.443%,
+      58.598% 4.447%,
+      57.842% 3.562%,
+      57.145% 2.785%,
+      56.493% 2.114%,
+      55.874% 1.544%,
+      55.276% 1.074%,
+      54.687% 0.701%,
+      54.093% 0.42%,
+      53.483% 0.231%,
+      53.483% 0.231%,
+      52.858% 0.132%,
+      52.221% 0.125%,
+      51.559% 0.207%,
+      50.86% 0.375%,
+      50.111% 0.625%,
+      49.299% 0.956%,
+      48.413% 1.363%,
+      47.44% 1.845%,
+      46.367% 2.397%,
+      45.181% 3.019%,
+      0.126% 26.694%,
+      0.126% 100%,
+      100% 100%,
+      100% 62.088%,
+      100% 62.088%,
+      100% 61.351%,
+      99.997% 60.684%,
+      99.99% 60.081%,
+      99.976% 59.534%,
+      99.952% 59.036%,
+      99.917% 58.581%,
+      99.869% 58.161%,
+      99.804% 57.769%,
+      99.721% 57.399%,
+      99.617% 57.043%,
+      99.617% 57.043%,
+      99.492% 56.697%,
+      99.343% 56.358%,
+      99.169% 56.019%,
+      98.967% 55.672%,
+      98.735% 55.311%,
+      98.471% 54.929%,
+      98.172% 54.518%,
+      97.836% 54.072%,
+      97.461% 53.583%,
+      97.045% 53.045%,
+      73.429% 22.562%,
+      60.333% 6.552%
+    );
+  }
+
+.btn {
+  @apply py-2 px-6 rounded-md transition-all whitespace-nowrap;
+}
+.btn-rounded {
+  @apply py-2 px-6 rounded-full transition-all whitespace-nowrap;
+}
+.btn-shadow{
+  @apply py-2 px-6 rounded-md transition-all;
+  &:hover{
+    @apply shadow;
+  }
+}
+.btn-light{
+  @apply text-white border-white;
+}
+//Turquoise
+.btn-turquoise {
+  @apply bg-brand-turquoise text-white;
+  &:hover{
+    @apply bg-brand-turquoise/80;
+  }
+}
+.btn-outline-turquoise {
+  @apply bg-white text-brand-turquoise border-2 border-brand-turquoise;
+  &:hover{
+    @apply bg-brand-turquoise text-white;
+  }
+}
+.btn-outline-turquoise-transparent {
+  @apply text-brand-turquoise border-2 border-brand-turquoise;
+  &:hover{
+    @apply bg-brand-turquoise text-white;
+  }
+}
+//OldBlue
+.btn-old-blue {
+  @apply bg-brand-old-blue text-white;
+  &:hover{
+    @apply bg-brand-old-blue/80;
+  }
+}
+.btn-outline-old-blue {
+  @apply bg-white text-brand-old-blue border-2 border-brand-old-blue;
+  &:hover{
+    @apply bg-brand-old-blue text-white;
+  }
+}
+.btn-outline-white-old-blue {
+  @apply text-white bg-transparent border-2 border-white;
+  &:hover{
+    @apply bg-white text-brand-old-blue;
+  }
+}
+.btn-outline-old-blue-transparent {
+  @apply text-brand-old-blue border-2 border-brand-old-blue;
+  &:hover{
+    @apply bg-brand-old-blue text-white;
+  }
+}
+//OldRed
+.btn-old-red {
+  @apply bg-brand-old-red text-white;
+  &:hover{
+    @apply bg-brand-old-red/80;
+  }
+}
+.btn-outline-old-red {
+  @apply bg-white text-brand-old-red border-2 border-brand-old-red;
+  &:hover{
+    @apply bg-brand-old-red text-white;
+  }
+}
+.btn-outline-old-red-transparent {
+  @apply text-brand-old-red border-2 border-brand-old-red;
+  &:hover{
+    @apply bg-brand-old-red text-white;
+  }
+}
+
+}
+
+html,
+body {
+  background: #f5f5f5;
+  color: var(--brand-old-blue);
+  @apply font-roboto-condensed;
+}
+
+.product-stripes {
+    background-image: linear-gradient(
+      45deg,
+        transparent 10%,
+      /* Adjusted start position */ #eeeeee 10% 40%,
+      /* Adjusted end position */ transparent 40% 60%,
+      /* Adjusted start and end positions */ #eeeeee 60% 90%,
+      /* Adjusted end position */ transparent 90% /* Adjusted start position */
+    );
+    background-size: 200px 200px; /* Increased size for bigger stripes */
+
+}
+.master-stripes {
+    background-image: linear-gradient(
+      135deg,
+        transparent 10%,
+      /* Adjusted start position */ #eeeeee 10% 40%,
+      /* Adjusted end position */ transparent 40% 60%,
+      /* Adjusted start and end positions */ #eeeeee 60% 90%,
+      /* Adjusted end position */ transparent 90% /* Adjusted start position */
+    );
+    background-size: 200px 200px; /* Increased size for bigger stripes */
+
+}
+
+
+.ng-valid.ng-touched  {
+  @apply ring-brand-turquoise;
+}
+
+.ng-invalid.ng-touched:not(form):not(div)  {
+  @apply ring-red-500;
+}
+
+.toast-container .ngx-toastr:hover {
+  box-shadow: 0 0 12px #999999;
+  opacity: 1;
+  cursor: pointer;
+}
+.toast-success {
+  background-color: #51A351B3;
+}
+.toast-error {
+  background-color: #BD362FB3;
+}
+.toast-info {
+  background-color: #2F96B4B3;
+}
+.toast-warning {
+  background-color: #F89406B3;
+}
+
+
+.input-radio{
+  border-color: var(--brand-turquoise) !important;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+.input-radio:checked{
+  border-color: var(--brand-turquoise) !important;
+  background-color: var(--brand-turquoise) !important;
+}
+.input-radio:focus:checked,.input-radio:focus{
+  box-shadow: rgb(255, 255, 255) 0 0 0 2px, var(--brand-turquoise) 0 0 0 4px, rgba(0, 0, 0, 0) 0 0 0 0 !important;
+}
+
+
+@layer base {
+  select {
+    appearance: none !important;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(171, 171, 171); /* color of the scroll thumb */
+  border-radius: 5px !important; /* roundness of the scroll thumb */
+  border: 1px solid white; /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(210, 210, 210); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 1px solid white; /* creates padding around scroll thumb */
+}
+

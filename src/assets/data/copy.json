@@ -1,0 +1,3949 @@
+[
+  {
+    "id": "cat-1",
+    "name": "Monitoring & Service Assurance",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Service Monitoring",
+        "products": [
+          {
+            "id": "SWL-PRB-SEDC",
+            "shortName": "SEDC-Probe",
+            "name": "Network Data Smart Probe Agent",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Technology, network and IT strategy and architecture development and management to meet the high-level business strategy",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 1724,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 300000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 300000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 300000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 300000,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-QOE-DMLS",
+            "shortName": "ServiceQoE",
+            "name": "Network QoE Analytics Data Model Technology",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Technology, network and IT strategy and architecture development and management to meet the high-level business strategy",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 4000000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 36000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 36000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 36000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 36000,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-DAT-STRM",
+            "shortName": "ngmYIALI",
+            "name": "Data Streaming and Acceleration Service",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Technology, network and IT strategy and architecture development and management to meet the high-level business strategy",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 1,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 960,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 960,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 960,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 960,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-MON-WKFL",
+            "shortName": "ngmNetrun",
+            "name": "Network Monitoring System Workflows",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Design radio coverage frequencies, bandwidth, and Assessing service capacity, dimensioning area frequency allocation, optimization algorithms to ensure the most efficient radio network coverage scenarios",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 800,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 800,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 800,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 800,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 800,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-ANL-WKFL",
+            "shortName": "ngmKASE",
+            "name": "Network Service Analytics Workflows",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Assessing and forecasting traffic demand, dimensioning the network to meet traffic demand, and planning for any failure scenarios",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 400,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 400,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 400,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 400,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 400,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NETS-DPI",
+            "shortName": "ngmDPI",
+            "name": "DPI Signature Technology Pack",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Verification of key indicators of service and service level agreements, tuning of network and service coverage, capacity and functionality to ensure the normal operation of the network",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 20,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 20,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 20,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 20,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 20,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-MON-STRAT",
+            "shortName": "MonitoringSTRAT",
+            "name": "Mobile Network Monitoring Strategy",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-SEDC-ACQ",
+            "shortName": "ngmObservability",
+            "name": "Integrated Modern Network Observability",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Extending visibility beyond on-premises to cloud-native environment enable IT/NetOps to build operation management with a centralized monitoring of the network service multi-stack from infrastructure management such as servers, IP addresses, routers/switches; network performance logics such as bandwidth, packet loss, latency…; application and service performance such as WEB Server Response Time, HTTP Connection Success, …; Network configurations, firewall rules, logs & policies, tracking application usage & monitoring storage devices, and so on.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 21644.162366701,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 21644.162366701,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 21644.162366701,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 21644.162366701,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 21644.162366701,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-SEDC-SFP",
+            "shortName": "ngmModernMonitoring",
+            "name": "Modern IP Enterprise Network Monitoring",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Changing network performance management for data-driven network analytics to give you the power to flexibly monitor and manage your network, plug-and-play complementary features to adapt to your network evolution, new technology integration, and data growth.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 21896.1128310973,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 21896.1128310973,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 21896.1128310973,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 21896.1128310973,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 21896.1128310973,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-UER-DML",
+            "shortName": "ngmTroubleshooting",
+            "name": "Automated Network Troubleshooting",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Analyze network performance per individual network user, connection, component, and service-specific functional parameters to understand the impact of metrics like TCP Windows, Retransmissions, Congestion, Bit Rate, and so one … and to proactively trigger the right decision by following orchestrated rules.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 22903.9146886825,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 22903.9146886825,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 22903.9146886825,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 22903.9146886825,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 22903.9146886825,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-STR-UER",
+            "shortName": "ngmCellTRACING",
+            "name": "E2E Lightweight RAN Cell Trace Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Telecommunications systems must be monitored constantly to maintain connectivity and operational uptime. Telecom managed services companies optimize your communications infrastructure to minimize downtime and remediate problems on your behalf.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 23155.8651530787,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 23155.8651530787,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 23155.8651530787,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 23155.8651530787,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 23155.8651530787,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-APP-QOE",
+            "shortName": "ngmQualityAssurance",
+            "name": "Service Quality Expectation Assurance",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Run advanced monitoring to develop service-focus automated quality analysis process that combines specific performance metrics, traffic analysis insights, and various application specifications to identify, analyze, and fix quality issue through out-of-the-box quality adjustment tickets or prescription that help for optimizing network services: determine change impacts, effect or errors.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 23659.7660818713,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 23659.7660818713,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 23659.7660818713,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 23659.7660818713,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 23659.7660818713,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "User Experience",
+        "products": [
+          {
+            "id": "SWL-PERS-QOE",
+            "shortName": "PerceivedQoE",
+            "name": "PerceivedQoE Analytics Engine",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Network architecture Design, Development, installation and verification of for delivered service functionality and underlying network resources required. Each business has its specific network requirements so we take a personalized approach to design the network, crafting solutions that align perfectly with your unique needs. Going through thorough assessment of your existing infrastructure, identifying areas ofr improvement and optimization, and delivering the the reliable and secure network design that maximizing uptime, minimizing downtime, and enhancing your network's performance",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 500,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 500,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 500,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 500,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 500,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-APPS-QOE",
+            "shortName": "ApplicationQoE",
+            "name": "ApplicationQoE Analytics Engine",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Design and plan functionality verification, deliver key indicators of service and service level agreements, tuning services, devices, and capacity for ensuring optimal functioning and end-user experience",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 20000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 20000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 20000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 20000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 20000,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-USER-QOE",
+            "shortName": "UserQoE",
+            "name": "UserQoE and UserAnalytics Engine",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Design network services, acting functional parameters, create and verifying key indicators for acceptance of service and service level agreements. Deliver specific tuning recommendations and tips to ensure the optimal quality of experience.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 15000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 15000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 15000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 15000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 15000,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-SRV-EXPR",
+            "shortName": "ngmServiceExperience",
+            "name": "Novel User Experience Development Model",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Develop end-user experience metrics correlated with network performance most functional KPI we will use to audit your network capability to deliver High-Quality connection for the most prominent applications and services of your environment.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Security and Cyber-Defense",
+        "products": [
+          {
+            "id": "SWL-IDS-TDET",
+            "shortName": "ngmIDS",
+            "name": "IDS Threat Detection Engine",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Telecom site quality and delivery management, manage technical projects and vendor solution delivery.  Get a quality manager to  achieve & maintain cluster quality, drive Service Level Agreement and KPI assurance. Get achieved, qualified, and approved vendor project delivery with a full vertical and independant eye, have recommendations, manage updates and changes (ACMP-based) based on QOE impact.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 1000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 1000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 1000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 1000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 1000,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-4",
+        "name": "Customer Experience Management",
+        "products": [
+          {
+            "id": "SWL-USR-EXPR",
+            "shortName": "ngmKEEN",
+            "name": "KEEN - Automated Network User Experience",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Developing corrective and preventive field maintenance, proactively analyze events and organize, plan, and manage actions",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 7786.8868249054,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7786.8868249054,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7786.8868249054,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7786.8868249054,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7786.8868249054,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-5",
+        "name": "Infrastructure and System Monitoring",
+        "products": [
+          {
+            "id": "SWL-UDP-DPI",
+            "shortName": "ngmInfrastructureMonitoring",
+            "name": "Infrastructure System Monitoring",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Leverage Advanced Modern Monitoring to track the availability, performance, and resource use of your IT/Network infrastructure's hosts, containers, and other backend components. The system collects data from physical hosts, virtual machines, and containers using an agent or a robot. These data are utilized to compute metrics and analyze them using visualization Dashboards.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 24667.5679394565,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 24667.5679394565,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 24667.5679394565,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 24667.5679394565,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 24667.5679394565,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-2",
+    "name": "Mantenance and Operations",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Infrastructure & IT Operations",
+        "products": [
+          {
+            "id": "HW-RSC-VCPU",
+            "shortName": "virtualCPU",
+            "name": "Virtual COTS vCPU Resources",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Design network service performance strategy, define metrics, thresholds, and references for daily base analysis over a long period of time. Get alerts that identify and demarcate issues and predict potential service deterioration, design and organize teams from detection to fault processing stages",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 1500,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 1500,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 1500,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 1500,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 1500,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-RSC-VRAM",
+            "shortName": "virtualMEMORY",
+            "name": "Virtual COTS MEMORY Resources",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Day-to-day operations and Key Performance management of the entire network & IT infrastructure for service quality and network status monitoring in real-time, detecting and analysing the root cause of faults or potential risks in a timely manner",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 800,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 800,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 800,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 800,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 800,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-RSC-VSWT",
+            "shortName": "vSWITCH",
+            "name": "L2/L3 IP Switching Functions and Resources",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Day-to-day operations and Key Performance management of the entire network & IT infrastructure for service quality and network status monitoring in real-time, detecting and analysing the root cause of faults or potential risks in a timely manner",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 800,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 800,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 800,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 800,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 800,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-RSC-VDSK",
+            "shortName": "vDrive",
+            "name": "High Speed Data Storage Technology",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Day-to-day operations and Key Performance management of the entire network & IT infrastructure for service quality and network status monitoring in real-time, detecting and analysing the root cause of faults or potential risks in a timely manner",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 800,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 800,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 800,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 800,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 800,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-RSC-PRVS",
+            "shortName": "serverCOTS",
+            "name": "Infrastructure Provisioning Services",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Day-to-day operations and Key Performance management of the entire network & IT infrastructure for service quality and network status monitoring in real-time, detecting and analysing the root cause of faults or potential risks in a timely manner",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 400,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 400,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 400,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 400,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 400,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-NIC-TECH",
+            "shortName": "NetworkCARDS",
+            "name": "Network Data Capture and Processing Interface",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Optimization of networks, systems and services to ensure performance is maintained at or above required quality levels, and providing rectification to ensure a normal running of the network and a reliable service quality",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 500,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 500,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 500,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 500,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 500,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Service Monitoring",
+        "products": [
+          {
+            "id": "SWL-TRB-HEAL",
+            "shortName": "ngmHealn",
+            "name": "HealN - Network Troubleshooting Application",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Routine operations and management of the entire network & IT infrastructure. \n\nCarrying out planned checks and maintenance activities to ensure the normal operation of the network",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 7282.98589611283,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7282.98589611283,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7282.98589611283,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7282.98589611283,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7282.98589611283,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-ANLT-STD",
+            "shortName": "ngmDataMonitoring",
+            "name": "ENGEEM Mobile Core Network Data Monitoring ",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Get Mobile Core Data fastest-integrated monitoring platform, 5 days end-to-end solution delivery, for 3-month trial / Get a free 3-month trial of Mobile Core Data's fastest-integrating monitoring platform with 5-day end-to-end solution delivery. ",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8038.83728930168,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8038.83728930168,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8038.83728930168,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8038.83728930168,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8038.83728930168,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Operation Management",
+        "products": [
+          {
+            "id": "MNS-NET-OPSM",
+            "shortName": "ngmNETOps",
+            "name": "Mobile Network Operation Strategy and Development",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-NET-AUTO",
+            "shortName": "NETOpsAutomation",
+            "name": "Network Management and Operation Automation",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-ITS-OPSM",
+            "shortName": "ngmITOps",
+            "name": "ITS Operation Strategy and Development",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-ITS-AUTO",
+            "shortName": "ITOpsAutomation",
+            "name": "ITS Management and Operation Automation",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-NET-AUTO",
+            "shortName": "NETOpsAutomation",
+            "name": "Network Management and Operation Automation",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-NTM-AAS",
+            "shortName": "ngmNMaaS",
+            "name": "ENGEEM Network Monitoring as a Service",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Provides a portfolio of network monitoring plan, intelligent data-driven functionalities, and digital applications to telecom operators for a secured and automated network monitoring system.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 7534.93636050911,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7534.93636050911,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7534.93636050911,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7534.93636050911,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7534.93636050911,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-MON-PLANS",
+            "shortName": "ngmMonitoringPLAN",
+            "name": "6-Months Perfect Network Monitoring Blueprint",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "New Network Management and Operation Strategy – Gain 800K$ per year in a 3 Months one-on-one strategic works + easy to apply monitoring solution models for a perfect and long term network management system",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 7786.8868249054,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7786.8868249054,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7786.8868249054,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7786.8868249054,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7786.8868249054,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-SMT-NETM",
+            "shortName": "ngmSmartManagement",
+            "name": "300%-Cost Effective Novel Strategy for new generation network management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Access to a massive network data platform to plentily develop analytics, network monitoring automation, and core data monetization using top-rated technology classes that remove hardware and software resources barriers.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-PRV-5GNM",
+            "shortName": "ngmPrivate5G",
+            "name": "300%-Cost Effective Lighweight Private 5G network Monitoring",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Manage and Monitor Private Enterprise 5G using one click Performance and Operation management platform focused on functional QoS and QoE, at the lowest cost. Get a free 3-Month Trial !",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-DEV-DISC",
+            "shortName": "ngmDeviceDiscovery",
+            "name": "Device Traffic Analysis and Policy Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Provides a deepen visibility of network devices and traffic for full acces, policy, and status control : Elevate network management and operational efficiency through innovative device behavior comprehension within mobile and private IP networks. Get traffic analysis, Anomaly Detecttion, Geofencing, and more.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-4",
+        "name": "Network Change Management",
+        "products": [
+          {
+            "id": "HW-SEDC-FPG",
+            "shortName": "ngmLifecycleManagement",
+            "name": "Automated Network Lifecycle management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automating upgrades, patches, and security updates and executing network resource enhancement lifecycle.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 21392.2119023048,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 21392.2119023048,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 21392.2119023048,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 21392.2119023048,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 21392.2119023048,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-3",
+    "name": "Design and Deployment",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Service Design and Deployment",
+        "products": [
+          {
+            "id": "MNS-DESN-ENG",
+            "shortName": "ngmDesign",
+            "name": "Technology Engineering and Service Design",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Monitoring network system performance and status in real-time, detecting faulty equipements, service, and events that can affect businesses and customer service to ensure a normal running of the network and a reliable service quality. Get alarms and manage operation alerts",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 20000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 20000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 20000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 20000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 20000,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-CUST-CNF",
+            "shortName": "ngmCusto",
+            "name": "Solution Configuration and Customization",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Monitoring network system performance and status in real-time, detecting faulty equipements, service, and events that can affect businesses and customer service to ensure a normal running of the network and a reliable service quality. Get alarms and manage operation alerts",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 15000,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 15000,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 15000,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 15000,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 15000,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-INFR-PREP",
+            "shortName": "ngmInfra",
+            "name": "Infrastructure Preparation and Integration",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Management of end-user problems from customer support to network expert via customer care. \nDiscovering customers’ service quality problems in a timely manner, and quickly responding to these issues to ensure a prompt resolution and improve customer satisfaction",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 200,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 200,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 200,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 200,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 200,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-PROD-DEL",
+            "shortName": "ngmDelivery",
+            "name": "Business Value Delivery and Assurance",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Management of end-user problems from customer support to network expert via customer care. \nDiscovering customers’ service quality problems in a timely manner, and quickly responding to these issues to ensure a prompt resolution and improve customer satisfaction",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 300,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 300,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 300,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 300,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 300,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-UER-CLS",
+            "shortName": "ngmTrafficPOLICY",
+            "name": "IT/Network Traffic Policies and Profile Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Design your network in compliance with standards, managing access policies, users, data objects to access to, profiles, and network/IT sites.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 20888.3109735122,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 20888.3109735122,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 20888.3109735122,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 20888.3109735122,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 20888.3109735122,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-UPRB-SWTL2",
+            "shortName": "ngmServiceProvision",
+            "name": "Service Provisioning and Device Enrollment",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Develop Plug-and-play capabilities to provision, branch virtualization, and manage containerized software.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 21140.2614379085,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 21140.2614379085,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 21140.2614379085,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 21140.2614379085,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 21140.2614379085,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-APP-WKF",
+            "shortName": "ngmNetworkTOPOLOGY",
+            "name": "On-the-Air Network Topology Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automatically plot network design, automate device discovery, map high-level and low-level design engineering information to network visual diagram with minimal effort. Get topology live updates and visual analysis of the network performance.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 23407.815617475,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 23407.815617475,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 23407.815617475,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 23407.815617475,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 23407.815617475,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-4",
+    "name": "Project Management",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Technical Project Management",
+        "products": [
+          {
+            "id": "MNS-PROD-TPM",
+            "shortName": "ngmPM",
+            "name": "Technology Project Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Management of end-user problems from customer support to network expert via customer care. \nDiscovering customers’ service quality problems in a timely manner, and quickly responding to these issues to ensure a prompt resolution and improve customer satisfaction",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 6779.08496732026,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 6779.08496732026,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 6779.08496732026,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 6779.08496732026,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 6779.08496732026,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-5",
+    "name": "Tuning and Service Capibilities",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Service Performance Management",
+        "products": [
+          {
+            "id": "SWL-PERF-ANL",
+            "shortName": "ngmKASE",
+            "name": "Kase - Knowledge-based Performance Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Get technical project management and business objective driving for day-to-day operations and management of the entire network & IT infrastructure",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 7534.93636050911,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7534.93636050911,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7534.93636050911,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7534.93636050911,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7534.93636050911,
+              "period": 1
+            }
+          },
+          {
+            "id": "SLW-PERF-AUT",
+            "shortName": "AutomatedPERF",
+            "name": "Automated Performance Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Routine operations and management of the entire network & IT infrastructure. \n\nCarrying out planned checks and maintenance activities to ensure the normal operation of the network",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 7031.03543171654,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7031.03543171654,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7031.03543171654,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7031.03543171654,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7031.03543171654,
+              "period": 1
+            }
+          },
+          {
+            "id": "HW-SEDC-ETH",
+            "shortName": "ngmQoSPerformance",
+            "name": "Data-Driven Intelligent Service Performance Assurance",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Tracking the health and QoS performance of network apps and services, on-premises, or in cloud environments. IT and NetOps teams use various metrics and engineering techniques to assess, plan, and provision network resources, troubleshoot performance issues, improve security, and to boost the end-user experience.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 22148.0632954936,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 22148.0632954936,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 22148.0632954936,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 22148.0632954936,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 22148.0632954936,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-UDP-EDC",
+            "shortName": "ngmTrafficAnalysis",
+            "name": "Network Traffic Analysis and Profiling",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Manage network resources in real-time, monitor bandwidth utilization, protocol level performance details, have comprehensive service behavior description and get how apps and service traffic is flowing across your network topology.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 22651.9642242862,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 22651.9642242862,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 22651.9642242862,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 22651.9642242862,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 22651.9642242862,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-6",
+    "name": "Data Analytics",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Programmable Analytics",
+        "products": [
+          {
+            "id": "SWL-ANLT-STD",
+            "shortName": "ngmStudio",
+            "name": "ENGEEM Network Analytics Studio",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "New intuitive Analytics Dashboard & MetricsDesign for OperationalPerformance",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8038.83728930168,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8038.83728930168,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8038.83728930168,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8038.83728930168,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8038.83728930168,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-APPS-BLD",
+            "shortName": "ngmBuilder",
+            "name": "ENGEEM Network Application Builder",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Drag & Drop No Code Business Application design for modern operational decision",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SLW-PERF-AUT",
+            "shortName": "ngmDataPlatform",
+            "name": "ENGEEM Digital Network Data Platform",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Get Digital Network Platform with 1-Click Analytics and Monitoring Application deployment from the 3 top-rated pillars required for advanced analytics: bringing all data together, correlating them, making them ready for zero-effort automated analysis.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 7031.03543171654,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7031.03543171654,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7031.03543171654,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7031.03543171654,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7031.03543171654,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-OPRA-QOE",
+            "shortName": "ngmOperationalQOE",
+            "name": "Network Quality of Experience Operational Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Develop concrete Quality of Experience capabilities for complete network monitoring and achieve the goal of keeping service to run at the best, and not only maintaining a network with lengthy, costly, and ineffective techniques",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-ANOM-DET",
+            "shortName": "ngmAnomalyDetection",
+            "name": "Uncover the Unknow and the Unseen",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Spot your most affecting network problem and get them automated: Connection Interruption, Affecting QoS Performance, and User Experience defects comprehension. ENGEEM will deliver you 7 insider hints to maintain the right network management and get a simple automation strategy integrated",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-AUT-PRBM",
+            "shortName": "ngmAutomatedProblem",
+            "name": "Automated Network Problem Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automate network problem management and reduce monitoring practices that don’t work, get a free 6-weeks monitoring audit from our network management specialists with over 25 years’ experience. We will provide you with digital traps and strategy to get you focus onto network problem management automation, rather than manual and costly traditional techniques in identifying problems.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "MNS-EXP-FSLA",
+            "shortName": "ngmExperienceSLA",
+            "name": "Service Experience Functional SLA Design and Monitoring",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Define and track SLA with 5 recommended actions for cellular technologies problem fixing. You will get the most profitable strategy to avoid common manual threshold-based SLA definition errors some systems implement to get you the most reliable SLA MONITORING technique and to maintain high-level network and user application experience quality.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-ANLT-SRV",
+            "shortName": "NGM Analytics Services",
+            "name": "Data Analytics Services",
+            "isNew": false,
+            "description": "Fully managed platform as a service (PaaS) providing enterprise-grade massive and secure data analysis models for various and complex Cloud, On-Premise, or Hybrid environments. You can avoid risky investments in the development and administration of an analytics solution while going faster in big data project when using the package.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Service Automation",
+        "products": [
+          {
+            "id": "SWL-NGM-AIOS-09",
+            "shortName": "NGM KASE",
+            "name": "NGM Digital Kase",
+            "isNew": false,
+            "description": "Make Analytics more business-decision capable, use data processing pipeline blueprints for business purpose and customer-facing operations (customer service, logistics, sales, support).",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Data Agents",
+        "products": [
+          {
+            "id": "SWL-QOE-COG",
+            "shortName": "ngmMetadataAgent",
+            "name": "Metadata-driven Intelligent Network Analysis",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Network metadata tracks all communications that occur within a current network infrastructure (switches, routers, firewalls, packet brokers, and so on) and between service endpoints. Due to the growing network data making complex problem analysis and troubleshooting, network metadata scalability enables whole network monitoring from raw communication packet data collected at various topology points to application use data: network traffic analysis, usage, bandwidth, application performance, and so on.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 24415.6174750602,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 24415.6174750602,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 24415.6174750602,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 24415.6174750602,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 24415.6174750602,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-7",
+    "name": "Digital Capabilities Services",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Workflows & Automation",
+        "products": [
+          {
+            "id": "SWL-AUTM-BLD",
+            "shortName": "ngmAutomation",
+            "name": "ENGEEM Network Automation Orchestrator",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-8",
+    "name": "Technology & Strategy",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Technology and Network Strategy",
+        "products": [
+          {
+            "id": "MNS-NET-STRAT",
+            "shortName": "NetworkSTRAT",
+            "name": "Network Development Technologies and Strategies",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automation Design Studio & Operational Workflow Deployment for multi-domain analytics and network management",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Marketing and Service Management",
+        "products": [
+          {
+            "id": "SWL-USR-CUST",
+            "shortName": "ngmPersonalization",
+            "name": "User Experience Strategy Introduction for product innovation",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Get the most consuming Service and Application, measure subscribers’ engagement, and have workflow tickets to act on which subscriber or what personalized offer to deliver for revenue incitive. Free 3 product innovation workflows.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-9",
+    "name": "Inventory & Asset Management",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Inventory Lifecycle Management",
+        "products": [
+          {
+            "id": "HW-SEDC-SFPC",
+            "shortName": "ngmConfManagement",
+            "name": "AI-Based Integrated Network Configuration Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "How network configuration changes affect a service while IT and network operation teams were worrying about bandwidth performance issue? Get improved analysis and diagnostics path through the integration of configuration audit to catch up mismatches and changes.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 22400.0137598899,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 22400.0137598899,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 22400.0137598899,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 22400.0137598899,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 22400.0137598899,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-10",
+    "name": "f",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Network Supervision & Fault Monitoring",
+        "products": [
+          {
+            "id": "SWL-QOE-PER",
+            "shortName": "ngmLogTRACING",
+            "name": "Automated Log tracing and Analysis",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Log analysis and management is part of the top essential process in network monitoring and troubleshooting. Design data collection strategy, depending on the infrastructure assets (Switches, Routers, OS System, Servers, …) and the service technologies (IP, Database, Applications, Services, …) target, extract meaningful data to pinpoint the root cause of any app or service error, and find trends and patterns to help guide your business decisions, investigations, and security all in an unique automated toolchains for performance measurement and monitoring automation.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 23911.7165462676,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 23911.7165462676,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 23911.7165462676,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 23911.7165462676,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 23911.7165462676,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-11",
+    "name": "Data Centralization",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Data Lake",
+        "products": [
+          {
+            "id": "SWL-NGM-DTLAKE-01",
+            "shortName": "NGM-Lake",
+            "name": "ENGEEM Data Lake Analytics",
+            "isNew": false,
+            "description": "Centralized data repository that consolidates enterprise structured, semi-structured, or unstructured data from many sources, and delivering analysis services suite for data ingestion, metrics computing, data queries, transformation and processing, all in one pipeline for flexible business applications.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DTLAKEHOUSE-01",
+            "shortName": "NGM Datakun",
+            "name": "ENGEEM Datakun",
+            "isNew": false,
+            "description": "ENGEEM Data Lakehouse, DATAKUN, is a centralized managed service for enterprise modern data warehouse combined with data lake flexibility building for high-speed computing and high-volume storage operation for enterprise data.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-UNIFY-DATA-01",
+            "shortName": "NGM-UNIFIED DATA",
+            "name": "NGM-UNIFIED DATA",
+            "isNew": false,
+            "description": "Build an end-to-end data streaming platform to converge all your databases, data warehouses, and data marts. Run Data Lake use cases with enterprise-grade performance, security, and compliance requirements. Discover, harvest, and manage metadata from all the applications, databases, data lakes, enterprise data warehouses, APIs, social media, and streaming sources you use across the enterprise",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DATALAKE-01",
+            "shortName": "NGM-Data Lake",
+            "name": "ENGEEM Data Lake",
+            "isNew": false,
+            "description": "Simply unify your data in a one place for secure, reliable, and easy use for your applications. Breaks down silos with a high-performance data lake supporting a variety of data types, storage patterns, and data workloads",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Data Store",
+        "products": [
+          {
+            "id": "SWL-NGM-DOTS-01",
+            "shortName": "NGM DOTS",
+            "name": "Securable Data-Object Management & Store",
+            "isNew": false,
+            "description": "Clustered data management and storage architecture for saving data and simplifying analytical processes, ranging from Streaming Event ingestion to Transactional Data Query in a single line of application.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-WAREHOUSE-01",
+            "shortName": "NGM-Warehouse",
+            "name": "ENGEEM Data Warehouse",
+            "isNew": false,
+            "description": "Centralize application data management across enterprise domains and databases to accelerate analytics-driven application and improve business decision systems over an intelligent managed data architecture",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-12",
+    "name": "Analytics",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Operational Analytics",
+        "products": [
+          {
+            "id": "SWL-NGM-KASE-01",
+            "shortName": "NGM-KASE",
+            "name": "ENGEEM Kase - Knowledge-based Operational Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "ENGEEM Kase - Knowledge-based Operational Analytics makes Analytics more business-decision capable, use data processing pipeline blueprints for business purpose and customer-facing operations (customer service, logistics, sales, support). Get Pre-built Operational Analytics models for fast use case integration.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 7534.93636050911,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 7534.93636050911,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 7534.93636050911,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 7534.93636050911,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 7534.93636050911,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AUNA-01",
+            "shortName": "NGM-Auna",
+            "name": "NGM-Automated Operational Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "NGM-AUNA provides a set of Business-Logic Specific Blueprints for solving operational issue in domain specific, including Marketing, Customer Care, Operation & Maintenance, Revenue Assurance, and Customer Experience. It  get you to develop concrete Business Operation Automation and Actionable capabilities for achieving specific goal of keeping service to run at the best without lengthy, costly, and ineffective techniques.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "Data Streaming",
+        "products": [
+          {
+            "id": "SWL-NGM-DTLAKE-01",
+            "shortName": "NGM YIALI",
+            "name": "Data Stream-Acceleration Service",
+            "isNew": false,
+            "description": "Connect and accelerate streams of events from multiple data sources to data application pipeline at the highest datarate and higher performance in any environments, Cloud, On-Premises, or Hybrid",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-STREAMHUB-01",
+            "shortName": "NGM-Data Streaming Hub",
+            "name": "NGM-Data Streaming Hub",
+            "isNew": false,
+            "description": "Data Streaming Framework to rapidly Bring Data to Downstream Applications with the Flexibility of ENGEEM DATA PLATFORM and keeping the Performance, Scalability, and Reliability of Data Workloads. Plug-and-Play Data Integration to Connect Business and Data Application to a Robust Data System and rapidly develop applications. ",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-YAAM-N01",
+            "shortName": "ngmYAAM-NBI",
+            "name": "YAAM Data Exposure Automation",
+            "isNew": false,
+            "description": "Secure and manage Data Exposure to multiple Consumer through Application Data flows, in the Cloud and on-Premises environments through ENGEEM Service ochestration and Data Operation lifecycle management using NGM YAAM Integration and Automation Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-YAAM-S01",
+            "shortName": "ngmYAAM-SBI",
+            "name": "YAAM Data Ingestion Automation",
+            "isNew": false,
+            "description": "Secure and manage Data Integration from multiple domains, silos, and Applications flows across multiple cloud and on-premises environments through service ochestration and operation lifecycle management using NGM YAAM Integration and Automation Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-DATASEED-01",
+            "shortName": "NGM-DATA-SEED",
+            "name": "NGM-Data Seed",
+            "isNew": false,
+            "description": "Scalable Structured and Unstructured Data Agent for collecting, pre-processing, and streaming massive amount of data from a variety of sources for saving and analytics processing.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Data Processing",
+        "products": [
+          {
+            "id": "SWL-NGM-SOAN-01",
+            "shortName": "NGM SOAN",
+            "name": "Data Analytics Orchestration & Automation Service",
+            "isNew": false,
+            "description": "Your data is getting scattered ? Inconsistent, Ungoverned, Inaccessible, and difficult to use ? NGM SOAN is a framework for gathering siloed data pipelines originated from multiple sources across your company to organizing them into a consistent schema-based data model and pipeline for driving integrated operational analytics applications for business efficiency.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AI-WORKFLOW-01",
+            "shortName": "NGM-AI-Workflow",
+            "name": "AI/ML Analytics Workflows",
+            "isNew": false,
+            "description": "ENGEEM AI-Apps-as-a-Data Service routine for quickly building and securing data pipelines with AI workflows to run all the LLMs/ML operational tasks. Accelerate your AI/ML applications with fast and scalable data workflows for ML-powered insights creation",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-WORKFLOW-01",
+            "shortName": "NGM-Workflow",
+            "name": "Data as an Analytical Workflow",
+            "isNew": false,
+            "description": "Use ENGEEM Analytical Workflow Blueprints to Easily Develop data-intensive transformations steps for multiple business logic applications without operational IT and architectural burden : Generates the tasks, jobs, and triggers that ingest and transform your data before saving data lake or sending to applications.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGMDEEPER-01",
+            "shortName": "NGM-Deeper",
+            "name": "Data Analytics Acceleration Engine",
+            "isNew": false,
+            "description": "Fast and Powerful data engine for real-time analytics query engine with fully integrated correlation connectors, indexation system, and declarative transformation models you can easily adapt to your business requirements.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-ANLT-PIPE-01",
+            "shortName": "NGM-Analytical Pipeline",
+            "name": "NGM-Analytical Pipeline",
+            "isNew": false,
+            "description": "A modern data processing model Blueprint to help you build quickly transactional business application queries and real-time analytical workloads at a billions/seconds rate with better data experiences across multiple systems",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-4",
+        "name": "Data Exploration",
+        "products": [
+          {
+            "id": "SWL-NGM-KDLE-EXPL-01",
+            "shortName": "NGM Kandle Explorer",
+            "name": "Kandle Explorer",
+            "isNew": false,
+            "description": "ngmKandleExplorer provides you with tools and techniques for relaxing Enterprise Data Mining, Exploration, and Visualization processes required to develop business analytics, intelligence, and domain knowledge statistical development.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-KANDLE-01",
+            "shortName": "NGM-Kandle",
+            "name": "NGM-Data-Kandle",
+            "isNew": false,
+            "description": "Create Modern Real-Time Decision System with Insights production at Billions of Data rows. Fuel Dashboards, Applications, and Microservices with a single pipeline that extract, store, compute, and deploy AI Models with Higher Performance than traditional Business Intelligence systems.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-13",
+    "name": "Integration Service",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Workflow and Automation",
+        "products": [
+          {
+            "id": "SWL-AUTM-BLD-01",
+            "shortName": "NGM-Automation Builder",
+            "name": "ENGEEM Automation Orchestrator",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "ngmAutomationBuilder provides a No/Low-Code interface for Business Data Workloads design, BPM transformation in Data Pipeline, and Data Application deployment for real-time analysis.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-BPM-AUTO-01",
+            "shortName": "NGM BPM Automation",
+            "name": "NGM-Enterprise Automation",
+            "isNew": false,
+            "description": "Transform Business Process in Data Analytical Workflow for fast application development and enterprise digitization. Use NGM-Automation Process for automating repetitive processes, modernizing complex legacy environments, and interconnecting business application underlying technologies, users and workspaces through APIs and consolidated ENGEEM Data Automation Platform.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "AI/ML Models",
+        "products": [
+          {
+            "id": "SWL-NGM-AIOS-MODEL-01",
+            "shortName": "AIOS Model Catalog",
+            "name": "Machine Learning and AI Model Builds",
+            "isNew": false,
+            "description": "AIOS Builds provides a centralized catalog of models you can use through a set of APIs to collabolratively build and manage the full lifecycle of ML/AI models for intelligent application developement, from Versioning and Dataset training, to Modeling and Performance Tracking till Automated Deployment to production.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-14",
+    "name": "AI and Machine Learning",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "AI Apps",
+        "products": [
+          {
+            "id": "SWL-NGM-AIOS-01",
+            "shortName": "NGM AIOS",
+            "name": "AIOps-Orchestrator",
+            "isNew": false,
+            "description": "Embrassing the use of high-performance data processing combined with AI and Machine Learning models implementation to automate IT/Network operations processes more widely from project design and model development to deployment and continuous lifecycle management for intelligent enterprise.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SLW-NGM-AIOS-01",
+            "shortName": "NGM-AIOS",
+            "name": "NGM Intelligent Enterprise Apps",
+            "isNew": false,
+            "description": "Create Intelligent Enterprise Application using ENGEEM AIOS with AI/ML pre-built models to design, deploy, and operate AI software all in one automated data pipeline to help streamling the global business process.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-2",
+        "name": "AI/ML Models",
+        "products": [
+          {
+            "id": "SWL-NGM-COGNIT-01",
+            "shortName": "NGM-COGNITIVE",
+            "name": "NGM Cognitive Analytics",
+            "isNew": false,
+            "description": "Get created Cognitive System prebuilt models and algorithms to tailor customer-based (End-users of products or services) intelligent analysis for behavior comprehension, change trends, social influence design, product personalization, user experience management and transformation for innovative marketing and business opportunities creation through ENGEEM Cognitive services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-IMAAS-01",
+            "shortName": "ENGEEM iMAAS",
+            "name": "ENGEEM Anomaly Analysis Services",
+            "isNew": false,
+            "description": "Safely Increase autonomous operations, reduce human involvement in cyber threat management, improve reliance of the data your systems are built with, treat anomalies and get comprehension of the malicious causes of such anomalies as well as the appropriate detection algorithms using ENGEEM Anomaly Analysis Services.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "sub-3",
+        "name": "Automation",
+        "products": [
+          {
+            "id": "SWL-NGM-CUST-EXP-01",
+            "shortName": "NGM-Customer Experience",
+            "name": "Customer-Experience Analytics",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Predict concrete User Experience score in the use or consumption of any service and product, and achieve the goal of keeping service to run at the best, and not only maintaining relationship with lengthy, costly, and ineffective techniques",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-ANOM-DET-01",
+            "shortName": "NGM-Anomaly Detection",
+            "name": "NGM-Anomaly Detection",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Spot your most affecting problems and get them automated: Service Interruption, Affecting QoS Performance, and User Experience defects comprehension. ENGEEM will deliver you 7 insider hints to automate your manual problem management using a custom automation model you will personalize",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Users",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-AUT-PRBM-01",
+            "shortName": "NGM-Automated Problem",
+            "name": "NGM-Automated Problem Management",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Automate business problem management and reduce monitoring practices that don’t work, get a free 6-weeks monitoring audit from our management specialists with over 25 years’ experience. We will provide you with digital traps and strategy to get you focus onto problem management automation, rather than manual and costly traditional techniques in identifying problems.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "DEU-T",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          },
+          {
+            "id": "SWL-NGM-EXP-SAT-01",
+            "shortName": "NGM-Customer Satisfaction",
+            "name": "NGM-Customer Satisfaction",
+            "isNew": false,
+            "logo": "",
+            "banner": "",
+            "description": "Detect the real Satisfaction Sentiment of the customer in the use of products and services, and match the changing expectation that affect the product and service marketing performance. Get the requirements and the expectation of your customers.",
+            "inCart": false,
+            "devise": "EUR",
+            "unit": "Gbps",
+            "volume": 8290.78775369797,
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "price": 8290.78775369797,
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "price": 8290.78775369797,
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "price": 8290.78775369797,
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "price": 8290.78775369797,
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat-15",
+    "name": "Management and Governance",
+    "subCategories": [
+      {
+        "id": "sub-1",
+        "name": "Data Service",
+        "products": [
+          {
+            "id": "SWL-NGM-EDSM-01",
+            "shortName": "NGM-EDS Management",
+            "name": "NGM Enterprise Data Service Management",
+            "isNew": false,
+            "description": "ENGEEM Enterprise Data Management for Data Analytics Services and Unified Governance management. Streamline Data Governance and Project Onboarding with Enterprise Data Service Management with Integrated Enterprise-grade security, Data Governance, and Advanced Data Service Catalog.",
+            "inCart": false,
+            "devise": "EUR",
+            "facturationPlans": [
+              {
+                "id": 1,
+                "name": "ngmPlatform",
+                "period": 1
+              },
+              {
+                "id": 2,
+                "name": "ngmAutomation",
+                "period": 2
+              },
+              {
+                "id": 3,
+                "name": "ngmAutomationPlus",
+                "period": 3
+              }
+            ],
+            "selectedSupport": null,
+            "selectedPlan": {
+              "id": 1,
+              "name": "ngmPlatform",
+              "period": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+

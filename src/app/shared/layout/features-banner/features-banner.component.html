@@ -1,0 +1,30 @@
+<section class="lg:max-w-7xl px-2 md:px-4 lg:mx-auto">
+  <h1 [class]="headLineClass">
+    <ng-container *ngFor="let h of headLine; let i = index">
+      {{ h | translate }}
+      <ng-container *ngIf="i <= headLine.length"
+        ><br class="hidden md:block"
+      /></ng-container>
+    </ng-container>
+  </h1>
+  <h2 [class]="subHeadLineClass">
+    <ng-container *ngFor="let s of subHeadLine; let i = index">
+      {{ s | translate }}
+      <ng-container *ngIf="i <= subHeadLine.length"
+        ><br class="hidden md:block"
+      /></ng-container>
+    </ng-container>
+  </h2>
+
+  <div [class]="featuresContainerClass">
+    <div [class]="featuresItemsClass" *ngFor="let f of featuresItems"
+         [routerLink]="[Routes.Catalog.url, f.id ]">
+      <div class="cursor-pointer hover:scale-125 transition-all">
+        <img [src]="f.iconUrl" alt="" />
+      </div>
+      <p class="text-center text-lg py-4">
+        {{ f.text | translate }}
+      </p>
+    </div>
+  </div>
+</section>

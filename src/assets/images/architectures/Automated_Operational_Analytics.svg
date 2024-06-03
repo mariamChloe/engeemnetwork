@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="859" height="899" viewBox="0 0 859 899">
+  <defs>
+    <filter id="Container" x="0" y="753" width="859" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32" x="0" y="0" width="291" height="737" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_51" x="314" y="205" width="545" height="193" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_33" x="314" y="0" width="545" height="193" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_120" x="491" y="274" width="190" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_31" x="314" y="410" width="545" height="327" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-6"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.057" x2="0.5" y2="1.897" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#203a50"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.986" y1="1.819" x2="0.056" y2="0.107" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#203a50"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <filter id="Rectangle_52" x="331" y="493" width="190" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_34" x="331" y="626" width="190" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_54" x="648" y="546" width="190" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_320" data-name="Groupe 320" transform="translate(-489 -105)">
+    <g id="Groupe_191" data-name="Groupe 191">
+      <g id="Container-2" data-name="Container" transform="translate(489 858)">
+        <g transform="matrix(1, 0, 0, 1, 0, -753)" filter="url(#Container)">
+          <g id="Container-3" data-name="Container" transform="translate(0 753)" fill="#fff">
+            <path d="M 837 139 L 16 139 C 11.993332862854 139 8.226555824279785 137.4397735595703 5.393444538116455 134.6065521240234 C 2.560222148895264 131.7734375 1 128.0066680908203 1 124 L 1 16 C 1 11.993332862854 2.560222148895264 8.226555824279785 5.393444538116455 5.393444538116455 C 8.226555824279785 2.560222148895264 11.993332862854 1 16 1 L 837 1 C 841.0066528320312 1 844.7734375 2.560222148895264 847.6065673828125 5.393444538116455 C 850.4397583007812 8.226555824279785 852 11.993332862854 852 16 L 852 124 C 852 128.0066680908203 850.4397583007812 131.7734375 847.6065673828125 134.6065521240234 C 844.7734375 137.4397735595703 841.0066528320312 139 837 139 Z" stroke="none"/>
+            <path d="M 16 2 C 12.26043701171875 2 8.7447509765625 3.456222534179688 6.1005859375 6.100555419921875 C 3.45623779296875 8.744781494140625 2 12.26044464111328 2 16 L 2 124 C 2 127.7395553588867 3.45623779296875 131.2552185058594 6.1005859375 133.8994445800781 C 8.7447509765625 136.5437774658203 12.26043701171875 138 16 138 L 837 138 C 840.7395629882812 138 844.2552490234375 136.5437774658203 846.8994140625 133.8994445800781 C 849.5437622070312 131.2552185058594 851 127.7395553588867 851 124 L 851 16 C 851 12.26044464111328 849.5437622070312 8.744781494140625 846.8994140625 6.100555419921875 C 844.2552490234375 3.456222534179688 840.7395629882812 2 837 2 L 16 2 M 16 0 L 837 0 C 845.8365478515625 0 853 7.163436889648438 853 16 L 853 124 C 853 132.8365478515625 845.8365478515625 140 837 140 L 16 140 C 7.1634521484375 140 0 132.8365478515625 0 124 L 0 16 C 0 7.163436889648438 7.1634521484375 0 16 0 Z" stroke="none" fill="#324b63"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_190" data-name="Groupe 190" transform="translate(508 873)">
+        <g id="Container-4" data-name="Container">
+          <g id="Container-5" data-name="Container" fill="#cff8e8">
+            <path d="M 238 50 L 10 50 C 5.037374973297119 50 1 45.96262359619141 1 41 L 1 10 C 1 5.037374973297119 5.037374973297119 1 10 1 L 238 1 C 242.9626312255859 1 247 5.037374973297119 247 10 L 247 41 C 247 45.96262359619141 242.9626312255859 50 238 50 Z" stroke="none"/>
+            <path d="M 10 2 C 5.58880615234375 2 2 5.588798522949219 2 10 L 2 41 C 2 45.41120147705078 5.58880615234375 49 10 49 L 238 49 C 242.4111938476562 49 246 45.41120147705078 246 41 L 246 10 C 246 5.588798522949219 242.4111938476562 2 238 2 L 10 2 M 10 0 L 238 0 C 243.5228271484375 0 248 4.477165222167969 248 10 L 248 41 C 248 46.52283477783203 243.5228271484375 51 238 51 L 10 51 C 4.4771728515625 51 0 46.52283477783203 0 41 L 0 10 C 0 4.477165222167969 4.4771728515625 0 10 0 Z" stroke="none" fill="#324b63"/>
+          </g>
+        </g>
+        <text id="Physical_Layer" data-name="Physical Layer" transform="translate(124 30)" fill="#324b63" font-size="16" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-59.544" y="0">Physical Layer</tspan></text>
+        <image id="kubernates" width="99" height="99" transform="translate(358 6)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 489, 105)" filter="url(#Tracé_32)">
+      <g id="Tracé_32-2" data-name="Tracé 32" fill="#0cbcbc">
+        <path d="M 267 730 L 18 730 C 13.4591817855835 730 9.190091133117676 728.2317504882812 5.97918176651001 725.0208129882812 C 2.768272638320923 721.8099365234375 1 717.5408325195312 1 713 L 1 18 C 1 13.4591817855835 2.768272638320923 9.190091133117676 5.97918176651001 5.97918176651001 C 9.190091133117676 2.768272638320923 13.4591817855835 1 18 1 L 267 1 C 271.5409240722656 1 275.8099975585938 2.768272638320923 279.0208129882812 5.97918176651001 C 282.2317199707031 9.190091133117676 284 13.4591817855835 284 18 L 284 713 C 284 717.5408325195312 282.2317199707031 721.8099365234375 279.0208129882812 725.0208129882812 C 275.8099975585938 728.2317504882812 271.5409240722656 730 267 730 Z" stroke="none"/>
+        <path d="M 18 2 C 13.72628784179688 2 9.708282470703125 3.66424560546875 6.686279296875 6.686279296875 C 3.664276123046875 9.708251953125 2 13.72625732421875 2 18 L 2 713 C 2 717.2737426757812 3.664276123046875 721.291748046875 6.686279296875 724.313720703125 C 9.708282470703125 727.3357543945312 13.72628784179688 729 18 729 L 267 729 C 271.2737426757812 729 275.2917175292969 727.3357543945312 278.313720703125 724.313720703125 C 281.3357238769531 721.291748046875 283 717.2737426757812 283 713 L 283 18 C 283 13.72625732421875 281.3357238769531 9.708251953125 278.313720703125 6.686279296875 C 275.2917175292969 3.66424560546875 271.2737426757812 2 267 2 L 18 2 M 18 0 L 267 0 C 276.9411010742188 0 285 8.05889892578125 285 18 L 285 713 C 285 722.9411010742188 276.9411010742188 731 267 731 L 18 731 C 8.058807373046875 731 0 722.9411010742188 0 713 L 0 18 C 0 8.05889892578125 8.058807373046875 0 18 0 Z" stroke="none" fill="#324b63"/>
+      </g>
+    </g>
+    <g id="Container-6" data-name="Container" transform="translate(508 122)">
+      <g id="Container-7" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+        <rect width="248" height="51" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="246" height="49" rx="9" fill="none"/>
+      </g>
+    </g>
+    <text id="Operation_Business_Logic" data-name="Operation Business Logic" transform="translate(632 152)" fill="#324b63" font-size="16" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-105.984" y="0">Operation Business Logic</tspan></text>
+    <g id="Groupe_47" data-name="Groupe 47" transform="translate(272.545 -80.062)">
+      <path id="Icon_awesome-cogs" data-name="Icon awesome-cogs" d="M58.372,21.766l-.935,1.63a1.409,1.409,0,0,1-1.721.616,12.6,12.6,0,0,1-3.659-2.12,1.416,1.416,0,0,1-.319-1.79l.935-1.63a9.84,9.84,0,0,1-1.812-3.123H48.979a1.407,1.407,0,0,1-1.391-1.174,12.842,12.842,0,0,1,0-4.229A1.417,1.417,0,0,1,48.979,8.76H50.86a9.84,9.84,0,0,1,1.812-3.123l-.935-1.63a1.4,1.4,0,0,1,.319-1.79A12.746,12.746,0,0,1,55.716.1a1.409,1.409,0,0,1,1.721.616l.935,1.63a10.129,10.129,0,0,1,3.613,0L62.92.713A1.409,1.409,0,0,1,64.641.1,12.6,12.6,0,0,1,68.3,2.218a1.416,1.416,0,0,1,.319,1.79l-.935,1.63A9.84,9.84,0,0,1,69.5,8.76h1.881a1.407,1.407,0,0,1,1.391,1.174,12.842,12.842,0,0,1,0,4.229,1.417,1.417,0,0,1-1.391,1.185H69.5a9.84,9.84,0,0,1-1.812,3.123l.935,1.63a1.4,1.4,0,0,1-.319,1.79,12.746,12.746,0,0,1-3.659,2.12A1.409,1.409,0,0,1,62.92,23.4l-.935-1.63a10.129,10.129,0,0,1-3.613,0Zm-1.2-6.7c4.388,3.374,9.392-1.63,6.018-6.018C58.8,5.66,53.8,10.675,57.175,15.064ZM44.032,32.606l3.841,1.915a2.741,2.741,0,0,1,1.2,3.317,26.909,26.909,0,0,1-4.856,7.5,2.725,2.725,0,0,1-3.454.6l-3.317-1.915a19.58,19.58,0,0,1-6.258,3.613v3.83a2.728,2.728,0,0,1-2.245,2.69,25.633,25.633,0,0,1-8.651,0,2.738,2.738,0,0,1-2.28-2.69V47.64a19.8,19.8,0,0,1-6.258-3.613l-3.317,1.9a2.727,2.727,0,0,1-3.454-.6,26.869,26.869,0,0,1-4.81-7.489,2.75,2.75,0,0,1,1.2-3.317l3.8-1.915a19.746,19.746,0,0,1,0-7.227l-3.8-1.926a2.718,2.718,0,0,1-1.2-3.306,26.762,26.762,0,0,1,4.81-7.5,2.725,2.725,0,0,1,3.454-.6l3.317,1.915a19.58,19.58,0,0,1,6.258-3.613V6.5a2.715,2.715,0,0,1,2.234-2.679,26,26,0,0,1,8.663-.011,2.738,2.738,0,0,1,2.28,2.69v3.83a19.8,19.8,0,0,1,6.258,3.613l3.317-1.915a2.727,2.727,0,0,1,3.454.6,26.726,26.726,0,0,1,4.8,7.5,2.724,2.724,0,0,1-1.14,3.317l-3.841,1.915a19.808,19.808,0,0,1,0,7.238Zm-13.4,2.405c6.748-8.777-3.271-18.8-12.048-12.048C11.832,31.74,21.851,41.759,30.628,35.011ZM58.372,55.836l-.935,1.63a1.409,1.409,0,0,1-1.721.616,12.6,12.6,0,0,1-3.659-2.12,1.416,1.416,0,0,1-.319-1.79l.935-1.63a9.84,9.84,0,0,1-1.812-3.123H48.979a1.407,1.407,0,0,1-1.391-1.174,12.842,12.842,0,0,1,0-4.229,1.417,1.417,0,0,1,1.391-1.185H50.86a9.84,9.84,0,0,1,1.812-3.123l-.935-1.63a1.4,1.4,0,0,1,.319-1.79,12.746,12.746,0,0,1,3.659-2.12,1.409,1.409,0,0,1,1.721.616l.935,1.63a10.129,10.129,0,0,1,3.613,0l.935-1.63a1.409,1.409,0,0,1,1.721-.616,12.6,12.6,0,0,1,3.659,2.12,1.416,1.416,0,0,1,.319,1.79l-.935,1.63A9.84,9.84,0,0,1,69.5,42.83h1.881A1.407,1.407,0,0,1,72.768,44a12.842,12.842,0,0,1,0,4.229,1.417,1.417,0,0,1-1.391,1.185H69.5a9.84,9.84,0,0,1-1.812,3.123l.935,1.63a1.4,1.4,0,0,1-.319,1.79,12.746,12.746,0,0,1-3.659,2.12,1.409,1.409,0,0,1-1.721-.616l-.935-1.63A10.129,10.129,0,0,1,58.372,55.836Zm-1.2-6.714c4.388,3.374,9.392-1.63,6.018-6.018C58.8,39.73,53.8,44.734,57.175,49.122Z" transform="translate(278.456 521.15)" fill="#324b63"/>
+      <path id="Icon_awesome-code" data-name="Icon awesome-code" d="M31.791,58.3l-6.953-2.018a1.37,1.37,0,0,1-.935-1.7L39.462.99a1.37,1.37,0,0,1,1.7-.935l6.953,2.018a1.37,1.37,0,0,1,.935,1.7L33.49,57.367a1.366,1.366,0,0,1-1.7.935ZM18.8,45.512l4.958-5.289a1.368,1.368,0,0,0-.091-1.961L13.337,29.178l10.327-9.085a1.358,1.358,0,0,0,.091-1.961L18.8,12.844a1.369,1.369,0,0,0-1.938-.057L.434,28.175a1.359,1.359,0,0,0,0,1.995l16.425,15.4a1.359,1.359,0,0,0,1.938-.057Zm37.3.068,16.425-15.4a1.359,1.359,0,0,0,0-1.995L56.093,12.776a1.38,1.38,0,0,0-1.938.057L49.2,18.122a1.368,1.368,0,0,0,.091,1.961l10.327,9.1L49.288,38.263a1.358,1.358,0,0,0-.091,1.961l4.958,5.289a1.37,1.37,0,0,0,1.938.068Z" transform="translate(365.99 521.059)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 489, 105)" filter="url(#Rectangle_51)">
+      <g id="Rectangle_51-2" data-name="Rectangle 51" transform="translate(314 205)" fill="#f3fcf4" stroke="#324b63" stroke-width="2">
+        <rect width="539" height="187" rx="18" stroke="none"/>
+        <rect x="1" y="1" width="537" height="185" rx="17" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_179" data-name="Groupe 179" transform="translate(1 -9)">
+      <g id="Container-8" data-name="Container" transform="translate(813 331)">
+        <g id="Container-9" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="113" height="41" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="111" height="39" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="ngmAIOS" transform="translate(870 355)" fill="#324b63" font-size="12" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-29.244" y="0">ngmAIOS</tspan></text>
+    </g>
+    <g id="Rectangle_127" data-name="Rectangle 127" transform="translate(774 671)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="29" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="28" height="8" fill="none"/>
+    </g>
+    <g id="Rectangle_128" data-name="Rectangle 128" transform="translate(1077 495) rotate(90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="22" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="21" height="8" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 489, 105)" filter="url(#Tracé_33)">
+      <g id="Tracé_33-2" data-name="Tracé 33" transform="translate(314)" fill="#fff">
+        <path d="M 538 186 L 1 186 L 1 1 L 538 1 L 538 186 Z" stroke="none"/>
+        <path d="M 2 2 L 2 185 L 537 185 L 537 2 L 2 2 M 0 0 L 539 0 L 539 187 L 0 187 L 0 0 Z" stroke="none" fill="#324b63"/>
+      </g>
+    </g>
+    <rect id="Rectangle_72" data-name="Rectangle 72" width="296" height="3.153" transform="translate(1046 288.847)" fill="#324b63"/>
+    <g id="Groupe_45" data-name="Groupe 45" transform="translate(816 115)">
+      <g id="Container-10" data-name="Container" transform="translate(0)">
+        <g id="Container-11" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+          <rect width="146" height="41" rx="10" stroke="none"/>
+          <rect x="1" y="1" width="144" height="39" rx="9" fill="none"/>
+        </g>
+      </g>
+      <text id="Visualization_Layer" data-name="Visualization Layer" transform="translate(73 24)" fill="#324b63" font-size="12" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-59.508" y="0">Visualization Layer</tspan></text>
+    </g>
+    <g id="Groupe_74" data-name="Groupe 74" transform="translate(1046 105)">
+      <path id="Union_14" data-name="Union 14" d="M3,89H0V0H3V86.015H296V89Z" fill="#91969b"/>
+      <path id="Tracé_26" data-name="Tracé 26" d="M3101.867,14.818h0l-99.1,41.637-84.6-9.939-92.6,39.026" transform="translate(-2822.912)" fill="none" stroke="#b7b7b7" stroke-width="2"/>
+      <path id="Tracé_27" data-name="Tracé 27" d="M2822.6,87.076l105.534-33,26.754-15.646,155.531-16.2" transform="translate(-2819.945 -1.534)" fill="none" stroke="#3b8df7" stroke-width="2"/>
+    </g>
+    <g id="Groupe_73" data-name="Groupe 73" transform="translate(1046 229)">
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="3" height="25" transform="translate(0 38)" fill="#324b63"/>
+      <g id="Groupe_58" data-name="Groupe 58" transform="translate(40)">
+        <g id="Groupe_57" data-name="Groupe 57" transform="translate(0 9)">
+          <rect id="Rectangle_64" data-name="Rectangle 64" width="7" height="44" transform="translate(0 7)" fill="#3b8df7"/>
+          <rect id="Rectangle_65" data-name="Rectangle 65" width="7" height="51" transform="translate(7)" fill="#ddd"/>
+        </g>
+        <g id="Groupe_54" data-name="Groupe 54" transform="translate(131)">
+          <rect id="Rectangle_69" data-name="Rectangle 69" width="7" height="60" transform="translate(0)" fill="#3b8df7"/>
+          <rect id="Rectangle_68" data-name="Rectangle 68" width="7" height="51" transform="translate(7 9)" fill="#ddd"/>
+        </g>
+        <g id="Groupe_55" data-name="Groupe 55" transform="translate(197 20)">
+          <rect id="Rectangle_70" data-name="Rectangle 70" width="7" height="40" fill="#3b8df7"/>
+          <rect id="Rectangle_71" data-name="Rectangle 71" width="7" height="22" transform="translate(7 18)" fill="#ddd"/>
+        </g>
+        <g id="Groupe_56" data-name="Groupe 56" transform="translate(66 23)">
+          <rect id="Rectangle_66" data-name="Rectangle 66" width="7" height="30" transform="translate(0 7)" fill="#3b8df7"/>
+          <rect id="Rectangle_67" data-name="Rectangle 67" width="7" height="37" transform="translate(7)" fill="#ddd"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(1077 289) rotate(90)" fill="#324b63" stroke="#324b63" stroke-width="1">
+      <rect width="22" height="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="21" height="8" fill="none"/>
+    </g>
+    <g id="Groupe_288" data-name="Groupe 288">
+      <g id="Groupe_287" data-name="Groupe 287">
+        <g id="Groupe_180" data-name="Groupe 180" transform="translate(1 -9)">
+          <g transform="matrix(1, 0, 0, 1, 488, 114)" filter="url(#Rectangle_120)">
+            <g id="Rectangle_120-2" data-name="Rectangle 120" transform="translate(500 280)" fill="#fff" stroke="#adc9b0" stroke-width="1">
+              <rect width="172" height="80" rx="15" stroke="none"/>
+              <rect x="0.5" y="0.5" width="171" height="79" rx="14.5" fill="none"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_253" data-name="Groupe 253" transform="translate(-14942 2189)">
+          <g id="Groupe_246" data-name="Groupe 246" transform="translate(16002.271 -1772.531)">
+            <g id="Groupe_242" data-name="Groupe 242" transform="translate(0 0)">
+              <text id="ngmAIOS-2" data-name="ngmAIOS" transform="translate(0 11)" fill="#324b63" font-size="14" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">ngmAIOS</tspan></text>
+              <text id="TM" transform="translate(68.817 14.843)" fill="#324b63" font-size="5" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">TM</tspan></text>
+            </g>
+          </g>
+          <path id="Icon_awesome-star-of-life" data-name="Icon awesome-star-of-life" d="M38.06,26.968,27.1,20.643,38.06,14.319a1.29,1.29,0,0,0,.473-1.763l-2.582-4.47a1.292,1.292,0,0,0-1.764-.473L23.226,13.938V1.29A1.291,1.291,0,0,0,21.935,0H16.771A1.291,1.291,0,0,0,15.48,1.29V13.939L4.519,7.615a1.292,1.292,0,0,0-1.764.473L.173,12.556a1.29,1.29,0,0,0,.473,1.763l10.961,6.324L.646,26.968A1.29,1.29,0,0,0,.173,28.73L2.755,33.2a1.292,1.292,0,0,0,1.764.473L15.48,27.348V40a1.291,1.291,0,0,0,1.291,1.29h5.164A1.291,1.291,0,0,0,23.226,40V27.347l10.961,6.324a1.291,1.291,0,0,0,1.764-.473l2.582-4.47A1.289,1.289,0,0,0,38.06,26.968Z" transform="translate(15954 -1785)" fill="#1ac2c2"/>
+        </g>
+      </g>
+      <text id="Managing_AI_project_life_cycle" data-name="Managing AI
+project life cycle" transform="translate(1177 422)" fill="#324b63" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Managing AI</tspan><tspan x="0" y="16">project life cycle</tspan></text>
+    </g>
+    <g id="Groupe_302" data-name="Groupe 302">
+      <g transform="matrix(1, 0, 0, 1, 489, 105)" filter="url(#Tracé_31)">
+        <g id="Tracé_31-2" data-name="Tracé 31" transform="translate(314 410)" fill="#ccdee1">
+          <path d="M 521 320 L 18 320 C 13.45913314819336 320 9.190066337585449 318.2316589355469 5.979199886322021 315.0208129882812 C 2.768333435058594 311.8099365234375 1 307.5408630371094 1 303 L 1 18 C 1 13.45913314819336 2.768333435058594 9.190066337585449 5.979199886322021 5.979199886322021 C 9.190066337585449 2.768333435058594 13.45913314819336 1 18 1 L 521 1 C 525.5408935546875 1 529.8099365234375 2.768333435058594 533.0208129882812 5.979199886322021 C 536.231689453125 9.190066337585449 538 13.45913314819336 538 18 L 538 303 C 538 307.5408630371094 536.231689453125 311.8099365234375 533.0208129882812 315.0208129882812 C 529.8099365234375 318.2316589355469 525.5408935546875 320 521 320 Z" stroke="none"/>
+          <path d="M 18 2 C 13.7261962890625 2 9.70831298828125 3.664276123046875 6.686279296875 6.686279296875 C 3.664306640625 9.708282470703125 2 13.72622680664062 2 18 L 2 303 C 2 307.2737731933594 3.664306640625 311.2917175292969 6.686279296875 314.313720703125 C 9.70831298828125 317.3357238769531 13.7261962890625 319 18 319 L 521 319 C 525.2737426757812 319 529.2916870117188 317.3357238769531 532.313720703125 314.313720703125 C 535.335693359375 311.2917175292969 537 307.2737731933594 537 303 L 537 18 C 537 13.72622680664062 535.335693359375 9.708282470703125 532.313720703125 6.686279296875 C 529.2916870117188 3.664276123046875 525.2737426757812 2 521 2 L 18 2 M 18 0 L 521 0 C 530.9411010742188 0 539 8.058868408203125 539 18 L 539 303 C 539 312.9411315917969 530.9411010742188 321 521 321 L 18 321 C 8.058837890625 321 0 312.9411315917969 0 303 L 0 18 C 0 8.058868408203125 8.058837890625 0 18 0 Z" stroke="none" fill="#324b63"/>
+        </g>
+      </g>
+      <g id="Groupe_183" data-name="Groupe 183" transform="translate(1 -4)">
+        <g id="Container-12" data-name="Container" transform="translate(826 538)">
+          <g id="Container-13" data-name="Container" fill="#cff8e8" stroke="#324b63" stroke-width="2">
+            <rect width="284" height="51" rx="10" stroke="none"/>
+            <rect x="1" y="1" width="282" height="49" rx="9" fill="none"/>
+          </g>
+        </g>
+        <text id="Processing_Storage_Layer" data-name="Processing/Storage Layer" transform="translate(968 568)" fill="#324b63" font-size="16" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-109.256" y="0">Processing/Storage Layer</tspan></text>
+      </g>
+      <path id="Union_10" data-name="Union 10" d="M-1982.264,55.711l-6.9-6.652a1.082,1.082,0,0,1-.333-.781,1.083,1.083,0,0,1,.333-.782,1.167,1.167,0,0,1,1.615,0l3.552,3.427V10.042a5.294,5.294,0,0,1-3-4.732A5.408,5.408,0,0,1-1981.5,0a5.408,5.408,0,0,1,5.5,5.31,5.294,5.294,0,0,1-3,4.732V50.924l3.553-3.433a1.167,1.167,0,0,1,1.615,0,1.086,1.086,0,0,1,0,1.563l-6.855,6.624a1.156,1.156,0,0,1-.805.321A1.166,1.166,0,0,1-1982.264,55.711Z" transform="translate(2897 681)" fill="url(#linear-gradient)"/>
+      <path id="Union_11" data-name="Union 11" d="M-1853.106,67.855a1.424,1.424,0,0,1-.723-.751,1.219,1.219,0,0,1,.766-1.642l5.639-1.841-133.5-53.94A5.478,5.478,0,0,1-1984.5,11a5.5,5.5,0,0,1-5.5-5.5,5.5,5.5,0,0,1,5.5-5.5,5.5,5.5,0,0,1,5.483,5.06l134.154,54.2-2.465-6.112a1.219,1.219,0,0,1,.766-1.643,1.454,1.454,0,0,1,1.762.822l4.214,10.452a1.221,1.221,0,0,1-.711,1.621l-10.769,3.524a1.363,1.363,0,0,1-.421.067A1.471,1.471,0,0,1-1853.106,67.855Z" transform="translate(2987 639)" fill="url(#linear-gradient-2)"/>
+      <g id="Groupe_290" data-name="Groupe 290">
+        <g id="Groupe_184" data-name="Groupe 184" transform="translate(1 -4)">
+          <g transform="matrix(1, 0, 0, 1, 488, 109)" filter="url(#Rectangle_52)">
+            <g id="Rectangle_52-2" data-name="Rectangle 52" transform="translate(340 499)" fill="#fff" stroke="#80aab1" stroke-width="1">
+              <rect width="172" height="80" rx="15" stroke="none"/>
+              <rect x="0.5" y="0.5" width="171" height="79" rx="14.5" fill="none"/>
+            </g>
+          </g>
+          <g id="Groupe_247" data-name="Groupe 247" transform="translate(-15373.803 2433.935)">
+            <g id="Groupe_246-2" data-name="Groupe 246" transform="translate(16268.27 -1793.788)">
+              <g id="Groupe_242-2" data-name="Groupe 242" transform="translate(0 0)">
+                <text id="ngmSOAN" transform="translate(0 11)" fill="#324b63" font-size="14" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">ngmSOAN</tspan></text>
+                <text id="TM-2" data-name="TM" transform="translate(75.696 13.675)" fill="#324b63" font-size="5" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">TM</tspan></text>
+              </g>
+            </g>
+            <g id="Icon_ionic-md-analytics" data-name="Icon ionic-md-analytics" transform="translate(16223.64 -1804)">
+              <path id="Tracé_2312" data-name="Tracé 2312" d="M32.415,12.675,24.844,24.259a4.125,4.125,0,0,1,.938,2.631,4.168,4.168,0,1,1-8.336,0,4.567,4.567,0,0,1,.069-.773l-5-2.909a4.142,4.142,0,0,1-2.891,1.164,4.191,4.191,0,0,1-2.049-.538L2.25,28.818v4.967a3.717,3.717,0,0,0,3.708,3.708H37.452a3.717,3.717,0,0,0,3.708-3.708V15.324l-5.088-3.378a4.165,4.165,0,0,1-3.656.729Z" transform="translate(-2.25 -1.361)" fill="#a9d1d8"/>
+              <path id="Tracé_2313" data-name="Tracé 2313" d="M9.631,18.05A4.169,4.169,0,0,1,13.8,22.217c0,.182-.017.365-.035.538l5.219,2.918a4.131,4.131,0,0,1,2.64-.938,4.361,4.361,0,0,1,.9.1l7.589-11.757a4.124,4.124,0,0,1-.773-2.414,4.168,4.168,0,1,1,8.336,0,4.53,4.53,0,0,1-.113.981l3.586,2.4V7.083a3.717,3.717,0,0,0-3.708-3.708H5.958A3.717,3.717,0,0,0,2.25,7.083V26.993l3.473-3.326A4.168,4.168,0,0,1,9.631,18.05Z" transform="translate(-2.25 -3.375)" fill="#1ac2c2"/>
+            </g>
+          </g>
+        </g>
+        <text id="Data_Analytics_Orchestration_Automation_Service" data-name="Data Analytics Orchestration
+&amp; Automation Service" transform="translate(1012 617)" fill="#324b63" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Data Analytics Orchestration</tspan><tspan x="0" y="16">&amp; Automation Service</tspan></text>
+      </g>
+      <g id="Groupe_289" data-name="Groupe 289">
+        <g id="Groupe_185" data-name="Groupe 185" transform="translate(1 -4)">
+          <g transform="matrix(1, 0, 0, 1, 488, 109)" filter="url(#Tracé_34)">
+            <g id="Tracé_34-2" data-name="Tracé 34" transform="translate(340 632)" fill="#fff">
+              <path d="M 157 79.5 L 15 79.5 C 11.12691307067871 79.5 7.485651969909668 77.99173736572266 4.746956348419189 75.25304412841797 C 2.00826096534729 72.51436614990234 0.5 68.87308502197266 0.5 65 L 0.5 15 C 0.5 11.12691307067871 2.00826096534729 7.485651969909668 4.746956348419189 4.746956348419189 C 7.485651969909668 2.00826096534729 11.12691307067871 0.5 15 0.5 L 157 0.5 C 160.8730926513672 0.5 164.5143737792969 2.00826096534729 167.2530364990234 4.746956348419189 C 169.9917449951172 7.485651969909668 171.5 11.12691307067871 171.5 15 L 171.5 65 C 171.5 68.87308502197266 169.9917449951172 72.51436614990234 167.2530364990234 75.25304412841797 C 164.5143737792969 77.99173736572266 160.8730926513672 79.5 157 79.5 Z" stroke="none"/>
+              <path d="M 15 1 C 11.26045227050781 1 7.744735717773438 2.456260681152344 5.100494384765625 5.100502014160156 C 2.456268310546875 7.744735717773438 1 11.26045989990234 1 15 L 1 65 C 1 68.73954772949219 2.456268310546875 72.25524139404297 5.100494384765625 74.89949798583984 C 7.744766235351562 77.54373931884766 11.26045227050781 79 15 79 L 157 79 C 160.7395172119141 79 164.2552337646484 77.54373931884766 166.8995056152344 74.89949798583984 C 169.5437316894531 72.25524139404297 171 68.73952484130859 171 65 L 171 15 C 171 11.26045989990234 169.5437316894531 7.744758605957031 166.8995056152344 5.100502014160156 C 164.2552337646484 2.456260681152344 160.7395477294922 1 157 1 L 15 1 M 15 0 L 157 0 C 165.2842559814453 0 172 6.715721130371094 172 15 L 172 65 C 172 73.28426361083984 165.2842559814453 80 157 80 L 15 80 C 6.715713500976562 80 0 73.28426361083984 0 65 L 0 15 C 0 6.715721130371094 6.715713500976562 0 15 0 Z" stroke="none" fill="#80aab1"/>
+            </g>
+          </g>
+          <g id="Groupe_244" data-name="Groupe 244" transform="translate(-15061.99 2785.231)">
+            <g id="Groupe_242-3" data-name="Groupe 242" transform="translate(15958.308 -2012.451)">
+              <text id="ngmDOTS" transform="translate(0 11)" fill="#324b63" font-size="14" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">ngmDOTS</tspan></text>
+              <text id="TM-3" data-name="TM" transform="translate(74.347 12.941)" fill="#324b63" font-size="5" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">TM</tspan></text>
+            </g>
+            <path id="Icon_simple-unsplash" data-name="Icon simple-unsplash" d="M12.858,26.733V0h15.43V11.572ZM28.288,18H41.146V41.146H0V18H12.858V29.574h15.43Z" transform="translate(15911.324 -2024.804)" fill="#1ac2c2"/>
+          </g>
+        </g>
+        <text id="Securable_Data-Object_Management_Store" data-name="Securable
+Data-Object
+Management &amp; Store" transform="translate(1012 766)" fill="#324b63" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Securable</tspan><tspan x="0" y="16">Data-Object</tspan><tspan x="0" y="32">Management &amp; Store</tspan></text>
+      </g>
+      <g id="Groupe_291" data-name="Groupe 291">
+        <g id="Groupe_186" data-name="Groupe 186" transform="translate(1 -4)">
+          <g transform="matrix(1, 0, 0, 1, 488, 109)" filter="url(#Rectangle_54)">
+            <g id="Rectangle_54-2" data-name="Rectangle 54" transform="translate(657 552)" fill="#fff" stroke="#80aab1" stroke-width="1">
+              <rect width="172" height="80" rx="15" stroke="none"/>
+              <rect x="0.5" y="0.5" width="171" height="79" rx="14.5" fill="none"/>
+            </g>
+          </g>
+          <g id="Groupe_245" data-name="Groupe 245" transform="translate(-14748.223 2707.066)">
+            <g id="Groupe_242-4" data-name="Groupe 242" transform="translate(15953.481 -2015.522)">
+              <text id="ngmDEEPER" transform="translate(0 12.038)" fill="#324b63" font-size="13" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">ngmDEEPER</tspan></text>
+              <text id="TM-4" data-name="TM" transform="translate(85 4)" fill="#324b63" font-size="5" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">TM</tspan></text>
+            </g>
+            <path id="Icon_simple-hashnode" data-name="Icon simple-hashnode" d="M5.791,0H30.4A5.791,5.791,0,0,1,36.2,5.791V30.4A5.791,5.791,0,0,1,30.4,36.2H5.791A5.791,5.791,0,0,1,0,30.4V5.791A5.791,5.791,0,0,1,5.791,0ZM27.17,32.634l-.006,0a3.887,3.887,0,0,0,.315-7.751L20.063,11.788c-1.084-1.949-3.179-1.864-3.935.9-.649,2.618-.481,5.086-.67,8.066a.045.045,0,0,1-.035.041.046.046,0,0,1-.05-.02L8.753,7.579a2.244,2.244,0,0,0,.858-1.76,2.2,2.2,0,1,0-2.2,2.2c.1,0,.189-.021.271-.021,2.787,7.164,5.888,15.524,7,17.451a1.763,1.763,0,0,0,3.395-.733l.271-10.455c0-.063.083-.063.106-.021L23.77,26.892a3.881,3.881,0,0,0,3.4,5.74Z" transform="translate(15911.964 -2024.164)" fill="#1ac2c2"/>
+          </g>
+        </g>
+        <text id="Analytics_Acceleration_Engine" data-name="Analytics Acceleration
+Engine" transform="translate(1149 756)" fill="#324b63" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Analytics Acceleration</tspan><tspan x="0" y="16">Engine</tspan></text>
+      </g>
+    </g>
+    <g id="Groupe_254" data-name="Groupe 254" transform="translate(-15707.951 1993.76)">
+      <g id="Groupe_246-3" data-name="Groupe 246" transform="translate(16581.547 -1796.205)">
+        <g id="Groupe_242-5" data-name="Groupe 242" transform="translate(0)">
+          <text id="ngmKandle_Explorer" data-name="ngmKandle
+Explorer" transform="translate(0 12)" fill="#324b63" font-size="16" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">ngmKandle</tspan><tspan x="0" y="20">Explorer</tspan></text>
+          <text id="TM-5" data-name="TM" transform="translate(96.722 5)" fill="#324b63" font-size="6" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="0" y="0">TM</tspan></text>
+        </g>
+      </g>
+      <path id="Icon_material-device-hub" data-name="Icon material-device-hub" d="M39.592,37.086,29.566,27.059V19.088a7.52,7.52,0,1,0-5.013,0v7.971L14.526,37.086H4.5V49.619H17.033V41.974L27.059,31.446,37.086,41.974v7.645H49.619V37.086Z" transform="translate(16525.451 -1804.26)" fill="#1ac2c2"/>
+    </g>
+    <text id="Analytics_Application_Development" data-name="Analytics Application
+Development" transform="translate(822 260)" fill="#324b63" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Analytics Application</tspan><tspan x="0" y="16">Development</tspan></text>
+  </g>
+</svg>

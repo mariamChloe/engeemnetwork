@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1792" height="715" viewBox="0 0 1792 715">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_202" data-name="Rectangle 202" width="1792" height="715" transform="translate(-82 617)"/>
+    </clipPath>
+    <filter id="Tracé_4492" x="1501.5" y="454.5" width="297" height="218" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_4484" x="160.5" y="457.5" width="218" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_198" x="159.5" y="569.5" width="217" height="109" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Picture4" transform="translate(82 -617)" clip-path="url(#clip-path)">
+    <path id="Tracé_2413" data-name="Tracé 2413" d="M453.8,1330.5c-29.991,0-54.3-106.56-54.3-238s24.313-238,54.3-238,54.3,106.556,54.3,238S483.8,1330.5,453.8,1330.5Z" fill="rgba(202,202,202,0.6)" fill-rule="evenodd"/>
+    <path id="Tracé_2410" data-name="Tracé 2410" d="M377.875,1275c6.559,0,11.876-21.27,11.876-47.5s-5.317-47.5-11.876-47.5H1325.12c6.56,0,11.88,21.27,11.88,47.5s-5.32,47.5-11.88,47.5Z" fill="#b5a75e" fill-rule="evenodd"/>
+    <path id="Tracé_2411" data-name="Tracé 2411" d="M377.875,1275c-6.558,0-11.875-21.27-11.875-47.5s5.317-47.5,11.875-47.5,11.876,21.27,11.876,47.5S384.434,1275,377.875,1275Z" fill="#d4cfb4" fill-rule="evenodd"/>
+    <path id="Tracé_2412" data-name="Tracé 2412" d="M453.8,1330.5c29.991,0,54.3-106.56,54.3-238s-24.313-238-54.3-238h624.4c29.99,0,54.3,106.556,54.3,238s-24.31,238-54.3,238Z" fill="rgba(204,222,225,0.62)" fill-rule="evenodd"/>
+    <path id="Tracé_2414" data-name="Tracé 2414" d="M453.8,854.5c29.991,0,54.3,106.556,54.3,238s-24.313,238-54.3,238-54.3-106.56-54.3-238,24.313-238,54.3-238h624.4c29.99,0,54.3,106.556,54.3,238s-24.31,238-54.3,238H453.8" fill="none" stroke="#324b63" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" fill-rule="evenodd"/>
+    <path id="Tracé_2415" data-name="Tracé 2415" d="M374.875,1142c6.559,0,11.875-21.27,11.875-47.5s-5.316-47.5-11.875-47.5H1322.12c6.56,0,11.88,21.27,11.88,47.5s-5.32,47.5-11.88,47.5Z" fill="#b5a75e" fill-rule="evenodd"/>
+    <path id="Tracé_2416" data-name="Tracé 2416" d="M374.875,1142c-6.558,0-11.875-21.27-11.875-47.5s5.317-47.5,11.875-47.5,11.875,21.27,11.875,47.5S381.434,1142,374.875,1142Z" fill="#cbc5a4" fill-rule="evenodd"/>
+    <path id="Tracé_2417" data-name="Tracé 2417" d="M370,1022c6.627,0,12-21.49,12-48s-5.373-48-12-48h948c6.63,0,12,21.491,12,48s-5.37,48-12,48Z" fill="#7d7447" fill-rule="evenodd"/>
+    <path id="Tracé_2418" data-name="Tracé 2418" d="M370,1022c-6.628,0-12-21.49-12-48s5.372-48,12-48,12,21.491,12,48S376.627,1022,370,1022Z" fill="#b1ac91" fill-rule="evenodd"/>
+    <text id="nBR" transform="translate(444.029 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">nBR</tspan></text>
+    <text id="_-" data-name="-" transform="translate(508.196 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="_2ge_UE" data-name="2ge &amp; UE" transform="translate(518.508 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">2ge &amp; UE</tspan></text>
+    <text id="_--2" data-name="-" transform="translate(662.883 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="_3p7_Initial" data-name="3p7 (Initial" transform="translate(673.196 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">3p7 (Initial</tspan></text>
+    <text id="Ctx" transform="translate(855.956 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Ctx</tspan></text>
+    <text id="_" data-name="–" transform="translate(918.977 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">–</tspan></text>
+    <text id="Paging" transform="translate(951.633 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Paging</tspan></text>
+    <text id="_2" data-name="–" transform="translate(1072.52 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">–</tspan></text>
+    <text id="HO_" data-name="HO …)" transform="translate(1105.17 1103)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">HO …)</tspan></text>
+    <text id="nBR-2" data-name="nBR" transform="translate(518.144 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">nBR</tspan></text>
+    <text id="_--3" data-name="-" transform="translate(582.31 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="a2d_UE" data-name="a2d &amp; UE" transform="translate(592.623 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">a2d &amp; UE</tspan></text>
+    <text id="_--4" data-name="-" transform="translate(737.571 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="_3p7_" data-name="3p7 (" transform="translate(747.883 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">3p7 (</tspan></text>
+    <text id="Reloc" transform="translate(832.102 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Reloc</tspan></text>
+    <text id="_." data-name="." transform="translate(922.05 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">.</tspan></text>
+    <text id="_3" data-name="–" transform="translate(942.102 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">–</tspan></text>
+    <text id="IU_Rel._" data-name="IU Rel. … )" transform="translate(974.758 1233)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">IU Rel. … )</tspan></text>
+    <text id="nBR-3" data-name="nBR" transform="translate(434.173 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">nBR</tspan></text>
+    <text id="_--5" data-name="-" transform="translate(498.34 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="a0b_UE" data-name="a0b &amp; UE" transform="translate(508.653 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">a0b &amp; UE</tspan></text>
+    <text id="_--6" data-name="-" transform="translate(653.6 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">-</tspan></text>
+    <text id="_3p7_Attach_Proc" data-name="3p7 (Attach Proc" transform="translate(663.913 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">3p7 (Attach Proc</tspan></text>
+    <text id="_4" data-name="–" transform="translate(947.507 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">–</tspan></text>
+    <text id="RAU_" data-name="RAU …)" transform="translate(980.163 983)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">RAU …)</tspan></text>
+    <path id="Tracé_2419" data-name="Tracé 2419" d="M315.5,999.5H1419.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+    <path id="Tracé_2420" data-name="Tracé 2420" d="M313.5,1119.5H1417.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+    <g transform="matrix(1, 0, 0, 1, -82, 617)" filter="url(#Tracé_4492)">
+      <path id="Tracé_4492-2" data-name="Tracé 4492" d="M0,0H288V209H0Z" transform="translate(1503 456)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="Network" transform="translate(1489.54 1194)" fill="#fff" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">Network</tspan></text>
+    <g id="Groupe_379" data-name="Groupe 379" transform="translate(1341.631 847.412)">
+      <g id="Groupe_378" data-name="Groupe 378" transform="translate(68.42 67.945)">
+        <rect id="Rectangle_195" data-name="Rectangle 195" width="294.119" height="138.593" fill="#1391ab"/>
+      </g>
+    </g>
+    <rect id="Rectangle_196" data-name="Rectangle 196" width="288" height="139" transform="translate(1422 926)" fill="#324b63" stroke="#1391ab" stroke-width="3"/>
+    <text id="CS_PS_SS7" data-name="CS/PS/SS7" transform="translate(1458.57 1013)" fill="#fff" font-size="48" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">CS/PS/SS7</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -82, 617)" filter="url(#Tracé_4484)">
+      <path id="Tracé_4484-2" data-name="Tracé 4484" d="M0,0H209V101H0Z" transform="translate(162 459)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="NAS_AS" data-name="NAS/AS" transform="translate(125.986 1139)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">NAS/AS</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -82, 617)" filter="url(#Rectangle_198)">
+      <rect id="Rectangle_198-2" data-name="Rectangle 198" width="208" height="100" transform="translate(161 571)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="RRC" transform="translate(153.282 1251)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">RRC</tspan></text>
+    <g id="Groupe_381" data-name="Groupe 381" transform="translate(-83 833)">
+      <g id="Groupe_677" data-name="Groupe 677" transform="translate(18.313 14.307)">
+        <rect id="Rectangle_199" data-name="Rectangle 199" width="210.487" height="138.593" transform="translate(136.2 68.05)" fill="#1391ab"/>
+      </g>
+    </g>
+    <rect id="Rectangle_201" data-name="Rectangle 201" width="208" height="139" transform="translate(81 926)" fill="#324b63" stroke="#1391ab" stroke-width="3"/>
+    <text id="UE" transform="translate(158.065 1013)" fill="#fff" font-size="50" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UE</tspan></text>
+    <text id="eRAB_UE" data-name="eRAB/UE" transform="translate(958.77 678)" fill="#1ac2c2" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">eRAB/UE</tspan></text>
+    <text id="_--7" data-name="-" transform="translate(1119.19 678)" fill="#1ac2c2" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">-</tspan></text>
+    <text id="Connection_Based_nBR" data-name="Connection Based nBR" transform="translate(1135.8 678)" fill="#1ac2c2" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">Connection Based nBR</tspan></text>
+    <text id="Multiple_records_sequences_with" data-name="Multiple records sequences with" transform="translate(958.77 733)" fill="#324b63" font-size="46" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Multiple records sequences with</tspan></text>
+    <text id="Telecom_Procedure_Details" data-name="Telecom Procedure Details" transform="translate(958.77 788)" fill="#324b63" font-size="46" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Telecom Procedure Details</tspan></text>
+    <path id="Tracé_2422" data-name="Tracé 2422" d="M0,0,95.009-135.543" transform="translate(1223.5 953.043)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <path id="Tracé_2423" data-name="Tracé 2423" d="M0,0,83.808-273.773" transform="translate(1234.5 1091.27)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <path id="Tracé_2424" data-name="Tracé 2424" d="M0,0,29.077-416.6" transform="translate(1289.5 1234.1)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <rect id="Rectangle_407" data-name="Rectangle 407" width="26" height="95" transform="translate(397 1180)" fill="#b5a75e"/>
+    <path id="Tracé_2421" data-name="Tracé 2421" d="M315.5,1255.5H1419.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+  </g>
+</svg>

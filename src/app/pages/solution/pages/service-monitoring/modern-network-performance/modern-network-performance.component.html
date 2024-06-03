@@ -1,0 +1,170 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+[imgUrl]="'assets/images/network-image/service monitoring4.jpg'"
+
+  [Headline]="['modern-network-performance.hero-head-line']"
+  HeadlineClass="text-brand-old-blue"
+  BannerText="modern-network-performance.BannerText"
+  [subHeadline]="['']"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="modern-network-performance.problems-head-line"
+  subHeadline=""
+  [imgUrl]="'assets/images/other/Modern Network Performance (B3).svg'"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['modern-network-performance.solution-key-feature.headLine']"
+  [subHeadLine]="['modern-network-performance.solution-key-feature.subHeadLine']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <div class="bg-[#FBFBFB] relative">
+    <app-poly-image
+    imageUrl="assets/images/other/modern-network1.svg"
+
+     title="modern-network-performance.poly-image1.title"
+     [textBeforeList]="[
+         'modern-network-performance.poly-image1.textBeforeList1',
+         '',
+         'modern-network-performance.poly-image1.textBeforeList2',
+         'modern-network-performance.poly-image1.textBeforeList3'
+
+     ]"
+    
+    
+     [btnVisible]="false">
+   </app-poly-image>
+    <app-poly-image
+    [title]="'modern-network-performance.poly-image2.title'"
+    imageUrl="assets/images/network-image/engeemnetworkunivers.webp"
+    [textBeforeList]="[
+        'modern-network-performance.poly-image2.textBeforeList1',
+        'modern-network-performance.poly-image2.textBeforeList2',
+    ]"
+    [list]="[
+    'modern-network-performance.poly-image2.list1',
+    'modern-network-performance.poly-image2.list2',
+    'modern-network-performance.poly-image2.list3',
+  ]"
+     [reverse]="true"
+     [btnVisible]="false"
+     
+   >
+    </app-poly-image>
+    <app-poly-image
+     [title]="'modern-network-performance.poly-image3.title'"
+     imageUrl="assets/images/other/modernenetwork4.svg"
+     [textBeforeList]="[
+         'modern-network-performance.poly-image3.textBeforeList',
+         'modern-network-performance.poly-image3.textBeforeList1',
+         '',
+         'modern-network-performance.poly-image3.textBeforeList2',
+         '',
+         
+     ]"
+    
+     [btnVisible]="true"
+     btnText="Get Started Free"
+     BtnClass="mb-12"
+   >
+   </app-poly-image>
+ </div>
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50 ">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6 ">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "modern-network-performance.app-card-headline" | translate }}
+    </h1>
+
+  
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [title] ="['modern-network-performance.cards.card1.title']"
+        [textBeforeList] ="[
+        'modern-network-performance.cards.card1.textBeforeList',
+        '',
+        'modern-network-performance.cards.card1.textBeforeList2',
+        '',
+        'modern-network-performance.cards.card1.textBeforeList3'
+
+
+        ]"
+
+        data-tour-center
+        content="modern-network-performance.card-content1"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        content="modern-network-performance.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [title] ="['modern-network-performance.cards.card2.title']"
+        [textBeforeList] ="['modern-network-performance.cards.card2.textBeforeList',
+        'modern-network-performance.cards.card2.textBeforeList2']"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+        [title] ="['modern-network-performance.cards.card3.title']"
+        [textBeforeList] ="['modern-network-performance.cards.card3.textBeforeList',
+        'modern-network-performance.cards.card3.textBeforeList2']"
+
+
+        content="modern-network-performance.card-content3"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+image="assets/images/network-image/Background-01.png"
+  [headLine]="[
+    'modern-network-performance.last-banner-headline',
+  ]"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  textLeft="modern-network-performance.last-banner-left-text"
+  textRight="modern-network-performance.last-banner-right-text"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

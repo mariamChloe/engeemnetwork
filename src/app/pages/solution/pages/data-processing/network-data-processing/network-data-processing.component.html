@@ -1,0 +1,179 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+  [Headline]="['network-data-processing.hero-head-line']"
+  [imgUrl]="'assets/images/network-image/data processing.png'"
+  heroClass=""
+HeadlineClass="text-white"
+  [subHeadline]="['network-data-processing.hero-sub-head-line']"
+  subHeadlineClass="text-white"
+  BannerText="network-data-processing.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="network-data-processing.problems-head-line"
+  subHeadline=""
+  imgUrl="assets/images/other/Network Data Processing (E1).jpg"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['network-data-processing.solution-key-feature.headLine']"
+  [subHeadLine]="['network-data-processing.solution-key-feature.subHeadLine']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <div class="bg-[#FBFBFB] relative">
+    <app-poly-image
+    imageUrl="assets/images/other/network1.png"
+     title="network-data-processing.poly-image1.title"
+     [textBeforeList]="[
+         'network-data-processing.poly-image1.textBeforeList1',
+         '',
+    
+
+     ]"
+     [list]="[
+     'network-data-processing.poly-image1.list1',
+     'network-data-processing.poly-image1.list2',
+     'network-data-processing.poly-image1.list3',
+   ]"
+    
+    
+     [btnVisible]="false">
+   </app-poly-image>
+    <app-poly-image
+    imageUrl="assets/images/network-image/engeemserver2.webp"
+
+     [title]="'network-data-processing.poly-image2.title'"
+     [textBeforeList]="[
+         'network-data-processing.poly-image2.textBeforeList1',
+         'network-data-processing.poly-image2.textBeforeList2',
+
+     ]"
+     [list]="[
+     'network-data-processing.poly-image2.list1',
+     'network-data-processing.poly-image2.list2',
+     'network-data-processing.poly-image2.list3',
+   ]"
+    
+     
+     [btnVisible]="false"
+     [reverse]="true"
+   >
+   </app-poly-image>
+    <app-poly-image
+    imageUrl="assets/images/other/network2.png"
+
+     [title]="'network-data-processing.poly-image3.title'"
+     [textBeforeList]="[
+         'network-data-processing.poly-image3.textBeforeList1',
+         '',
+
+     ]"
+     [list]="[
+     'network-data-processing.poly-image3.list1',
+     'network-data-processing.poly-image3.list2',
+   ]"
+      
+     [btnVisible]="true"
+     btnText="Get Started Free"
+     BtnClass="mb-8"
+
+
+   >
+   </app-poly-image>
+
+   
+ </div>
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "Automate the Use of Network Data to Efficiently build Management Applications" }}
+    </h1>
+
+  
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [title] ="['network-data-processing.cards.card1.title']"
+        [textBeforeList] ="['network-data-processing.cards.card1.textBeforeList',
+        '',
+        'network-data-processing.cards.card1.textBeforeList2']"
+
+        data-tour-center
+        content="network-data-processing.card-content1"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        content="network-data-processing.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [title] ="['network-data-processing.cards.card2.title']"
+        [textBeforeList] ="['network-data-processing.cards.card2.textBeforeList',
+        '',
+        '']"
+        [enableBtn]="true"
+
+      >
+
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+        [title] ="['network-data-processing.cards.card3.title']"
+        [textBeforeList] ="['network-data-processing.cards.card3.textBeforeList',
+        '',
+        '',
+        ]"
+
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'network-data-processing.last-banner-headline',
+  ]"
+  textLeft="network-data-processing.last-banner-left-text"
+  textRight="network-data-processing.last-banner-right-text"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  image="assets/images/network-image/Background-01.png"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

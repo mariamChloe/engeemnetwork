@@ -1,0 +1,146 @@
+<!--
+    HERO SECTION
+-->
+<app-hero-interne
+  [Headline]="['data-streaming-service.heroheadline']"
+  [subHeadline]="['data-streaming-service.herosubheadline']"
+  customClass="cyan"
+></app-hero-interne>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="data-streaming-service.problemheadline"
+  subheadline="data-streaming-service.problemsubheadline"
+  imgUrl="assets/images/architectures/Data_streaming_service.png"
+></app-problems-grid>
+
+<!--
+      SOLUTIONS SECTION
+    -->
+
+<app-solutions-grid
+  [Solutions]="SolutionsItems"
+  Headline="data-streaming-service.solutionheadline"
+  SubHeadline="data-streaming-service.solutionsubheadline"
+></app-solutions-grid>
+
+<!--
+  FEATURES SECTION
+-->
+
+<!-- <app-poly-image
+  title="data-streaming-service.polyimagetitle"
+  content="data-streaming-service.polyimagecontent"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/hand-server.webp"
+>
+</app-poly-image> -->
+
+<app-polyimagereverse
+  title="data-streaming-service.polyimagereversetitle"
+  textBeforeList="data-streaming-service.polyimagereversetextbeforelist"
+  [content]="[
+    'data-streaming-service.polyimagereverselist1',
+    'data-streaming-service.polyimagereverselist2'
+  ]"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/stats.webp"
+></app-polyimagereverse>
+
+<!-- <app-poly-image
+  title="data-streaming-service.polyimagetitle1"
+  content="data-streaming-service.polyimagecontent1"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/coding.webp"
+>
+</app-poly-image> -->
+
+<app-polyimagereverse
+  title="data-streaming-service.polyimagereversetitle"
+  content="data-streaming-service.polyimagereversecontent2"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/data-tour-center.webp"
+></app-polyimagereverse>
+
+<!--
+      BENEFITS SECTION
+    -->
+
+<div class="bg-[#CCDEE1] text-[#0D4977] text-3xl text-center p-8 font-bold">
+  {{ "Common.Whatcanweachieve" | translate }}
+</div>
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "data-streaming-service.benefitsheadline" | translate }}
+    </h1>
+
+    <h2 class="text-center max-w-3xl mx-auto leading-normal py-1">
+      {{ "data-streaming-service.benefitssubheadline" | translate }}
+    </h2>
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="./assets/images/tinified/abstract-tech.webp"
+        content="data-streaming-service.benefitcardcontent1"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/number-matrix.webp"
+        content="data-streaming-service.benefitcardcontent2"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/neurodata.webp"
+
+
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+<!-- MORE INFO SECTION -->
+
+<div class="relative">
+  <img
+    class="inset-0 absolute object-cover h-full w-full brightness-50"
+    src="assets/images/tinified/vortex.webp"
+    alt=""
+  />
+  <section class="max-w-7xl px-2 md:px-4 mx-auto py-8 relative z-10 text-white">
+    <h1 class="text-2xl lg:text-4xl py-8 text-center font-bold text-white">
+      {{ "data-streaming-service.moreheadline" | translate }}
+    </h1>
+    <div
+      class="grid lg:grid-cols-2 text-2xl text-[#ffffffe7] text-center px-6 py-4 gap-12 lg:gap-0 lg:px-12 lg:py-5"
+    >
+      <div>
+        {{ "data-streaming-service.moregrid1" | translate }}
+      </div>
+      <div>
+        {{ "data-streaming-service.moregrid2" | translate }}
+      </div>
+    </div>
+
+    <div class="flex justify-center py-4 lg:py-6">
+      <a        [routerLink]="'/catalog'"
+        class="px-12 py-2 rounded-full text-2xl uppercase btn-turquoise text-white"
+      >
+        {{ "Button.start" | translate }}
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

@@ -1,0 +1,180 @@
+<!--
+    HERO SECTION
+-->
+<app-hero-interne
+  [Headline]="['high-performance-datalakes.heroheadline']"
+  [subHeadline]="['high-performance-datalakes.herosubheadline']"
+  customClass="teal"
+
+></app-hero-interne>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="high-performance-datalakes.problemheadline"
+  subheadline="high-performance-datalakes.problemsubheadline"
+  imgUrl="assets/images/architectures/High_Performance_DataLake.svg"
+></app-problems-grid>
+
+<!--
+      SOLUTIONS SECTION
+    -->
+
+<app-solutions-grid
+  [Solutions]="SolutionsItems"
+  Headline="high-performance-datalakes.solutionheadline"
+  SubHeadline="high-performance-datalakes.solutionsubheadline"
+></app-solutions-grid>
+
+<!--
+  FEATURES SECTION
+-->
+
+<!-- <app-poly-image
+  title="high-performance-datalakes.polyimagetitle"
+  content="high-performance-datalakes.polyimagecontent"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/data-tour.webp"
+>
+</app-poly-image> -->
+
+<div class="grid lg:grid-cols-2 w-full">
+  <div class="px-12 lg:px-0 lg:rotate-180 lg:polygon-clip lg:order-last">
+    <img
+      src="./assets/images/tinified/circuit-integre1.webp"
+      class="object-cover h-full lg:rotate-180"
+      alt=""
+      srcset=""
+    />
+  </div>
+  <div
+    class="flex justify-center items-center flex-col gap-8 px-12 py-8 text-black"
+  >
+    <p class="text-5xl text-center py-7 font-bold">
+      {{ "high-performance-datalakes.polyimagereversetitle" | translate }}
+    </p>
+    <p
+      class="text-2xl text-gray-500 max-w-xl mx-auto leading-normal text-center"
+    >
+      {{ "high-performance-datalakes.polyimagereversecontent" | translate }}
+    </p>
+
+    <p
+      class="text-2xl text-gray-500 max-w-xl mx-auto leading-normal text-center"
+    >
+      {{
+        "high-performance-datalakes.polyimagereversetextbeforelink" | translate
+      }}
+      <a routerLink="/catalog" fragment="marketplace" class="underline-offset-4 underline">
+        {{ "high-performance-datalakes.polyimagereversetextlink" | translate }}
+      </a>
+      {{
+        "high-performance-datalakes.polyimagereversetextafterlink" | translate
+      }}
+    </p>
+
+    <button class="py-2 px-4 btn-outline-old-blue text-xl rounded-full">
+      {{ "Button.start" | translate }}
+    </button>
+  </div>
+</div>
+
+<!-- <app-poly-image
+  title="high-performance-datalakes.polyimagetitle2"
+  content="high-performance-datalakes.polyimagecontent2"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/neurodata.webp"
+>
+</app-poly-image> -->
+<app-polyimagereverse
+  title="high-performance-datalakes.polyimagereversetitle2"
+  content="high-performance-datalakes.polyimagereversecontent2"
+  btnText="Button.start"
+  imageUrl="./assets/images/other/tunel.webp"
+></app-polyimagereverse>
+
+<!--
+      BENEFITS SECTION
+    -->
+
+<div class="bg-[#CCDEE1] text-[#0D4977] text-3xl text-center p-8 font-bold">
+  {{ "Common.Whatcanweachieve" | translate }}
+</div>
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "high-performance-datalakes.benefitsheadline" | translate }}
+    </h1>
+
+    <h2 class="text-center max-w-3xl mx-auto leading-normal py-1">
+      {{ "high-performance-datalakes.benefitssubheadline" | translate }}
+    </h2>
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="./assets/images/tinified/abstract-tech.webp"
+        btnText="Button.readMoreAcceleration"
+        [textBeforeList]="['high-performance-datalakes.benefitcardtextbeforelist']"
+
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/number-matrix.webp"
+        content="high-performance-datalakes.benefitcardcontent2"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/circuit-integre1.webp"
+
+        content="high-performance-datalakes.benefitcardcontent3"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+<!-- MORE INFO SECTION -->
+
+<div class="relative">
+  <img
+    class="inset-0 absolute object-cover h-full w-full brightness-50"
+    src="assets/images/tinified/planet-connected.webp"
+    alt=""
+  />
+
+  <section
+    class="max-w-7xl px-2 md:px-4 mx-auto py-8 relative text-[#ffffffe7]"
+  >
+    <h1 class="text-2xl lg:text-4xl text-white py-8 text-center font-bold">
+      {{ "high-performance-datalakes.moreheadline" | translate }}
+    </h1>
+    <div
+      class="grid lg:grid-cols-2 text-2xl text-[#ffffffe7]  text-center px-6 py-4 gap-12 lg:gap-0 lg:px-12 lg:py-5"
+    >
+      <div>
+        {{ "high-performance-datalakes.moregrid1" | translate }}
+      </div>
+      <div>
+        {{ "high-performance-datalakes.moregrid2" | translate }}
+      </div>
+    </div>
+
+    <div class="flex justify-center py-4 lg:py-6">
+      <a        [routerLink]="'/catalog'"
+        class="px-12 py-2 rounded-full text-2xl uppercase btn-turquoise text-white"
+      >
+        {{ "Button.start" | translate }}
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

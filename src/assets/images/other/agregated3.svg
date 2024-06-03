@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1526.5" height="739" viewBox="0 0 1526.5 739">
+  <defs>
+    <filter id="Tracé_8032" x="0" y="0" width="802.885" height="739" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3915" data-name="Groupe 3915" transform="translate(-11323 -3154)">
+    <g id="Groupe_3909" data-name="Groupe 3909" transform="translate(10449.935 3147)">
+      <g transform="matrix(1, 0, 0, 1, 873.07, 7)" filter="url(#Tracé_8032)">
+        <path id="Tracé_8032-2" data-name="Tracé 8032" d="M451.12,0a72,72,0,0,1,62.409,36.1L636.359,249.6a72,72,0,0,1,0,71.81L513.528,534.9A72,72,0,0,1,451.12,571H205.9a72,72,0,0,1-62.409-36.1L20.657,321.4a72,72,0,0,1,0-71.81L143.488,36.1A72,72,0,0,1,205.9,0Z" transform="translate(729.95 632) rotate(180)" fill="#74f1c5"/>
+      </g>
+      <text id="Problem_Context_How_to_Use_Quality_of_Experience_to_Efficiently_Manage_Network_Systems_Managing_networks_is_still_prevalent_in_your_organization_How_do_you_get_from_System_Performance_to_Service_Management_Aligning_Quality_of_Experience_needs_with_n" data-name="Problem – Context
+
+How to Use Quality of Experience to Efficiently Manage Network Systems
+Managing networks is still prevalent in your organization… How do you get from System Performance to Service Management? 
+
+Aligning Quality of Experience needs with n" transform="translate(1056 184)" fill="#362953" font-size="39" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-172.282" y="35">Problem – Context</tspan><tspan font-size="27"><tspan x="0" y="63"></tspan></tspan><tspan font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="-206.021" y="91">How to Use Quality of Experience to Efficiently </tspan><tspan x="-116.709" y="119">Manage Network Systems</tspan><tspan x="-190.645" y="147">Managing networks is still prevalent in your </tspan><tspan x="-195.645" y="175">organization… How do you get from System </tspan><tspan x="-171.196" y="203">Performance to Service Management? </tspan><tspan x="0" y="231"></tspan><tspan x="-183.994" y="259">Aligning Quality of Experience needs with </tspan><tspan x="-197.881" y="287">network management systems and adjusting </tspan><tspan x="-204.541" y="315">radio, core, and transport systems to end-user </tspan><tspan x="-183.979" y="343" xml:space="preserve">quality clusters brings significant benefits.  </tspan></tspan></text>
+    </g>
+    <g id="Groupe_3908" data-name="Groupe 3908" transform="translate(12025.5 3241)">
+      <g id="Rectangle_2001" data-name="Rectangle 2001" transform="translate(57 93)" fill="#f7f3f2" stroke="rgba(112,112,112,0.69)" stroke-width="1">
+        <rect width="767" height="333" rx="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="766" height="332" rx="25.5" fill="none"/>
+      </g>
+      <text id="Create_more_detailed_KPIs_that_cover_all_network_domains_and_service_functional_behavior_Unify_Network_Domain_Management_RAN_Transport_and_Core_with_novel_Aggregated_KPIs_and_Alerts_using_ENGEEM_Correlation_API" data-name="Create more detailed KPIs that cover all network domains and service functional behavior 
+
+Unify Network Domain Management, RAN, Transport, and Core with novel Aggregated KPIs and Alerts using ENGEEM Correlation API" transform="translate(98 207)" fill="#575454" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="18">Create more detailed KPIs that cover all network domains and service </tspan><tspan x="0" y="46">functional behavior </tspan><tspan x="0" y="74"></tspan><tspan x="0" y="102">Unify Network Domain Management, RAN, Transport, and Core with novel </tspan><tspan x="0" y="130">Aggregated KPIs and Alerts using ENGEEM Correlation API</tspan></text>
+      <text id="Aggregated_QoS_KPIs" data-name="Aggregated QoS KPIs" transform="translate(102 166)" fill="#575454" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Aggregated QoS KPIs</tspan></text>
+      <g id="Icon_material-round-bubble-chart" data-name="Icon material-round-bubble-chart" transform="translate(543.947 128)">
+        <path id="Tracé_8029" data-name="Tracé 8029" d="M21.48,19.94a8.74,8.74,0,1,1-8.74-8.74,8.74,8.74,0,0,1,8.74,8.74Z" transform="translate(0 12.465)" fill="#575454"/>
+        <path id="Tracé_8030" data-name="Tracé 8030" d="M23.725,21.463A5.463,5.463,0,1,1,18.263,16,5.463,5.463,0,0,1,23.725,21.463Z" transform="translate(15.235 20.775)" fill="#575454"/>
+        <path id="Tracé_8031" data-name="Tracé 8031" d="M36.62,17.11A13.11,13.11,0,1,1,23.51,4,13.11,13.11,0,0,1,36.62,17.11Z" transform="translate(11.08 0)" fill="#575454"/>
+      </g>
+    </g>
+  </g>
+</svg>

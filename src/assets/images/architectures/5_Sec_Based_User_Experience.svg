@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1791" height="838" viewBox="0 0 1791 838">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_213" data-name="Rectangle 213" width="1791" height="838" transform="translate(1509 617)"/>
+    </clipPath>
+    <filter id="Tracé_4490" x="1501.5" y="454.5" width="221" height="123" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#314b62"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_4489" x="1500.5" y="580.5" width="221" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#314b62"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_206" data-name="Rectangle 206" width="368" height="289"/>
+    </clipPath>
+    <filter id="Tracé_4488" x="161.5" y="457.5" width="217" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_4487" x="159.5" y="569.5" width="218" height="109" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#324b63"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_211" data-name="Rectangle 211" width="365" height="289"/>
+    </clipPath>
+  </defs>
+  <g id="Picture5" transform="translate(-1509 -617)" clip-path="url(#clip-path)">
+    <path id="Tracé_2428" data-name="Tracé 2428" d="M2155,1330.5c-32.86,0-59.5-106.56-59.5-238s26.64-238,59.5-238,59.5,106.557,59.5,238S2187.86,1330.5,2155,1330.5Z" fill="rgba(255,163,102,0.6)" fill-rule="evenodd"/>
+    <path id="Tracé_2425" data-name="Tracé 2425" d="M1968.87,1275c6.56,0,11.88-21.27,11.88-47.5s-5.32-47.5-11.88-47.5h948.26c6.55,0,11.87,21.27,11.87,47.5s-5.32,47.5-11.87,47.5Z" fill="#31859c" fill-rule="evenodd"/>
+    <path id="Tracé_2426" data-name="Tracé 2426" d="M1968.87,1275c-6.55,0-11.87-21.27-11.87-47.5s5.32-47.5,11.87-47.5,11.88,21.27,11.88,47.5S1975.43,1275,1968.87,1275Z" fill="#83b6c4" fill-rule="evenodd"/>
+    <path id="Tracé_2427" data-name="Tracé 2427" d="M2155,1330.5c32.86,0,59.5-106.56,59.5-238s-26.64-238-59.5-238h510c32.86,0,59.5,106.557,59.5,238s-26.64,238-59.5,238Z" fill="rgba(255,102,0,0.6)" fill-rule="evenodd"/>
+    <path id="Tracé_2429" data-name="Tracé 2429" d="M2155,854.5c32.86,0,59.5,106.557,59.5,238s-26.64,238-59.5,238-59.5-106.56-59.5-238,26.64-238,59.5-238h510c32.86,0,59.5,106.557,59.5,238s-26.64,238-59.5,238H2155" fill="none" stroke="#dce6f2" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" fill-rule="evenodd"/>
+    <path id="Tracé_2430" data-name="Tracé 2430" d="M1965.87,1142c6.56,0,11.88-21.27,11.88-47.5s-5.32-47.5-11.88-47.5h948.26c6.55,0,11.87,21.27,11.87,47.5s-5.32,47.5-11.87,47.5Z" fill="#7f7f7f" fill-rule="evenodd"/>
+    <path id="Tracé_2431" data-name="Tracé 2431" d="M1965.87,1142c-6.55,0-11.87-21.27-11.87-47.5s5.32-47.5,11.87-47.5,11.88,21.27,11.88,47.5S1972.43,1142,1965.87,1142Z" fill="#b2b2b2" fill-rule="evenodd"/>
+    <path id="Tracé_2432" data-name="Tracé 2432" d="M1962,1022c6.63,0,12-21.49,12-48s-5.37-48-12-48h948c6.63,0,12,21.491,12,48s-5.37,48-12,48Z" fill="#db9e07" fill-rule="evenodd"/>
+    <path id="Tracé_2433" data-name="Tracé 2433" d="M1962,1022c-6.63,0-12-21.49-12-48s5.37-48,12-48,12,21.491,12,48S1968.63,1022,1962,1022Z" fill="#e9c56a" fill-rule="evenodd"/>
+    <text id="UER_Seq.1_QoE_Index_1_10_sec_" data-name="UER Seq.1 &amp; QoE Index 1 (10 sec)" transform="translate(2035.56 1099)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UER Seq.1 &amp; QoE Index 1 (10 sec)</tspan></text>
+    <text id="UER_Seq.0_QoE_Index_0_5_sec_" data-name="UER Seq.0 &amp; QoE Index 0 (5 sec)" transform="translate(2025.71 976)" fill="#fff" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UER Seq.0 &amp; QoE Index 0 (5 sec)</tspan></text>
+    <path id="Tracé_2434" data-name="Tracé 2434" d="M1907.5,996.5H3011.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+    <path id="Tracé_2435" data-name="Tracé 2435" d="M1904.5,1115.5H3008.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+    <g transform="matrix(1, 0, 0, 1, 1509, 617)" filter="url(#Tracé_4490)">
+      <path id="Tracé_4490-2" data-name="Tracé 4490" d="M0,0H212V114H0Z" transform="translate(1503 456)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="Bearer" transform="translate(3037.33 1121)" fill="#fac090" font-size="37" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Bearer</tspan></text>
+    <text id="QoS" transform="translate(3139.88 1121)" fill="#fac090" font-size="37" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">QoS</tspan></text>
+    <text id="APN_QCI" data-name="APN / QCI" transform="translate(3044.78 1165)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">APN / QCI</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 1509, 617)" filter="url(#Tracé_4489)">
+      <path id="Tracé_4489-2" data-name="Tracé 4489" d="M0,0H212V104H0Z" transform="translate(1502 582)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="Traffic" transform="translate(3068.64 1242)" fill="#fac090" font-size="37" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Traffic</tspan></text>
+    <text id="Profile" transform="translate(3069.21 1286)" fill="#fac090" font-size="37" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Profile</tspan></text>
+    <g id="Groupe_384" data-name="Groupe 384" transform="translate(2849 833)">
+      <g id="Groupe_383" data-name="Groupe 383" transform="translate(61 5)" clip-path="url(#clip-path-2)">
+        <path id="Tracé_4485" data-name="Tracé 4485" d="M0,0H208.528V141.714H0Z" transform="translate(91.842 79.13)" fill="#a34303"/>
+      </g>
+    </g>
+    <rect id="Rectangle_207" data-name="Rectangle 207" width="211" height="139" transform="translate(3013 926)" fill="#f60" stroke="#a34303" stroke-width="3"/>
+    <text id="SPGW" transform="translate(3057.36 1013)" fill="#fff" font-size="50" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">SPGW</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 1509, 617)" filter="url(#Tracé_4488)">
+      <path id="Tracé_4488-2" data-name="Tracé 4488" d="M0,0H208V101H0Z" transform="translate(163 459)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="eNB" transform="translate(1745.89 1117)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">eNB</tspan></text>
+    <text id="Resources" transform="translate(1700.33 1161)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">Resources</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 1509, 617)" filter="url(#Tracé_4487)">
+      <path id="Tracé_4487-2" data-name="Tracé 4487" d="M0,0H209V100H0Z" transform="translate(161 571)" fill="#31859c" stroke="#324b63" stroke-width="3"/>
+    </g>
+    <text id="RAN_RRC" data-name="RAN RRC" transform="translate(1708.72 1251)" fill="#fff" font-size="37" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">RAN RRC</tspan></text>
+    <g id="Groupe_386" data-name="Groupe 386" transform="translate(1508 833)">
+      <g id="Groupe_385" data-name="Groupe 385" clip-path="url(#clip-path-3)">
+        <path id="Tracé_4486" data-name="Tracé 4486" d="M0,0H227.545V139.048H0Z" transform="translate(149.674 81.902)" fill="#b1aeae"/>
+      </g>
+    </g>
+    <path id="Tracé_4491" data-name="Tracé 4491" d="M0,0H208V139H0Z" transform="translate(1672 926)" fill="#d9d9d9" stroke="#b1aeae" stroke-width="3"/>
+    <text id="UE" transform="translate(1749.6 1013)" font-size="50" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UE</tspan></text>
+    <text id="UER_Session_Skype_WEB_YouTube_" data-name="UER Session (Skype, WEB, YouTube, …)" transform="translate(2099.87 1416)" fill="#324b63" font-size="46" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UER Session (Skype, WEB, YouTube, …)</tspan></text>
+    <text id="_5_Sec._Based_User_Experience" data-name="5 Sec. Based User Experience" transform="translate(2415.19 678)" fill="#1ac2c2" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">5 Sec. Based User Experience</tspan></text>
+    <text id="Records" transform="translate(2970.31 678)" fill="#1bcfcb" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">Records</tspan></text>
+    <text id="_UER_" data-name="(UER)" transform="translate(3127.86 678)" fill="#1ac2c2" font-size="46" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">(UER)</tspan></text>
+    <text id="Multiple_5_Sec._MOS_QoE_sequences" data-name="Multiple 5 Sec. MOS QoE sequences" transform="translate(2415.19 733)" fill="#324b63" font-size="46" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">Multiple 5 Sec. MOS QoE sequences</tspan></text>
+    <path id="Tracé_2437" data-name="Tracé 2437" d="M0,0,161.918-191.08" transform="translate(2679.5 952.58)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <path id="Tracé_2438" data-name="Tracé 2438" d="M0,0,150.718-329.31" transform="translate(2690.5 1090.81)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <path id="Tracé_2439" data-name="Tracé 2439" d="M0,0,95.986-472.137" transform="translate(2745.5 1233.64)" fill="none" stroke="#d9d9d9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4.583" stroke-dasharray="0 9.167" fill-rule="evenodd"/>
+    <rect id="Rectangle_408" data-name="Rectangle 408" width="39" height="95" transform="translate(2089 1180)" fill="#31859c"/>
+    <text id="UER_Seq.2_QoE_Index_2_15_sec_." data-name="UER Seq.2 &amp; QoE Index 2 (15 sec) …." transform="translate(2005.53 1230)" fill="rgba(255,255,255,0.47)" font-size="41" font-family="RobotoCondensed-Regular, Roboto Condensed"><tspan x="0" y="0">UER Seq.2 &amp; </tspan><tspan y="0">QoE Index 2 (15 sec) ….</tspan></text>
+    <path id="Tracé_2436" data-name="Tracé 2436" d="M1907.5,1251.5H3008.64" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.438" stroke-dasharray="3.438 3.438" fill-rule="evenodd"/>
+  </g>
+</svg>

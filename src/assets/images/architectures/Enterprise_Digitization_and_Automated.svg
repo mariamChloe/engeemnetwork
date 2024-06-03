@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1798" height="806" viewBox="0 0 1798 806">
+  <defs>
+    <filter id="Rectangle_87" x="0" y="9" width="447" height="788" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_90" x="503" y="249" width="480" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_91" x="1038" y="0" width="760" height="499" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_91-2" x="1038" y="508" width="760" height="298" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_132" data-name="Groupe 132" transform="translate(-73 -177)">
+    <g id="Groupe_122" data-name="Groupe 122" transform="translate(0 15)">
+      <g transform="matrix(1, 0, 0, 1, 73, 162)" filter="url(#Rectangle_87)">
+        <rect id="Rectangle_87-2" data-name="Rectangle 87" width="429" height="770" rx="34" transform="translate(9 15)" fill="#fff"/>
+      </g>
+      <g id="Groupe_111" data-name="Groupe 111" transform="translate(102.589 197.401)">
+        <g id="Groupe_46" data-name="Groupe 46" transform="translate(0.015)">
+          <g id="Container" transform="translate(0.396 -0.401)">
+            <rect id="Container-2" data-name="Container" width="228" height="47" rx="10" fill="#e9edf4"/>
+          </g>
+          <text id="DATA_INGESTION" data-name="DATA INGESTION" transform="translate(111.396 27.599)" fill="#7b7c7c" font-size="14" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-60.795" y="0">DATA INGESTION</tspan></text>
+        </g>
+        <g id="Groupe_110" data-name="Groupe 110" transform="translate(0 76.259)">
+          <g id="Groupe_109" data-name="Groupe 109">
+            <rect id="Rectangle_88" data-name="Rectangle 88" width="385" height="199" rx="27" transform="translate(0.411 0.34)" fill="#ccdee1"/>
+            <rect id="Rectangle_89" data-name="Rectangle 89" width="385" height="67" transform="translate(0.411 62.34)" fill="#324b63"/>
+            <text id="ngmDATA-SEED" transform="translate(193.411 39.34)" fill="#324b63" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-86.699" y="0">ngmDATA-SEED</tspan></text>
+            <text id="End_to_End_Network_Probe" data-name="End to End Network Probe" transform="translate(192.411 101.34)" fill="#ccdee1" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-142.59" y="0">End to End Network Probe</tspan></text>
+          </g>
+          <g id="Groupe_107" data-name="Groupe 107" transform="translate(0 226.02)">
+            <rect id="Rectangle_88-2" data-name="Rectangle 88" width="385" height="199" rx="27" transform="translate(0.411 0.321)" fill="#ccdee1"/>
+            <rect id="Rectangle_89-2" data-name="Rectangle 89" width="385" height="67" transform="translate(0.411 62.321)" fill="#324b63"/>
+            <text id="OSS_Metrics" data-name="OSS Metrics" transform="translate(191.411 39.321)" fill="#324b63" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-66.454" y="0">OSS Metrics</tspan></text>
+            <text id="Ericsson_LTE-EPC_Counters" data-name="Ericsson LTE-EPC Counters" transform="translate(192.411 101.321)" fill="#ccdee1" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-148.302" y="0">Ericsson LTE-EPC Counters</tspan></text>
+          </g>
+          <g id="Groupe_108" data-name="Groupe 108" transform="translate(0.919 451.121)">
+            <rect id="Rectangle_88-3" data-name="Rectangle 88" width="384" height="199" rx="27" transform="translate(0.493 0.22)" fill="#ccdee1"/>
+            <rect id="Rectangle_89-3" data-name="Rectangle 89" width="384" height="67" transform="translate(0.493 62.22)" fill="#324b63"/>
+            <text id="SNMP_Metadata" data-name="SNMP Metadata" transform="translate(192.492 39.22)" fill="#324b63" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-89.67" y="0">SNMP Metadata</tspan></text>
+            <text id="Network_Alarms_Logs" data-name="Network Alarms &amp; Logs" transform="translate(192.492 101.22)" fill="#ccdee1" font-size="21" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-127.229" y="0">Network Alarms &amp; Logs</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_118" data-name="Groupe 118" transform="translate(-173 264)">
+      <g transform="matrix(1, 0, 0, 1, 246, -87)" filter="url(#Rectangle_90)">
+        <rect id="Rectangle_90-2" data-name="Rectangle 90" width="462" height="290" rx="33" transform="translate(512 255)" fill="#fff"/>
+      </g>
+      <g id="Groupe_114" data-name="Groupe 114" transform="translate(783.977 188.111)">
+        <g id="Groupe_112" data-name="Groupe 112" transform="translate(0 67.875)">
+          <rect id="Rectangle_88-4" data-name="Rectangle 88" width="410" height="182" rx="27" transform="translate(0.023 0.013)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-4" data-name="Rectangle 89" width="410" height="61" transform="translate(0.023 57.013)" fill="#324b63"/>
+          <text id="Data_Manager" data-name="Data Manager" transform="translate(204.023 36.013)" fill="#324b63" font-size="19" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-71.782" y="0">Data Manager</tspan></text>
+          <text id="Data_Streaming_Broking" data-name="Data Streaming &amp; Broking" transform="translate(203.023 93.013)" fill="#ccdee1" font-size="19" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-129.371" y="0">Data Streaming &amp; Broking</tspan></text>
+        </g>
+        <g id="Groupe_113" data-name="Groupe 113" transform="translate(0)">
+          <g id="Container-3" data-name="Container" transform="translate(0.023 -0.111)">
+            <rect id="Container-4" data-name="Container" width="208" height="43" rx="10" fill="#e9edf4"/>
+          </g>
+          <text id="DATA_STREAMS" data-name="DATA STREAMS" transform="translate(102.023 24.889)" fill="#7b7c7c" font-size="13" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-51.753" y="0">DATA STREAMS</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_124" data-name="Groupe 124">
+      <g id="Groupe_119" data-name="Groupe 119" transform="translate(362 -356.796)">
+        <g transform="matrix(1, 0, 0, 1, -289, 533.8)" filter="url(#Rectangle_91)">
+          <rect id="Rectangle_91-3" data-name="Rectangle 91" width="742" height="481" rx="33" transform="translate(1047 6)" fill="#fff"/>
+        </g>
+        <g id="Groupe_112-2" data-name="Groupe 112" transform="translate(781 616.05)">
+          <rect id="Rectangle_88-5" data-name="Rectangle 88" width="336" height="183" rx="27" transform="translate(0 -0.254)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-5" data-name="Rectangle 89" width="336" height="62" transform="translate(0 56.746)" fill="#324b63"/>
+          <text id="Correlation_Enrichment" data-name="Correlation Enrichment" transform="translate(161 34.746)" fill="#324b63" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-109.908" y="0">Correlation Enrichment</tspan></text>
+          <text id="Data_Correlation_Enrichment" data-name="Data Correlation Enrichment" transform="translate(158 91.746)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-135.63" y="0">Data Correlation Enrichment</tspan></text>
+        </g>
+        <g id="Groupe_117" data-name="Groupe 117" transform="translate(1144 616.05)">
+          <rect id="Rectangle_88-6" data-name="Rectangle 88" width="335" height="183" rx="27" transform="translate(0 -0.254)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-6" data-name="Rectangle 89" width="335" height="62" transform="translate(0 56.746)" fill="#324b63"/>
+          <text id="ngmAIOS" transform="translate(167.001 35.746)" fill="#324b63" font-size="19" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-46.303" y="0">ngmAIOS</tspan></text>
+          <text id="Data_Streaming_Broking-2" data-name="Data Streaming &amp; Broking" transform="translate(159.001 91.746)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-122.562" y="0">Data Streaming &amp; Broking</tspan></text>
+        </g>
+        <g id="Groupe_115" data-name="Groupe 115" transform="translate(781 818.796)">
+          <rect id="Rectangle_88-7" data-name="Rectangle 88" width="336" height="182" rx="27" transform="translate(0 0)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-7" data-name="Rectangle 89" width="336" height="61" transform="translate(0 57)" fill="#324b63"/>
+          <text id="Metrics_Compute" data-name="Metrics Compute" transform="translate(167 36)" fill="#324b63" font-size="19" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-85.661" y="0">Metrics Compute</tspan></text>
+          <text id="Data_Streaming_Broking-3" data-name="Data Streaming &amp; Broking" transform="translate(159 92)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-122.562" y="0">Data Streaming &amp; Broking</tspan></text>
+        </g>
+        <g id="Groupe_116" data-name="Groupe 116" transform="translate(1144 818.796)">
+          <rect id="Rectangle_88-8" data-name="Rectangle 88" width="335" height="182" rx="27" transform="translate(0 0)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-8" data-name="Rectangle 89" width="335" height="61" transform="translate(0 57)" fill="#324b63"/>
+          <text id="Operational_Analytics" data-name="Operational Analytics" transform="translate(162.001 35)" fill="#324b63" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-102.672" y="0">Operational Analytics</tspan></text>
+          <text id="Data_Streaming_Broking-4" data-name="Data Streaming &amp; Broking" transform="translate(159.001 92)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-122.562" y="0">Data Streaming &amp; Broking</tspan></text>
+        </g>
+        <g id="Groupe_113-2" data-name="Groupe 113" transform="translate(784 560.796)">
+          <g id="Container-5" data-name="Container" transform="translate(0 0)">
+            <rect id="Container-6" data-name="Container" width="208" height="43" rx="10" fill="#e9edf4"/>
+          </g>
+          <text id="TELECOMS_JOBS" data-name="TELECOMS JOBS" transform="translate(103 25)" fill="#7b7c7c" font-size="13" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-57.421" y="0">TELECOMS JOBS</tspan></text>
+        </g>
+      </g>
+      <g id="Groupe_123" data-name="Groupe 123" transform="translate(362 151.204)">
+        <g transform="matrix(1, 0, 0, 1, -289, 25.8)" filter="url(#Rectangle_91-2)">
+          <rect id="Rectangle_91-4" data-name="Rectangle 91" width="742" height="280" rx="33" transform="translate(1047 514)" fill="#fff"/>
+        </g>
+        <g id="Groupe_112-3" data-name="Groupe 112" transform="translate(781 616.05)">
+          <rect id="Rectangle_88-9" data-name="Rectangle 88" width="336" height="183" rx="27" transform="translate(0 -0.254)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-9" data-name="Rectangle 89" width="336" height="62" transform="translate(0 56.746)" fill="#324b63"/>
+          <text id="Alerts_Manager" data-name="Alerts Manager" transform="translate(168 34.746)" fill="#324b63" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-72.693" y="0">Alerts Manager</tspan></text>
+          <text id="Data_Streaming_Broking-5" data-name="Data Streaming &amp; Broking" transform="translate(168 91.746)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-122.562" y="0">Data Streaming &amp; Broking</tspan></text>
+        </g>
+        <g id="Groupe_117-2" data-name="Groupe 117" transform="translate(1144 616.05)">
+          <rect id="Rectangle_88-10" data-name="Rectangle 88" width="335" height="183" rx="27" transform="translate(0 -0.254)" fill="#ccdee1"/>
+          <rect id="Rectangle_89-10" data-name="Rectangle 89" width="335" height="62" transform="translate(0 56.746)" fill="#324b63"/>
+          <text id="OSS_Integrator" data-name="OSS Integrator" transform="translate(168.001 35.746)" fill="#324b63" font-size="19" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-74.518" y="0">OSS Integrator</tspan></text>
+          <text id="Remote_OSS_Script" data-name="Remote OSS Script" transform="translate(168.001 91.746)" fill="#ccdee1" font-size="18" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-88.875" y="0">Remote OSS Script</tspan></text>
+        </g>
+        <g id="Groupe_113-3" data-name="Groupe 113" transform="translate(784 560.796)">
+          <g id="Container-7" data-name="Container" transform="translate(0 0)">
+            <rect id="Container-8" data-name="Container" width="208" height="43" rx="10" fill="#e9edf4"/>
+          </g>
+          <text id="NETOPS_AUTOMATION" data-name="NETOPS AUTOMATION" transform="translate(103 25)" fill="#7b7c7c" font-size="13" font-family="CarmenSans-SemiBold, Carmen Sans" font-weight="600"><tspan x="-75.224" y="0">NETOPS AUTOMATION</tspan></text>
+        </g>
+      </g>
+    </g>
+    <path id="Tracé_5" data-name="Tracé 5" d="M604.911,332c2.077,39.995,23.837,49.441,23.837,49.441s48.679,23.747,55.807,29.952,10.5,12.455,14,16.606" transform="translate(157 1220.966) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+    <path id="Tracé_6" data-name="Tracé 6" d="M741.571,332c-3.03,39.995-34.785,49.441-34.785,49.441s-71.038,23.747-81.439,29.952S610.02,423.848,604.911,428" transform="translate(157 1127.319) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="11" cy="11" r="11" transform="translate(478 375)" fill="#324b63"/>
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="11" cy="11" r="11" transform="translate(478 605)" fill="#324b63"/>
+    <g id="Groupe_129" data-name="Groupe 129">
+      <path id="Tracé_3" data-name="Tracé 3" d="M604.911,332c7.043,39.995,80.838,49.441,80.838,49.441s165.084,23.747,189.256,29.952S910.622,423.848,922.494,428" transform="translate(157 1444.901) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="11" cy="11" r="11" transform="translate(478 829)" fill="#324b63"/>
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="11" cy="11" r="11" transform="translate(574 511)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_130" data-name="Groupe 130" transform="translate(986 22)">
+      <path id="Tracé_3-2" data-name="Tracé 3" d="M0,0C6.732,13.748,77.274,17,77.274,17s157.807,8.163,180.913,10.3S292.234,31.573,303.582,33" transform="translate(489 825.989) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_22-2" data-name="Ellipse 22" cx="11" cy="11" r="11" transform="translate(482 815)" fill="#324b63"/>
+      <circle id="Ellipse_23-2" data-name="Ellipse 23" cx="11" cy="11" r="11" transform="translate(511 511)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_125" data-name="Groupe 125" transform="translate(504 135)">
+      <path id="Tracé_30" data-name="Tracé 30" d="M604.911,332c.134,15.415,1.541,19.055,1.541,19.055s3.147,9.152,3.608,11.544.679,4.8.905,6.4" transform="translate(639 820.966) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="11" cy="11" r="11" transform="translate(960 205)" fill="#324b63"/>
+      <circle id="Ellipse_27" data-name="Ellipse 27" cx="11" cy="11" r="11" transform="translate(997 199)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_126" data-name="Groupe 126" transform="translate(504 334)">
+      <path id="Tracé_30-2" data-name="Tracé 30" d="M604.911,332c.134,15.415,1.541,19.055,1.541,19.055s3.147,9.152,3.608,11.544.679,4.8.905,6.4" transform="translate(639 820.966) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_26-2" data-name="Ellipse 26" cx="11" cy="11" r="11" transform="translate(960 205)" fill="#324b63"/>
+      <circle id="Ellipse_27-2" data-name="Ellipse 27" cx="11" cy="11" r="11" transform="translate(993 199)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_127" data-name="Groupe 127">
+      <path id="Tracé_29" data-name="Tracé 29" d="M0,0C4.866,25.814,65.585,30.818,65.585,30.818s135.77,12.889,155.585,16.545,29.117,7.532,38.823,10.043" transform="translate(1042.703 597.9) rotate(-81)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="11" cy="11" r="11" transform="translate(1033.559 585.315) rotate(9)" fill="#324b63"/>
+      <circle id="Ellipse_25" data-name="Ellipse 25" cx="11" cy="11" r="11" transform="translate(1131.993 336.555) rotate(9)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_128" data-name="Groupe 128" transform="translate(433.883 -2.555)">
+      <path id="Tracé_29-2" data-name="Tracé 29" d="M0,0C2.006,8.628,50.9,5.8,50.9,5.8S160.111.079,175.916-.138,198.978.3,206.666.44" transform="translate(1042.882 550.1) rotate(-82)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="11" cy="11" r="11" transform="translate(1033.559 538.384) rotate(9)" fill="#324b63"/>
+      <circle id="Ellipse_25-2" data-name="Ellipse 25" cx="11" cy="11" r="11" transform="translate(1065.304 335.82) rotate(9)" fill="#324b63"/>
+    </g>
+    <g id="Groupe_131" data-name="Groupe 131" transform="translate(504 632)">
+      <path id="Tracé_30-3" data-name="Tracé 30" d="M604.911,332c.134,15.415,1.541,19.055,1.541,19.055s3.147,9.152,3.608,11.544.679,4.8.905,6.4" transform="translate(639 820.966) rotate(-90)" fill="none" stroke="#324b63" stroke-width="3"/>
+      <circle id="Ellipse_26-3" data-name="Ellipse 26" cx="11" cy="11" r="11" transform="translate(960 205)" fill="#324b63"/>
+      <circle id="Ellipse_27-3" data-name="Ellipse 27" cx="11" cy="11" r="11" transform="translate(993 199)" fill="#324b63"/>
+    </g>
+  </g>
+</svg>

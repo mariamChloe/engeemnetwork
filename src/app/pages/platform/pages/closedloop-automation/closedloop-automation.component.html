@@ -1,0 +1,230 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+imgUrl="assets/images/network-image/platforme1.png"
+HeadlineClass=" text-start text-white"
+
+  [Headline]="['closed-loop-automation.network-hero-platform.Headline']"
+  subHeadlineClass="text-white"
+  [subHeadline]="['closed-loop-automation.network-hero-platform.subHeadline1']"
+  BannerText="closed-loop-automation.network-hero-platform.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="closed-loop-automation.network-problems-grid.headline"
+  subHeadline=""
+  imgUrl="assets/images/other/quoedriven.svg"
+>
+</app-network-problems-grid>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[
+    'closed-loop-automation.network-grid-images1.headBlockTitle1',
+    'closed-loop-automation.network-grid-images1.headBlockTitle2'
+  ]"
+  [headBlockContent]="['closed-loop-automation.network-grid-images1.headBlockContent']"
+  [subHeadBlock]="[
+    'closed-loop-automation.network-grid-images1.subHeadBlock1',
+    'closed-loop-automation.network-grid-images1.subHeadBlock2'
+  ]"
+  [leftBlockTitle]="['closed-loop-automation.network-grid-images1.leftBlockTitle']"
+  [leftBlockContent]="['closed-loop-automation.network-grid-images1.leftBlockContent1']"
+  [leftBlockContent]="['closed-loop-automation.network-grid-images1.leftBlockContent2']"
+  [leftBlockImgClass]=" 'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  leftBlockImgUrl="assets/images/other/clooseploop1.svg"
+
+
+  [rightBlockTitle]="['closed-loop-automation.network-grid-images1.rightBlockTitle']"
+  [rightBlockContent]="[
+    'closed-loop-automation.network-grid-images1.rightBlockContent1',]"
+  [rightBlockTextVisible]="true"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible2]="true"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['closed-loop-automation.network-grid-images1.rightBlockTitle2']"
+  [rightBlockContent2]="['closed-loop-automation.network-grid-images1.rightBlockContent2']"
+  [rightBlockTitle3]="['closed-loop-automation.network-grid-images1.rightBlockTitle3']"
+  [rightBlockContent3]="['closed-loop-automation.network-grid-images1.rightBlockContent3']"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemheronetwork1.webp"
+  rightBlockImgUrl3="assets/images/network-image/engeemserver2.webp"
+
+
+
+
+
+  [rightBlockImgVisible3]="true"
+  [rightBlockImgClass3]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible3]="true"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+<div class="flex justify-center bg-[#FBFBFB]">
+  <button class="btn-rounded btn-turquoise font-bold text-2xl">
+    {{"autonomous-network-services.common.autonomous-service-catalog"|translate}}
+  </button>
+</div>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+<app-network-grid-images
+  [illustration]="'circles2'"
+  [headBlockTitle]="[]"
+  [headBlockContent]="[]"
+  [subHeadBlock]="[
+    'closed-loop-automation.network-grid-images2.subHeadBlock1',
+    'closed-loop-automation.network-grid-images2.subHeadBlock2'
+  ]"
+  [subHeadBlockClass]="'text-3xl font-bold mt-12 font-light'"
+
+
+  [reverse]="true"
+  [enableButton]="false"
+
+  [leftBlockTitle]="['closed-loop-automation.network-grid-images2.leftBlockTitle']"
+  [leftBlockContent]="['closed-loop-automation.network-grid-images2.leftBlockContent']"
+  leftBlockImgUrl="assets/images/other/clooseloop2.svg"
+
+  [rightBlockTextVisible]="true"
+  [rightBlockTitle]="['closed-loop-automation.network-grid-images2.rightBlockTitle']"
+  [rightBlockContent]="[
+    'closed-loop-automation.network-grid-images2.rightBlockContent']"
+  [rightBlockPlacement]="'md:flex-row-reverse'"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+
+  [rightBlockImgVisible2]="true"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['closed-loop-automation.network-grid-images2.rightBlockTitle2']"
+  [rightBlockContent2]="[
+    'closed-loop-automation.network-grid-images2.rightBlockContent2']"
+  [rightBlockPlacement2]="'md:flex-row-reverse'"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible3]="true"
+  [rightBlockTextVisible3]="true"
+  [rightBlockTitle3]="['closed-loop-automation.network-grid-images2.rightBlockTitle2']"
+  [rightBlockPlacement3]="'md:flex-row-reverse'"
+  [rightBlockContent3]="['closed-loop-automation.network-grid-images2.rightBlockContent3']"
+  rightBlockImgUrl="assets/images/network-image/engeemhommewithordinateur1.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemnetworkcodebinnaire.webp"
+  rightBlockImgUrl3="assets/images/network-image/engeemimageblue.webp"
+
+
+></app-network-grid-images>
+
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[
+    'closed-loop-automation.network-grid-images1.headBlockTitle1',
+    'closed-loop-automation.network-grid-images1.headBlockTitle2'
+  ]"
+  [headBlockContent]="['closed-loop-automation.network-grid-images1.headBlockContent']"
+  [subHeadBlock]="[
+    'closed-loop-automation.network-grid-images3.subHeadBlock1',
+    'closed-loop-automation.network-grid-images3.subHeadBlock2'
+  ]"
+  [leftBlockTitle]="['closed-loop-automation.network-grid-images1.leftBlockTitle']"
+  [leftBlockContent]="['closed-loop-automation.network-grid-images3.leftBlockContent1']"
+  [leftBlockContent]="['closed-loop-automation.network-grid-images3.leftBlockContent2']"
+  [leftBlockImgClass]=" 'w-full rounded-2xl max-h-80  lg:max-h-full h-full'"
+  leftBlockImgUrl="assets/images/other/clooseploop3.svg"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemheronetwork1.webp"
+  rightBlockImgUrl3="assets/images/network-image/engeemserver2.webp"
+
+  [rightBlockTitle]="['closed-loop-automation.network-grid-images3.rightBlockTitle']"
+  [rightBlockContent]="['closed-loop-automation.network-grid-images3.rightBlockContent1']"
+  [rightBlockTextVisible]="true"
+  [rightBlockImgClass]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockImgVisible2]="true"
+  [rightBlockImgClass2]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible2]="true"
+  [rightBlockTitle2]="['closed-loop-automation.network-grid-images3.rightBlockTitle2']"
+  [rightBlockContent2]="['closed-loop-automation.network-grid-images3.rightBlockContent2']"
+  [rightBlockTitle3]="['closed-loop-automation.network-grid-images3.rightBlockTitle3']"
+  [rightBlockContent3]="['closed-loop-automation.network-grid-images3.rightBlockContent3']"
+
+
+  [rightBlockImgVisible3]="true"
+  [rightBlockImgClass3]="'w-full rounded-2xl max-h-80 h-full lg:max-h-full object-cover'"
+  [rightBlockTextVisible3]="true"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+<!--
+      COLORED IMAGE GRID SECTION
+  -->
+<app-network-colored-image-grid
+  [headLine]="[
+    'closed-loop-automation.network-colored-image-grid.headLine1',
+    'closed-loop-automation.network-colored-image-grid.headLine2'
+  ]"
+  [headLineClass]="'lg:text-4xl font-bold text-brand-old-blue text-center mb-4'"
+
+  [pinkSectionTitle]="['closed-loop-automation.network-colored-image-grid.pinkSectionTitle']"
+  [pinkSectionContent]="[
+    'closed-loop-automation.network-colored-image-grid.pinkSectionContent1',
+    '','closed-loop-automation.network-colored-image-grid.pinkSectionContent2'
+  ]"
+  [pinkSectionListContent]="[
+    'closed-loop-automation.network-colored-image-grid.pinkSectionListContent1',
+    'closed-loop-automation.network-colored-image-grid.pinkSectionListContent2',
+    'closed-loop-automation.network-colored-image-grid.pinkSectionListContent3',
+  ]"
+  pinkSectionImgUrl="assets/images/network-image/engeemFemmedevantordi.webp"
+
+  [yellowSectionTitle]="['closed-loop-automation.network-colored-image-grid.yellowSectionTitle']"
+  [yellowSectionContent]="[
+    'closed-loop-automation.network-colored-image-grid.yellowSectionContent1',
+    '','closed-loop-automation.network-colored-image-grid.yellowSectionContent2'
+  ]"
+  [yellowSectionListContent]="[
+    'closed-loop-automation.network-colored-image-grid.yellowSectionListContent1',
+    'closed-loop-automation.network-colored-image-grid.yellowSectionListContent2',
+    'closed-loop-automation.network-colored-image-grid.yellowSectionListContent3'
+  ]"
+  [yellowSectionBtnText]="'autonomous-network-services.common.explore-autonomous-services'"
+  yellowSectionImgUrl="assets/images/network-image/engeemhommewithordinateur1.webp"
+
+  [turquoiseSectionTitle]="['closed-loop-automation.network-colored-image-grid.turquoiseSectionTitle']"
+  [turquoiseSectionContent]="[
+    'closed-loop-automation.network-colored-image-grid.turquoiseSectionContent1',
+    '','closed-loop-automation.network-colored-image-grid.turquoiseSectionContent2',
+  ]"
+  turquoiseSectionImgUrl="assets/images/network-image/engeemserver2.webp"
+   [turquoiseSectionListContent]="[
+   'closed-loop-automation.network-colored-image-grid.turquoiseSectionListContent1',
+   'closed-loop-automation.network-colored-image-grid.turquoiseSectionListContent2',
+ ]"
+ 
+  [turquoiseSectionBtnText]="'autonomous-network-services.common.explore-catalog'">
+  
+</app-network-colored-image-grid>
+
+<app-network-striped-banner
+  [headLine]="[
+    'closed-loop-automation.network-striped-banner.headLine1',
+  ]"
+  textLeft="closed-loop-automation.network-striped-banner.textLeft"
+  textRight="closed-loop-automation.network-striped-banner.textRight"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

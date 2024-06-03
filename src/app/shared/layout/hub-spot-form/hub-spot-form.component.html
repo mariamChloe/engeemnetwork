@@ -1,0 +1,15 @@
+<!-- <div id="hubspotForm" class="mx-auto w-full max-w-2xl rounded-lg pl-20"></div> -->
+<form [formGroup]="form" (ngSubmit)="submitForm()">
+  <label for="email">Email:</label>
+  <input type="email" id="email" formControlName="email" />
+
+  <button type="submit">Submit</button>
+</form>
+<!-- <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "143515210",
+    formId: "19da8ead-bbac-4bde-a854-1c31342c050b"
+  });
+</script> -->

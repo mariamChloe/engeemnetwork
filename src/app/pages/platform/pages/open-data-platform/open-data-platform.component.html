@@ -1,0 +1,116 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+imgUrl="assets/images/network-image/open Data.png"
+HeadlineClass=" text-white"
+  [Headline]="['open-data-platform.network-hero-platform.Headline','open-data-platform.network-hero-platform.Headline1']"
+  [subHeadline]="['open-data-platform.network-hero-platform.subHeadline1','open-data-platform.network-hero-platform.subHeadline2']"
+  subHeadlineClass="text-white"
+  BannerText="open-data-platform.network-hero-platform.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold"
+  [floatImgVisible]="true">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="open-data-platform.network-problems-grid.headline"
+  subHeadline=""
+  imgUrl="assets/images/network-image/engeemIArobot.webp"
+>
+</app-network-problems-grid>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[
+    'open-data-platform.network-grid-images1.headBlockTitle1',
+    'open-data-platform.network-grid-images1.headBlockTitle2'
+  ]"
+  [headBlockContent]="[
+    'open-data-platform.network-grid-images1.headBlockContent1',
+    'open-data-platform.network-grid-images1.headBlockContent2',
+  ]"
+  [subHeadBlock]="[]"
+  [leftBlockTitle]="['open-data-platform.network-grid-images1.leftBlockTitle']"
+  [leftBlockContent]="['','open-data-platform.network-grid-images1.leftBlockContent']"
+  [leftBlockTitleSub]="['open-data-platform.network-grid-images1.leftBlockTitleSub']"
+  leftBlockImgUrl="assets/images/network-image/engeemnetworkhero2.webp"
+  rightBlockImgUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+  rightBlockImgUrl2="assets/images/network-image/engeemheronetwork1.webp"
+
+  [rightBlockTitle]="['open-data-platform.network-grid-images1.rightBlockTitle1']"
+  [rightBlockContent]="['open-data-platform.network-grid-images1.rightBlockContent1']"
+  [rightBlockTextVisible]="true"
+  [rightBlockImgClass]="'w-full rounded-2xl lg:max-h-full object-cover h-full'"
+  [rightBlockTitle2]="['open-data-platform.network-grid-images1.rightBlockTitle2']"
+  [rightBlockContent2]="['open-data-platform.network-grid-images1.rightBlockContent2']"
+  [rightBlockImgVisible2]="true"
+  [rightBlockTextVisible2]="true"
+  [rightBlockImgClass2]="'w-full rounded-2xl lg:max-h-full object-cover h-full'"
+  [enableButton]="false"
+></app-network-grid-images>
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12"> {{ "open-data-platform.cards-section.headLine"|translate }} </h1>
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        [title]="['open-data-platform.cards-section.title1']"
+        [textBeforeList]="[
+          'open-data-platform.cards-section.textBeforeList11'
+          ,'','open-data-platform.cards-section.textBeforeList12']"
+                  imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+                  [enableBtn]="true"
+                  btnText="Button.readMoreAcceleration"
+
+
+          
+      ></app-card>
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        [title]="['open-data-platform.cards-section.title2']"
+        [textBeforeList]="[
+          'open-data-platform.cards-section.textBeforeList21'
+          ,'','open-data-platform.cards-section.textBeforeList22']"
+                  [enableBtn]="true"
+                  [enableBtn]="true"
+                  btnText="Button.readMoreAcceleration"
+
+      ></app-card>
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+        [title]="['open-data-platform.cards-section.title3']"
+        [textBeforeList]="[
+          'open-data-platform.cards-section.textBeforeList31']"
+                  [enableBtn]="true"
+                  btnText="Button.readMoreAcceleration"
+
+      ></app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'open-data-platform.network-striped-banner.headLine1',
+    'open-data-platform.network-striped-banner.headLine2'
+  ]"
+  textLeft="open-data-platform.network-striped-banner.textLeft"
+  textRight="open-data-platform.network-striped-banner.textRight"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

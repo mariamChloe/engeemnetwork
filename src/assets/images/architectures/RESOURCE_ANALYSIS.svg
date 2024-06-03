@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="675" height="448" viewBox="0 0 675 448">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9afff7" stop-opacity="0.29"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd9113" stop-opacity="0.322"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a92bff" stop-opacity="0.29"/>
+      <stop offset="1" stop-color="#a624ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="Rectangle_1535" x="0" y="0" width="675" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#1b5230" flood-opacity="0.29"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1595" x="54" y="79" width="196" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1596" x="240" y="79" width="196" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1597" x="426" y="79" width="196" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_711" data-name="Groupe 711" transform="translate(-2017 1323)">
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="178.5" cy="178.5" r="178.5" transform="translate(2290 -1232)" fill="url(#radial-gradient)"/>
+    <circle id="Ellipse_57" data-name="Ellipse 57" cx="173" cy="173" r="173" transform="translate(2173 -1221)" fill="url(#radial-gradient-2)"/>
+    <circle id="Ellipse_55" data-name="Ellipse 55" cx="182" cy="182" r="182" transform="translate(2055 -1287)" fill="url(#radial-gradient-3)"/>
+    <g transform="matrix(1, 0, 0, 1, 2017, -1323)" filter="url(#Rectangle_1535)">
+      <rect id="Rectangle_1535-2" data-name="Rectangle 1535" width="599" height="321" rx="14" transform="translate(38 25)" fill="#fdfdfd" stroke="rgba(112,112,112,0.08)" stroke-width="1"/>
+    </g>
+    <text id="SERVICE_PERFORMANCE_SLA" data-name="SERVICE PERFORMANCE SLA" transform="translate(2078 -1079)" fill="#6c6c6c" font-size="16" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">SERVICE PERFORMANCE SLA</tspan></text>
+    <g id="Groupe_707" data-name="Groupe 707">
+      <g id="Groupe_702" data-name="Groupe 702" transform="translate(-19)">
+        <text id="RTT" transform="translate(2103 -1044)" fill="#888484" font-size="15" font-family="Helvetica"><tspan x="0" y="0">RTT</tspan></text>
+        <text id="_70ms" data-name="70ms" transform="translate(2103 -1005)" fill="#4e4d4d" font-size="31" font-family="Helvetica"><tspan x="0" y="0">70</tspan><tspan y="0" fill="#888484">ms</tspan></text>
+      </g>
+      <g id="Groupe_703" data-name="Groupe 703" transform="translate(1)">
+        <text id="Packet_Loss" data-name="Packet Loss" transform="translate(2206 -1045)" fill="#888484" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Packet Loss</tspan></text>
+        <text id="_02_" data-name="02%" transform="translate(2206 -1005)" fill="red" font-size="31" font-family="Helvetica"><tspan x="0" y="0">02%</tspan></text>
+      </g>
+      <g id="Groupe_704" data-name="Groupe 704" transform="translate(-1)">
+        <text id="Health" transform="translate(2331 -1045)" fill="#888484" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Health</tspan></text>
+        <text id="_98_" data-name="98%" transform="translate(2331 -1005)" fill="#40bf12" font-size="31" font-family="Helvetica"><tspan x="0" y="0">98%</tspan></text>
+      </g>
+      <g id="Groupe_705" data-name="Groupe 705" transform="translate(-12)">
+        <text id="Failures" transform="translate(2451 -1046)" fill="#888484" font-size="13" font-family="Helvetica"><tspan x="0" y="0">Failures</tspan></text>
+        <text id="_40" data-name="40" transform="translate(2451 -1005)" fill="#fd9113" font-size="31" font-family="Helvetica"><tspan x="0" y="0">40</tspan></text>
+      </g>
+      <g id="Groupe_706" data-name="Groupe 706">
+        <text id="Network_Error" data-name="Network Error" transform="translate(2532 -1046)" fill="#888484" font-size="13" font-family="Helvetica"><tspan x="0" y="0">Network Error</tspan></text>
+        <text id="_1.8_" data-name="1.8%" transform="translate(2532 -1005)" fill="#5d5a5a" font-size="31" font-family="Helvetica"><tspan x="0" y="0">1.8%</tspan></text>
+      </g>
+    </g>
+    <path id="Path_357" data-name="Path 357" d="M7267,396.815h599" transform="translate(-5212 -1649.021)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, 2017, -1323)" filter="url(#Rectangle_1595)">
+      <g id="Rectangle_1595-2" data-name="Rectangle 1595" transform="translate(63 85)" fill="#fff" stroke="#e4e4e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <rect width="178" height="120" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="176" height="118" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_708" data-name="Groupe 708" transform="translate(4 -1)">
+      <text id="Service_Data_Flow" data-name="Service Data Flow" transform="translate(2114 -1131)" fill="#817b7b" font-size="13" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">Service Data Flow</tspan></text>
+      <text id="Connection_Flows" data-name="Connection Flows" transform="translate(2105 -1211)" fill="#324b63" font-size="15" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">Connection Flows</tspan></text>
+      <text id="_15" data-name="15" transform="translate(2138 -1158)" font-size="47" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">15</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2017, -1323)" filter="url(#Rectangle_1596)">
+      <g id="Rectangle_1596-2" data-name="Rectangle 1596" transform="translate(249 85)" fill="#fff" stroke="#e4e4e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <rect width="178" height="120" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="176" height="118" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_709" data-name="Groupe 709" transform="translate(5 -1)">
+      <text id="User_Data_FLow" data-name="User Data FLow" transform="translate(2305 -1131)" fill="#817b7b" font-size="13" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">User Data FLow</tspan></text>
+      <text id="PDU_Session_Failures" data-name="PDU Session Failures" transform="translate(2280 -1211)" fill="#324b63" font-size="15" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">PDU Session Failures</tspan></text>
+      <text id="_31" data-name="31" transform="translate(2323 -1158)" fill="#f51d49" font-size="47" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">31</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2017, -1323)" filter="url(#Rectangle_1597)">
+      <g id="Rectangle_1597-2" data-name="Rectangle 1597" transform="translate(435 85)" fill="#fff" stroke="#e4e4e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <rect width="178" height="120" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="176" height="118" rx="9" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_710" data-name="Groupe 710">
+      <text id="DL_Data_Rate_Mbps_" data-name="DL Data Rate (Mbps)" transform="translate(2472 -1212)" fill="#324b63" font-size="15" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">DL Data Rate (Mbps)</tspan></text>
+      <text id="_1.51" data-name="1.51" transform="translate(2495 -1159)" font-size="47" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">1.51</tspan></text>
+      <text id="DL_Trhoughput" data-name="DL Trhoughput" transform="translate(2499 -1132)" fill="#817b7b" font-size="13" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">DL Trhoughput</tspan></text>
+    </g>
+    <rect id="Rectangle_409" data-name="Rectangle 409" width="599" height="46" transform="translate(2055 -1298)" fill="#ccdee1"/>
+    <text id="RESOURCE_ANALYSIS" data-name="RESOURCE ANALYSIS" transform="translate(2081 -1265)" fill="#324b63" font-size="22" font-family="RobotoCondensed-Bold, Roboto Condensed" font-weight="700"><tspan x="0" y="0">RESOURCE ANALYSIS</tspan></text>
+    <path id="Icon_awesome-list-ul" data-name="Icon awesome-list-ul" d="M2.113,3.375A2.113,2.113,0,1,0,4.226,5.488,2.113,2.113,0,0,0,2.113,3.375Zm0,7.043a2.113,2.113,0,1,0,2.113,2.113A2.113,2.113,0,0,0,2.113,10.418Zm0,7.043a2.113,2.113,0,1,0,2.113,2.113,2.113,2.113,0,0,0-2.113-2.113Zm19.72.7H7.747a.7.7,0,0,0-.7.7V20.27a.7.7,0,0,0,.7.7H21.833a.7.7,0,0,0,.7-.7v-1.4a.7.7,0,0,0-.7-.7Zm0-14.086H7.747a.7.7,0,0,0-.7.7V6.192a.7.7,0,0,0,.7.7H21.833a.7.7,0,0,0,.7-.7V4.784a.7.7,0,0,0-.7-.7Zm0,7.043H7.747a.7.7,0,0,0-.7.7v1.409a.7.7,0,0,0,.7.7H21.833a.7.7,0,0,0,.7-.7v-1.4a.7.7,0,0,0-.7-.7Z" transform="translate(2607.401 -1286.375)" fill="#324b63"/>
+  </g>
+</svg>

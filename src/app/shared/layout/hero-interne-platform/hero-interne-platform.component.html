@@ -1,0 +1,102 @@
+<div class="bg-brand-old-blue relative">
+  <div class="relative max-w-7xl mx-auto h-full">
+    <div *ngIf="showPulse1"
+      class="bg-white absolute blur-[68px] h-32 w-32 rounded-full right-96 mx-auto animate-pulse"
+    ></div>
+
+    <div *ngIf="showPulse2"
+      class="bg-[#2bbdd0] absolute blur-[48px] h-28 w-28 rounded-full right-28 top-32 animate-pulse"
+    ></div>
+
+    <div *ngIf="showPulse3"
+      class="bg-[#2bd096] absolute blur-[48px] h-32 w-32 rounded-full mx-auto right-96 -bottom-[32rem] animate-pulse"
+    ></div>
+  </div>
+  <section class="mx-auto max-w-7xl px-2 md:px-12 lg:py-10 relative">
+    <svg
+      class="scale-0 lg:scale-100 absolute -bottom-32 -left-10"
+      xmlns="http://www.w3.org/2000/svg"
+      width="360.201"
+      height="360.2"
+      viewBox="0 0 360.201 360.2"
+    >
+      <g id="NGM-Circle2" transform="translate(-113.903 -7.362)" opacity="0.2">
+        <path
+          id="Tracé_4"
+          data-name="Tracé 4"
+          d="M186.217,137.234A66.682,66.682,0,1,0,193.969,86.8,66.223,66.223,0,0,0,186.217,137.234ZM213.039,98.37a44.348,44.348,0,1,1-5.162,33.565A44.006,44.006,0,0,1,213.039,98.37Zm23.16,47.379a28.513,28.513,0,1,0-9.6-39.169A28.3,28.3,0,0,0,236.2,145.749Zm-4.467-36.057a22.508,22.508,0,1,1,7.574,30.927A22.534,22.534,0,0,1,231.732,109.692Z"
+          transform="translate(78.387 52.693)"
+          fill="#008aff"
+          opacity="0.37"
+        />
+        <path
+          id="Tracé_5"
+          data-name="Tracé 5"
+          d="M119.149,230.377a178.922,178.922,0,0,0,81.54,111.131c84.9,51.485,195.872,24.289,247.367-60.619,51.478-84.91,24.276-195.874-60.625-247.367A180.087,180.087,0,0,0,119.149,230.377Zm72.436-105A119.853,119.853,0,0,1,356.2,85.032c56.512,34.277,74.615,108.127,40.351,164.613A119.847,119.847,0,1,1,191.585,125.374Zm62.538,127.99a77.018,77.018,0,1,0-25.912-105.777A76.463,76.463,0,0,0,254.123,253.364ZM242.074,155.99A60.8,60.8,0,1,1,262.528,239.5,60.88,60.88,0,0,1,242.074,155.99Z"
+          transform="translate(0)"
+          fill="rgba(10,148,181,0.96)"
+          opacity="0.38"
+        />
+      </g>
+    </svg>
+
+    <div [class]="HeadlineClassContainer">
+      <h1 [class]="HeadlineClass" >
+        <ng-container *ngFor="let item of Headline; let i = index">
+          {{ item | translate }}
+          <ng-container *ngIf="i <= Headline.length"
+            ><br class="hidden md:block"
+          /></ng-container>
+        </ng-container>
+      </h1>
+      <h2 class="'leading-normal text-gray-300 text-2xl ' +" *ngIf="subHeadlineVisible">
+        <ng-container *ngFor="let item of subHeadline; let i = index">
+          {{ item | translate }}
+          <ng-container *ngIf="i <= subHeadline.length"
+            ><br class="hidden md:block"
+          /></ng-container>
+        </ng-container>
+      </h2>
+
+      <div class="w-full flex justify-center" *ngIf="floatImgVisible">
+        <div [ngClass]="floatImgClass">
+          <img
+            [src]="floatImgUrl"
+            [alt]="floatImgAlt"
+            class="bg-white rounded-full p-0.5"
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-center lg:justify-start">
+        <a *ngIf="BtnVisible" [class]="BtnClass" [href]="BtnLink">
+          {{ BtnText | translate }}
+        </a>
+      </div>
+    </div>
+    <div
+      class="bg-white border shadow-xl border-brand-old-blue text-brand-old-blue flex flex-col lg:flex-row gap-5 lg:rounded-full items-center justify-center py-5 px-12 lg:absolute -bottom-10 -ml-[3rem] lg:ml-0 w-[calc(100%+6rem)] lg:w-[calc(100%-6rem)]"
+    >
+      <p class="text-center lg:text-start text-2xl lg:text-3xl xl:text-4xl">
+        {{ BannerText | translate }}
+      </p>
+      <ng-container *ngIf="BannerBtnVisible">
+        <a
+          *ngIf="!catalogLink"
+          [ngClass]="BannerBtnClass"
+          [href]="BannerBtnLink"
+        >
+          {{ BannerBtnText | translate }}
+        </a>
+        <a
+          *ngIf="catalogLink"
+          [ngClass]="BannerBtnClass"
+          [routerLink]="Routes.Catalog.url"
+          fragment="marketplace"
+        >
+          {{ BannerBtnText | translate }}
+        </a>
+      </ng-container>
+    </div>
+  </section>
+</div>

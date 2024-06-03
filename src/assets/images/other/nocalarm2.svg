@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="941" height="544" viewBox="0 0 941 544">
+  <defs>
+    <filter id="Rectangle_2000" x="0" y="0" width="941" height="544" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="34" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3933" data-name="Groupe 3933" transform="translate(-16823 1748)">
+    <g id="Groupe_3930" data-name="Groupe 3930" transform="translate(16819 -2130)">
+      <g transform="matrix(1, 0, 0, 1, 4, 382)" filter="url(#Rectangle_2000)">
+        <rect id="Rectangle_2000-2" data-name="Rectangle 2000" width="737" height="340" rx="20" transform="translate(102 76)" fill="#100a26"/>
+      </g>
+      <text id="PROBLEM_AND_CONTEXT_Your_NOC_is_swamped_with_hundreds_to_thousands_of_alarms_received_daily_making_network_troubleshooting_exceedingly_difficult_Because_network_supervision_is_primarily_based_on_many_redundant_alarms_operations_centers_are_devoting_s" data-name="PROBLEM AND CONTEXT 
+
+Your NOC is swamped with hundreds to thousands of alarms received daily, making network troubleshooting exceedingly difficult 
+
+Because network supervision is primarily based on many redundant alarms, operations centers are devoting s" transform="translate(150 498)" fill="#4c79f2" font-size="29" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="26">PROBLEM AND CONTEXT </tspan><tspan fill="#fff" font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="54"></tspan></tspan><tspan fill="#fff" font-size="22"><tspan x="0" y="82">Your NOC is swamped with hundreds to thousands of alarms </tspan><tspan x="0" y="110">received daily, making network troubleshooting exceedingly </tspan><tspan x="0" y="138">difficult </tspan></tspan><tspan fill="#fff" font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="166"></tspan></tspan><tspan fill="#fff" font-size="25" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="194">Because network supervision is primarily based on many </tspan><tspan x="0" y="222">redundant alarms, operations centers are devoting </tspan><tspan x="0" y="250">significant effort to analysis and correlation. </tspan></tspan></text>
+    </g>
+    <path id="Icon_fa-solid-bell-slash" data-name="Icon fa-solid-bell-slash" d="M12.032,1.583A7.443,7.443,0,0,0,2.854,13.3L186.415,157.175a7.443,7.443,0,1,0,9.178-11.721l-27.131-21.271a5.9,5.9,0,0,0,.217-1.674,32.423,32.423,0,0,0-9.457-22.852l-.465-.434a33.888,33.888,0,0,1-9.922-23.968V64.5a49.633,49.633,0,0,0-39.689-48.619V9.924a9.922,9.922,0,0,0-19.844,0v5.953A49.634,49.634,0,0,0,57.674,37.365Zm37.58,73.672A33.888,33.888,0,0,1,39.69,99.224l-.465.465a32.314,32.314,0,0,0-9.457,22.852,6.444,6.444,0,0,0,6.449,6.449h89.734L49.612,68.868v6.418Zm69.455,63.657H79.379a19.844,19.844,0,1,0,39.689,0Z" transform="translate(17539.652 -1738.758)" fill="#4c79f2"/>
+  </g>
+</svg>

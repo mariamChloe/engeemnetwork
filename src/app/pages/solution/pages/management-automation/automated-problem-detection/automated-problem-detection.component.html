@@ -1,0 +1,147 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+
+  [Headline]="['automated-problem-detection.hero-platform.Headline']"
+  HeadlineClass="text-white"
+  [imgUrl]="'assets/images/network-image/hero2.jpg'"
+  
+  [subHeadline]="['automated-problem-detection.hero-platform.subHeadline']"
+  subHeadlineClass="text-white"
+  BannerText="automated-problem-detection.hero-platform.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+
+
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="automated-problem-detection.problems-grid.headline"
+  [imgUrl]="'/assets/images/other/Automated Problem Detection  A1.svg'"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['automated-problem-detection.solution-key-feature.headLine']"
+  [subHeadLine]="['automated-problem-detection.solution-key-feature.subHeadLine']"
+  subHeadlineClass="text-white"
+  
+  [cards]="Cards"
+>
+</app-network-solution-key-feature>
+
+<!--
+  FEATURES SECTION
+-->
+<div class="bg-[#FBFBFB] relative">
+   <app-poly-image
+    title="automated-problem-detection.poly-image1.title"
+    [textBeforeList]="[
+        'automated-problem-detection.poly-image1.textBeforeList1', '',
+        'automated-problem-detection.poly-image1.textBeforeList2'
+    ]"
+    [list]="[
+      'automated-problem-detection.poly-image1.list1',
+      'automated-problem-detection.poly-image1.list2',
+      'automated-problem-detection.poly-image1.list3'
+    ]"
+    [textAfterList]="[
+      'automated-problem-detection.poly-image1.textAfterList'
+    ]"
+    imageUrl="assets/images/other/automated.jpg"
+    [btnVisible]="false">
+  </app-poly-image>
+   <app-poly-image
+
+
+    [title]="'automated-problem-detection.poly-image2.title'"
+  [textBeforeList]="['automated-problem-detection.poly-image2.textBeforeList1',
+    '','automated-problem-detection.poly-image2.textBeforeList2'
+    ]"
+    [list]="[
+      'automated-problem-detection.poly-image2.list1',
+      'automated-problem-detection.poly-image2.list2',
+      'automated-problem-detection.poly-image2.list3',
+      'automated-problem-detection.poly-image2.list4'
+    ]"
+    [reverse]="true"
+   
+    imageUrl="assets/images/network-image/engemtonnerre.webp"
+
+    [btnVisible]="false"
+  >
+   </app-poly-image>
+   <app-poly-image
+
+    [title]="'automated-problem-detection.poly-image3.title'"
+    [textBeforeList]="['automated-problem-detection.poly-image3.textBeforeList']"
+    imageUrl="assets/images/other/automated2.jpg"
+    [btnVisible]="true"
+    btnText=" Get Started Free"
+    BtnClass="text-start"
+
+  >
+  </app-poly-image>
+</div>
+
+
+<!--
+      COLORED IMAGE GRID SECTION
+  -->
+<app-network-colored-image-grid
+  [headLine]="[
+    'automated-problem-detection.colored-image-grid.headLine1',
+    'automated-problem-detection.colored-image-grid.headline2'
+  ]"
+  [headLineClass]="'lg:text-4xl font-bold text-brand-old-blue text-center my-10'"
+
+  [pinkSectionTitle]="['automated-problem-detection.colored-image-grid.pinkSectionTitle']"
+  [pinkSectionContent]="['automated-problem-detection.colored-image-grid.pinkSectionContent']"
+  [pinkSectionListContent]="[
+    'automated-problem-detection.colored-image-grid.pinkSectionListContent1',
+    'automated-problem-detection.colored-image-grid.pinkSectionListContent2'
+  ]"
+  [pinkSectionBtnText]="'automated-problem-detection.colored-image-grid.pinkSectionBtnText'"
+  [pinkSectionImgUrl]="'assets/images/network-image/engeemhommeavecverrenetwork.webp'"  
+
+  [yellowSectionTitle]="['automated-problem-detection.colored-image-grid.yellowSectionTitle']"
+  [yellowSectionContent]="[
+    'automated-problem-detection.colored-image-grid.yellowSectionContent1',
+    '','automated-problem-detection.colored-image-grid.yellowSectionContent2',
+    '','automated-problem-detection.colored-image-grid.yellowSectionContent3',
+    '','automated-problem-detection.colored-image-grid.yellowSectionContent4'
+  ]"
+  [yellowSectionBtnText]="'automated-problem-detection.colored-image-grid.pinkSectionBtnText'"
+  [yellowSectionImgUrl]="'assets/images/network-image/engeemIArobot.webp'"  
+
+
+  [turquoiseSectionTitle]="['automated-problem-detection.colored-image-grid.turquoiseSectionTitle']"
+  [turquoiseSectionContent]="['automated-problem-detection.colored-image-grid.turquoiseSectionContent']"
+  [turquoiseSectionListContent]="[
+    'automated-problem-detection.colored-image-grid.turquoiseSectionListContent1',
+    'automated-problem-detection.colored-image-grid.turquoiseSectionListContent2',
+    'automated-problem-detection.colored-image-grid.turquoiseSectionListContent3'
+  ]"
+  [turquoiseSectionBtnText]="'automated-problem-detection.colored-image-grid.pinkSectionBtnText'"
+  [turquoiseSectionImgUrl]="'assets/images/network-image/engeemnetworkunivers.webp'"
+>
+</app-network-colored-image-grid>
+
+<app-network-striped-banner
+  [headLine]="[
+    'automated-problem-detection.striped-banner.headLine'
+  ]"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  textLeft="automated-problem-detection.striped-banner.textLeft"
+  textRight="automated-problem-detection.striped-banner.textRight"
+  image="assets/images/network-image/data processing.jpg"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1196" height="1398" viewBox="0 0 1196 1398">
+  <defs>
+    <filter id="Rectangle_2798" x="0" y="344" width="1196" height="1054" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_8534" x="26" y="621" width="645" height="425.716" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-2"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_8534-2" x="525" y="621" width="645" height="425.716" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-3"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_8534-3" x="525" y="901.146" width="645" height="428.389" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-4"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3964" data-name="Groupe 3964" transform="translate(-17768 1734)">
+    <g id="Groupe_3929" data-name="Groupe 3929" transform="translate(475 337)">
+      <g transform="matrix(1, 0, 0, 1, 17293, -2071)" filter="url(#Rectangle_2798)">
+        <rect id="Rectangle_2798-2" data-name="Rectangle 2798" width="1028" height="886" rx="20" transform="translate(84 402)" fill="#100a26"/>
+      </g>
+      <text id="There_are_different_tentative_to_filter_alarms_using_knowledge_base_and_event_correlation_but_mostly_limited_to_known_patterns_You_re_therefore_limited_to_supervise_your_network_with_what_you_find_as_the_most_important_to_show_but_without_ability_to_100" data-name="There are different tentative to filter alarms using knowledge base and event correlation, but mostly limited to known patterns 
+
+You’re therefore limited to supervise your network with what you find as the most important to show but without ability to 100" transform="translate(17423 -1629)" fill="#4c79f2" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="27">THERE ARE DIFFERENT TENTATIVE TO FILTER ALARMS </tspan><tspan x="0" y="62">USING KNOWLEDGE BASE AND EVENT CORRELATION, BUT </tspan><tspan x="0" y="97">MOSTLY LIMITED TO KNOWN PATTERNS </tspan><tspan y="97" fill="#fff" font-family="ArialMT, Arial" font-weight="400"></tspan><tspan fill="#fff" font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="132"></tspan></tspan><tspan fill="#fff" font-size="22" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="167">You’re therefore limited to supervise your network with what you find as the most important </tspan><tspan x="0" y="202">to show but without ability to 100% measure the service or customer impact </tspan></tspan></text>
+      <g id="Groupe_3927" data-name="Groupe 3927" transform="translate(15530 -2738)">
+        <g id="Groupe_3024" data-name="Groupe 3024" transform="translate(494 316)">
+          <g transform="matrix(1, 0, 0, 1, 1269, 351)" filter="url(#Tracé_8534)">
+            <g id="Tracé_8534-4" data-name="Tracé 8534" transform="translate(110 682)" fill="#e0e4e8">
+              <path d="M20,0H457c11.046,0,20,7.349,20,16.415V241.3c0,9.066-8.954,16.415-20,16.415H20c-11.046,0-20-7.349-20-16.415V16.415C0,7.349,8.954,0,20,0Z" stroke="none"/>
+              <path d="M 20 0.999969482421875 C 9.523345947265625 0.999969482421875 1 7.915145874023438 1 16.41502380371094 L 1 241.3006744384766 C 1 249.8005523681641 9.523345947265625 256.7156677246094 20 256.7156677246094 L 457 256.7156677246094 C 467.4766540527344 256.7156677246094 476 249.8005523681641 476 241.3006744384766 L 476 16.41502380371094 C 476 7.915145874023438 467.4766540527344 0.999969482421875 457 0.999969482421875 L 20 0.999969482421875 M 20 -3.0517578125e-05 L 457 -3.0517578125e-05 C 468.0457153320312 -3.0517578125e-05 477 7.349258422851562 477 16.41502380371094 L 477 241.3006744384766 C 477 250.3664398193359 468.0457153320312 257.7156677246094 457 257.7156677246094 L 20 257.7156677246094 C 8.95428466796875 257.7156677246094 0 250.3664398193359 0 241.3006744384766 L 0 16.41502380371094 C 0 7.349258422851562 8.95428466796875 -3.0517578125e-05 20 -3.0517578125e-05 Z" stroke="none" fill="rgba(112,112,112,0.71)"/>
+            </g>
+          </g>
+          <g id="Groupe_2" data-name="Groupe 2" transform="translate(1403 1057)">
+            <text id="There_are_different_tentative_to_filter_alarms_using_knowledge_base_and_event_correlation_but_mostly_limited_to_known_patterns_You_re_therefore_limited_to_supervise_your_network_with_what_you_find_as_the_most_important_to_show_but_without_ability_to_100_" data-name="There are different tentative to filter alarms using knowledge base and event correlation, but mostly limited to known patterns
+
+You’re therefore limited to supervise your network with what you find as the most important to show but without ability to 100%" transform="translate(-1 -10)" fill="#ded7d7" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">There Are Different Tentative To Filter Alarms </tspan><tspan x="0" y="43">Using Knowledge Base And Event </tspan><tspan x="0" y="68">Correlation, But Mostly Limited To Known </tspan><tspan x="0" y="93">Patterns</tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118"></tspan><tspan x="0" y="143">You’re Therefore Limited To Supervise Your </tspan><tspan x="0" y="168">Network With What You Find As The Most </tspan><tspan x="0" y="193">Important To Show But Without Ability To 100% </tspan><tspan x="0" y="218">Measure The Service Or Customer Impact </tspan></tspan></text>
+          </g>
+        </g>
+        <g id="Groupe_3025" data-name="Groupe 3025" transform="translate(993 316)">
+          <g transform="matrix(1, 0, 0, 1, 770, 351)" filter="url(#Tracé_8534-2)">
+            <g id="Tracé_8534-5" data-name="Tracé 8534" transform="translate(609 682)" fill="#e0e4e8">
+              <path d="M20,0H457c11.046,0,20,7.349,20,16.415V241.3c0,9.066-8.954,16.415-20,16.415H20c-11.046,0-20-7.349-20-16.415V16.415C0,7.349,8.954,0,20,0Z" stroke="none"/>
+              <path d="M 20 0.999969482421875 C 9.523345947265625 0.999969482421875 1 7.915145874023438 1 16.41502380371094 L 1 241.3006744384766 C 1 249.8005523681641 9.523345947265625 256.7156677246094 20 256.7156677246094 L 457 256.7156677246094 C 467.4766540527344 256.7156677246094 476 249.8005523681641 476 241.3006744384766 L 476 16.41502380371094 C 476 7.915145874023438 467.4766540527344 0.999969482421875 457 0.999969482421875 L 20 0.999969482421875 M 20 -3.0517578125e-05 L 457 -3.0517578125e-05 C 468.0457153320312 -3.0517578125e-05 477 7.349258422851562 477 16.41502380371094 L 477 241.3006744384766 C 477 250.3664398193359 468.0457153320312 257.7156677246094 457 257.7156677246094 L 20 257.7156677246094 C 8.95428466796875 257.7156677246094 0 250.3664398193359 0 241.3006744384766 L 0 16.41502380371094 C 0 7.349258422851562 8.95428466796875 -3.0517578125e-05 20 -3.0517578125e-05 Z" stroke="none" fill="rgba(112,112,112,0.71)"/>
+            </g>
+          </g>
+          <g id="Groupe_2-2" data-name="Groupe 2" transform="translate(1403 1057)">
+            <text id="Traditional_fault_management_overloads_your_organization_with_overwhelmed_incident_occurrences_that_cannot_be_investigated_Managing_millions_of_alarms_and_incidents_requires_heavy_administration_SLA_contracts_and_a_maintenance_budget_that_constantly_gr" data-name="Traditional fault management overloads your organization with overwhelmed incident occurrences that cannot be investigated 
+
+Managing millions of alarms and incidents requires heavy administration, SLA contracts, and a maintenance budget that constantly gr" transform="translate(-1 -10)" fill="#ded7d7" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">Traditional Fault Management Overloads </tspan><tspan x="0" y="43">Your Organization With Overwhelmed </tspan><tspan x="0" y="68">Incident Occurrences That Cannot Be </tspan><tspan x="0" y="93">Investigated </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118"></tspan><tspan x="0" y="143">Managing Millions Of Alarms And Incidents </tspan><tspan x="0" y="168">Requires Heavy Administration, SLA Contracts, </tspan><tspan x="0" y="193">And A Maintenance Budget That Constantly </tspan><tspan x="0" y="218">Grows Yearly For Large And Heterogeneous </tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+      <path id="Icon_fa-solid-chart-pie" data-name="Icon fa-solid-chart-pie" d="M107.05,93.132V6.442A6.329,6.329,0,0,1,113.259,0a86.929,86.929,0,0,1,86.923,86.923,6.329,6.329,0,0,1-6.442,6.209ZM1.5,105.55A93.135,93.135,0,0,1,81.826,13.31a5.871,5.871,0,0,1,6.6,5.976v92.472l60.73,60.73a5.847,5.847,0,0,1-.582,8.964A93.111,93.111,0,0,1,1.5,105.55Zm204.27,6.209a5.891,5.891,0,0,1,5.976,6.6,92.817,92.817,0,0,1-28.677,55.22,5.9,5.9,0,0,1-8.227-.272l-61.584-61.545Z" transform="translate(17410.203 -1087.341)" fill="#4c79f2"/>
+      <path id="Icon_material-bar-chart" data-name="Icon material-bar-chart" d="M4,51.9H42.324v105.39H4ZM118.971,90.228h38.324v67.066H118.971ZM61.485,4H99.809V157.294H61.485Z" transform="translate(17678.926 -976.659)" fill="#d1f416"/>
+      <g id="Groupe_3928" data-name="Groupe 3928" transform="translate(16523 -2138.854)">
+        <g transform="matrix(1, 0, 0, 1, 770, 67.85)" filter="url(#Tracé_8534-3)">
+          <g id="Tracé_8534-6" data-name="Tracé 8534" transform="translate(609 962.15)" fill="#e0e4e8">
+            <path d="M20,0H457c11.046,0,20,7.425,20,16.585V243.8c0,9.16-8.954,16.585-20,16.585H20c-11.046,0-20-7.425-20-16.585V16.585C0,7.425,8.954,0,20,0Z" stroke="none"/>
+            <path d="M 20 1.000030517578125 C 9.523345947265625 1.000030517578125 1 7.991546630859375 1 16.58525085449219 L 1 243.8035430908203 C 1 252.3973083496094 9.523345947265625 259.3888244628906 20 259.3888244628906 L 457 259.3888244628906 C 467.4766540527344 259.3888244628906 476 252.3973083496094 476 243.8035430908203 L 476 16.58525085449219 C 476 7.991546630859375 467.4766540527344 1.000030517578125 457 1.000030517578125 L 20 1.000030517578125 M 20 3.0517578125e-05 L 457 3.0517578125e-05 C 468.0457153320312 3.0517578125e-05 477 7.425491333007812 477 16.58525085449219 L 477 243.8035430908203 C 477 252.9633636474609 468.0457153320312 260.3888244628906 457 260.3888244628906 L 20 260.3888244628906 C 8.95428466796875 260.3888244628906 0 252.9633636474609 0 243.8035430908203 L 0 16.58525085449219 C 0 7.425491333007812 8.95428466796875 3.0517578125e-05 20 3.0517578125e-05 Z" stroke="none" fill="rgba(112,112,112,0.71)"/>
+          </g>
+        </g>
+        <g id="Icon_material-round-bubble-chart" data-name="Icon material-round-bubble-chart" transform="translate(1636.947 1061.39)" opacity="0.144">
+          <path id="Tracé_8029" data-name="Tracé 8029" d="M90.4,54.4A43.2,43.2,0,1,1,47.2,11.2,43.2,43.2,0,0,1,90.4,54.4Z" transform="translate(-4 86)" fill="#ededed"/>
+          <path id="Tracé_8030" data-name="Tracé 8030" d="M66.8,43a27,27,0,1,1-27-27A27,27,0,0,1,66.8,43Z" transform="translate(106 145.999)" fill="#ededed"/>
+          <path id="Tracé_8031" data-name="Tracé 8031" d="M140,68.8A64.8,64.8,0,1,1,75.2,4,64.8,64.8,0,0,1,140,68.8Z" transform="translate(76 -4)" fill="#ededed"/>
+        </g>
+        <g id="Groupe_2-3" data-name="Groupe 2" transform="translate(1403 1051.918)">
+          <text id="MONITOR_REAL-TIME_NETWORK_S_KEY_PERFORMANCE_INDICATORS_BUILT_FROM_DIFFERENT_SYSTEMS_AND_APPS_Manage_network_performance_metrics_not_from_hundreds_of_defined_signaling_measurements_but_from_well-designed_service_functional_engineering_API_" data-name="MONITOR REAL-TIME NETWORK’S KEY PERFORMANCE INDICATORS BUILT FROM DIFFERENT SYSTEMS AND APPS
+
+Manage network performance metrics not from hundreds of defined signaling measurements, but from well-designed service functional engineering API " transform="translate(0 0.082)" fill="#ded7d7" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">MONITOR REAL-TIME NETWORK’S KEY </tspan><tspan x="0" y="43">PERFORMANCE INDICATORS BUILT FROM </tspan><tspan x="0" y="68">DIFFERENT SYSTEMS AND APPS</tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="93"></tspan><tspan x="0" y="118">Manage network performance metrics not from </tspan><tspan x="0" y="143">hundreds of defined signaling measurements, </tspan><tspan x="0" y="168">but from well-designed service functional </tspan><tspan x="0" y="193">engineering API </tspan></tspan></text>
+        </g>
+      </g>
+    </g>
+    <text id="ENGEEM_Features_Integrating_Big_Data_Mining_Approaches_for_Modern_Network_Supervision_Break_down_traditional_NOC_silos_with_ENGEEM_App_Workflow_which_connects_Fault_Supervision_to_Data_Analytics_Workflows_for_alarm_data_processing_enrichment_with_net" data-name="ENGEEM Features  
+Integrating Big Data Mining Approaches for Modern Network Supervision 
+
+Break down traditional NOC silos with ENGEEM App Workflow, which
+connects Fault Supervision to Data Analytics Workflows for alarm data
+processing, enrichment with net" transform="translate(17846 -1734)" fill="#100a26" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="46" xml:space="preserve">ENGEEM FEATURES  </tspan><tspan font-size="31"><tspan x="0" y="95">Integrating Big Data Mining Approaches for Modern Network </tspan><tspan x="0" y="144">Supervision </tspan></tspan><tspan font-size="32" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="193"></tspan><tspan x="0" y="242">Break down traditional NOC silos with ENGEEM App Workflow, which</tspan><tspan x="0" y="291">connects Fault Supervision to Data Analytics Workflows for alarm data</tspan><tspan x="0" y="340">processing, enrichment with network topology data, and compression </tspan></tspan></text>
+  </g>
+</svg>

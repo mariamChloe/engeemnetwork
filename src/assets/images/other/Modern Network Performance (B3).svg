@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2918" height="2079" viewBox="0 0 2918 2079">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2007" data-name="Rectangle 2007" width="1459" height="377.206" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_2006" data-name="Rectangle 2006" width="372.146" height="2079" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_1971" x="39" y="635" width="2133" height="1112" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-color="#c4cad0"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2002" x="39" y="1641" width="645" height="482" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-2"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2002-2" x="1031" y="1641" width="645" height="482" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-3"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2002-3" x="535" y="1641" width="645" height="482" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-4"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2002-4" x="1527" y="1641" width="645" height="482" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur-5"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Modern_Network_Performance_B3_">
+      <rect width="2918" height="2079"/>
+    </clipPath>
+  </defs>
+  <g id="Modern_Network_Performance_B3_" data-name="Modern Network Performance (B3) " clip-path="url(#clip-Modern_Network_Performance_B3_)">
+    <rect width="2918" height="2079" fill="#f2f2f2"/>
+    <g id="Groupe_2002" data-name="Groupe 2002" transform="translate(0 -368.136)" opacity="0.25">
+      <g id="Groupe_2001" data-name="Groupe 2001" transform="translate(0 2070.31)">
+        <g id="Groupe_2000" data-name="Groupe 2000" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="Tracé_8197" data-name="Tracé 8197" d="M464.406,2243.8C207.364,2287.354,62.31,2152.033,0,2070.309v377.206H1459q-10-12.268-19.921-25.618c-252.071-339.5-613.373-239.317-974.674-178.1" transform="translate(0 -2070.309)" fill="#acbac9" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+    <path id="Tracé_8198" data-name="Tracé 8198" d="M0,2735.106v2.542c100.613,22.4,223.3,21.808,372.885-15.347,237.536-59,475.073-69.973,683.243-35.5,163.777,27.121,309.375,82.373,422.474,164.487,44.112,32.027,83.284,68.142,116.664,108.272h3.119c-33.781-40.892-73.522-77.657-118.356-110.206-113.406-82.34-259.36-137.734-423.5-164.915-208.487-34.522-446.369-23.54-684.226,35.541-149.427,37.118-271.907,37.616-372.3,15.129m0-34.075v2.535c103.218,25.745,230.424,26.951,387.152-11.98,237.537-59,475.073-69.972,683.243-35.5,163.777,27.121,309.376,82.374,422.474,164.488,55.091,40,102.47,86.379,140.493,138.987h2.97c-38.34-53.394-86.249-100.418-142.036-140.921-113.405-82.338-259.359-137.734-423.5-164.915-208.486-34.521-446.369-23.54-684.226,35.542C230,2728.153,102.986,2726.869,0,2701.031m0-34.55v2.569c105.7,29.32,237.369,32.57,401.418-8.178,237.536-59,475.073-69.972,683.243-35.5,163.777,27.121,309.375,82.374,422.474,164.486,65.575,47.611,120.232,104.265,161.177,169.7h2.837c-41.192-66.237-96.336-123.537-162.588-171.635-113.406-82.34-259.359-137.734-423.5-164.916-208.488-34.521-446.37-23.54-684.226,35.543C236.928,2699.262,105.459,2695.9,0,2666.481m0-34.842v2.607c108.033,33.089,244.2,38.509,415.684-4.087,237.536-59,475.073-69.972,683.243-35.5,163.776,27.121,309.377,82.374,422.473,164.486,75.631,54.91,136.734,121.844,179.03,200.416h2.742c-42.49-79.382-104.059-146.963-180.345-202.349-113.406-82.34-259.36-137.734-423.5-164.915-208.487-34.522-446.369-23.54-684.225,35.542-171.359,42.565-307.313,37.012-415.1,3.8m0-35.323v2.6c110.239,37.107,250.82,45.021,429.95.525,237.537-59,475.073-69.972,683.243-35.5,163.777,27.121,309.376,82.375,422.474,164.488,85.3,61.932,152.122,139.16,194.319,231.13h2.65c-42.346-92.792-109.6-170.668-195.542-233.064-113.406-82.339-259.36-137.734-423.5-164.915-208.487-34.521-446.369-23.539-684.226,35.542-179.006,44.465-319.385,36.43-429.367-.8m0-35.822v2.649c112.305,41.353,257.249,52.028,444.217,5.587,237.536-59,475.073-69.972,683.243-35.5,163.777,27.121,309.375,82.375,422.473,164.487,94.635,68.706,166.522,156.242,207.277,261.844h2.583c-40.862-106.437-113.171-194.618-208.434-263.778-113.4-82.34-259.359-137.734-423.5-164.915-208.488-34.521-446.37-23.541-684.226,35.542C256.773,2612.822,112.039,2601.992,0,2560.495m0-36.2v2.7c114.2,45.817,263.518,59.454,458.483,11.025,237.538-59,475.074-69.972,683.244-35.5C1305.5,2529.633,1451.1,2584.886,1564.2,2667c103.662,75.263,180.03,173.113,218.081,292.559h2.532c-38.129-120.287-114.907-218.785-219.188-294.492-113.406-82.34-259.359-137.734-423.5-164.916-208.487-34.521-446.37-23.54-684.226,35.543-194.88,48.406-343.969,34.584-457.9-11.4m0-36.644v2.7c115.947,50.522,269.575,67.421,472.75,16.955,237.536-59,475.073-69.973,683.243-35.5,163.777,27.122,309.377,82.373,422.474,164.487,112.414,81.615,192.738,189.794,226.893,323.273h2.489c-34.219-134.326-114.933-243.15-227.955-325.207-113.406-82.339-259.36-137.734-423.5-164.914-208.487-34.522-446.369-23.541-684.225,35.541C269.078,2555.425,115.653,2538.343,0,2487.65m0-37.305v2.746c117.526,55.489,275.366,76.07,487.016,23.5,237.537-59,475.073-69.973,683.243-35.5,163.777,27.121,309.376,82.375,422.473,164.488,113.029,82.062,193.622,190.974,227.458,325.461q3.542,14.077,6.392,28.525h2.457q-2.9-14.743-6.51-29.105c-33.981-135.066-114.9-244.432-228.37-326.815-113.405-82.339-259.36-137.734-423.5-164.915-208.486-34.521-446.369-23.541-684.226,35.542C274.843,2526.821,117.222,2506.029,0,2450.345m0-37.781v2.8c118.924,60.691,280.942,85.236,501.283,30.506,237.536-59,475.073-69.972,683.243-35.5C1348.3,2437.49,1493.9,2492.743,1607,2574.855c113.028,82.063,193.622,190.976,227.457,325.462a574.408,574.408,0,0,1,11.6,59.24h2.437a576.146,576.146,0,0,0-11.7-59.819c-33.982-135.066-114.895-244.433-228.371-326.816-113.4-82.34-259.359-137.734-423.5-164.915-208.488-34.522-446.37-23.54-684.226,35.542-220.31,54.723-382.1,29.924-500.7-30.985m0-38.3v2.866c120.128,66.13,286.282,94.98,515.549,38.033,237.536-59,475.073-69.973,683.244-35.5,163.776,27.121,309.375,82.375,422.473,164.486,113.028,82.062,193.622,190.975,227.456,325.461a584.137,584.137,0,0,1,15.17,89.954h2.422a586.3,586.3,0,0,0-15.253-90.533c-33.981-135.068-114.9-244.433-228.37-326.816-113.406-82.34-259.359-137.734-423.5-164.915-208.488-34.522-446.37-23.54-684.226,35.542C285.7,2469.781,119.793,2440.629,0,2374.26m0-38.867v2.932c121.126,71.812,291.363,105.351,529.815,46.12,237.537-59,475.073-69.973,683.243-35.5,163.777,27.121,309.377,82.375,422.473,164.488,113.029,82.062,193.622,190.974,227.458,325.461a594.1,594.1,0,0,1,17.188,120.668h2.416a596.742,596.742,0,0,0-17.265-121.248c-33.981-135.066-114.9-244.432-228.37-326.816-113.405-82.339-259.359-137.734-423.5-164.915-208.487-34.521-446.369-23.541-684.225,35.542C290.751,2441.357,120.772,2407.468,0,2335.392m0-39.529v2.932c121.919,77.774,296.1,116.534,544.082,54.935,237.536-59,475.073-69.972,683.243-35.5C1391.1,2345.347,1536.7,2400.6,1649.8,2482.712c113.029,82.063,193.622,190.975,227.457,325.463,11.9,47.308,18.02,97.789,17.74,151.382h2.41c.281-53.794-5.86-104.469-17.81-151.962-33.981-135.067-114.895-244.433-228.37-326.816-113.406-82.34-259.36-137.734-423.5-164.915-208.487-34.522-446.369-23.541-684.226,35.542-248.018,61.6-421.96,22.5-543.5-55.543m0-40.256v3c122.474,83.989,300.5,128.453,558.349,64.408,237.537-59,475.073-69.972,683.243-35.5,163.777,27.121,309.376,82.375,422.474,164.486,113.027,82.062,193.622,190.975,227.457,325.461,14.151,56.246,20.127,116.981,16.89,182.1h2.413c3.236-65.315-2.764-126.24-16.964-182.676-33.982-135.067-114.895-244.433-228.371-326.816-113.4-82.34-259.359-137.734-423.5-164.916-208.488-34.522-446.37-23.54-684.226,35.542C299.854,2384.756,122.075,2339.9,0,2255.607m0-40.949v3.08c122.787,90.459,304.57,141.145,572.614,74.564,237.537-59,475.073-69.972,683.243-35.5,163.777,27.121,309.377,82.374,422.475,164.488,113.028,82.062,193.622,190.974,227.456,325.461,16.352,65,21.792,135.986,14.707,212.811h2.419c7.082-77.013,1.617-148.2-14.786-213.391-33.981-135.066-114.9-244.432-228.37-326.816-113.406-82.339-259.359-137.734-423.5-164.915-208.488-34.521-446.37-23.539-684.226,35.542C303.876,2356.587,122.36,2305.439,0,2214.657m0-41.692v3.166c122.828,97.172,308.251,154.664,586.881,85.457,237.536-59,475.073-69.973,683.243-35.5C1433.9,2253.2,1579.5,2308.457,1692.6,2390.57c113.029,82.063,193.622,190.974,227.458,325.462,18.51,73.575,23.036,154.824,11.245,243.525h2.432c11.781-88.89,7.223-170.334-11.339-244.1-33.981-135.066-114.895-244.433-228.37-326.816-113.406-82.34-259.36-137.734-423.5-164.915-208.487-34.521-446.369-23.541-684.225,35.542-278.787,69.248-463.926,11.227-586.3-86.3m0-42.5v3.253c122.581,104.131,311.512,169.1,601.147,97.153,237.537-59,475.073-69.972,683.243-35.5,163.777,27.121,309.376,82.375,422.474,164.486,113.029,82.062,193.622,190.975,227.457,325.462,20.39,81.046,23.814,171.4,7.147,270.773-.2,1.165-.361,2.308-.548,3.467h2.44c.169-1.026.311-2.038.485-3.07,16.723-99.71,13.284-190.4-7.185-271.749-33.981-135.067-114.9-244.433-228.37-326.816-113.405-82.34-259.359-137.734-423.5-164.915-208.486-34.522-446.369-23.541-684.226,35.542-289.841,71.994-478.47,6.43-600.564-98.083M0,2087.1v3.351c122.023,111.334,314.3,184.5,615.414,109.706,237.536-59,475.073-69.973,683.243-35.5,163.777,27.121,309.375,82.373,422.474,164.486,113.028,82.062,193.622,190.975,227.457,325.462,20.39,81.046,23.813,171.4,7.147,270.773q-2.943,17.558-4.688,34.181h2.429q1.729-16.434,4.637-33.784c16.722-99.711,13.284-190.4-7.185-271.749-33.982-135.067-114.895-244.433-228.371-326.817-113.4-82.339-259.359-137.734-423.5-164.914-208.488-34.522-446.37-23.54-684.226,35.541-301.378,74.861-493.336,1-614.83-110.732m0-44.3c120.553,119.179,315.652,202.18,629.1,124.321,237.856-59.083,475.738-70.063,684.226-35.542,164.142,27.181,310.095,82.576,423.5,164.915,113.475,82.384,194.389,191.75,228.37,326.816,20.47,81.354,23.909,172.039,7.186,271.75a517.561,517.561,0,0,0-6.89,64.5h-2.428a521.812,521.812,0,0,1,6.94-64.9c16.667-99.37,13.244-189.727-7.147-270.772-33.835-134.487-114.429-243.4-227.457-325.461-113.1-82.113-258.7-137.366-422.474-164.488-208.17-34.468-445.707-23.5-683.243,35.5C316.559,2247.22,121.12,2165.011,0,2046.251Z" transform="translate(-13.402 -880.557)" fill="#acbac9" fill-rule="evenodd"/>
+    <path id="Tracé_8196" data-name="Tracé 8196" d="M685.046,0c25.408,246.663,184.974,579.05,892.819,451.178,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.605V519.8C3155.344,29.677,2809.7,128.376,2257.516,286.225c-195.932,56.01-417.864,119.456-679.339,166.689C875.777,579.8,712.013,254.453,684.1,7.906l-.121,1.479C705.829,257,859.548,601.219,1577.865,471.458c261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.606v2.667C3155.344,49.953,2809.7,148.651,2257.516,306.5c-195.932,56.01-417.864,119.456-679.339,166.69C867.671,601.541,708.286,267.147,683.17,19.667l-.007.111c18.648,248.2,166.792,603.451,894.7,471.957,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.606v2.667C3155.344,70.23,2809.7,168.927,2257.516,326.777c-195.932,56.01-417.864,119.456-679.339,166.689C867.082,621.924,708.018,286.862,683.1,39.325c18.415,248.237,166.145,604.31,894.761,472.686,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.69,1340.358,232.605v2.667C3155.344,90.5,2809.7,189.2,2257.516,347.053c-195.932,56.009-417.864,119.456-679.339,166.689C867.07,642.2,708.015,307.119,683.1,59.582c18.408,248.232,166.128,604.329,894.763,472.7,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.69,1340.358,232.605v2.667C3155.344,110.781,2809.7,209.479,2257.516,367.329c-195.932,56.009-417.864,119.456-679.339,166.689C867.084,662.477,708.021,327.412,683.1,79.877c18.413,248.23,166.142,604.308,894.761,472.686,261.357-47.213,483.256-110.649,679.165-166.653,552.35-157.9,898.288-256.689,1340.358,232.606v2.667C3155.344,131.057,2809.7,229.755,2257.516,387.6c-195.932,56.01-417.864,119.456-679.339,166.689C867.082,682.753,708.021,347.687,683.1,100.15c18.413,248.237,166.138,604.315,894.761,472.688,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.606v2.667C3155.344,151.333,2809.7,250.03,2257.516,407.881c-195.932,56.01-417.864,119.456-679.339,166.689C867.07,703.032,708.015,367.947,683.1,120.409c18.406,248.233,166.124,604.332,894.763,472.7,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.606v2.667C3155.344,171.609,2809.7,270.306,2257.516,428.157c-195.932,56.01-417.864,119.456-679.339,166.689C867.075,723.305,708.015,388.234,683.1,140.7c18.413,248.235,166.135,604.32,894.763,472.693,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.605v2.667C3155.344,191.884,2809.7,290.583,2257.516,448.432c-195.932,56.01-417.864,119.456-679.339,166.689C775.31,760.155,676.122,314.287,679.237,70.68c-.081-6.9-.084-13.681,0-20.294-.081-6.883-.084-13.658,0-20.257-.081-6.895-.084-13.68,0-20.292q-.059-4.959-.063-9.833Zm2.382,0c32.1,244.1,201.81,555.3,890.437,430.9,261.357-47.213,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.69,1340.358,232.605v2.667C3155.344,9.4,2809.7,108.1,2257.516,265.949c-195.932,56.01-417.864,119.457-679.339,166.689C887.451,557.417,717.644,244.884,685.65,0Zm2.984,0c38.857,240.609,217.752,531.6,887.453,410.627,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.69,1340.358,232.605v2.667C3155.344-10.875,2809.7,87.824,2257.516,245.674c-195.932,56.009-417.864,119.456-679.339,166.689C906.374,533.722,727.361,241.416,688.615,0Zm3.614,0c45.64,236.279,232.84,507.953,883.84,390.351,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.605v2.667C3155.344-31.151,2809.7,67.548,2257.516,225.4c-195.932,56.009-417.864,119.456-679.339,166.689C925.074,510.063,737.73,237.1,692.2,0Zm4.267,0c52.43,231.17,247.116,484.324,879.572,370.075,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.606V438.7C3155.344-51.426,2809.7,47.272,2257.516,205.122c-195.932,56.01-417.864,119.456-679.339,166.689C943.619,486.442,748.759,232.014,696.452,0Zm4.977,0c59.2,225.355,260.6,460.717,874.6,349.8,261.357-47.212,483.256-110.649,679.165-166.652,552.35-157.9,898.288-256.689,1340.358,232.605v2.667C3155.344-71.7,2809.7,27,2257.516,184.846c-195.932,56.01-417.864,119.456-679.339,166.69C962.05,462.832,760.472,226.217,701.4,0Zm5.722,0c65.929,218.865,273.267,437.117,868.873,329.524,261.357-47.213,483.256-110.65,679.165-166.653,552.35-157.9,898.288-256.689,1340.358,232.605v2.667C3155.344-91.978,2809.7,6.721,2257.516,164.57c-195.932,56.01-417.864,119.456-679.339,166.689C980.454,439.237,772.887,219.756,707.084,0Zm6.532,0c72.586,211.77,285.134,413.514,862.341,309.248C1839.223,262.039,2061.122,198.6,2257.031,142.6c552.35-157.9,898.288-256.69,1340.358,232.605v2.667C3155.344-112.254,2809.7-13.555,2257.516,144.295c-195.932,56.009-417.864,119.456-679.339,166.689C998.85,415.639,786.041,212.674,713.579,0ZM3007.566,0c196.273,25.323,382.48,125.432,589.822,354.925V357.6C3384.458,121.5,3193.875,22.047,2991.822,0ZM722.932,0c79.156,204.083,296.191,389.9,854.934,288.972,261.357-47.212,483.256-110.649,679.165-166.652,196.823-56.266,367.406-105,525.5-122.32h17.575c-162.863,15.47-338.631,65.71-542.591,124.015-195.932,56.009-417.864,119.456-679.339,166.689C1017.286,392.031,799.961,205.013,720.93,0ZM3109.409,0c159.958,43.807,316.762,145.14,487.979,334.649v2.667C3423.488,144.5,3264.49,42.811,3101.983,0ZM731.282,0c85.608,195.842,306.415,366.274,846.583,268.7,261.357-47.212,483.256-110.649,679.165-166.652C2400.973,60.9,2530.885,23.762,2652.146,0h9.514c-123.827,23.629-256.6,61.561-404.145,103.739-195.932,56.009-417.864,119.456-679.339,166.689C1035.852,368.4,814.707,196.795,729.22,0Zm2441,0c138.5,51.625,276.366,149.745,425.1,314.374v2.667C3446.617,149.872,3307.042,51.189,3166.676,0ZM740.7,0c91.869,187.069,315.677,342.628,837.169,248.42,261.357-47.212,483.256-110.649,679.165-166.652C2364.857,50.949,2464.8,22.387,2559.142,0h7.774c-96.479,22.617-198.778,51.841-309.4,83.463-195.932,56.01-417.864,119.456-679.339,166.69C1054.6,344.735,830.385,188.041,738.576,0Z" transform="translate(-679.168 -0.003)" fill="#acbac9" fill-rule="evenodd" opacity="0.47"/>
+    <g id="Groupe_1999" data-name="Groupe 1999" transform="translate(2546.076)" opacity="0.25">
+      <g id="Groupe_1998" data-name="Groupe 1998" transform="translate(0)">
+        <g id="Groupe_1997" data-name="Groupe 1997" clip-path="url(#clip-path-2)">
+          <path id="Tracé_8195" data-name="Tracé 8195" d="M8270.367,2079V0h-241.7c196.448,228.845,273.23,686.769,12.671,1262.86-171.79,379.827-160.943,647.045-110.946,816.138Z" transform="translate(-7898.223 -0.002)" fill="#acbac9" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_3916" data-name="Groupe 3916">
+      <text id="Modern_Network_Performance" data-name="Modern Network Performance" transform="translate(123 131)" fill="#362953" font-size="82" font-family="ArialMT, Arial"><tspan x="0" y="74">Modern Network Performance</tspan></text>
+      <text id="Get_service-centric_network_measurements_and_analytics_apps_to_ensure_multidomain_performance_and_user_experience_Create_an_Intelligent_Simplified_Network_Analysis_Architecture_that_can_provide_insights_for_automation_features_like_self-configuration_sel" data-name="Get service-centric network measurements and analytics apps to ensure multidomain performance and user experience 
+Create an Intelligent Simplified Network Analysis Architecture that can provide insights for automation features like self-configuration, sel" transform="translate(123 253)" fill="#362953" font-size="31" font-family="ArialMT, Arial" opacity="0.875"><tspan x="0" y="28">Get Service-Centric Network Measurements And Analytics Apps To Ensure Multidomain Performance And User Experience </tspan><tspan x="0" y="64">Create An Intelligent Simplified Network Analysis Architecture That Can Provide Insights For Automation Features Like Self-</tspan><tspan x="0" y="100" xml:space="preserve">Configuration, Self-Healing, And Self-Optimization For Network Operation And Maintenance.  </tspan></text>
+    </g>
+    <g id="Groupe_2003" data-name="Groupe 2003" transform="translate(-52 234.069)">
+      <g id="UX-Group" transform="translate(191.736 190.931)">
+        <g id="Groupe_755" data-name="Groupe 755" transform="translate(0 0)">
+          <text id="Video_Quality_of_Experience" data-name="Video Quality of Experience" transform="translate(0.264 32)" fill="#362953" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Video Quality of Experience</tspan></text>
+          <line id="Line_62" data-name="Line 62" x1="1945.277" transform="translate(1.26 64.575)" fill="none" stroke="#c3e1e5" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Groupe_801" data-name="Groupe 801" transform="translate(205.32 275.159)">
+        <text id="Add_Metrics" data-name="Add Metrics" transform="translate(25.934 35.384)" fill="#362953" font-size="31" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Add Metrics</tspan></text>
+        <text id="Programmable_Analytics" data-name="Programmable Analytics" transform="translate(554.555 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Programmable Analytics</tspan></text>
+        <text id="Custom" transform="translate(331.991 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom</tspan></text>
+        <text id="Export_" data-name="Export " transform="translate(986.902 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Export </tspan></text>
+        <text id="Refresh" transform="translate(1196.997 33.816)" fill="#362953" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Refresh</tspan></text>
+        <g id="Column_Chart0" data-name="Column Chart0" transform="translate(497.274 13.259)">
+          <g id="Chart" transform="translate(0 0)">
+            <g id="m1" transform="translate(0 0)">
+              <rect id="Rectangle_1614" data-name="Rectangle 1614" width="3.91" height="9.306" transform="translate(0 17.293)" fill="#362953"/>
+              <rect id="Rectangle_1615" data-name="Rectangle 1615" width="3.91" height="18.612" transform="translate(7.819 7.987)" fill="#362953"/>
+              <rect id="Rectangle_1616" data-name="Rectangle 1616" width="3.91" height="26.599" transform="translate(15.639)" fill="#362953"/>
+              <rect id="Rectangle_1617" data-name="Rectangle 1617" width="3.91" height="18.612" transform="translate(23.458 7.987)" fill="#362953"/>
+            </g>
+          </g>
+        </g>
+        <g id="dashboard" transform="translate(294.058 7.396)">
+          <path id="Tracé_306" data-name="Tracé 306" d="M12.227,0H2.313A2.316,2.316,0,0,0,0,2.313V8.262a2.316,2.316,0,0,0,2.313,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313V2.313A2.316,2.316,0,0,0,12.227,0Zm0,0" transform="translate(0 0)" fill="#362953"/>
+          <path id="Tracé_307" data-name="Tracé 307" d="M12.227,213.332H2.313A2.316,2.316,0,0,0,0,215.645v13.88a2.316,2.316,0,0,0,2.313,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313v-13.88A2.316,2.316,0,0,0,12.227,213.332Zm0,0" transform="translate(0 -200.113)" fill="#362953"/>
+          <path id="Tracé_308" data-name="Tracé 308" d="M289.56,341.332h-9.914a2.316,2.316,0,0,0-2.314,2.314v5.948a2.316,2.316,0,0,0,2.314,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313v-5.948A2.316,2.316,0,0,0,289.56,341.332Zm0,0" transform="translate(-260.148 -320.182)" fill="#362953"/>
+          <path id="Tracé_309" data-name="Tracé 309" d="M289.56,0h-9.914a2.316,2.316,0,0,0-2.314,2.313v13.88a2.316,2.316,0,0,0,2.314,2.313h9.914a2.316,2.316,0,0,0,2.313-2.313V2.313A2.316,2.316,0,0,0,289.56,0Zm0,0" transform="translate(-260.148 0)" fill="#362953"/>
+        </g>
+        <path id="Icon_awesome-file-export" data-name="Icon awesome-file-export" d="M24.736,7.852a1.541,1.541,0,0,0-.451-1.089L17.979.451A1.545,1.545,0,0,0,16.884,0h-.393V8.245h8.245ZM36.782,19.84l-6.165-6.21a1.033,1.033,0,0,0-1.765.728v4.194H24.73v4.123h4.123v4.2a1.033,1.033,0,0,0,1.765.728l6.165-6.216A1.1,1.1,0,0,0,36.782,19.84Zm-24.414,1.8V19.583A1.034,1.034,0,0,1,13.4,18.552H24.736V10.307H15.975a1.551,1.551,0,0,1-1.546-1.546V0H1.546A1.542,1.542,0,0,0,0,1.546V31.435a1.542,1.542,0,0,0,1.546,1.546H23.19a1.542,1.542,0,0,0,1.546-1.546V22.675H13.4A1.034,1.034,0,0,1,12.368,21.644Z" transform="translate(944.703 7.396)" fill="#362953"/>
+        <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M16.628,9.285H10.872V3.529A1.279,1.279,0,0,0,9.593,2.25H8.314A1.279,1.279,0,0,0,7.035,3.529V9.285H1.279A1.279,1.279,0,0,0,0,10.564v1.279a1.279,1.279,0,0,0,1.279,1.279H7.035v5.756a1.279,1.279,0,0,0,1.279,1.279H9.593a1.279,1.279,0,0,0,1.279-1.279V13.122h5.756a1.279,1.279,0,0,0,1.279-1.279V10.564A1.279,1.279,0,0,0,16.628,9.285Z" transform="translate(36.945 -2.25)" fill="#362953"/>
+        <path id="Icon_ionic-md-refresh-circle" data-name="Icon ionic-md-refresh-circle" d="M21.57,3.375a18.2,18.2,0,1,0,18.2,18.2A18.249,18.249,0,0,0,21.57,3.375Zm9.8,16.971H22.8l3.919-3.919a7.117,7.117,0,0,0-5.144-2.2,7.348,7.348,0,0,0,0,14.7,7.291,7.291,0,0,0,6.788-4.549h2.607a9.822,9.822,0,1,1-2.476-9.719l2.878-2.878Z" transform="translate(1147.595 4.021)" fill="#362953"/>
+        <path id="Icon_awesome-plus-2" data-name="Icon awesome-plus" d="M16.628,9.285H10.872V3.529A1.279,1.279,0,0,0,9.593,2.25H8.314A1.279,1.279,0,0,0,7.035,3.529V9.285H1.279A1.279,1.279,0,0,0,0,10.564v1.279a1.279,1.279,0,0,0,1.279,1.279H7.035v5.756a1.279,1.279,0,0,0,1.279,1.279H9.593a1.279,1.279,0,0,0,1.279-1.279V13.122h5.756a1.279,1.279,0,0,0,1.279-1.279V10.564A1.279,1.279,0,0,0,16.628,9.285Z" transform="translate(526.419 1.729)" fill="#362953"/>
+        <path id="Icon_awesome-tachometer-alt" data-name="Icon awesome-tachometer-alt" d="M19.183,2.25A19.182,19.182,0,0,0,2.6,31.078,2.108,2.108,0,0,0,4.429,32.09H33.937a2.108,2.108,0,0,0,1.828-1.012A19.182,19.182,0,0,0,19.183,2.25Zm0,4.263A2.1,2.1,0,0,1,21.2,8.088a3.59,3.59,0,0,0-.23.444l-.614,1.843a2.076,2.076,0,0,1-1.175.4,2.131,2.131,0,0,1,0-4.263ZM6.394,25.7a2.131,2.131,0,1,1,2.131-2.131A2.132,2.132,0,0,1,6.394,25.7Zm3.2-10.657a2.131,2.131,0,1,1,2.131-2.131A2.132,2.132,0,0,1,9.592,15.039Zm16.437-4.823L21.943,22.471a4.183,4.183,0,0,1,.911,5.356H15.512a4.219,4.219,0,0,1,3.4-6.367L23,9.2a1.6,1.6,0,0,1,3.033,1.012ZM27,14.026l1.034-3.1a2.1,2.1,0,0,1,.736-.149,2.131,2.131,0,1,1,0,4.263A2.1,2.1,0,0,1,27,14.026ZM31.972,25.7A2.131,2.131,0,1,1,34.1,23.564,2.132,2.132,0,0,1,31.972,25.7Z" transform="translate(-30 5.146)" fill="#362953"/>
+      </g>
+      <g id="Groupe_796" data-name="Groupe 796" transform="translate(175 392.486)">
+        <g transform="matrix(1, 0, 0, 1, -123, -626.55)" filter="url(#Rectangle_1971)">
+          <g id="Rectangle_1971-2" data-name="Rectangle 1971" transform="translate(123 693)" fill="#fff" stroke="#e2eeef" stroke-width="1">
+            <path d="M0,0H1965a0,0,0,0,1,0,0V924a20,20,0,0,1-20,20H20A20,20,0,0,1,0,924V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.5.5h1964a0,0,0,0,1,0,0V924a19.5,19.5,0,0,1-19.5,19.5H20A19.5,19.5,0,0,1,.5,924V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+          </g>
+        </g>
+        <g id="Rectangle_1974" data-name="Rectangle 1974" transform="translate(0 296.445)" fill="#e0e3e7" stroke="#70a0b8" stroke-linejoin="round" stroke-width="0.5" opacity="0.32">
+          <rect width="1965" height="120" stroke="none"/>
+          <rect x="0.25" y="0.25" width="1964.5" height="119.5" fill="none"/>
+        </g>
+        <text id="Adaptive_Video_Streaming_Quality_Downgrading_Rate_Cells_with_good_Video_HD_Streaming_Cells_with_Excellent_QoS_but_Bad_Video_QoE_Cells_with_worst_Video_Streaming_Quality_AppQoE-Video_Streaming_Buffering_State_AppQoE-Video_Streaming_Resolution_AppQoE-V" data-name="Adaptive Video Streaming Quality Downgrading Rate
+
+Cells with good Video HD Streaming
+
+Cells with Excellent QoS but Bad Video QoE
+
+Cells with worst Video Streaming Quality
+
+AppQoE-Video Streaming Buffering State
+
+AppQoE-Video Streaming Resolution
+
+AppQoE-V" transform="translate(65 140.445)" fill="#362953" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Adaptive Video Streaming Quality Downgrading Rate</tspan><tspan x="0" y="54"></tspan><tspan x="0" y="108">Cells with good Video HD Streaming</tspan><tspan x="0" y="162"></tspan><tspan x="0" y="216">Cells with Excellent QoS but Bad Video QoE</tspan><tspan x="0" y="270"></tspan><tspan x="0" y="324">Cells with worst Video Streaming Quality</tspan><tspan x="0" y="378"></tspan><tspan x="0" y="432">AppQoE-Video Streaming Buffering State</tspan><tspan x="0" y="486"></tspan><tspan x="0" y="540">AppQoE-Video Streaming Resolution</tspan><tspan x="0" y="594"></tspan><tspan x="0" y="648">AppQoE-Video Streaming Playing State</tspan><tspan x="0" y="702"></tspan><tspan x="0" y="756">AppQoE-Video Streaming Freeze Ratio</tspan></text>
+        <line id="Ligne_84" data-name="Ligne 84" x2="1939.177" transform="translate(11.392 194.22)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_85" data-name="Ligne 85" x2="1939.177" transform="translate(11.392 298.288)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_86" data-name="Ligne 86" x2="1939.177" transform="translate(11.392 416.167)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <g id="Rectangle_1973" data-name="Rectangle 1973" transform="translate(0 0.445)" fill="#e0e3e7" stroke="#70a0b8" stroke-linejoin="round" stroke-width="0.5" opacity="0.32">
+          <path d="M20,0H1945a20,20,0,0,1,20,20V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+          <path d="M20,.25H1945A19.75,19.75,0,0,1,1964.75,20V65.75a0,0,0,0,1,0,0H.25a0,0,0,0,1,0,0V20A19.75,19.75,0,0,1,20,.25Z" fill="none"/>
+        </g>
+        <g id="ProjectSummary" transform="translate(21.101 21.101)">
+          <text id="NAME" transform="translate(-0.102 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">NAME</tspan></text>
+          <text id="UNIT" transform="translate(1046.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UNIT</tspan></text>
+          <text id="STATUS" transform="translate(1208.898 21.344)" fill="#232638" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">STATUS</tspan></text>
+          <text id="DESCRIPTION" transform="translate(1434.898 21.344)" fill="#232638" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DESCRIPTION</tspan></text>
+          <text id="TYPE" transform="translate(874.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">TYPE</tspan></text>
+          <text id="DISPLAY_NAME" data-name="DISPLAY NAME" transform="translate(507.898 22.344)" fill="#232638" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DISPLAY NAME</tspan></text>
+        </g>
+        <g id="AllTopics" transform="translate(1230.431 122.97)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.475)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label" transform="translate(73.569 25.475)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-2" data-name="AllTopics" transform="translate(1230.431 226.295)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_2" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.15)" fill="#e0e4e8" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-2" data-name="Label" transform="translate(73.569 25.15)" fill="#b5b5b5" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-34.365" y="0">Disabled</tspan></text>
+        </g>
+        <g id="AllTopics-3" data-name="AllTopics" transform="translate(1230.431 336.168)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_3" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.278)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-3" data-name="Label" transform="translate(73.569 25.278)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="Groupe_803" data-name="Groupe 803" transform="translate(20.004 125.193)">
+          <path id="Icon_ionic-ios-checkbox" data-name="Icon ionic-ios-checkbox" d="M22.078,4.5H6.1A1.6,1.6,0,0,0,4.5,6.1v15.98a1.6,1.6,0,0,0,1.6,1.6h15.98a1.6,1.6,0,0,0,1.6-1.6V6.1A1.6,1.6,0,0,0,22.078,4.5Zm-2.622,6.717L12.78,17.923h0a.9.9,0,0,1-.579.275.874.874,0,0,1-.584-.285l-2.8-2.8a.2.2,0,0,1,0-.285l.889-.889a.193.193,0,0,1,.28,0L12.2,16.161l6.092-6.137a.2.2,0,0,1,.14-.06h0a.181.181,0,0,1,.14.06l.874.9A.2.2,0,0,1,19.457,11.217Z" transform="translate(-4.5 210.761)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 642.831)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-2" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 533.995)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-3" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 425.864)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-4" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 317.46)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-5" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 102.199)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-6" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 -4.5)" fill="#362953"/>
+          <path id="Icon_material-check-box-outline-blank-7" data-name="Icon material-check-box-outline-blank" d="M21.546,6.631V21.546H6.631V6.631H21.546m0-2.131H6.631A2.137,2.137,0,0,0,4.5,6.631V21.546a2.137,2.137,0,0,0,2.131,2.131H21.546a2.137,2.137,0,0,0,2.131-2.131V6.631A2.137,2.137,0,0,0,21.546,4.5Z" transform="translate(-4.042 751.255)" fill="#362953"/>
+        </g>
+        <g id="Groupe_800" data-name="Groupe 800" transform="translate(809.13 115.694)">
+          <text id="_..." data-name="..." transform="translate(13.869 -0.249) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-2" data-name="..." transform="translate(13.869 110.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-3" data-name="..." transform="translate(13.869 227.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-4" data-name="..." transform="translate(13.869 337.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-5" data-name="..." transform="translate(13.869 448.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-6" data-name="..." transform="translate(13.869 559.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-7" data-name="..." transform="translate(13.869 676.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+          <text id="_...-8" data-name="..." transform="translate(13.869 786.751) rotate(90)" fill="#324b63" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+        </g>
+        <line id="Ligne_88" data-name="Ligne 88" x2="1939.177" transform="translate(11.392 530.768)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_89" data-name="Ligne 89" x2="1939.177" transform="translate(11.392 634.836)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_90" data-name="Ligne 90" x2="1939.177" transform="translate(11.392 752.715)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <line id="Ligne_91" data-name="Ligne 91" x2="1939.177" transform="translate(11.392 874.942)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+        <text id="Video_QoE-Down_Rate_Cells_Good_Video_HD_Good-QoS_Bad_VideoQoE_Cells_Worst_Video_Quality_Cells_Video_Buffering_Freq_Video_Stream-Resolution_Video_Playing_Freq_Video_Stream-Freeze_Freq" data-name="Video QoE-Down Rate
+
+Cells Good Video HD
+
+Good-QoS Bad VideoQoE Cells
+
+Worst Video Quality Cells 
+
+Video Buffering Freq
+
+Video Stream-Resolution
+
+Video Playing Freq
+
+Video Stream-Freeze Freq" transform="translate(531 140.445)" fill="#324b63" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Video QoE-Down Rate</tspan><tspan x="0" y="54"></tspan><tspan x="0" y="108">Cells Good Video HD</tspan><tspan x="0" y="162"></tspan><tspan x="0" y="216">Good-QoS Bad VideoQoE Cells</tspan><tspan x="0" y="270"></tspan><tspan x="0" y="324">Worst Video Quality Cells </tspan><tspan x="0" y="378"></tspan><tspan x="0" y="432">Video Buffering Freq</tspan><tspan x="0" y="486"></tspan><tspan x="0" y="540">Video Stream-Resolution</tspan><tspan x="0" y="594"></tspan><tspan x="0" y="648">Video Playing Freq</tspan><tspan x="0" y="702"></tspan><tspan x="0" y="756">Video Stream-Freeze Freq</tspan></text>
+        <g id="AllTopics-4" data-name="AllTopics" transform="translate(1230.431 464.231)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_4" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.214)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-4" data-name="Label" transform="translate(73.569 25.214)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-5" data-name="AllTopics" transform="translate(1230.431 567.555)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_5" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 -0.11)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-5" data-name="Label" transform="translate(73.569 24.89)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-6" data-name="AllTopics" transform="translate(1230.431 677.428)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_6" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.017)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-6" data-name="Label" transform="translate(73.569 25.017)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-7" data-name="AllTopics" transform="translate(1230.431 800.399)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_7" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.046)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="36" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="35" rx="17.5" fill="none"/>
+          </g>
+          <text id="Label-7" data-name="Label" transform="translate(73.569 25.046)" fill="#fcfcfc" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-31.702" y="0">Enabled</tspan></text>
+        </g>
+        <g id="AllTopics-8" data-name="AllTopics" transform="translate(1230.431 910.272)">
+          <g id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_8" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" transform="translate(-0.431 0.173)" fill="#362953" stroke="#d5dfe3" stroke-width="1">
+            <rect width="152" height="35" rx="17.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="151" height="34" rx="17" fill="none"/>
+          </g>
+          <text id="Label-8" data-name="Label" transform="translate(73.569 25.173)" fill="#fcfcfc" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="-33.463" y="0">Enabled</tspan></text>
+        </g>
+        <text id="Rate_of_Downgrading_Video_Quality_at_360p_due_to_bad_network_QoE" data-name="Rate of Downgrading Video Quality at 360p due to bad network QoE" transform="translate(1461 103.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of Downgrading Video </tspan></text>
+        <text id="Rate_of_network_cells_with_good_Video_HD_Streaming_session_Without_Stalling_event_and_at_least_1080p_quality_" data-name="Rate of network cells with good Video HD Streaming session (Without Stalling event and at least 1080p quality)" transform="translate(1461 208.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of network cells with </tspan></text>
+        <text id="Rate_of_Excellent_QoS_network_cells_and_bad_Video_HD_Streaming_session_With_Stalling_event_and_at_least_1080p_quality_" data-name="Rate of Excellent QoS network cells and bad Video HD Streaming session (With Stalling event and at least 1080p quality)" transform="translate(1461 313.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of Excellent QoS network </tspan></text>
+        <text id="Rate_of_network_cells_with_the_worst_Video_Streaming_session_High_Stalling_rate_and_at_480p_360p_quality_" data-name="Rate of network cells with the worst Video Streaming session (High Stalling rate and at 480p/360p quality)" transform="translate(1461 442.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Rate of network cells with the </tspan></text>
+        <text id="Video_Streaming_session_Buffering_state_:_Filling-Steady-Depleting-Stall" data-name="Video Streaming session Buffering state : Filling-Steady-Depleting-Stall" transform="translate(1461 545.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Video_Streaming_session_display_quality_:_2160p_1440p_1080p_720p_480p_360p" data-name="Video Streaming session display quality : 2160p, 1440p, 1080p, 720p, 480p, 360p" transform="translate(1461 658.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Video_streaming_session_Stall_or_playing_state_:_0_play_1_Stall" data-name="Video streaming session Stall or playing state : 0 = play ; 1= Stall" transform="translate(1461 777.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video streaming session Stall </tspan></text>
+        <text id="Video_Streaming_session_Playing_state_:_Playing-Freeze_ratio_calculated_over_the_whole_video_duration" data-name="Video Streaming session Playing state : Playing-Freeze ratio calculated over the whole video duration" transform="translate(1461 896.445)" fill="#362953" font-size="37" font-family="SegoeUI, Segoe UI"><tspan x="0" y="40">Video Streaming session </tspan></text>
+        <text id="Float_Float_Float_Float_Float_Integer_Float_Float" data-name="Float
+
+Float
+
+Float
+
+Float 
+
+Float
+
+Integer
+
+Float
+
+Float" transform="translate(901 141.445)" fill="#324b63" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Float</tspan><tspan x="0" y="56"></tspan><tspan x="0" y="112">Float</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="224">Float</tspan><tspan x="0" y="280"></tspan><tspan x="0" y="336">Float </tspan><tspan x="0" y="392"></tspan><tspan x="0" y="448">Float</tspan><tspan x="0" y="504"></tspan><tspan x="0" y="560">Integer</tspan><tspan x="0" y="616"></tspan><tspan x="0" y="672">Float</tspan><tspan x="0" y="728"></tspan><tspan x="0" y="784">Float</tspan></text>
+        <text id="Ratio_Ratio_Ratio_Ratio_Ratio_Text_Ratio_Ratio" data-name="Ratio
+
+Ratio
+
+Ratio
+
+Ratio
+
+Ratio
+
+Text
+
+Ratio
+
+Ratio" transform="translate(1071 141.445)" fill="#324b63" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ratio</tspan><tspan x="0" y="56"></tspan><tspan x="0" y="112">Ratio</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="224">Ratio</tspan><tspan x="0" y="280"></tspan><tspan x="0" y="336">Ratio</tspan><tspan x="0" y="392"></tspan><tspan x="0" y="448">Ratio</tspan><tspan x="0" y="504"></tspan><tspan x="0" y="560">Text</tspan><tspan x="0" y="616"></tspan><tspan x="0" y="672">Ratio</tspan><tspan x="0" y="728"></tspan><tspan x="0" y="784">Ratio</tspan></text>
+        <line id="Ligne_92" data-name="Ligne 92" x2="1939.177" transform="translate(11.392 994.326)" fill="#0aaee0" stroke="#b3b3b3" stroke-miterlimit="10" stroke-width="0.5"/>
+      </g>
+      <g id="Search-Bar" transform="translate(1646.885 270.515)">
+        <rect id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_9" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" width="493" height="52" rx="2" transform="translate(0.115 0.415)" fill="#362953"/>
+        <text id="Search_Metrics_and_Analytics" data-name="Search Metrics and Analytics" transform="translate(114.115 34.415)" fill="#fff" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search Metrics and Analytics</tspan></text>
+        <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M30.837,27.033l-6.088-6.088a1.464,1.464,0,0,0-1.038-.427h-1a12.7,12.7,0,1,0-2.2,2.2v1a1.464,1.464,0,0,0,.427,1.038l6.088,6.088a1.459,1.459,0,0,0,2.07,0l1.728-1.728A1.472,1.472,0,0,0,30.837,27.033ZM12.7,20.517A7.816,7.816,0,1,1,20.517,12.7,7.812,7.812,0,0,1,12.7,20.517Z" transform="translate(31.748 11.288)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_1995" data-name="Groupe 1995" transform="translate(-1256 672)">
+      <g transform="matrix(1, 0, 0, 1, 1256, -672)" filter="url(#Rectangle_2002)">
+        <g id="Rectangle_2002-5" data-name="Rectangle 2002" transform="translate(123 1702)" fill="#e0e4e8" stroke="rgba(112,112,112,0.71)" stroke-width="1">
+          <rect width="477" height="314" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="476" height="313" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Icon_material-round-bubble-chart" data-name="Icon material-round-bubble-chart" transform="translate(1632.947 1111.001)">
+        <path id="Tracé_8029" data-name="Tracé 8029" d="M90.4,54.4A43.2,43.2,0,1,1,47.2,11.2,43.2,43.2,0,0,1,90.4,54.4Z" transform="translate(0 90)" fill="#ededed"/>
+        <path id="Tracé_8030" data-name="Tracé 8030" d="M66.8,43a27,27,0,1,1-27-27A27,27,0,0,1,66.8,43Z" transform="translate(110 149.999)" fill="#ededed"/>
+        <path id="Tracé_8031" data-name="Tracé 8031" d="M140,68.8A64.8,64.8,0,1,1,75.2,4,64.8,64.8,0,0,1,140,68.8Z" transform="translate(80 0)" fill="#ededed"/>
+      </g>
+      <g id="Groupe_2" data-name="Groupe 2" transform="translate(713 640)">
+        <text id="A_successful_5G_deployment_should_prioritize_network_management_from_the_beginning._Managing_networks_has_generally_been_conceived_as_an_afterthought_and_designed_as_a_collection_of_systems_independent_from_the_network_elements_it_s_supposed_to_control_" data-name="A successful 5G deployment should prioritize network management from the beginning. 
+
+Managing networks has generally been conceived as an afterthought and designed as a collection of systems independent from the network elements it’s supposed to control, " transform="translate(689 416)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">A SUCCESSFUL 5G DEPLOYMENT SHOULD </tspan><tspan x="0" y="43">PRIORITIZE NETWORK MANAGEMENT </tspan><tspan x="0" y="68">FROM THE BEGINNING. </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="93"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118">Managing networks has generally been </tspan><tspan x="0" y="143">conceived as an afterthought and designed as a </tspan><tspan x="0" y="168">collection of systems independent from the </tspan><tspan x="0" y="193">network elements it’s supposed to control, </tspan><tspan x="0" y="218">monitor, and manage.</tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Groupe_2004" data-name="Groupe 2004" transform="translate(-264 672)">
+      <g transform="matrix(1, 0, 0, 1, 264, -672)" filter="url(#Rectangle_2002-2)">
+        <g id="Rectangle_2002-6" data-name="Rectangle 2002" transform="translate(1115 1702)" fill="#e0e4e8" stroke="rgba(112,112,112,0.71)" stroke-width="1">
+          <rect width="477" height="314" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="476" height="313" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Icon_material-round-bubble-chart-2" data-name="Icon material-round-bubble-chart" transform="translate(1632.947 1111.001)">
+        <path id="Tracé_8029-2" data-name="Tracé 8029" d="M90.4,54.4A43.2,43.2,0,1,1,47.2,11.2,43.2,43.2,0,0,1,90.4,54.4Z" transform="translate(0 90)" fill="#ededed"/>
+        <path id="Tracé_8030-2" data-name="Tracé 8030" d="M66.8,43a27,27,0,1,1-27-27A27,27,0,0,1,66.8,43Z" transform="translate(110 149.999)" fill="#ededed"/>
+        <path id="Tracé_8031-2" data-name="Tracé 8031" d="M140,68.8A64.8,64.8,0,1,1,75.2,4,64.8,64.8,0,0,1,140,68.8Z" transform="translate(80 0)" fill="#ededed"/>
+      </g>
+      <g id="Groupe_2-2" data-name="Groupe 2" transform="translate(713 640)">
+        <text id="The_critical_requirement_for_an_easy-to-implement_network_management_framework_and_tools_You_are_looking_for_an_easy-to-implement_solution_that_enterprise_customers_can_use_to_run_and_manage_your_own_private_4G_5G_network_standalone_or_hybrid-4G_5G_._" data-name="The critical requirement for an easy-to-implement network management framework and tools 
+
+You are looking for an easy-to-implement solution that enterprise customers can use to run and manage your own private 4G/5G network (standalone or hybrid-4G/5G).  " transform="translate(689 416)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">THE CRITICAL REQUIREMENT FOR AN </tspan><tspan x="0" y="43">EASY-TO-IMPLEMENT NETWORK </tspan><tspan x="0" y="68">MANAGEMENT FRAMEWORK AND TOOLS </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="93"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118">You are looking for an easy-to-implement </tspan><tspan x="0" y="143">solution that enterprise customers can use to </tspan><tspan x="0" y="168">run and manage your own private 4G/5G </tspan><tspan x="0" y="193" xml:space="preserve">network (standalone or hybrid-4G/5G).  </tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Groupe_1996" data-name="Groupe 1996" transform="translate(-760 672)">
+      <g transform="matrix(1, 0, 0, 1, 760, -672)" filter="url(#Rectangle_2002-3)">
+        <g id="Rectangle_2002-7" data-name="Rectangle 2002" transform="translate(619 1702)" fill="#e0e4e8" stroke="rgba(112,112,112,0.71)" stroke-width="1">
+          <rect width="477" height="314" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="476" height="313" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Icon_material-round-bubble-chart-3" data-name="Icon material-round-bubble-chart" transform="translate(1632.947 1111.001)">
+        <path id="Tracé_8029-3" data-name="Tracé 8029" d="M90.4,54.4A43.2,43.2,0,1,1,47.2,11.2,43.2,43.2,0,0,1,90.4,54.4Z" transform="translate(0 90)" fill="#ededed"/>
+        <path id="Tracé_8030-3" data-name="Tracé 8030" d="M66.8,43a27,27,0,1,1-27-27A27,27,0,0,1,66.8,43Z" transform="translate(110 149.999)" fill="#ededed"/>
+        <path id="Tracé_8031-3" data-name="Tracé 8031" d="M140,68.8A64.8,64.8,0,1,1,75.2,4,64.8,64.8,0,0,1,140,68.8Z" transform="translate(80 0)" fill="#ededed"/>
+      </g>
+      <g id="Groupe_2-3" data-name="Groupe 2" transform="translate(713 640)">
+        <text id="A_modern_management_platform_must_be_capable_of_scalability_performance_and_extensibility._Management_capabilities_must_be_viewed_as_an_addition_to_existing_functionalities_necessitating_interoperability_with_existing_network_technologies_systems_and_" data-name="A modern management platform must be capable of scalability, performance, and extensibility. 
+
+Management capabilities must be viewed as an addition to existing functionalities, necessitating interoperability with existing network technologies systems and " transform="translate(690 411)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">A MODERN MANAGEMENT PLATFORM </tspan><tspan x="0" y="43">MUST BE CAPABLE OF SCALABILITY, </tspan><tspan x="0" y="68">PERFORMANCE, AND EXTENSIBILITY. </tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="93"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118">Management capabilities must be viewed as an </tspan><tspan x="0" y="143">addition to existing functionalities, necessitating </tspan><tspan x="0" y="168">interoperability with existing network </tspan><tspan x="0" y="193">technologies systems and traditional diagnostic </tspan><tspan x="0" y="218">tools. </tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Groupe_2005" data-name="Groupe 2005" transform="translate(232 672)">
+      <g transform="matrix(1, 0, 0, 1, -232, -672)" filter="url(#Rectangle_2002-4)">
+        <g id="Rectangle_2002-8" data-name="Rectangle 2002" transform="translate(1611 1702)" fill="#e0e4e8" stroke="rgba(112,112,112,0.71)" stroke-width="1">
+          <rect width="477" height="314" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="476" height="313" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Icon_material-round-bubble-chart-4" data-name="Icon material-round-bubble-chart" transform="translate(1632.947 1111.001)">
+        <path id="Tracé_8029-4" data-name="Tracé 8029" d="M90.4,54.4A43.2,43.2,0,1,1,47.2,11.2,43.2,43.2,0,0,1,90.4,54.4Z" transform="translate(0 90)" fill="#ededed"/>
+        <path id="Tracé_8030-4" data-name="Tracé 8030" d="M66.8,43a27,27,0,1,1-27-27A27,27,0,0,1,66.8,43Z" transform="translate(110 149.999)" fill="#ededed"/>
+        <path id="Tracé_8031-4" data-name="Tracé 8031" d="M140,68.8A64.8,64.8,0,1,1,75.2,4,64.8,64.8,0,0,1,140,68.8Z" transform="translate(80 0)" fill="#ededed"/>
+      </g>
+      <g id="Groupe_2-4" data-name="Groupe 2" transform="translate(713 640)">
+        <text id="MONITOR_REAL-TIME_NETWORK_S_KEY_PERFORMANCE_INDICATORS_BUILT_FROM_DIFFERENT_SYSTEMS_AND_APPS_Manage_network_performance_metrics_not_from_hundreds_of_defined_signaling_measurements_but_from_well-designed_service_functional_engineering_API_" data-name="MONITOR REAL-TIME NETWORK’S KEY PERFORMANCE INDICATORS BUILT FROM DIFFERENT SYSTEMS AND APPS
+
+Manage network performance metrics not from hundreds of defined signaling measurements, but from well-designed service functional engineering API " transform="translate(690 411)" fill="#575454" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="18">MONITOR REAL-TIME NETWORK’S KEY </tspan><tspan x="0" y="43">PERFORMANCE INDICATORS BUILT FROM </tspan><tspan x="0" y="68">DIFFERENT SYSTEMS AND APPS</tspan><tspan font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="93"></tspan></tspan><tspan fill="#717171" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="118">Manage network performance metrics not from </tspan><tspan x="0" y="143">hundreds of defined signaling measurements, </tspan><tspan x="0" y="168">but from well-designed service functional </tspan><tspan x="0" y="193">engineering API </tspan></tspan></text>
+      </g>
+    </g>
+    <g id="Groupe_2006" data-name="Groupe 2006" transform="translate(1465 730)">
+      <text id="Scalability_performance_deployment_and_extensibility_are_all_issues_with_many_centralized_monitoring_tentative._The_ENGEEM_Digital_Experience_Monitoring_approach_can_save_network_managers_money_on_expensive_and_unused_tools_while_also_assisting_them_i" data-name="Scalability, performance, deployment, and extensibility are all issues with many centralized monitoring tentative. 
+
+The ENGEEM Digital Experience Monitoring approach can save network managers money on expensive and unused tools while also assisting them i" transform="translate(690 411)" fill="#575454" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="28">SCALABILITY, PERFORMANCE, </tspan><tspan x="0" y="66">DEPLOYMENT, AND EXTENSIBILITY ARE ALL </tspan><tspan x="0" y="104">ISSUES WITH MANY CENTRALIZED </tspan><tspan x="0" y="142">MONITORING TENTATIVE. </tspan><tspan font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="180"></tspan></tspan><tspan fill="#717171" font-size="26" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="218">The ENGEEM Digital Experience Monitoring approach can </tspan><tspan x="0" y="256">save network managers money on expensive and unused </tspan><tspan x="0" y="294">tools while also assisting them in integrating multisource </tspan><tspan x="0" y="332">data capabilities to meet the most important requirements </tspan><tspan x="0" y="370">on reduced OPEX </tspan></tspan></text>
+    </g>
+    <g id="Groupe_2007" data-name="Groupe 2007" transform="translate(1465 205)">
+      <text id="Problem_Context_Create_a_5G_network_without_in-depth_knowledge_of_5G_system_functionality_and_mechanism._5G_network_solutions_are_built_as_a_collection_of_physical_integrated_components_from_2_or_3_network_vendors_ensuring_the_open_and_adaptable_natu" data-name="Problem – Context 
+
+Create a 5G network without in-depth knowledge of 5G system functionality and mechanism. 
+
+5G network solutions are built as a collection of physical integrated components from 2 or 3 network vendors ensuring the open and adaptable natu" transform="translate(690 411)" fill="#575454" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="28">PROBLEM – CONTEXT </tspan><tspan x="0" y="66"></tspan><tspan x="0" y="104">CREATE A 5G NETWORK WITHOUT IN-DEPTH </tspan><tspan x="0" y="142">KNOWLEDGE OF 5G SYSTEM </tspan><tspan x="0" y="180">FUNCTIONALITY AND MECHANISM. </tspan><tspan font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="218"></tspan></tspan><tspan fill="#717171" font-size="26" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="256">5G network solutions are built as a collection of physical </tspan><tspan x="0" y="294">integrated components from 2 or 3 network vendors </tspan><tspan x="0" y="332">ensuring the open and adaptable nature of next-generation </tspan><tspan x="0" y="370">network architecture. </tspan></tspan></text>
+    </g>
+    <line id="Ligne_94" data-name="Ligne 94" x2="218" transform="translate(2155.5 1065.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

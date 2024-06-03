@@ -1,0 +1,133 @@
+<!--
+    HERO SECTION
+-->
+<app-hero-interne
+  [Headline]="['enterprise-automation.heroheadline']"
+  [subHeadline]="['enterprise-automation.herosubheadline']"
+  BannerText="enterprise-automation.bannertext"
+  customClass="cyan"
+></app-hero-interne>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="enterprise-automation.problemheadline"
+  imgUrl="assets/images/architectures/Enterprise_Digitization_and_Automated.svg"
+></app-problems-grid>
+
+<!--
+      SOLUTIONS SECTION
+    -->
+
+<app-solutions-grid
+  [Solutions]="SolutionsItems"
+  Headline="enterprise-automation.solutionheadline"
+  SubHeadline="enterprise-automation.solutionsubheadline"
+></app-solutions-grid>
+
+<!--
+  FEATURES SECTION
+-->
+
+<!-- <app-poly-image
+  title="enterprise-automation.polyimagetitle"
+  content="enterprise-automation.polyimagecontent"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/hand-server.webp"
+>
+</app-poly-image> -->
+
+<app-polyimagereverse
+  title="enterprise-automation.polyimagereversetitle"
+  content="enterprise-automation.polyimagereversecontent"
+  btnText="Button.start"
+  imageUrl="./assets/images/other/tunel.webp"
+></app-polyimagereverse>
+
+<!-- <app-poly-image
+  title="enterprise-automation.polyimagetitle2"
+  content="enterprise-automation.polyimagecontent2"
+  btnText="Button.start"
+  imageUrl="./assets/images/tinified/data-tour.webp"
+>
+</app-poly-image> -->
+
+<!--
+      BENEFITS SECTION
+    -->
+
+<div class="bg-[#CCDEE1] text-[#0D4977] text-3xl text-center p-8 font-bold">
+  {{ "Common.Whatcanweachieve" | translate }}
+</div>
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "enterprise-automation.benefitsheadline" | translate }}
+    </h1>
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="./assets/images/tinified/circuit-integre1.webp"
+        [title]="['enterprise-automation.benefitcardtitle1']"
+        content="enterprise-automation.benefitcardcontent1"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/number-matrix.webp"
+        [title]="['enterprise-automation.benefitcardtitle2']"
+        content="enterprise-automation.benefitcardcontent2"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="./assets/images/tinified/abstract-tech.webp"
+        [title]="['enterprise-automation.benefitcardtitle3']"
+        content="enterprise-automation.benefitcardcontent3"
+        btnText="Button.readMoreAcceleration"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+<!-- MORE INFO SECTION -->
+
+<div class="relative">
+  <img
+    class="inset-0 absolute object-cover h-full w-full brightness-50"
+    src="assets/images/tinified/vortex.webp"
+    alt=""
+  />
+  <section class="max-w-7xl px-2 md:px-4 mx-auto py-8 relative z-10 text-white">
+    <h1 class="text-2xl lg:text-4xl py-8 text-center font-bold text-white">
+      {{ "enterprise-automation.moreheadline" | translate }}
+    </h1>
+    <div
+      class="grid lg:grid-cols-2 text-2xl text-[#ffffffe7] text-center px-6 py-4 gap-12 lg:gap-0 lg:px-12 lg:py-5"
+    >
+      <div>
+        {{ "enterprise-automation.moregrid1" | translate }}
+      </div>
+      <div>
+        {{ "enterprise-automation.moregrid2" | translate }}
+      </div>
+    </div>
+
+    <div class="flex justify-center py-4 lg:py-6">
+      <a        [routerLink]="'/catalog'"
+        class="px-12 py-2 rounded-full text-2xl uppercase btn-turquoise text-white"
+      >
+        {{ "Button.start" | translate }}
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

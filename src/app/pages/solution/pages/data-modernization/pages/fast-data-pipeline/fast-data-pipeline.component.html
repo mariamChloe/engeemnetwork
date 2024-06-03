@@ -1,0 +1,130 @@
+<!--
+    HERO SECTION
+-->
+<app-hero-interne
+  [Headline]="['fast-pipeline.heroheadline']"
+  [subHeadline]="['fast-pipeline.herosubheadline']"
+></app-hero-interne>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="fast-pipeline.problemheadline"
+  subheadline="fast-pipeline.problemsubheadline"
+  imgUrl="assets/images/architectures/Unified_Enterprise_data.svg"
+></app-problems-grid>
+
+<!--
+      SOLUTIONS SECTION
+    -->
+
+<app-solutions-grid
+  [Solutions]="SolutionsItems"
+  Headline="fast-pipeline.solutionheadline"
+  SubHeadline="fast-pipeline.solutionsubheadline"
+></app-solutions-grid>
+
+<!--
+  FEATURES SECTION
+-->
+
+<!-- <app-poly-image
+  title="fast-pipeline.polyimagetitle"
+  content="fast-pipeline.polyimagecontent"
+  btnText="Get Started free"
+  imageUrl="assets/images/tinified/number-matrix.webp"
+>
+</app-poly-image> -->
+
+<app-polyimagereverse
+  title="fast-pipeline.polyimagereversetitle"
+  content="fast-pipeline.polyimagereversecontent"
+  btnText="Get Started free"
+  imageUrl="assets/images/other/tunel.webp"
+></app-polyimagereverse>
+
+<!-- <app-poly-image
+  title="fast-pipeline.polyimagetitle2"
+  content="fast-pipeline.polyimagecontent2"
+  btnText="Get Started free"
+  imageUrl="assets/images/other/bots.webp"
+>
+</app-poly-image> -->
+
+<!--
+      BENEFITS SECTION
+    -->
+
+<div class="bg-[#CCDEE1] text-[#0D4977] text-3xl text-center p-8 font-bold">
+  {{ "Common.Whatcanweachieve" | translate }}
+</div>
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "fast-pipeline.benefitsheadline" | translate }}
+    </h1>
+
+    <h2 class="text-center max-w-3xl mx-auto leading-normal py-1">
+      {{ "fast-pipeline.benefitssubheadline" | translate }}
+    </h2>
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/tinified/abstract-tech.webp"
+        content="fast-pipeline.benefitcardcontent1"
+        btnText="fast-pipeline.benefitcardbtnText1"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="assets/images/tinified/file-wave.webp"
+        content="fast-pipeline.benefitcardcontent2"
+        btnText="fast-pipeline.benefitcardbtnText2"
+      >
+      </app-card>
+
+      <app-card
+        imageUrl="assets/images/other/data-map.jpeg"
+
+        content="fast-pipeline.benefitcardcontent3"
+        btnText="fast-pipeline.benefitcardbtnText3"
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+<div class="relative">
+  <img
+    class="inset-0 absolute object-cover h-full w-full brightness-50"
+    src="assets/images/tinified/vortex.webp"
+    alt=""
+  />
+  <section class="max-w-7xl px-2 md:px-4 mx-auto py-8 relative z-10 text-white">
+    <h1 class="text-2xl lg:text-4xl py-8 text-center font-bold text-white">
+      {{ "fast-pipeline.moreheadline" | translate }}
+    </h1>
+    <div
+      class="grid lg:grid-cols-2 text-2xl text-center px-6 py-4 gap-12 lg:gap-0 lg:px-12 lg:py-5"
+    >
+      <div>
+        {{ "fast-pipeline.moregrid1" | translate }}
+      </div>
+      <div>{{ "fast-pipeline.moregrid2" | translate }}</div>
+    </div>
+
+    <div class="flex justify-center py-4 lg:py-6">
+      <a        [routerLink]="'/catalog'"
+        class="px-12 py-2 rounded-full text-2xl uppercase btn-turquoise text-white"
+      >
+        {{ "Button.start" | translate }}
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

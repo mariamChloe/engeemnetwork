@@ -1,0 +1,52 @@
+<app-hero-interne-platform
+  class="overflow-hidden"
+  [Headline]="['ENGEEM Blog']"
+  [subHeadlineVisible]="false"
+  [HeadlineClassContainer]="'rounded-md py-8 lg:pt-16 lg:pb-24 text-center'"
+  [HeadlineClass]="'leading-normal font-black text-white text-center'"
+  [BannerBtnVisible]="false"
+  [BtnVisible]="false"
+  [showPulse3]="false"
+  [BannerText]="
+    'C\'est la DataCAN! Découvrez comment CANaliser vos données avec Engeem'
+  "
+>
+</app-hero-interne-platform>
+<ng-container *ngIf="!isLoading; else loader">
+  <div class="bg-white p-10 py-24">
+    <div class="w-full max-w-6xl m-auto">
+      <h3 class="text-brand-turquoise font-bold text-4xl pb-4">
+        Nos derniers articles...
+      </h3>
+      <div class="w-full grid md:grid-cols-2 lg:grid-cols-4">
+        <ng-container *ngFor="let art of articles">
+          <div
+            class="card p-5 hover:shadow-lg cursor-pointer"
+            (click)="goToArticle(art)"
+          >
+            <img
+              [src]="
+                art.bannerImage ? art.bannerImage : 'assets/images/no-image.svg'
+              "
+              [alt]="'banner of ' + art.slug"
+            />
+            <h2 class="mt-3">
+              <p class="text-xl font-bold line-clamp-2">{{ art.title }}</p>
+              <span class="text-sm">{{
+                art.lastModified | date : "EEEE dd MMMM yyyy"
+              }}</span>
+            </h2>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #loader>
+  <div class="flex justify-center items-center h-[89vh] bg-white">
+    <div
+      class="w-28 h-28 rounded-full border-[10px] border-brand-turquoise border-t-teal-900 animate-spin"
+    ></div>
+  </div>
+</ng-template>

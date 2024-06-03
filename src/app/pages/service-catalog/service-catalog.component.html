@@ -1,0 +1,32 @@
+<app-hero-interne
+  [Headline]="[
+    'service-catalog.heroHeadline1'
+  ]"
+  [CustomClass]="'cyan'"
+  [subHeadline]="['service-catalog.heroSubHeadline']"
+></app-hero-interne>
+<app-problems-grid
+  [items]="ProblemsItems"
+  headline="service-catalog.problemsHeadLine"
+  subheadline="service-catalog.problemsSubHeadLine"
+  [headlinesAlign]="'center'"
+  imgUrl="assets/images/architectures/Data_Lake_House.svg"
+></app-problems-grid>
+<app-features-banner
+  [headLine]="['service-catalog.featuresBannerHeadline']"
+  [headLineClass]="'py-2 lg:pt-16 lg:pb-14 text-center text-brand-old-blue'"
+  [subHeadLineClass]="'hidden'"
+  [featuresContainerClass]="'hidden'"
+></app-features-banner>
+
+<app-marketplace id="marketplace"></app-marketplace>
+
+<!--<app-old-blue-banner
+  [headLine]="['service-catalog.oldBlueBannerHeadline']"
+  [subHeadline]="['service-catalog.oldBlueBannerSubHeadline']"
+></app-old-blue-banner>
+<app-two-images
+  [leftBlockImgUrl]="'assets/images/tinified/neurodata.webp'"
+  [rightBlockImgUrl]="'assets/images/tinified/lock.webp'"
+></app-two-images>-->
+<app-insights-resources></app-insights-resources>

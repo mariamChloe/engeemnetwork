@@ -1,0 +1,188 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+[imgUrl]="'assets/images/network-image/service monitoring4.jpg'"
+
+  [Headline]="['noc-alarm-aggregation.hero-head-line']"
+HeadlineClass="text-brand-old-blue"
+  [subHeadline]="['noc-alarm-aggregation.hero-subHeadline','noc-alarm-aggregation.hero-subHeadline1','noc-alarm-aggregation.hero-subHeadline2']"
+  BannerText="noc-alarm-aggregation.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="noc-alarm-aggregation.problems-head-line"
+  subHeadline=""
+  [imgUrl]="'assets/images/other/NOC Alarm Aggregation C1.jpg'"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['noc-alarm-aggregation.solution-key-feature.headLine']"
+  [subHeadLine]="['noc-alarm-aggregation.solution-key-feature.subHeadLine']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <app-network-grid-images
+  [illustration]="'circles1'"
+
+
+  [headBlockTitle]="[]"
+  [subHeadBlock]="[
+    'noc-alarm-aggregation.network-grid-images1.subHeadBlock1',
+    'noc-alarm-aggregation.network-grid-images1.subHeadBlock2'
+  ]"
+
+  [leftBlockContent]="['noc-alarm-aggregation.network-grid-images1.leftBlockContent']"
+  leftBlockImgUrl="assets/images/other/nocalarm2.svg"
+
+  [rightBlockTitle]="['noc-alarm-aggregation.network-grid-images1.rightBlockTitle'  ]"
+  [rightBlockTitle_]="['noc-alarm-aggregation.network-grid-images1.rightBlockTitle2']"
+  [rightBlockContent]="['noc-alarm-aggregation.network-grid-images1.rightBlockContent1']"
+  [rightBlockContent_]="['noc-alarm-aggregation.network-grid-images1.rightBlockContent2']"
+  [rightBlockImgClass]="'w-full rounded-2xl lg:max-h-full object-cover h-full'"
+  rightBlockImgUrl="assets/images/other/noc-alarmcomposant.jpg"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+<app-network-grid-images
+  [illustration]="'circles2'"
+  [headBlockTitle]="[]"
+  [headBlockContent]="[]"
+  [subHeadBlock]="[
+    'noc-alarm-aggregation.network-grid-images2.subHeadBlock1',
+    'noc-alarm-aggregation.network-grid-images2.subHeadBlock2'
+  ]"
+  [subHeadBlockClass]="'text-3xl font-bold mt-12 text-right'"
+
+  [reverse]="true"
+  [enableButton]="false"
+
+  [leftBlockTitle]="['noc-alarm-aggregation.network-grid-images2.leftBlockTitle']"
+  [leftBlockContent]="['noc-alarm-aggregation.network-grid-images2.leftBlockContent']"
+  leftBlockImgUrl="assets/images/network-image/engeemhommeavecverrenetwork.webp"
+
+  [rightBlockTitle]="['noc-alarm-aggregation.network-grid-images2.rightBlockTitle']"
+  [rightBlockContent]="['noc-alarm-aggregation.network-grid-images2.rightBlockContent']"
+  [rightBlockPlacement]="'md:flex-row-reverse'"
+  [rightBlockImgClass]="'w-full rounded-2xl lg:max-h-full object-cover h-full'"
+
+  [rightBlockTitle_]="['noc-alarm-aggregation.network-grid-images2.rightBlockTitle2']"
+  [rightBlockContent_]="['noc-alarm-aggregation.network-grid-images2.rightBlockContent2']"
+  rightBlockImgUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+
+
+></app-network-grid-images>
+<app-network-grid-images
+  [illustration]="'circles1'"
+  [headBlockTitle]="[]"
+  [subHeadBlock]="[
+    'noc-alarm-aggregation.network-grid-images3.subHeadBlock1',
+    'noc-alarm-aggregation.network-grid-images3.subHeadBlock2'
+  ]"
+  [leftBlockTitle]="[]"
+  [leftBlockContent]="['noc-alarm-aggregation.network-grid-images3.leftBlockContent']"
+  leftBlockImgUrl="assets/images/network-image/engeemnetworkcodebinnaire.webp"
+
+
+  [rightBlockTitle]="['noc-alarm-aggregation.network-grid-images3.rightBlockTitle']"
+  [rightBlockContent]="['noc-alarm-aggregation.network-grid-images3.rightBlockContent1']"
+  [rightBlockTitle_]="['noc-alarm-aggregation.network-grid-images3.rightBlockTitle2']"
+  [rightBlockContent_]="['noc-alarm-aggregation.network-grid-images3.rightBlockContent2']"
+  [rightBlockImgClass]="'w-full rounded-2xl lg:max-h-full object-cover h-full'"
+  rightBlockImgUrl="assets/images/network-image/engeemFemmedevantordi.webp"
+
+  [enableButton]="false"
+></app-network-grid-images>
+
+
+
+
+
+
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "noc-alarm-aggregation.app-card-headline" | translate }}
+    </h1>
+
+
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+        imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [title] ="['noc-alarm-aggregation.cards.card1.title']"
+        [textBeforeList] ="['noc-alarm-aggregation.cards.card1.textBeforeList',
+         '','noc-alarm-aggregation.cards.card1.textBeforeList2']"
+        content="noc-alarm-aggregation.card-content1"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        [title] ="['noc-alarm-aggregation.cards.card2.title']"
+        [textBeforeList] ="['noc-alarm-aggregation.cards.card2.textBeforeList',
+         '',
+         'noc-alarm-aggregation.cards.card2.textBeforeList2']"
+        content="noc-alarm-aggregation.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+      [title] ="['noc-alarm-aggregation.cards.card3.title']"
+        [textBeforeList] ="['noc-alarm-aggregation.cards.card3.textBeforeList','',
+        'noc-alarm-aggregation.cards.card3.textBeforeList2']"
+
+        content="noc-alarm-aggregation.card-content3"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'noc-alarm-aggregation.last-banner-headline',
+  ]"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  image="assets/images/network-image/Background-01.png"
+  textLeft="noc-alarm-aggregation.last-banner-left-text"
+  textRight="noc-alarm-aggregation.last-banner-right-text"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>

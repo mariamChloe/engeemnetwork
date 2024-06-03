@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1264" height="603" viewBox="0 0 1264 603">
+  <defs>
+    <filter id="Rectangle_2000" x="523" y="0" width="741" height="459" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3907" data-name="Groupe 3907" transform="translate(-9396 -3804)">
+    <g id="Groupe_3902" data-name="Groupe 3902" transform="translate(9346 4026)">
+      <g id="Rectangle_2001" data-name="Rectangle 2001" transform="translate(50 48)" fill="#f7f3f2" stroke="rgba(112,112,112,0.69)" stroke-width="1">
+        <rect width="767" height="333" rx="26" stroke="none"/>
+        <rect x="0.5" y="0.5" width="766" height="332" rx="25.5" fill="none"/>
+      </g>
+      <g id="Groupe_1982" data-name="Groupe 1982" transform="translate(5 2)">
+        <text id="Power_Automated_Resource_Optimization_Capacity_Planning_and_Cluster_Quality_Control_User_Experience_SLA_helps_with_creating_new_user-centric_network_issue_Metrics_that_disclose_the_end-user_view_whereas_Service_Level_Specification_SLS_tells_you_the_" data-name="Power Automated Resource Optimization, Capacity Planning, and Cluster Quality Control 
+
+User Experience SLA helps with creating new user-centric network issue Metrics that disclose the end-user view, whereas Service Level Specification (SLS) tells you the " transform="translate(73 154)" fill="#575454" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="18">Power Automated Resource Optimization, Capacity Planning, and Cluster </tspan><tspan x="0" y="46">Quality Control </tspan><tspan x="0" y="74"></tspan><tspan x="0" y="102">User Experience SLA helps with creating new user-centric network issue </tspan><tspan x="0" y="130">Metrics that disclose the end-user view, whereas Service Level Specification </tspan><tspan x="0" y="158">(SLS) tells you the QoS Strategy necessary to govern system performance </tspan><tspan x="0" y="186">and fulfill the SLA </tspan></text>
+        <g id="Groupe_1981" data-name="Groupe 1981">
+          <text id="Quality_SLS_SLA_Design" data-name="Quality SLS/SLA Design" transform="translate(77 113)" fill="#575454" font-size="40" font-family="ArialMT, Arial"><tspan x="0" y="0">Quality SLS/SLA Design</tspan></text>
+          <path id="Icon_material-round-design-services" data-name="Icon material-round-design-services" d="M30.649,20.77l3.279-3.279L26.1,9.66l-3.279,3.279L14.172,4.314a4.184,4.184,0,0,0-5.91,0L4.295,8.282a4.184,4.184,0,0,0,0,5.91l8.625,8.625L3.313,32.443A1.025,1.025,0,0,0,3,33.2v6.348a1.034,1.034,0,0,0,1.044,1.044h6.348a.98.98,0,0,0,.731-.313l9.648-9.648L29.4,39.251c2.757,2.757,5.764.146,5.91,0l3.968-3.968a4.184,4.184,0,0,0,0-5.91l-8.625-8.6Zm-14.743-.919L7.26,11.227l3.947-3.968,2.652,2.652-.981,1.023a2.082,2.082,0,0,0,2.944,2.944l1-1L19.852,15.9l-3.947,3.947ZM32.361,36.327,23.736,27.7,27.7,23.735l3.028,3.028-1,1a2.082,2.082,0,1,0,2.944,2.944l1-1,2.652,2.652Zm7.622-24.892a2.08,2.08,0,0,0,0-2.944L35.1,3.6a2.107,2.107,0,0,0-2.944,0L28.331,7.426l7.831,7.831Z" transform="translate(548 77.999)" fill="#575454"/>
+        </g>
+      </g>
+    </g>
+    <g id="Groupe_3903" data-name="Groupe 3903" transform="translate(9162 3787)">
+      <g transform="matrix(1, 0, 0, 1, 234, 17)" filter="url(#Rectangle_2000)">
+        <rect id="Rectangle_2000-2" data-name="Rectangle 2000" width="573" height="291" rx="20" transform="translate(607 58)" fill="#100a26"/>
+      </g>
+      <text id="Problem_Context_Designing_and_flexibly_operating_networks_to_fit_service_requirements_is_challenging_Cellular_is_now_the_most_popular_and_appealing_technology_for_connecting_assets_and_accelerating_industry_digital_transformation._But_designing_SLA_t" data-name="Problem – Context 
+Designing and flexibly operating networks to fit service requirements is challenging! 
+
+Cellular is now the most popular and appealing technology for connecting assets and accelerating industry digital transformation. But designing SLA t" transform="translate(867 92)" fill="#4c79f2" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">Problem – Context </tspan><tspan y="20" fill="#fff" font-size="20" font-family="ArialMT, Arial" font-weight="400"></tspan><tspan fill="#fff" font-size="20" font-family="ArialMT, Arial" font-weight="400"><tspan x="0" y="48">Designing and flexibly operating networks to fit service </tspan><tspan x="0" y="76">requirements is challenging! </tspan><tspan x="0" y="104"></tspan><tspan x="0" y="132">Cellular is now the most popular and appealing technology </tspan><tspan x="0" y="160">for connecting assets and accelerating industry digital </tspan><tspan x="0" y="188">transformation. But designing SLA to ensure effective </tspan><tspan x="0" y="216">digital experience monitoring has challenges! </tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<div class="grid lg:grid-cols-2 w-full h-full" [ngClass]="bgClass">
+  <div class="px-12 lg:px-0 lg:rotate-180 lg:order-last">
+    <img
+      src="{{ imageUrl }}"
+      class="object-cover h-full lg:rotate-180 h-50 bg-cyan-50 p-2"
+      alt=""
+      srcset=""
+    />
+  </div>
+  <div
+    class="flex justify-center max-w-4xl flex-col gap-8 px-12 py-12 text-black"
+  >
+    <p class="text-5xl leading-[55px] font-semibold text-gray-900 py-8">
+      {{ title | translate }}
+    </p>
+    <ng-container *ngIf="isContentArray; else renderParagraph">
+      <p class="text-2xl text-gray-700 leading-normal text-left">
+        {{ textBeforeList | translate }}
+      </p>
+      <ul
+        *ngIf="isContentArray"
+        class="list-disc marker:text-brand-old-blue text-2xl space-y-4 text-gray-500 px-6 leading-normal mx-auto"
+      >
+        <li *ngFor="let listItem of toArray(content)">
+          {{ listItem | translate }}
+        </li>
+      </ul>
+    </ng-container>
+
+    <ng-template #renderParagraph>
+      <p class="text-2xl text-gray-700 leading-normal">
+        {{ content.toString() | translate }}
+      </p>
+    </ng-template>
+
+    <!-- ... (other parts of the template) ... -->
+
+    <div>
+      <a [href]="btnLink"
+        class="py-2 px-8 btn-outline-old-blue text-2xl rounded-full"
+        *ngIf="btnVisible"
+      >
+        {{ btnText | translate }}
+      </a>
+    </div>
+  </div>
+</div>

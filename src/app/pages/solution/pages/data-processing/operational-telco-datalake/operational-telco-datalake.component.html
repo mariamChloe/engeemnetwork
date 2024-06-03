@@ -1,0 +1,173 @@
+<!--
+    HERO SECTION
+-->
+<app-network-hero-platform
+[imgUrl]="'assets/images/network-image/data processing.png'"
+HeadlineClass="text-white"
+  [Headline]="['operational-telco-datalake.hero-head-line']"
+  [subHeadline]="['operational-telco-datalake.hero-sub-head-line']"
+  subHeadlineClass="text-white"
+  
+  BannerText="operational-telco-datalake.BannerText"
+  BannerTextClass="text-center lg:text-start text-xl lg:text-2xl xl:text-3xl font-extrabold">
+</app-network-hero-platform>
+
+<!--
+      PROBLEMS SECTION
+  -->
+<app-network-problems-grid
+  [items]="ProblemsItems"
+  headlinesAlign="center"
+  headline="operational-telco-datalake.problems-head-line"
+  subHeadline=""
+  imgUrl="assets/images/other/Operational Telco Datalake E2.png"
+>
+</app-network-problems-grid>
+
+<app-network-solution-key-feature
+  [headLine]="['operational-telco-datalake.solution-key-feature.headLine',
+    ' ']"
+  [subHeadLine]="['operational-telco-datalake.solution-key-feature.subHeadLine',
+    '']"
+  [cards]="Cards"
+>
+
+</app-network-solution-key-feature>
+
+
+<!--
+      MULTI IMAGE SECTION
+  -->
+
+  <div class="bg-[#FBFBFB] relative">
+    <app-poly-image
+    imageUrl="assets/images/other/operational1.png"
+     title="operational-telco-datalake.poly-image1.title"
+     [textBeforeList]="[
+         'operational-telco-datalake.poly-image1.textBeforeList1',
+         'operational-telco-datalake.poly-image1.textBeforeList2',
+         ''
+    
+
+     ]"
+     
+    
+     [btnVisible]="false">
+   </app-poly-image>
+    <app-poly-image
+    imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+     [title]="'operational-telco-datalake.poly-image2.title'"
+     [textBeforeList]="[
+         'operational-telco-datalake.poly-image2.textBeforeList1',
+         'operational-telco-datalake.poly-image2.textBeforeList2',
+
+     ]"
+     
+    
+    
+     
+     [btnVisible]="false"
+     [reverse]="true"
+   >
+   </app-poly-image>
+    <app-poly-image
+    imageUrl="assets/images/other/operational2.png"
+
+     [title]="'operational-telco-datalake.poly-image3.title'"
+     [textBeforeList]="[
+         'operational-telco-datalake.poly-image3.textBeforeList',
+         'operational-telco-datalake.poly-image3.textBeforeList1',
+         'operational-telco-datalake.poly-image3.textBeforeList2'
+
+     ]"
+     
+     [btnVisible]="true"
+     btnText="Get Started Free"
+     BtnClass="mb-8"
+
+
+
+   >
+   </app-poly-image>
+
+   
+ </div>
+<!--
+      BENEFITS SECTION
+    -->
+
+
+
+<div class="bg-orange-50">
+  <section class="max-w-7xl px-2 md:px-4 mx-auto space-y-6">
+    <h1 class="max-w-5xl mx-auto text-center leading-normal pt-12">
+      {{ "A multi-stakeholder platform to bring all the operational teams together around a shared perspective" }}
+    </h1>
+
+  
+
+    <div class="grid px-8 md:px-0 md:grid-cols-3 pt-5 pb-20 gap-4 lg:gap-8">
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkhero2.webp"
+        [title] ="['operational-telco-datalake.cards.card1.title']"
+        [textBeforeList] ="['operational-telco-datalake.cards.card1.textBeforeList',
+        '',]"
+
+        data-tour-center
+        content="operational-telco-datalake.card-content1"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemnetworkcodebinaire2.webp"
+
+        content="operational-telco-datalake.card-content2"
+        btnText="Button.readMoreAcceleration"
+        [title] ="['operational-telco-datalake.cards.card2.title']"
+        [textBeforeList] ="['operational-telco-datalake.cards.card1.textBeforeList',
+
+        '']"
+        [enableBtn]="true"
+
+      >
+
+      
+      </app-card>
+
+      <app-card
+      imageUrl="assets/images/network-image/engeemheronetwork1.webp"
+
+        [title] ="['operational-telco-datalake.cards.card3.title']"
+        [textBeforeList] ="['operational-telco-datalake.cards.card3.textBeforeList',
+        '',
+        ]"
+
+
+        content="operational-telco-datalake.card-content3"
+        btnText="Button.readMoreAcceleration"
+        [enableBtn]="true"
+
+      >
+      </app-card>
+    </div>
+  </section>
+</div>
+
+
+<app-network-striped-banner
+  [headLine]="[
+    'operational-telco-datalake.last-banner-headline',
+  ]"
+  textLeft="operational-telco-datalake.last-banner-left-text"
+  textRight="operational-telco-datalake.last-banner-right-text"
+  headLineClass="text-2xl lg:text-4xl py-8 text-center font-bold text-white"
+  image="assets/images/network-image/Background-01.png"
+></app-network-striped-banner>
+
+
+<!-- INSIGHTS AND RESOURCES -->
+<app-insights-resources></app-insights-resources>
